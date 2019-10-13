@@ -3025,7 +3025,7 @@
   "serialNumber": 5,
   "weight": 0
 },{
-  "bookSourceGroup": "加群:137187714获取更多书源",
+  "bookSourceGroup": "",
   "bookSourceName": "6月听书网",
   "bookSourceType": "AUDIO",
   "bookSourceUrl": "http://m.6yueting.com",
@@ -3077,8 +3077,9 @@
   "ruleSearchUrl": "/modules/article/search.php@searchkey=searchKey&searchtype=articlename&page=searchPage|char=gbk",
   "serialNumber": 0,
   "weight": 0
-},{
-  "bookSourceGroup": "获取更多书源请加书源群",
+},
+{
+  "bookSourceGroup": "",
   "bookSourceName": "猎鹰小说网",
   "bookSourceUrl": "http://api.book.lieying.cn",
   "enable": true,
@@ -3372,7 +3373,7 @@
   "serialNumber": 0,
   "weight": 0
 },{
-  "bookSourceGroup": "获取更多书源请加书源群",
+  "bookSourceGroup": "",
   "bookSourceName": "乐看阅读",
   "bookSourceUrl": "http://api.ibookstar.com:80",
   "enable": true,
@@ -3411,8 +3412,9 @@
   "ruleSearchUrl": "/api/index/searchBook@version=1.0.7&eBookCode=EBook&bookName=searchKey",
   "serialNumber": 9,
   "weight": 0
-},{
-  "bookSourceGroup": "获取更多书源请加《阅读书源制作交流群》",
+},
+{
+  "bookSourceGroup": "",
   "bookSourceName": "免费小说城",
   "bookSourceUrl": "http://story-api-729132405.ap-northeast-1.elb.amazonaws.com:80",
   "enable": true,
@@ -3431,7 +3433,8 @@
   "ruleSearchUrl": "/api/ct/f_ct_searchBook?dict_id_1=0&dict_id_2=0&book_name_author=searchKey&is_sexy=2&is_featured=0&is_man=0&is_woman=0&is_day_update=0&is_vip=0&is_up_already=1&is_hot=0&is_finished=0&pageSize=50&pageNo=searchPage&app_type=2&app_version=9.9.9",
   "serialNumber": 2,
   "weight": 0
-},{
+},
+{
   "bookSourceGroup": "《荣耀典藏》",
   "bookSourceName": "红杏小说",
   "bookSourceUrl": "http://free.ilemi.cn",
