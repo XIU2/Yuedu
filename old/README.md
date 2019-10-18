@@ -1,8 +1,8 @@
 ## 历史书源如何导入？
 
-先找到你要导入历史书源，例如：**shuyuan_20191014_0133.json**  
+先找到你要导入历史书源，例如：**shuyuan_20191014.json**  
 
-那么网络导入地址为：https://xiu2.github.io/yuedu/old/shuyuan_20190924_0233.json  
+那么网络导入地址为：https://xiu2.github.io/yuedu/old/shuyuan_20191014.json  
 
 自行替换 URL 最后的文件名即可。
 
