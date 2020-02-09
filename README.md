@@ -1,8 +1,8 @@
 # 「阅读」APP 精品书源
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square)](https://github.com/XIU2/yuedu/blob/master/LICENSE)
-[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg?style=flat-square)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg?style=flat-square)](https://996.icu)
+[![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=yellow)](https://github.com/XIU2/yuedu/stargazers)
+[![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork)](https://github.com/XIU2/yuedu/network/members)
 
 本项目每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便大家一键导入！  
 彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！  
@@ -96,4 +96,3 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 
 ### 许可证
 The GPL-3.0 License.  
-The Anti-996 License.
