@@ -1,6 +1,6 @@
 [
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "114中文网",
     "bookSourceUrl": "https://www.114zw.la",
     "enable": true,
@@ -33,7 +33,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "31小说网",
     "bookSourceUrl": "http://m.xx31xs.org",
     "enable": true,
@@ -67,7 +67,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "58小说网",
     "bookSourceUrl": "http://www.58xs.tw",
     "enable": true,
@@ -100,7 +100,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "666文学",
     "bookSourceUrl": "http://www.666wx.cc",
     "enable": true,
@@ -130,7 +130,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "八一中文网",
     "bookSourceUrl": "https://www.zwdu.com",
     "enable": true,
@@ -160,7 +160,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "百合小说网",
     "bookSourceUrl": "https://www.baihexs.com",
     "enable": true,
@@ -190,7 +190,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 biquge11",
     "bookSourceUrl": "https://www.biquge11.com",
     "enable": true,
@@ -220,7 +220,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "笔趣阁 biquge5200",
     "bookSourceUrl": "https://www.biquge5200.cc",
     "enable": true,
@@ -249,7 +249,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "笔趣阁 biqugecomcn",
     "bookSourceUrl": "https://www.biquge.com.cn",
     "enable": true,
@@ -279,7 +279,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "笔趣阁 biqugelu",
     "bookSourceUrl": "https://www.biquge.lu",
     "enable": true,
@@ -309,7 +309,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "C级",
     "bookSourceName": "笔趣阁 biqugemm",
     "bookSourceUrl": "https://www.biqugemm.com",
     "enable": true,
@@ -339,7 +339,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 xbiqugecc",
     "bookSourceUrl": "https://www.xbiquge.cc",
     "enable": true,
@@ -372,7 +372,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "C级",
     "bookSourceName": "灯笔小说网",
     "bookSourceUrl": "https://www.dengbi.cc",
     "enable": true,
@@ -402,7 +402,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "大文学",
     "bookSourceUrl": "https://www.dawenxue.net",
     "enable": true,
@@ -432,7 +432,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "E小说",
     "bookSourceUrl": "https://www.zwda.com",
     "enable": true,
@@ -462,7 +462,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "风雨小说网",
     "bookSourceUrl": "https://www.fengyu.cc",
     "enable": true,
@@ -491,37 +491,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
-    "bookSourceName": "看书阁",
-    "bookSourceUrl": "http://www.kanshuge.co",
-    "enable": true,
-    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36",
-    "loginUrl": "",
-    "ruleBookAuthor": "",
-    "ruleBookContent": "id.BookText@textNodes",
-    "ruleBookName": "",
-    "ruleChapterList": "class.chapterlist@tag.dd",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "class.book-link@tag.a.1@href",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "class.book-info@tag.p.1@textNodes",
-    "ruleSearchAuthor": "tag.p.0@tag.i.0@text|tag.em@text",
-    "ruleSearchCoverUrl": "tag.img@src",
-    "ruleSearchKind": "tag.p.0@tag.i.1@text",
-    "ruleSearchLastChapter": "tag.p.1@tag.a@text|tag.a.0@text",
-    "ruleSearchList": "class.item-pic|class.book-info",
-    "ruleSearchName": "tag.h3@tag.a.0@text|tag.h1@text",
-    "ruleSearchNoteUrl": "tag.h3@tag.a@href",
-    "ruleSearchUrl": "http://www.kanshuge.co/modules/article/searche.php@searchkey=searchKey|char=gbk",
-    "serialNumber": 1,
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "恋上你看书网",
     "bookSourceUrl": "http://www.630ksw.com",
     "enable": true,
@@ -554,7 +524,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "蓝色中文网",
     "bookSourceUrl": "https://www.lansezw.com",
     "enable": true,
@@ -584,7 +554,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "飘天中文网",
     "bookSourceUrl": "https://www.piaotianzw.com",
     "enable": true,
@@ -611,7 +581,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "铅笔小说",
     "bookSourceUrl": "https://www.x23qb.com",
     "enable": true,
@@ -641,7 +611,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "全本小说网",
     "bookSourceUrl": "https://www.qb5.tw",
     "enable": true,
@@ -671,7 +641,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "全本小说网 xiaoshuo5",
     "bookSourceUrl": "https://www.xiaoshuo5.org",
     "enable": true,
@@ -704,7 +674,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "千千小说网",
     "bookSourceUrl": "https://www.qqxsw.la",
     "enable": true,
@@ -734,7 +704,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "奇书网",
     "bookSourceUrl": "https://www.qsw.la",
     "enable": true,
@@ -764,7 +734,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "神马小说网",
     "bookSourceUrl": "http://www.shenmaxs.com",
     "enable": true,
@@ -793,7 +763,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "圣墟小说网",
     "bookSourceUrl": "https://www.zhetian.org",
     "enable": true,
@@ -823,7 +793,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "淘淘全本小说",
     "bookSourceUrl": "https://www.taotao3.com",
     "enable": true,
@@ -853,7 +823,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "武林中文网",
     "bookSourceUrl": "https://www.50zw.com",
     "enable": true,
@@ -883,7 +853,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "无图小说网",
     "bookSourceUrl": "http://www.wutuxs.com",
     "enable": true,
@@ -912,7 +882,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "文学巴士",
     "bookSourceUrl": "https://www.wx84.com",
     "enable": true,
@@ -945,7 +915,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "新笔下文学",
     "bookSourceUrl": "https://www.xbxwx.net",
     "enable": true,
@@ -975,7 +945,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "小说宝库",
     "bookSourceUrl": "https://www.govtz.com",
     "enable": true,
@@ -1009,7 +979,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "衍墨轩 org",
     "bookSourceUrl": "http://www.ymoxuan.org",
     "enable": true,
@@ -1039,7 +1009,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "元尊小说网",
     "bookSourceUrl": "http://www.yuanzun888.com",
     "enable": true,
@@ -1069,7 +1039,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "追书网 zhuishu5",
     "bookSourceUrl": "https://www.zhuishu5.com",
     "enable": true,
@@ -1098,7 +1068,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "斋书苑",
     "bookSourceUrl": "https://www.zhaishuyuan.com",
     "enable": true,
@@ -1129,7 +1099,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "ABC小说",
     "bookSourceUrl": "https://www.yb3.cc",
     "enable": true,
@@ -1159,7 +1129,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "ABC小说网",
     "bookSourceUrl": "https://m.abcxs.com",
     "enable": true,
@@ -1181,7 +1151,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "爱书吧",
     "bookSourceUrl": "https://www.2shu8.com",
     "enable": true,
@@ -1210,7 +1180,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "傲宇阁",
     "bookSourceUrl": "http://www.aoyuge.com",
     "enable": true,
@@ -1239,7 +1209,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "菠萝小说",
     "bookSourceUrl": "https://www.boluoxs.com",
     "enable": true,
@@ -1270,7 +1240,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "笔趣阁 b5200",
     "bookSourceUrl": "http://www.b5200.net",
     "enable": true,
@@ -1299,7 +1269,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 biqubao",
     "bookSourceUrl": "https://www.biqubao.com",
     "enable": true,
@@ -1328,7 +1298,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "笔趣阁 biqubu",
     "bookSourceUrl": "http://www.biqubu.com",
     "enable": true,
@@ -1357,7 +1327,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 biquku",
     "bookSourceUrl": "http://www.biquku.la",
     "enable": true,
@@ -1386,7 +1356,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 biquwu",
     "bookSourceUrl": "https://www.biquwu.cc",
     "enable": true,
@@ -1416,7 +1386,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "笔趣阁 bqg5",
     "bookSourceUrl": "https://www.bqg5.cc",
     "enable": true,
@@ -1445,7 +1415,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 ibiquge",
     "bookSourceUrl": "https://m.ibiquge.net",
     "enable": true,
@@ -1475,7 +1445,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 kuxiaoshuo",
     "bookSourceUrl": "https://www.kuxiaoshuo.com",
     "enable": true,
@@ -1504,7 +1474,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "笔趣阁 mibaoge",
     "bookSourceUrl": "https://www.mibaoge.com",
     "enable": true,
@@ -1534,7 +1504,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣阁 wqge",
     "bookSourceUrl": "https://www.wqge.cc",
     "enable": true,
@@ -1564,7 +1534,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "笔趣阁 zanghaihuatxt",
     "bookSourceUrl": "https://www.zanghaihuatxt.com",
     "enable": true,
@@ -1597,7 +1567,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "笔趣轩",
     "bookSourceUrl": "http://www.biqux.com",
     "enable": true,
@@ -1627,7 +1597,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "顶点小说 208xs",
     "bookSourceUrl": "https://www.208xs.com",
     "enable": true,
@@ -1656,7 +1626,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "顶点小说 booktxt",
     "bookSourceUrl": "https://www.booktxt.com",
     "enable": true,
@@ -1686,7 +1656,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "顶点小说 x23us",
     "bookSourceUrl": "https://www.x23us.me",
     "enable": true,
@@ -1716,7 +1686,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "读一读 du1du",
     "bookSourceUrl": "http://www.du1du.cc",
     "enable": true,
@@ -1746,7 +1716,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "读一读 duyidu",
     "bookSourceUrl": "http://duyidu.net",
     "enable": true,
@@ -1775,7 +1745,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "番茄小说",
     "bookSourceUrl": "http://m.fqxs.org",
     "enable": true,
@@ -1799,7 +1769,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "官术网",
     "bookSourceUrl": "http://www.3dllc.com",
     "enable": true,
@@ -1828,7 +1798,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "官术网 biyuwu",
     "bookSourceUrl": "https://www.biyuwu.cc",
     "enable": true,
@@ -1858,7 +1828,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "幻月书院",
     "bookSourceUrl": "http://www.huanyue123.com",
     "enable": true,
@@ -1888,7 +1858,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "看毛线小说",
     "bookSourceUrl": "https://www.kanmaoxian.com",
     "enable": true,
@@ -1918,7 +1888,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "看书啦",
     "bookSourceUrl": "https://www.kanshula.com",
     "enable": true,
@@ -1948,7 +1918,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "恋上你看书网630book",
     "bookSourceUrl": "http://www.630book.cc",
     "enable": true,
@@ -1976,7 +1946,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "棉花糖小说网",
     "bookSourceUrl": "http://www.mht.tw",
     "enable": true,
@@ -2009,7 +1979,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "品书网",
     "bookSourceUrl": "https://www.vodtw.com",
     "enable": true,
@@ -2042,7 +2012,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "全小说",
     "bookSourceUrl": "https://qxs.la",
     "enable": true,
@@ -2072,7 +2042,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "求小说网",
     "bookSourceUrl": "http://www.qiuxiaoshuo.org",
     "enable": true,
@@ -2101,7 +2071,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "燃文小说",
     "bookSourceUrl": "https://www.ranwena.com",
     "enable": true,
@@ -2130,7 +2100,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "书海阁",
     "bookSourceUrl": "https://www.shuhaige.com",
     "enable": true,
@@ -2160,7 +2130,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "书荒啦文学网",
     "bookSourceUrl": "https://m.shuhuang.la",
     "enable": true,
@@ -2189,36 +2159,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
-    "bookSourceName": "思路客",
-    "bookSourceUrl": "https://www.siluke.tw",
-    "enable": true,
-    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
-    "ruleBookAuthor": "",
-    "ruleBookContent": "id.content@textNodes",
-    "ruleBookName": "",
-    "ruleChapterList": "id.list@tag.dd",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a.0@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@tag.p.0@textNodes",
-    "ruleSearchAuthor": "class.result-game-item-info-tag.0@tag.span.1@text",
-    "ruleSearchCoverUrl": "tag.img.0@src",
-    "ruleSearchKind": "class.result-game-item-info-tag.1@tag.span.1@text",
-    "ruleSearchLastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
-    "ruleSearchList": "class.result-item",
-    "ruleSearchName": "class.result-item-title.0@tag.a.0@text",
-    "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
-    "ruleSearchUrl": "http://siluke.tw/search.php?keyword=searchKey&page=searchPage",
-    "serialNumber": 25,
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "无弹窗小说网530p",
     "bookSourceUrl": "http://www.530p.com",
     "enable": true,
@@ -2251,7 +2192,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "SS级",
     "bookSourceName": "搜小说",
     "bookSourceUrl": "https://www.soxs.cc",
     "enable": true,
@@ -2284,7 +2225,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "天籁小说",
     "bookSourceUrl": "https://www.23txt.com",
     "enable": true,
@@ -2314,7 +2255,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "C级",
     "bookSourceName": "UC书盟",
     "bookSourceUrl": "https://www.uctxt.com",
     "enable": true,
@@ -2334,7 +2275,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "U小说",
     "bookSourceUrl": "https://www.uxiaoshuo.com",
     "enable": true,
@@ -2364,7 +2305,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "无错小说网",
     "bookSourceUrl": "http://www.xquledu.com",
     "enable": true,
@@ -2394,7 +2335,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "武林中文网",
     "bookSourceUrl": "https://www.50zw.net",
     "enable": true,
@@ -2421,7 +2362,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "无名小说网",
     "bookSourceUrl": "https://www.wmtxt.com",
     "enable": true,
@@ -2451,7 +2392,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "无弹窗小说网",
     "bookSourceUrl": "https://www.22ff.com",
     "enable": true,
@@ -2480,7 +2421,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "歪歪书屋",
     "bookSourceUrl": "https://m.yytxt.com",
     "enable": true,
@@ -2502,7 +2443,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "文学迷",
     "bookSourceUrl": "https://www.wenxuemi.com",
     "enable": true,
@@ -2531,7 +2472,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "梧州中文台 wzzw",
     "bookSourceUrl": "http://www.wzzw.la",
     "enable": true,
@@ -2561,7 +2502,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "新八一中文网",
     "bookSourceUrl": "https://m.x81zw.com",
     "enable": true,
@@ -2593,7 +2534,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "新热门小说",
     "bookSourceUrl": "https://www.xinremenxs.com",
     "enable": true,
@@ -2624,7 +2565,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "C级",
     "bookSourceName": "小说中文网",
     "bookSourceUrl": "https://www.xszww.com",
     "enable": true,
@@ -2654,7 +2595,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "新书在线",
     "bookSourceUrl": "http://www.xinshuxs.com",
     "enable": true,
@@ -2682,7 +2623,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "一本读",
     "bookSourceUrl": "http://www.ybdu.me",
     "enable": true,
@@ -2712,7 +2653,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "幽冰中文",
     "bookSourceUrl": "https://www.97ub.cc",
     "enable": true,
@@ -2741,7 +2682,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "云来阁小说",
     "bookSourceUrl": "http://www.yunlaige.com",
     "enable": true,
@@ -2771,7 +2712,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "月色寒小说网",
     "bookSourceUrl": "https://www.yuesehan.com",
     "enable": true,
@@ -2800,7 +2741,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "S级",
     "bookSourceName": "雅文小说",
     "bookSourceUrl": "https://www.yawen365.com",
     "enable": true,
@@ -2830,7 +2771,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "B级",
     "bookSourceName": "着笔中文网",
     "bookSourceUrl": "https://www.zbzw.la",
     "enable": true,
@@ -2860,7 +2801,7 @@
     "weight": 0
   },
   {
-    "bookSourceGroup": "",
+    "bookSourceGroup": "A级",
     "bookSourceName": "誅仙Ⅱ",
     "bookSourceUrl": "https://www.zhuxian2.net",
     "enable": true,
