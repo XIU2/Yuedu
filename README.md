@@ -30,8 +30,8 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 
 ### 下载地址：
 - **软件下载地址：** https://www.coolapk.com/apk/com.gedoor.monkeybook
-- **软件开源地址：** https://github.com/gedoor/MyBookshelf
-- **官方下载地址：** https://github.com/gedoor/MyBookshelf/releases
+- **软件开源地址：** https://github.com/gedoor/legado
+- **官方下载地址：** https://github.com/gedoor/legado/releases
 
 ****
 
@@ -64,7 +64,7 @@ https://www.coolapk.com/apk/com.gedoor.monkeybook
 
 打开「阅读」APP点击左上角的 **\[三横杠\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
 
-![](https://xiu2.github.io/yuedu/dist/img/img-02.png)
+![](https://xiu2.github.io/yuedu/dist/img/img-03.png)
 
 ****
 
