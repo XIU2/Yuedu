@@ -2813,7 +2813,7 @@
     "ruleBookInfo": {
       "coverUrl": "class.book-img@tag.img@src",
       "intro": "class.book-intro@tag.p@textNodes",
-      "lastChapter": "class.detail.-1@class.blue@text"
+      "lastChapter": "class.detail.-1@class.blue@text",
     },
     "ruleContent": {
       "content": "class.read-content@html"
@@ -2976,7 +2976,7 @@
       "intro": "",
       "kind": "",
       "lastChapter": "",
-      "name": ""
+      "name": "",
     },
     "ruleContent": {
       "content": "@css:#content@html",
