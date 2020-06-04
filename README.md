@@ -14,6 +14,7 @@
 ****
 
 ### 更新日志：
+- **更新：** 阅读3.0书源。
 - **新增：** 校验书源功能。  
 —— 脚本会把无法访问的书源网站去除。  
 —— 该功能对于那些书源规则失效（而不是书源网站挂了）的书源是无效的，所以依然可能存在小部分失效书源。
@@ -25,12 +26,12 @@
 
 ### 软件介绍：
 「阅读」我就不多介绍了，我见过不少人安利，我直接贴酷安的介绍吧。
-https://www.coolapk.com/apk/com.gedoor.monkeybook
+https://www.coolapk.com/apk/256030
 
 ****
 
 ### 下载地址：
-- **软件下载地址：** https://www.coolapk.com/apk/com.gedoor.monkeybook
+- **软件下载地址：** https://www.coolapk.com/apk/256030
 - **软件开源地址：** https://github.com/gedoor/legado
 - **官方下载地址：** https://github.com/gedoor/legado/releases
 
