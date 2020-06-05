@@ -536,6 +536,32 @@
   "weight": 0
 },{
   "bookSourceGroup": "",
+  "bookSourceName": "飘天中文网",
+  "bookSourceUrl": "https://www.piaotianzw.com",
+  "enable": true,
+  "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36",
+  "ruleBookAuthor": "",
+  "ruleBookContent": "id.content@textNodes#一秒记住【.*飘天.*免费阅读！",
+  "ruleBookName": "",
+  "ruleChapterList": "class.dccss@tag.a",
+  "ruleChapterName": "text",
+  "ruleChapterUrl": "class.box_info@class.option@class.btopt@tag.a.0@href",
+  "ruleContentUrl": "href",
+  "ruleCoverUrl": "class.pic@tag.img@src",
+  "ruleFindUrl": "",
+  "ruleIntroduce": "class.box_info@class.ui_tb1@class.intro@textNodes",
+  "ruleSearchAuthor": "tag.h1@tag.a.0@text|tag.span.0@text#作者：",
+  "ruleSearchCoverUrl": "class.pic@tag.img@src|tag.img@src",
+  "ruleSearchKind": "",
+  "ruleSearchLastChapter": "class.sys@tag.a.0@text|class.con.0@tag.a.0@text",
+  "ruleSearchList": "id.alistbox|class.ui_bg6",
+  "ruleSearchName": "tag.h2@text|tag.h1@text#作者\\:.*",
+  "ruleSearchNoteUrl": "tag.h2@tag.a@href",
+  "ruleSearchUrl": "https://www.piaotianzw.com/modules/article/search.php@searchkey=searchKey|char=gbk",
+  "serialNumber": 22,
+  "weight": 0
+},{
+  "bookSourceGroup": "",
   "bookSourceName": "铅笔小说",
   "bookSourceUrl": "https://www.x23qb.com",
   "enable": true,
@@ -2748,16 +2774,17 @@
     "bookSourceGroup": "",
     "bookSourceName": "起点",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.qidian.com",
+    "bookSourceUrl": "http://www.qidian.com",
     "customOrder": -1,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "                        【起点男频】                         ::\n月票榜::/rank/yuepiao?style=1&page={{page}} \n推荐榜::/rank/recom?style=1&page={{page}}\r\n阅读榜::/rank/readIndex?style=1&page={{page}}\n 玄    幻 ::https://www.qidian.com/all?chanId=21&siteid=1&page={{page}}\n                                            ::\n东方玄幻::https://www.qidian.com/all?chanId=21&subCateId=8&siteid=1&page={{page}}\n异世大陆::https://www.qidian.com/all?chanId=21&subCateId=73&siteid=1&page={{page}}\n王朝争霸::https://www.qidian.com/all?chanId=21&subCateId=58&siteid=1&page={{page}}\n高武世界::https://www.qidian.com/all?chanId=21&subCateId=78&siteid=1&page={{page}}\n                ::\n                ::\n 奇    幻 ::https://www.qidian.com/all?chanId=1&siteid=1&page={{page}}\n                                            ::\n剑与魔法::https://www.qidian.com/all?chanId=1&subCateId=62&siteid=1&page={{page}}\n史诗奇幻::https://www.qidian.com/all?chanId=1&subCateId=201&siteid=1&page={{page}}\n黑暗幻想::https://www.qidian.com/all?chanId=1&subCateId=202&siteid=1&page={{page}}\n现代魔法::https://www.qidian.com/all?chanId=1&subCateId=38&siteid=1&page={{page}}\n历史神话::https://www.qidian.com/all?chanId=1&subCateId=20092&siteid=1&page={{page}}\n另类幻想::https://www.qidian.com/all?chanId=1&subCateId=20093&siteid=1&page={{page}}\n 武    侠 ::https://www.qidian.com/all?chanId=2&siteid=1&page={{page}}\n                                            ::\n传统武侠::https://www.qidian.com/all?chanId=2&subCateId=5&siteid=1&page={{page}}\n武侠幻想::https://www.qidian.com/all?chanId=2&subCateId=30&siteid=1&page={{page}}\n国术无双::https://www.qidian.com/all?chanId=2&subCateId=206&siteid=1&page={{page}}\n古武未来::https://www.qidian.com/all?chanId=2&subCateId=20099&siteid=1&page={{page}}\n武侠同人::https://www.qidian.com/all?chanId=2&subCateId=20100&siteid=1&page={{page}}\n                ::\n 仙    侠 ::https://www.qidian.com/all?chanId=22&siteid=1&page={{page}}\n                                            ::\n修真文明::https://www.qidian.com/all?chanId=22&subCateId=18&siteid=1&page={{page}}\n幻想修仙::https://www.qidian.com/all?chanId=22&subCateId=44&siteid=1&page={{page}}\n现代修真::https://www.qidian.com/all?chanId=22&subCateId=64&siteid=1&page={{page}}\n神话修真::https://www.qidian.com/all?chanId=22&subCateId=207&siteid=1&page={{page}}\n古典仙侠::https://www.qidian.com/all?chanId=22&subCateId=20101&siteid=1&page={{page}}\n                ::\n 都    市 ::https://www.qidian.com/all?chanId=4&siteid=1&page={{page}}\n                                            ::\n都市生活::https://www.qidian.com/all?chanId=4&subCateId=12&siteid=1&page={{page}}\n异术超能::https://www.qidian.com/all?chanId=4&subCateId=74&siteid=1&page={{page}}\n都市异能::https://www.qidian.com/all?chanId=4&subCateId=16&siteid=1&page={{page}}\n青春校园::https://www.qidian.com/all?chanId=4&subCateId=130&siteid=1&page={{page}}\n娱乐明星::https://www.qidian.com/all?chanId=4&subCateId=151&siteid=1&page={{page}}\n商战职场::https://www.qidian.com/all?chanId=4&subCateId=153&siteid=1&page={{page}}\n 现    实 ::https://www.qidian.com/all?chanId=15&siteid=1&page={{page}}\n                                            ::\n现实百态::https://www.qidian.com/all?chanId=15&subCateId=209&siteid=1&page={{page}}\n爱情婚姻::https://www.qidian.com/all?chanId=15&subCateId=6&siteid=1&page={{page}}\n社会乡土::https://www.qidian.com/all?chanId=15&subCateId=20104&siteid=1&page={{page}}\n生活时尚::https://www.qidian.com/all?chanId=15&subCateId=20105&siteid=1&page={{page}}\n文学艺术::https://www.qidian.com/all?chanId=15&subCateId=20106&siteid=1&page={{page}}\n成功励志::https://www.qidian.com/all?chanId=15&subCateId=20107&siteid=1&page={{page}}\n青春文学::https://www.qidian.com/all?chanId=15&subCateId=20108&siteid=1&page={{page}}\n                ::\n                ::\n 军    事 ::https://www.qidian.com/all?chanId=6&siteid=1&page={{page}}\n                                            ::\n战争幻想::https://www.qidian.com/all?chanId=6&subCateId=80&siteid=1&page={{page}}\n谍战特工::https://www.qidian.com/all?chanId=6&subCateId=231&siteid=1&page={{page}}\n军旅生涯::https://www.qidian.com/all?chanId=6&subCateId=54&siteid=1&page={{page}}\n抗战烽火::https://www.qidian.com/all?chanId=6&subCateId=230&siteid=1&page={{page}}\n军事战争::https://www.qidian.com/all?chanId=6&subCateId=65&siteid=1&page={{page}}\n                ::\n 历    史 ::https://www.qidian.com/all?chanId=5&siteid=1&page={{page}}\n                                            ::\n外国历史::https://www.qidian.com/all?chanId=5&subCateId=226&siteid=1&page={{page}}\n历史传记::https://www.qidian.com/all?chanId=5&subCateId=32&siteid=1&page={{page}}\n架空历史::https://www.qidian.com/all?chanId=5&subCateId=22&siteid=1&page={{page}}\n上古先秦::https://www.qidian.com/all?chanId=5&subCateId=220&siteid=1&page={{page}}\n秦汉三国::https://www.qidian.com/all?chanId=5&subCateId=48&siteid=1&page={{page}}\n两晋隋唐::https://www.qidian.com/all?chanId=5&subCateId=222&siteid=1&page={{page}}\n五代十国::https://www.qidian.com/all?chanId=5&subCateId=223&siteid=1&page={{page}}\n两宋元明::https://www.qidian.com/all?chanId=5&subCateId=224&siteid=1&page={{page}}\n清史民国::https://www.qidian.com/all?chanId=5&subCateId=225&siteid=1&page={{page}}\n民间传说::https://www.qidian.com/all?chanId=5&subCateId=20094&siteid=1&page={{page}}\n                ::\n                ::\n 游    戏 ::https://www.qidian.com/all?chanId=7&siteid=1&page={{page}}\n                                            ::\n电子竞技::https://www.qidian.com/all?chanId=7&subCateId=7&siteid=1&page={{page}}\n虚拟网游::https://www.qidian.com/all?chanId=7&subCateId=70&siteid=1&page={{page}}\n游戏异界::https://www.qidian.com/all?chanId=7&subCateId=240&siteid=1&page={{page}}\n游戏系统::https://www.qidian.com/all?chanId=7&subCateId=20102&siteid=1&page={{page}}\n游戏主播::https://www.qidian.com/all?chanId=7&subCateId=20103&siteid=1&page={{page}}\n                ::\n 体    育 ::https://www.qidian.com/all?chanId=8&siteid=1&page={{page}}\n                                            ::\n篮球运动::https://www.qidian.com/all?chanId=8&subCateId=28&siteid=1&page={{page}}\n体育赛事::https://www.qidian.com/all?chanId=8&subCateId=55&siteid=1&page={{page}}\n足球运动::https://www.qidian.com/all?chanId=8&subCateId=82&siteid=1&page={{page}}\n 科    幻 ::https://www.qidian.com/all?chanId=9&siteid=1&page={{page}}\n                                            ::\n星际文明::https://www.qidian.com/all?chanId=9&subCateId=68&siteid=1&page={{page}}\n时空穿梭::https://www.qidian.com/all?chanId=9&subCateId=251&siteid=1&page={{page}}\n未来世界::https://www.qidian.com/all?chanId=9&subCateId=25&siteid=1&page={{page}}\n古武机甲::https://www.qidian.com/all?chanId=9&subCateId=21&siteid=1&page={{page}}\n超级科技::https://www.qidian.com/all?chanId=9&subCateId=250&siteid=1&page={{page}}\n进化变异::https://www.qidian.com/all?chanId=9&subCateId=252&siteid=1&page={{page}}\n末世危机::https://www.qidian.com/all?chanId=9&subCateId=253&siteid=1&page={{page}}\n                ::\n                ::\n   悬  疑   ::https://www.qidian.com/all?chanId=10&siteid=1&page={{page}}\n                                           ::\n诡秘惊险::https://www.qidian.com/all?chanId=10&subCateId=26&siteid=1&page={{page}}\n奇妙世界::https://www.qidian.com/all?chanId=10&subCateId=35&siteid=1&page={{page}}\n悬疑侦探::https://www.qidian.com/all?chanId=10&subCateId=57&siteid=1&page={{page}}\n寻墓探险::https://www.qidian.com/all?chanId=10&subCateId=260&siteid=1&page={{page}}\n古今传奇::https://www.qidian.com/all?chanId=10&subCateId=20095&siteid=1&page={{page}}\n                ::\n 轻 小 说 ::https://www.qidian.com/all?chanId=12&siteid=1&page={{page}}\n                                           ::\n原生幻想::https://www.qidian.com/all?chanId=12&subCateId=60&siteid=1&page={{page}}\n衍生同人::https://www.qidian.com/all?chanId=12&subCateId=281&siteid=1&page={{page}}\n搞笑吐槽::https://www.qidian.com/all?chanId=12&subCateId=282&siteid=1&page={{page}}\n青春日常::https://www.qidian.com/all?chanId=12&subCateId=66&siteid=1&page={{page}}\n                ::\n                ::\n 短    篇 ::https://www.qidian.com/all?chanId=20076&siteid=1&page={{page}}\n                                            ::\n诗歌散文::https://www.qidian.com/all?chanId=20076&subCateId=20097&siteid=1&page={{page}}\n人物传记::https://www.qidian.com/all?chanId=20076&subCateId=20098&siteid=1&page={{page}}\n影视剧本::https://www.qidian.com/all?chanId=20076&subCateId=20075&siteid=1&page={{page}}\n评论文集::https://www.qidian.com/all?chanId=20076&subCateId=20077&siteid=1&page={{page}}\n生活随笔::https://www.qidian.com/all?chanId=20076&subCateId=20078&siteid=1&page={{page}}\n美文游记::https://www.qidian.com/all?chanId=20076&subCateId=20079&siteid=1&page={{page}}\n短篇小说::https://www.qidian.com/all?chanId=20076&subCateId=20096&siteid=1&page={{page}}\n                ::\n                ::\n                        【起点女频】                         ::\n最近更新::https://www.qidian.com/mm/all?update=1&siteid=0&page={{page}}\n 周 推 荐 ::https://www.qidian.com/mm/all?orderId=9&siteid=0&page={{page}}\n  完    本  ::https://www.qidian.com/mm/all?action=1&siteid=0&page={{page}}\n古代言情::https://www.qidian.com/mm/all?chanId=80&siteid=0&page={{page}}\n女尊王朝::https://www.qidian.com/mm/all?chanId=80&subCateId=805&siteid=0&page={{page}}\n古典架空::https://www.qidian.com/mm/all?chanId=80&subCateId=804&siteid=0&page={{page}}\n古代情缘::https://www.qidian.com/mm/all?chanId=80&subCateId=801&siteid=0&page={{page}}\n穿越奇情::https://www.qidian.com/mm/all?chanId=80&subCateId=806&siteid=0&page={{page}}\n宫闱宅斗::https://www.qidian.com/mm/all?chanId=80&subCateId=802&siteid=0&page={{page}}\n经商种田::https://www.qidian.com/mm/all?chanId=80&subCateId=803&siteid=0&page={{page}}\n西方时空::https://www.qidian.com/mm/all?chanId=80&subCateId=30094&siteid=0&page={{page}}\n清穿民国::https://www.qidian.com/mm/all?chanId=80&subCateId=30095&siteid=0&page={{page}}\n上古蛮荒::https://www.qidian.com/mm/all?chanId=80&subCateId=30096&siteid=0&page={{page}}\n热血江湖::https://www.qidian.com/mm/all?chanId=80&subCateId=30097&siteid=0&page={{page}}\n现实生活::https://www.qidian.com/mm/all?chanId=30120&siteid=0&page={{page}}\n家与情感::https://www.qidian.com/mm/all?chanId=30120&subCateId=30121&siteid=0&page={{page}}\n行业人生::https://www.qidian.com/mm/all?chanId=30120&subCateId=30122&siteid=0&page={{page}}\n探索科幻::https://www.qidian.com/mm/all?chanId=30120&subCateId=30123&siteid=0&page={{page}}\n人文博览::https://www.qidian.com/mm/all?chanId=30120&subCateId=30124&siteid=0&page={{page}}\n仙侠奇缘::https://www.qidian.com/mm/all?chanId=81&siteid=0&page={{page}}\n武侠情缘::https://www.qidian.com/mm/all?chanId=81&subCateId=810&siteid=0&page={{page}}\n古典仙侠::https://www.qidian.com/mm/all?chanId=81&subCateId=811&siteid=0&page={{page}}\n现代修真::https://www.qidian.com/mm/all?chanId=81&subCateId=812&siteid=0&page={{page}}\n远古洪荒::https://www.qidian.com/mm/all?chanId=81&subCateId=813&siteid=0&page={{page}}\n仙侣奇缘::https://www.qidian.com/mm/all?chanId=81&subCateId=30093&siteid=0&page={{page}}\n现代言情::https://www.qidian.com/mm/all?chanId=82&siteid=0&page={{page}}\n都市生活::https://www.qidian.com/mm/all?chanId=82&subCateId=823&siteid=0&page={{page}}\n婚恋情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=824&siteid=0&page={{page}}\n娱乐明星::https://www.qidian.com/mm/all?chanId=82&subCateId=825&siteid=0&page={{page}}\n商战职场::https://www.qidian.com/mm/all?chanId=82&subCateId=821&siteid=0&page={{page}}\n都市异能::https://www.qidian.com/mm/all?chanId=82&subCateId=827&siteid=0&page={{page}}\n豪门世家::https://www.qidian.com/mm/all?chanId=82&subCateId=822&siteid=0&page={{page}}\n极道江湖::https://www.qidian.com/mm/all?chanId=82&subCateId=828&siteid=0&page={{page}}\n民国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=829&siteid=0&page={{page}}\n异国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=30098&siteid=0&page={{page}}\n浪漫青春::https://www.qidian.com/mm/all?chanId=83&siteid=0&page={{page}}\n青春校园::https://www.qidian.com/mm/all?chanId=83&subCateId=831&siteid=0&page={{page}}\n青春疼痛::https://www.qidian.com/mm/all?chanId=83&subCateId=832&siteid=0&page={{page}}\n叛逆成长::https://www.qidian.com/mm/all?chanId=83&subCateId=833&siteid=0&page={{page}}\n青春纯爱::https://www.qidian.com/mm/all?chanId=83&subCateId=834&siteid=0&page={{page}}\n玄幻言情::https://www.qidian.com/mm/all?chanId=84&siteid=0&page={{page}}\n东方玄幻::https://www.qidian.com/mm/all?chanId=84&subCateId=841&siteid=0&page={{page}}\n异界大陆::https://www.qidian.com/mm/all?chanId=84&subCateId=844&siteid=0&page={{page}}\n远古神话::https://www.qidian.com/mm/all?chanId=84&subCateId=847&siteid=0&page={{page}}\n异族恋情::https://www.qidian.com/mm/all?chanId=84&subCateId=848&siteid=0&page={{page}}\n魔法幻情::https://www.qidian.com/mm/all?chanId=84&subCateId=849&siteid=0&page={{page}}\n西方奇幻::https://www.qidian.com/mm/all?chanId=84&subCateId=846&siteid=0&page={{page}}\n异能超术::https://www.qidian.com/mm/all?chanId=84&subCateId=30092&siteid=0&page={{page}}\n 悬    疑 ::https://www.qidian.com/mm/all?chanId=85&siteid=0&page={{page}}\n推理侦探::https://www.qidian.com/mm/all?chanId=85&subCateId=850&siteid=0&page={{page}}\n诡秘惊险::https://www.qidian.com/mm/all?chanId=85&subCateId=851&siteid=0&page={{page}}\n悬疑探险::https://www.qidian.com/mm/all?chanId=85&subCateId=852&siteid=0&page={{page}}\n奇妙世界::https://www.qidian.com/mm/all?chanId=85&subCateId=853&siteid=0&page={{page}}\n神秘文化::https://www.qidian.com/mm/all?chanId=85&subCateId=854&siteid=0&page={{page}}\n幽情奇缘::https://www.qidian.com/mm/all?chanId=85&subCateId=30099&siteid=0&page={{page}}\n科幻空间::https://www.qidian.com/mm/all?chanId=86&siteid=0&page={{page}}\n未来世界::https://www.qidian.com/mm/all?chanId=86&subCateId=862&siteid=0&page={{page}}\n进化变异::https://www.qidian.com/mm/all?chanId=86&subCateId=863&siteid=0&page={{page}}\n星际恋歌::https://www.qidian.com/mm/all?chanId=86&subCateId=864&siteid=0&page={{page}}\n时空穿梭::https://www.qidian.com/mm/all?chanId=86&subCateId=866&siteid=0&page={{page}}\n古武机甲::https://www.qidian.com/mm/all?chanId=86&subCateId=867&siteid=0&page={{page}}\n超级科技::https://www.qidian.com/mm/all?chanId=86&subCateId=868&siteid=0&page={{page}}\n末世危机::https://www.qidian.com/mm/all?chanId=86&subCateId=869&siteid=0&page={{page}}\n游戏竞技::https://www.qidian.com/mm/all?chanId=88&siteid=0&page={{page}}\n电子竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=880&siteid=0&page={{page}}\n网游情缘::https://www.qidian.com/mm/all?chanId=88&subCateId=881&siteid=0&page={{page}}\n游戏异界::https://www.qidian.com/mm/all?chanId=88&subCateId=882&siteid=0&page={{page}}\n体育竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=883&siteid=0&page={{page}}\n轻 小 说::https://www.qidian.com/mm/all?chanId=87&siteid=0&page={{page}}\n同人衍生::https://www.qidian.com/mm/all?chanId=87&subCateId=30100&siteid=0&page={{page}}\n唯美幻想::https://www.qidian.com/mm/all?chanId=87&subCateId=30101&siteid=0&page={{page}}\n萌系变身::https://www.qidian.com/mm/all?chanId=87&subCateId=30102&siteid=0&page={{page}}\n青春日常::https://www.qidian.com/mm/all?chanId=87&subCateId=30103&siteid=0&page={{page}}\n搞笑吐槽::https://www.qidian.com/mm/all?chanId=87&subCateId=30104&siteid=0&page={{page}}\n                 ::\n                       【男频榜单】                          ::\n热 销::/rank/hotsales?style=1&page={{page}}\r\n粉 丝::/rank/newFans?style=1&page={{page}}\r\n收 藏::/rank/collect?style=1&page={{page}}\r\n更 新::/rank/vipup?style=1&page={{page}}\r\n打 赏::/rank/vipreward?style=1&page={{page}}\r\n三江强推::/\r\n往期三江::/book/sanjiang?page={{page}}\r\n往期强推::/book/strongrec?page={{page}}\r\n限时免费::/free\r\n男频全部::/all?style=1&page={{page}}\r\n男频连载::/all?style=1&page={{page}}&action=0\r\n男频完本::/all?style=1&page={{page}}&action=1\r\n男频免费::/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/all?style=1&page={{page}}&orderId=2\r\n玄幻全部::/all?style=1&page={{page}}&chanId=21\r\n玄幻连载::/all?style=1&page={{page}}&chanId=21&action=0\r\n玄幻完本::/all?style=1&page={{page}}&chanId=21&action=1\r\n玄幻免费::/all?style=1&page={{page}}&chanId=21&vip=0\r\n奇幻全部::/all?style=1&page={{page}}&chanId=1\r\n奇幻连载::/all?style=1&page={{page}}&chanId=1&action=0\r\n奇幻完本::/all?style=1&page={{page}}&chanId=1&action=1\r\n奇幻免费::/all?style=1&page={{page}}&chanId=1&vip=0\r\n武侠全部::/all?style=1&page={{page}}&chanId=2\r\n武侠连载::/all?style=1&page={{page}}&chanId=2&action=0\r\n武侠完本::/all?style=1&page={{page}}&chanId=2&action=1\r\n武侠免费::/all?style=1&page={{page}}&chanId=2&vip=0\r\n仙侠全部::/all?style=1&page={{page}}&chanId=22\r\n仙侠连载::/all?style=1&page={{page}}&chanId=22&action=0\r\n仙侠完本::/all?style=1&page={{page}}&chanId=22&action=1\r\n仙侠免费::/all?style=1&page={{page}}&chanId=22&vip=0\r\n都市全部::/all?style=1&page={{page}}&chanId=4\r\n都市连载::/all?style=1&page={{page}}&chanId=4&action=0\r\n都市完本::/all?style=1&page={{page}}&chanId=4&action=1\r\n都市免费::/all?style=1&page={{page}}&chanId=4&vip=0\r\n现实全部::/all?style=1&page={{page}}&chanId=15\r\n现实连载::/all?style=1&page={{page}}&chanId=15&action=0\r\n现实完本::/all?style=1&page={{page}}&chanId=15&action=1\r\n现实免费::/all?style=1&page={{page}}&chanId=15&vip=0\r\n军事全部::/all?style=1&page={{page}}&chanId=6\r\n军事连载::/all?style=1&page={{page}}&chanId=6&action=0\r\n军事完本::/all?style=1&page={{page}}&chanId=6&action=1\r\n军事免费::/all?style=1&page={{page}}&chanId=6&vip=0\r\n历史全部::/all?style=1&page={{page}}&chanId=5\r\n历史连载::/all?style=1&page={{page}}&chanId=5&action=0\r\n历史完本::/all?style=1&page={{page}}&chanId=5&action=1\r\n历史免费::/all?style=1&page={{page}}&chanId=5&vip=0\r\n游戏全部::/all?style=1&page={{page}}&chanId=7\r\n游戏连载::/all?style=1&page={{page}}&chanId=7&action=0\r\n游戏完本::/all?style=1&page={{page}}&chanId=7&action=1\r\n游戏免费::/all?style=1&page={{page}}&chanId=7&vip=0\r\n体育全部::/all?style=1&page={{page}}&chanId=8\r\n体育连载::/all?style=1&page={{page}}&chanId=8&action=0\r\n体育完本::/all?style=1&page={{page}}&chanId=8&action=1\r\n体育免费::/all?style=1&page={{page}}&chanId=8&vip=0\r\n科幻全部::/all?style=1&page={{page}}&chanId=9\r\n科幻连载::/all?style=1&page={{page}}&chanId=9&action=0\r\n科幻完本::/all?style=1&page={{page}}&chanId=9&action=1\r\n科幻免费::/all?style=1&page={{page}}&chanId=9&vip=0\r\n悬疑全部::/all?style=1&page={{page}}&chanId=10\r\n悬疑连载::/all?style=1&page={{page}}&chanId=10&action=0\r\n悬疑完本::/all?style=1&page={{page}}&chanId=10&action=1\r\n悬疑免费::/all?style=1&page={{page}}&chanId=10&vip=0\r\n轻小说全::/all?style=1&page={{page}}&chanId=12\r\n轻小说连::/all?style=1&page={{page}}&chanId=12&action=0\r\n轻小说完::/all?style=1&page={{page}}&chanId=12&action=1\r\n轻小说免::/all?style=1&page={{page}}&chanId=12&vip=0\r\n短篇全部::/all?style=1&page={{page}}&chanId=20076\r\n短篇连载::/all?style=1&page={{page}}&chanId=20076&action=0\r\n短篇完本::/all?style=1&page={{page}}&chanId=20076&action=1\r\n短篇免费::/all?style=1&page={{page}}&chanId=20076&vip=0\n                                           ::\r\n                       【女频榜单】                          ::\n月 票::/mm/rank/yuepiao?style=1&page={{page}}\r\n新 书::/mm/rank/newsales?style=1&page={{page}}\r\n阅 读::/mm/rank/readIndex?style=1&page={{page}}\r\n热 销::/mm/rank/hotsales?style=1&page={{page}}\r\n粉 丝::/mm/rank/newFans?style=1&page={{page}}\r\n单 订::/mm/rank/subscr?style=1&page={{page}}\r\n推 荐::/mm/rank/recom?style=1&page={{page}}\r\n收 藏::/mm/rank/collect?style=1&page={{page}}\r\n更 新::/mm/rank/vipup?style=1&page={{page}}\r\n字 数::/mm/rank/wordcount?style=1&page={{page}}\n         ::\n         ::\r\n限时免费::/mm/free\r\n女频全部::/mm/all?style=1&page={{page}}\r\n女频连载::/mm/all?style=1&page={{page}}&action=0\r\n女频完本::/mm/all?style=1&page={{page}}&action=1\r\n女频免费::/mm/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/mm/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/mm/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/mm/all?style=1&page={{page}}&orderId=2\r\n古代全部::/mm/all?style=1&page={{page}}&chanId=80\r\n古代连载::/mm/all?style=1&page={{page}}&chanId=80&action=0\r\n古代完本::/mm/all?style=1&page={{page}}&chanId=80&action=1\r\n古代免费::/mm/all?style=1&page={{page}}&chanId=80&vip=0\r\n仙侠全部::/mm/all?style=1&page={{page}}&chanId=81\r\n仙侠连载::/mm/all?style=1&page={{page}}&chanId=81&action=0\r\n仙侠完本::/mm/all?style=1&page={{page}}&chanId=81&action=1\r\n仙侠免费::/mm/all?style=1&page={{page}}&chanId=81&vip=0\r\n现代全部::/mm/all?style=1&page={{page}}&chanId=82\r\n现代连载::/mm/all?style=1&page={{page}}&chanId=82&action=0\r\n现代完本::/mm/all?style=1&page={{page}}&chanId=82&action=1\r\n现代免费::/mm/all?style=1&page={{page}}&chanId=82&vip=0\r\n青春全部::/mm/all?style=1&page={{page}}&chanId=83\r\n青春连载::/mm/all?style=1&page={{page}}&chanId=83&action=0\r\n青春完本::/mm/all?style=1&page={{page}}&chanId=83&action=1\r\n青春免费::/mm/all?style=1&page={{page}}&chanId=83&vip=0\r\n玄幻全部::/mm/all?style=1&page={{page}}&chanId=84\r\n玄幻连载::/mm/all?style=1&page={{page}}&chanId=84&action=0\r\n玄幻完本::/mm/all?style=1&page={{page}}&chanId=84&action=1\r\n玄幻免费::/mm/all?style=1&page={{page}}&chanId=84&vip=0\r\n悬疑全部::/mm/all?style=1&page={{page}}&chanId=85\r\n悬疑连载::/mm/all?style=1&page={{page}}&chanId=85&action=0\r\n悬疑完本::/mm/all?style=1&page={{page}}&chanId=85&action=1\r\n悬疑免费::/mm/all?style=1&page={{page}}&chanId=85&vip=0\r\n短篇全部::/mm/all?style=1&page={{page}}&chanId=30083\r\n短篇连载::/mm/all?style=1&page={{page}}&chanId=30083&action=0\r\n短篇完本::/mm/all?style=1&page={{page}}&chanId=30083&action=1\r\n短篇免费::/mm/all?style=1&page={{page}}&chanId=30083&vip=0\r\n科幻全部::/mm/all?style=1&page={{page}}&chanId=86\r\n科幻连载::/mm/all?style=1&page={{page}}&chanId=86&action=0\r\n科幻完本::/mm/all?style=1&page={{page}}&chanId=86&action=1\r\n科幻免费::/mm/all?style=1&page={{page}}&chanId=86&vip=0\r\n游戏全部::/mm/all?style=1&page={{page}}&chanId=88\r\n游戏连载::/mm/all?style=1&page={{page}}&chanId=88&action=0\r\n游戏完本::/mm/all?style=1&page={{page}}&chanId=88&action=1\r\n游戏免费::/mm/all?style=1&page={{page}}&chanId=88&vip=0\r\n轻小说全::/mm/all?style=1&page={{page}}&chanId=87\r\n轻小说连::/mm/all?style=1&page={{page}}&chanId=87&action=0\r\n轻小说完::/mm/all?style=1&page={{page}}&chanId=87&action=1\r\n轻小说免::/mm/all?style=1&page={{page}}&chanId=87&vip=0\r\n现实生活::/mm/all?style=1&page={{page}}&chanId=30120\r\n出版全部::/all_pub?style=1&page={{page}}\r\n出版连载::/all_pub?style=1&page={{page}}&action=0\r\n出版完本::/all_pub?style=1&page={{page}}&action=1\r\n出版免费::/all_pub?style=1&page={{page}}&vip=0\r\n小说出版::/all_pub?style=1&page={{page}}&chanId=13100\r\n青春文学::/all_pub?style=1&page={{page}}&chanId=14300\r\n两性关系::/all_pub?style=1&page={{page}}&chanId=13700\r\n文学出版::/all_pub?style=1&page={{page}}&chanId=14100\r\n历史出版::/all_pub?style=1&page={{page}}&chanId=14400\r\n传记出版::/all_pub?style=1&page={{page}}&chanId=14500",
+    "exploreUrl": "                        【起点男频】                         ::\n最近更新::https://www.qidian.com/all?update=1&siteid=1&page={{page}}\n 周 推 荐 ::https://www.qidian.com/all?orderId=9&siteid=1&page={{page}}\n  完    本  ::https://www.qidian.com/all?action=1&siteid=1&page={{page}}\n 玄    幻 ::https://www.qidian.com/all?chanId=21&siteid=1&page={{page}}\n                                            ::\n东方玄幻::https://www.qidian.com/all?chanId=21&subCateId=8&siteid=1&page={{page}}\n异世大陆::https://www.qidian.com/all?chanId=21&subCateId=73&siteid=1&page={{page}}\n王朝争霸::https://www.qidian.com/all?chanId=21&subCateId=58&siteid=1&page={{page}}\n高武世界::https://www.qidian.com/all?chanId=21&subCateId=78&siteid=1&page={{page}}\n                ::\n                ::\n 奇    幻 ::https://www.qidian.com/all?chanId=1&siteid=1&page={{page}}\n                                            ::\n剑与魔法::https://www.qidian.com/all?chanId=1&subCateId=62&siteid=1&page={{page}}\n史诗奇幻::https://www.qidian.com/all?chanId=1&subCateId=201&siteid=1&page={{page}}\n黑暗幻想::https://www.qidian.com/all?chanId=1&subCateId=202&siteid=1&page={{page}}\n现代魔法::https://www.qidian.com/all?chanId=1&subCateId=38&siteid=1&page={{page}}\n历史神话::https://www.qidian.com/all?chanId=1&subCateId=20092&siteid=1&page={{page}}\n另类幻想::https://www.qidian.com/all?chanId=1&subCateId=20093&siteid=1&page={{page}}\n 武    侠 ::https://www.qidian.com/all?chanId=2&siteid=1&page={{page}}\n                                            ::\n传统武侠::https://www.qidian.com/all?chanId=2&subCateId=5&siteid=1&page={{page}}\n武侠幻想::https://www.qidian.com/all?chanId=2&subCateId=30&siteid=1&page={{page}}\n国术无双::https://www.qidian.com/all?chanId=2&subCateId=206&siteid=1&page={{page}}\n古武未来::https://www.qidian.com/all?chanId=2&subCateId=20099&siteid=1&page={{page}}\n武侠同人::https://www.qidian.com/all?chanId=2&subCateId=20100&siteid=1&page={{page}}\n                ::\n 仙    侠 ::https://www.qidian.com/all?chanId=22&siteid=1&page={{page}}\n                                            ::\n修真文明::https://www.qidian.com/all?chanId=22&subCateId=18&siteid=1&page={{page}}\n幻想修仙::https://www.qidian.com/all?chanId=22&subCateId=44&siteid=1&page={{page}}\n现代修真::https://www.qidian.com/all?chanId=22&subCateId=64&siteid=1&page={{page}}\n神话修真::https://www.qidian.com/all?chanId=22&subCateId=207&siteid=1&page={{page}}\n古典仙侠::https://www.qidian.com/all?chanId=22&subCateId=20101&siteid=1&page={{page}}\n                ::\n 都    市 ::https://www.qidian.com/all?chanId=4&siteid=1&page={{page}}\n                                            ::\n都市生活::https://www.qidian.com/all?chanId=4&subCateId=12&siteid=1&page={{page}}\n异术超能::https://www.qidian.com/all?chanId=4&subCateId=74&siteid=1&page={{page}}\n都市异能::https://www.qidian.com/all?chanId=4&subCateId=16&siteid=1&page={{page}}\n青春校园::https://www.qidian.com/all?chanId=4&subCateId=130&siteid=1&page={{page}}\n娱乐明星::https://www.qidian.com/all?chanId=4&subCateId=151&siteid=1&page={{page}}\n商战职场::https://www.qidian.com/all?chanId=4&subCateId=153&siteid=1&page={{page}}\n 现    实 ::https://www.qidian.com/all?chanId=15&siteid=1&page={{page}}\n                                            ::\n现实百态::https://www.qidian.com/all?chanId=15&subCateId=209&siteid=1&page={{page}}\n爱情婚姻::https://www.qidian.com/all?chanId=15&subCateId=6&siteid=1&page={{page}}\n社会乡土::https://www.qidian.com/all?chanId=15&subCateId=20104&siteid=1&page={{page}}\n生活时尚::https://www.qidian.com/all?chanId=15&subCateId=20105&siteid=1&page={{page}}\n文学艺术::https://www.qidian.com/all?chanId=15&subCateId=20106&siteid=1&page={{page}}\n成功励志::https://www.qidian.com/all?chanId=15&subCateId=20107&siteid=1&page={{page}}\n青春文学::https://www.qidian.com/all?chanId=15&subCateId=20108&siteid=1&page={{page}}\n                ::\n                ::\n 军    事 ::https://www.qidian.com/all?chanId=6&siteid=1&page={{page}}\n                                            ::\n战争幻想::https://www.qidian.com/all?chanId=6&subCateId=80&siteid=1&page={{page}}\n谍战特工::https://www.qidian.com/all?chanId=6&subCateId=231&siteid=1&page={{page}}\n军旅生涯::https://www.qidian.com/all?chanId=6&subCateId=54&siteid=1&page={{page}}\n抗战烽火::https://www.qidian.com/all?chanId=6&subCateId=230&siteid=1&page={{page}}\n军事战争::https://www.qidian.com/all?chanId=6&subCateId=65&siteid=1&page={{page}}\n                ::\n 历    史 ::https://www.qidian.com/all?chanId=5&siteid=1&page={{page}}\n                                            ::\n外国历史::https://www.qidian.com/all?chanId=5&subCateId=226&siteid=1&page={{page}}\n历史传记::https://www.qidian.com/all?chanId=5&subCateId=32&siteid=1&page={{page}}\n架空历史::https://www.qidian.com/all?chanId=5&subCateId=22&siteid=1&page={{page}}\n上古先秦::https://www.qidian.com/all?chanId=5&subCateId=220&siteid=1&page={{page}}\n秦汉三国::https://www.qidian.com/all?chanId=5&subCateId=48&siteid=1&page={{page}}\n两晋隋唐::https://www.qidian.com/all?chanId=5&subCateId=222&siteid=1&page={{page}}\n五代十国::https://www.qidian.com/all?chanId=5&subCateId=223&siteid=1&page={{page}}\n两宋元明::https://www.qidian.com/all?chanId=5&subCateId=224&siteid=1&page={{page}}\n清史民国::https://www.qidian.com/all?chanId=5&subCateId=225&siteid=1&page={{page}}\n民间传说::https://www.qidian.com/all?chanId=5&subCateId=20094&siteid=1&page={{page}}\n                ::\n                ::\n 游    戏 ::https://www.qidian.com/all?chanId=7&siteid=1&page={{page}}\n                                            ::\n电子竞技::https://www.qidian.com/all?chanId=7&subCateId=7&siteid=1&page={{page}}\n虚拟网游::https://www.qidian.com/all?chanId=7&subCateId=70&siteid=1&page={{page}}\n游戏异界::https://www.qidian.com/all?chanId=7&subCateId=240&siteid=1&page={{page}}\n游戏系统::https://www.qidian.com/all?chanId=7&subCateId=20102&siteid=1&page={{page}}\n游戏主播::https://www.qidian.com/all?chanId=7&subCateId=20103&siteid=1&page={{page}}\n                ::\n 体    育 ::https://www.qidian.com/all?chanId=8&siteid=1&page={{page}}\n                                            ::\n篮球运动::https://www.qidian.com/all?chanId=8&subCateId=28&siteid=1&page={{page}}\n体育赛事::https://www.qidian.com/all?chanId=8&subCateId=55&siteid=1&page={{page}}\n足球运动::https://www.qidian.com/all?chanId=8&subCateId=82&siteid=1&page={{page}}\n 科    幻 ::https://www.qidian.com/all?chanId=9&siteid=1&page={{page}}\n                                            ::\n星际文明::https://www.qidian.com/all?chanId=9&subCateId=68&siteid=1&page={{page}}\n时空穿梭::https://www.qidian.com/all?chanId=9&subCateId=251&siteid=1&page={{page}}\n未来世界::https://www.qidian.com/all?chanId=9&subCateId=25&siteid=1&page={{page}}\n古武机甲::https://www.qidian.com/all?chanId=9&subCateId=21&siteid=1&page={{page}}\n超级科技::https://www.qidian.com/all?chanId=9&subCateId=250&siteid=1&page={{page}}\n进化变异::https://www.qidian.com/all?chanId=9&subCateId=252&siteid=1&page={{page}}\n末世危机::https://www.qidian.com/all?chanId=9&subCateId=253&siteid=1&page={{page}}\n                ::\n                ::\n   悬  疑   ::https://www.qidian.com/all?chanId=10&siteid=1&page={{page}}\n                                           ::\n诡秘惊险::https://www.qidian.com/all?chanId=10&subCateId=26&siteid=1&page={{page}}\n奇妙世界::https://www.qidian.com/all?chanId=10&subCateId=35&siteid=1&page={{page}}\n悬疑侦探::https://www.qidian.com/all?chanId=10&subCateId=57&siteid=1&page={{page}}\n寻墓探险::https://www.qidian.com/all?chanId=10&subCateId=260&siteid=1&page={{page}}\n古今传奇::https://www.qidian.com/all?chanId=10&subCateId=20095&siteid=1&page={{page}}\n                ::\n 轻 小 说 ::https://www.qidian.com/all?chanId=12&siteid=1&page={{page}}\n                                           ::\n原生幻想::https://www.qidian.com/all?chanId=12&subCateId=60&siteid=1&page={{page}}\n衍生同人::https://www.qidian.com/all?chanId=12&subCateId=281&siteid=1&page={{page}}\n搞笑吐槽::https://www.qidian.com/all?chanId=12&subCateId=282&siteid=1&page={{page}}\n青春日常::https://www.qidian.com/all?chanId=12&subCateId=66&siteid=1&page={{page}}\n                ::\n                ::\n 短    篇 ::https://www.qidian.com/all?chanId=20076&siteid=1&page={{page}}\n                                            ::\n诗歌散文::https://www.qidian.com/all?chanId=20076&subCateId=20097&siteid=1&page={{page}}\n人物传记::https://www.qidian.com/all?chanId=20076&subCateId=20098&siteid=1&page={{page}}\n影视剧本::https://www.qidian.com/all?chanId=20076&subCateId=20075&siteid=1&page={{page}}\n评论文集::https://www.qidian.com/all?chanId=20076&subCateId=20077&siteid=1&page={{page}}\n生活随笔::https://www.qidian.com/all?chanId=20076&subCateId=20078&siteid=1&page={{page}}\n美文游记::https://www.qidian.com/all?chanId=20076&subCateId=20079&siteid=1&page={{page}}\n短篇小说::https://www.qidian.com/all?chanId=20076&subCateId=20096&siteid=1&page={{page}}\n                ::\n                ::\n                        【起点女频】                         ::\n最近更新::https://www.qidian.com/mm/all?update=1&siteid=0&page={{page}}\n 周 推 荐 ::https://www.qidian.com/mm/all?orderId=9&siteid=0&page={{page}}\n  完    本  ::https://www.qidian.com/mm/all?action=1&siteid=0&page={{page}}\n古代言情::https://www.qidian.com/mm/all?chanId=80&siteid=0&page={{page}}\n女尊王朝::https://www.qidian.com/mm/all?chanId=80&subCateId=805&siteid=0&page={{page}}\n古典架空::https://www.qidian.com/mm/all?chanId=80&subCateId=804&siteid=0&page={{page}}\n古代情缘::https://www.qidian.com/mm/all?chanId=80&subCateId=801&siteid=0&page={{page}}\n穿越奇情::https://www.qidian.com/mm/all?chanId=80&subCateId=806&siteid=0&page={{page}}\n宫闱宅斗::https://www.qidian.com/mm/all?chanId=80&subCateId=802&siteid=0&page={{page}}\n经商种田::https://www.qidian.com/mm/all?chanId=80&subCateId=803&siteid=0&page={{page}}\n西方时空::https://www.qidian.com/mm/all?chanId=80&subCateId=30094&siteid=0&page={{page}}\n清穿民国::https://www.qidian.com/mm/all?chanId=80&subCateId=30095&siteid=0&page={{page}}\n上古蛮荒::https://www.qidian.com/mm/all?chanId=80&subCateId=30096&siteid=0&page={{page}}\n热血江湖::https://www.qidian.com/mm/all?chanId=80&subCateId=30097&siteid=0&page={{page}}\n现实生活::https://www.qidian.com/mm/all?chanId=30120&siteid=0&page={{page}}\n家与情感::https://www.qidian.com/mm/all?chanId=30120&subCateId=30121&siteid=0&page={{page}}\n行业人生::https://www.qidian.com/mm/all?chanId=30120&subCateId=30122&siteid=0&page={{page}}\n探索科幻::https://www.qidian.com/mm/all?chanId=30120&subCateId=30123&siteid=0&page={{page}}\n人文博览::https://www.qidian.com/mm/all?chanId=30120&subCateId=30124&siteid=0&page={{page}}\n仙侠奇缘::https://www.qidian.com/mm/all?chanId=81&siteid=0&page={{page}}\n武侠情缘::https://www.qidian.com/mm/all?chanId=81&subCateId=810&siteid=0&page={{page}}\n古典仙侠::https://www.qidian.com/mm/all?chanId=81&subCateId=811&siteid=0&page={{page}}\n现代修真::https://www.qidian.com/mm/all?chanId=81&subCateId=812&siteid=0&page={{page}}\n远古洪荒::https://www.qidian.com/mm/all?chanId=81&subCateId=813&siteid=0&page={{page}}\n仙侣奇缘::https://www.qidian.com/mm/all?chanId=81&subCateId=30093&siteid=0&page={{page}}\n现代言情::https://www.qidian.com/mm/all?chanId=82&siteid=0&page={{page}}\n都市生活::https://www.qidian.com/mm/all?chanId=82&subCateId=823&siteid=0&page={{page}}\n婚恋情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=824&siteid=0&page={{page}}\n娱乐明星::https://www.qidian.com/mm/all?chanId=82&subCateId=825&siteid=0&page={{page}}\n商战职场::https://www.qidian.com/mm/all?chanId=82&subCateId=821&siteid=0&page={{page}}\n都市异能::https://www.qidian.com/mm/all?chanId=82&subCateId=827&siteid=0&page={{page}}\n豪门世家::https://www.qidian.com/mm/all?chanId=82&subCateId=822&siteid=0&page={{page}}\n极道江湖::https://www.qidian.com/mm/all?chanId=82&subCateId=828&siteid=0&page={{page}}\n民国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=829&siteid=0&page={{page}}\n异国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=30098&siteid=0&page={{page}}\n浪漫青春::https://www.qidian.com/mm/all?chanId=83&siteid=0&page={{page}}\n青春校园::https://www.qidian.com/mm/all?chanId=83&subCateId=831&siteid=0&page={{page}}\n青春疼痛::https://www.qidian.com/mm/all?chanId=83&subCateId=832&siteid=0&page={{page}}\n叛逆成长::https://www.qidian.com/mm/all?chanId=83&subCateId=833&siteid=0&page={{page}}\n青春纯爱::https://www.qidian.com/mm/all?chanId=83&subCateId=834&siteid=0&page={{page}}\n玄幻言情::https://www.qidian.com/mm/all?chanId=84&siteid=0&page={{page}}\n东方玄幻::https://www.qidian.com/mm/all?chanId=84&subCateId=841&siteid=0&page={{page}}\n异界大陆::https://www.qidian.com/mm/all?chanId=84&subCateId=844&siteid=0&page={{page}}\n远古神话::https://www.qidian.com/mm/all?chanId=84&subCateId=847&siteid=0&page={{page}}\n异族恋情::https://www.qidian.com/mm/all?chanId=84&subCateId=848&siteid=0&page={{page}}\n魔法幻情::https://www.qidian.com/mm/all?chanId=84&subCateId=849&siteid=0&page={{page}}\n西方奇幻::https://www.qidian.com/mm/all?chanId=84&subCateId=846&siteid=0&page={{page}}\n异能超术::https://www.qidian.com/mm/all?chanId=84&subCateId=30092&siteid=0&page={{page}}\n 悬    疑 ::https://www.qidian.com/mm/all?chanId=85&siteid=0&page={{page}}\n推理侦探::https://www.qidian.com/mm/all?chanId=85&subCateId=850&siteid=0&page={{page}}\n诡秘惊险::https://www.qidian.com/mm/all?chanId=85&subCateId=851&siteid=0&page={{page}}\n悬疑探险::https://www.qidian.com/mm/all?chanId=85&subCateId=852&siteid=0&page={{page}}\n奇妙世界::https://www.qidian.com/mm/all?chanId=85&subCateId=853&siteid=0&page={{page}}\n神秘文化::https://www.qidian.com/mm/all?chanId=85&subCateId=854&siteid=0&page={{page}}\n幽情奇缘::https://www.qidian.com/mm/all?chanId=85&subCateId=30099&siteid=0&page={{page}}\n科幻空间::https://www.qidian.com/mm/all?chanId=86&siteid=0&page={{page}}\n未来世界::https://www.qidian.com/mm/all?chanId=86&subCateId=862&siteid=0&page={{page}}\n进化变异::https://www.qidian.com/mm/all?chanId=86&subCateId=863&siteid=0&page={{page}}\n星际恋歌::https://www.qidian.com/mm/all?chanId=86&subCateId=864&siteid=0&page={{page}}\n时空穿梭::https://www.qidian.com/mm/all?chanId=86&subCateId=866&siteid=0&page={{page}}\n古武机甲::https://www.qidian.com/mm/all?chanId=86&subCateId=867&siteid=0&page={{page}}\n超级科技::https://www.qidian.com/mm/all?chanId=86&subCateId=868&siteid=0&page={{page}}\n末世危机::https://www.qidian.com/mm/all?chanId=86&subCateId=869&siteid=0&page={{page}}\n游戏竞技::https://www.qidian.com/mm/all?chanId=88&siteid=0&page={{page}}\n电子竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=880&siteid=0&page={{page}}\n网游情缘::https://www.qidian.com/mm/all?chanId=88&subCateId=881&siteid=0&page={{page}}\n游戏异界::https://www.qidian.com/mm/all?chanId=88&subCateId=882&siteid=0&page={{page}}\n体育竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=883&siteid=0&page={{page}}\n轻 小 说::https://www.qidian.com/mm/all?chanId=87&siteid=0&page={{page}}\n同人衍生::https://www.qidian.com/mm/all?chanId=87&subCateId=30100&siteid=0&page={{page}}\n唯美幻想::https://www.qidian.com/mm/all?chanId=87&subCateId=30101&siteid=0&page={{page}}\n萌系变身::https://www.qidian.com/mm/all?chanId=87&subCateId=30102&siteid=0&page={{page}}\n青春日常::https://www.qidian.com/mm/all?chanId=87&subCateId=30103&siteid=0&page={{page}}\n搞笑吐槽::https://www.qidian.com/mm/all?chanId=87&subCateId=30104&siteid=0&page={{page}}\n                 ::\n                       【男频榜单】                          ::\n月 票::/rank/yuepiao?style=1&page={{page}}\r\n热 销::/rank/hotsales?style=1&page={{page}}\r\n阅 读::/rank/readIndex?style=1&page={{page}}\r\n粉 丝::/rank/newFans?style=1&page={{page}}\r\n推 荐::/rank/recom?style=1&page={{page}}\r\n收 藏::/rank/collect?style=1&page={{page}}\r\n更 新::/rank/vipup?style=1&page={{page}}\r\n打 赏::/rank/vipreward?style=1&page={{page}}\r\n三江强推::/\r\n往期三江::/book/sanjiang?page={{page}}\r\n往期强推::/book/strongrec?page={{page}}\r\n限时免费::/free\r\n男频全部::/all?style=1&page={{page}}\r\n男频连载::/all?style=1&page={{page}}&action=0\r\n男频完本::/all?style=1&page={{page}}&action=1\r\n男频免费::/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/all?style=1&page={{page}}&orderId=2\r\n玄幻全部::/all?style=1&page={{page}}&chanId=21\r\n玄幻连载::/all?style=1&page={{page}}&chanId=21&action=0\r\n玄幻完本::/all?style=1&page={{page}}&chanId=21&action=1\r\n玄幻免费::/all?style=1&page={{page}}&chanId=21&vip=0\r\n奇幻全部::/all?style=1&page={{page}}&chanId=1\r\n奇幻连载::/all?style=1&page={{page}}&chanId=1&action=0\r\n奇幻完本::/all?style=1&page={{page}}&chanId=1&action=1\r\n奇幻免费::/all?style=1&page={{page}}&chanId=1&vip=0\r\n武侠全部::/all?style=1&page={{page}}&chanId=2\r\n武侠连载::/all?style=1&page={{page}}&chanId=2&action=0\r\n武侠完本::/all?style=1&page={{page}}&chanId=2&action=1\r\n武侠免费::/all?style=1&page={{page}}&chanId=2&vip=0\r\n仙侠全部::/all?style=1&page={{page}}&chanId=22\r\n仙侠连载::/all?style=1&page={{page}}&chanId=22&action=0\r\n仙侠完本::/all?style=1&page={{page}}&chanId=22&action=1\r\n仙侠免费::/all?style=1&page={{page}}&chanId=22&vip=0\r\n都市全部::/all?style=1&page={{page}}&chanId=4\r\n都市连载::/all?style=1&page={{page}}&chanId=4&action=0\r\n都市完本::/all?style=1&page={{page}}&chanId=4&action=1\r\n都市免费::/all?style=1&page={{page}}&chanId=4&vip=0\r\n现实全部::/all?style=1&page={{page}}&chanId=15\r\n现实连载::/all?style=1&page={{page}}&chanId=15&action=0\r\n现实完本::/all?style=1&page={{page}}&chanId=15&action=1\r\n现实免费::/all?style=1&page={{page}}&chanId=15&vip=0\r\n军事全部::/all?style=1&page={{page}}&chanId=6\r\n军事连载::/all?style=1&page={{page}}&chanId=6&action=0\r\n军事完本::/all?style=1&page={{page}}&chanId=6&action=1\r\n军事免费::/all?style=1&page={{page}}&chanId=6&vip=0\r\n历史全部::/all?style=1&page={{page}}&chanId=5\r\n历史连载::/all?style=1&page={{page}}&chanId=5&action=0\r\n历史完本::/all?style=1&page={{page}}&chanId=5&action=1\r\n历史免费::/all?style=1&page={{page}}&chanId=5&vip=0\r\n游戏全部::/all?style=1&page={{page}}&chanId=7\r\n游戏连载::/all?style=1&page={{page}}&chanId=7&action=0\r\n游戏完本::/all?style=1&page={{page}}&chanId=7&action=1\r\n游戏免费::/all?style=1&page={{page}}&chanId=7&vip=0\r\n体育全部::/all?style=1&page={{page}}&chanId=8\r\n体育连载::/all?style=1&page={{page}}&chanId=8&action=0\r\n体育完本::/all?style=1&page={{page}}&chanId=8&action=1\r\n体育免费::/all?style=1&page={{page}}&chanId=8&vip=0\r\n科幻全部::/all?style=1&page={{page}}&chanId=9\r\n科幻连载::/all?style=1&page={{page}}&chanId=9&action=0\r\n科幻完本::/all?style=1&page={{page}}&chanId=9&action=1\r\n科幻免费::/all?style=1&page={{page}}&chanId=9&vip=0\r\n悬疑全部::/all?style=1&page={{page}}&chanId=10\r\n悬疑连载::/all?style=1&page={{page}}&chanId=10&action=0\r\n悬疑完本::/all?style=1&page={{page}}&chanId=10&action=1\r\n悬疑免费::/all?style=1&page={{page}}&chanId=10&vip=0\r\n轻小说全::/all?style=1&page={{page}}&chanId=12\r\n轻小说连::/all?style=1&page={{page}}&chanId=12&action=0\r\n轻小说完::/all?style=1&page={{page}}&chanId=12&action=1\r\n轻小说免::/all?style=1&page={{page}}&chanId=12&vip=0\r\n短篇全部::/all?style=1&page={{page}}&chanId=20076\r\n短篇连载::/all?style=1&page={{page}}&chanId=20076&action=0\r\n短篇完本::/all?style=1&page={{page}}&chanId=20076&action=1\r\n短篇免费::/all?style=1&page={{page}}&chanId=20076&vip=0\n                                           ::\r\n                       【女频榜单】                          ::\n月 票::/mm/rank/yuepiao?style=1&page={{page}}\r\n新 书::/mm/rank/newsales?style=1&page={{page}}\r\n阅 读::/mm/rank/readIndex?style=1&page={{page}}\r\n热 销::/mm/rank/hotsales?style=1&page={{page}}\r\n粉 丝::/mm/rank/newFans?style=1&page={{page}}\r\n单 订::/mm/rank/subscr?style=1&page={{page}}\r\n推 荐::/mm/rank/recom?style=1&page={{page}}\r\n收 藏::/mm/rank/collect?style=1&page={{page}}\r\n更 新::/mm/rank/vipup?style=1&page={{page}}\r\n字 数::/mm/rank/wordcount?style=1&page={{page}}\n         ::\n         ::\r\n限时免费::/mm/free\r\n女频全部::/mm/all?style=1&page={{page}}\r\n女频连载::/mm/all?style=1&page={{page}}&action=0\r\n女频完本::/mm/all?style=1&page={{page}}&action=1\r\n女频免费::/mm/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/mm/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/mm/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/mm/all?style=1&page={{page}}&orderId=2\r\n古代全部::/mm/all?style=1&page={{page}}&chanId=80\r\n古代连载::/mm/all?style=1&page={{page}}&chanId=80&action=0\r\n古代完本::/mm/all?style=1&page={{page}}&chanId=80&action=1\r\n古代免费::/mm/all?style=1&page={{page}}&chanId=80&vip=0\r\n仙侠全部::/mm/all?style=1&page={{page}}&chanId=81\r\n仙侠连载::/mm/all?style=1&page={{page}}&chanId=81&action=0\r\n仙侠完本::/mm/all?style=1&page={{page}}&chanId=81&action=1\r\n仙侠免费::/mm/all?style=1&page={{page}}&chanId=81&vip=0\r\n现代全部::/mm/all?style=1&page={{page}}&chanId=82\r\n现代连载::/mm/all?style=1&page={{page}}&chanId=82&action=0\r\n现代完本::/mm/all?style=1&page={{page}}&chanId=82&action=1\r\n现代免费::/mm/all?style=1&page={{page}}&chanId=82&vip=0\r\n青春全部::/mm/all?style=1&page={{page}}&chanId=83\r\n青春连载::/mm/all?style=1&page={{page}}&chanId=83&action=0\r\n青春完本::/mm/all?style=1&page={{page}}&chanId=83&action=1\r\n青春免费::/mm/all?style=1&page={{page}}&chanId=83&vip=0\r\n玄幻全部::/mm/all?style=1&page={{page}}&chanId=84\r\n玄幻连载::/mm/all?style=1&page={{page}}&chanId=84&action=0\r\n玄幻完本::/mm/all?style=1&page={{page}}&chanId=84&action=1\r\n玄幻免费::/mm/all?style=1&page={{page}}&chanId=84&vip=0\r\n悬疑全部::/mm/all?style=1&page={{page}}&chanId=85\r\n悬疑连载::/mm/all?style=1&page={{page}}&chanId=85&action=0\r\n悬疑完本::/mm/all?style=1&page={{page}}&chanId=85&action=1\r\n悬疑免费::/mm/all?style=1&page={{page}}&chanId=85&vip=0\r\n短篇全部::/mm/all?style=1&page={{page}}&chanId=30083\r\n短篇连载::/mm/all?style=1&page={{page}}&chanId=30083&action=0\r\n短篇完本::/mm/all?style=1&page={{page}}&chanId=30083&action=1\r\n短篇免费::/mm/all?style=1&page={{page}}&chanId=30083&vip=0\r\n科幻全部::/mm/all?style=1&page={{page}}&chanId=86\r\n科幻连载::/mm/all?style=1&page={{page}}&chanId=86&action=0\r\n科幻完本::/mm/all?style=1&page={{page}}&chanId=86&action=1\r\n科幻免费::/mm/all?style=1&page={{page}}&chanId=86&vip=0\r\n游戏全部::/mm/all?style=1&page={{page}}&chanId=88\r\n游戏连载::/mm/all?style=1&page={{page}}&chanId=88&action=0\r\n游戏完本::/mm/all?style=1&page={{page}}&chanId=88&action=1\r\n游戏免费::/mm/all?style=1&page={{page}}&chanId=88&vip=0\r\n轻小说全::/mm/all?style=1&page={{page}}&chanId=87\r\n轻小说连::/mm/all?style=1&page={{page}}&chanId=87&action=0\r\n轻小说完::/mm/all?style=1&page={{page}}&chanId=87&action=1\r\n轻小说免::/mm/all?style=1&page={{page}}&chanId=87&vip=0\r\n现实生活::/mm/all?style=1&page={{page}}&chanId=30120\r\n出版全部::/all_pub?style=1&page={{page}}\r\n出版连载::/all_pub?style=1&page={{page}}&action=0\r\n出版完本::/all_pub?style=1&page={{page}}&action=1\r\n出版免费::/all_pub?style=1&page={{page}}&vip=0\r\n小说出版::/all_pub?style=1&page={{page}}&chanId=13100\r\n青春文学::/all_pub?style=1&page={{page}}&chanId=14300\r\n两性关系::/all_pub?style=1&page={{page}}&chanId=13700\r\n文学出版::/all_pub?style=1&page={{page}}&chanId=14100\r\n历史出版::/all_pub?style=1&page={{page}}&chanId=14400\r\n传记出版::/all_pub?style=1&page={{page}}&chanId=14500",
     "lastUpdateTime": 0,
     "loginUrl": "https://passport.qidian.com",
     "ruleBookInfo": {
-      "coverUrl": "",
-      "intro": "content@text",
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.book-intro@tag.p@textNodes",
+      "lastChapter": "class.detail.-1@class.blue@text",
     },
     "ruleContent": {
       "content": "class.read-content@html"
@@ -2766,15 +2793,16 @@
     "ruleSearch": {
       "author": "class.author@class.name.0@text||tag.a.2@text||tag.span@text",
       "bookList": "class.book-img-text@tag.li||class.book-list-wrap@class.book-list@tag.li",
-      "intro": "class.intro@textNodes",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text",
       "kind": "class.author@tag.a!0@text||tag.a.0@text",
-      "lastChapter": "class.update@a@text##最新更新\\s",
-      "name": "tag.h4@a@text||tag.a.1@text",
+      "lastChapter": "class.update@tag.a@text##最新更新",
+      "name": "tag.h4@tag.a@text||tag.a.1@text"
     },
     "ruleToc": {
-      "chapterUrl": "https://vipreader.qidian.com/chapter/@get:{id}/$2",
-      "isVip": "",
-      "updateTime": "<js>java.timeFormat($1)</js>"
+      "chapterName": "$3🔒$2@js:result.replace(/0🔒/, '').replace(/1🔒/, '💰')",
+      "chapterUrl": "https://vipreader.qidian.com/chapter/@get:{id}/$1"
     },
     "searchUrl": "/search?kw={{key}}",
     "weight": 0
@@ -2846,7 +2874,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://app.youzibank.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 1,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻*热门::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n玄幻*日更::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n奇幻*热门::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n奇幻*日更::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n武侠*热门::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n武侠*日更::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n仙侠*热门::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n仙侠*日更::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n都市*热门::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n都市*日更::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n校园*热门::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n校园*日更::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n历史*热门::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n历史*日更::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n军事*热门::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n军事*日更::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n游戏*热门::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n游戏*日更::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n竞技*热门::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n竞技*日更::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n科幻*热门::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n科幻*日更::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n耽美*热门::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n耽美*日更::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n其他*热门::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n其他*日更::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n推理悬疑*热门::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n推理悬疑*日更::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n恐怖惊悚*热门::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n恐怖惊悚*日更::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n有兔怪谈*热门::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n有兔怪谈*日更::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n现代言情*热门::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n现代言情*日更::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n古代言情*热门::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n古代言情*日更::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n幻想言情*热门::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n幻想言情*日更::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n青春校园*热门::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n青春校园*日更::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n同人作品*热门::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n同人作品*日更::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n次元专区*热门::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n次元专区*日更::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n人气榜单::/popular/detail?pageNo={{page}}&type=1\n收藏榜单::/popular/detail?pageNo={{page}}&type=5\n男频榜单::/popular/detail?pageNo={{page}}&type=3\n女频榜单::/popular/detail?pageNo={{page}}&type=2\n完本榜单::/popular/detail?pageNo={{page}}&type=4\n特别推荐::/book/list?pageNo={{page}}&selectionModuleId=1\n火爆好书::/book/list?pageNo={{page}}&selectionModuleId=4\n日更作品::/book/list?orderBy=last_serialize_date&fullFlag=1&pageNo={{page}}\n边谈恋爱边破案*超赞::/book/list?pageNo={{page}}&selectionModuleId=36\n人气佳作*中毒不可自拔::/book/list?pageNo={{page}}&selectionModuleId=19",
@@ -2908,7 +2936,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.9txs.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总点击榜::https://www.9txs.com/top/allvisit/{{page}}.html\n月点击榜::https://www.9txs.com/top/monthvisit/{{page}}.html\n周点击榜::https://www.9txs.com/top/weekvisit/{{page}}.html\n总推荐榜::https://www.9txs.com/top/allvote/{{page}}.html\n月推荐榜::https://www.9txs.com/top/monthvote/{{page}}.html\n周推荐榜::https://www.9txs.com/top/weekvote/{{page}}.html\n总收藏榜::https://www.9txs.com/top/goodnum/{{page}}.html\n总字数榜::https://www.9txs.com/top/size/{{page}}.html\n强推榜::https://www.9txs.com/top/toptime/{{page}}.html\n新书榜::https://www.9txs.com/top/goodnew/{{page}}.html\n最新入库::https://www.9txs.com/top/postdate/{{page}}.html\n最近更新::https://www.9txs.com/top/lastupdate/{{page}}.html\n玄幻奇幻 • 全部::https://www.9txs.com/library/0_1_0_{{page}}.html\n玄幻奇幻 • 连载::https://www.9txs.com/library/0_1_1_{{page}}.html\n玄幻奇幻 • 完结::https://www.9txs.com/library/0_1_2_{{page}}.html\n武侠修真 • 全部::https://www.9txs.com/library/0_2_0_{{page}}.html\n武侠修真 • 连载::https://www.9txs.com/library/0_2_1_{{page}}.html\n武侠修真 • 完结::https://www.9txs.com/library/0_2_2_{{page}}.html\n都市生活 • 全部::https://www.9txs.com/library/0_3_0_{{page}}.html\n都市生活 • 连载::https://www.9txs.com/library/0_3_1_{{page}}.html\n都市生活 • 完结::https://www.9txs.com/library/0_3_2_{{page}}.html\n历史军事 • 全部::https://www.9txs.com/library/0_4_0_{{page}}.html\n历史军事 • 连载::https://www.9txs.com/library/0_4_1_{{page}}.html\n历史军事 • 完结::https://www.9txs.com/library/0_4_2_{{page}}.html\n游戏竞技 • 全部::https://www.9txs.com/library/0_5_0_{{page}}.html\n游戏竞技 • 连载::https://www.9txs.com/library/0_5_1_{{page}}.html\n游戏竞技 • 完结::https://www.9txs.com/library/0_5_2_{{page}}.html\n科幻未来 • 全部::https://www.9txs.com/library/0_6_0_{{page}}.html\n科幻未来 • 连载::https://www.9txs.com/library/0_6_1_{{page}}.html\n科幻未来 • 完结::https://www.9txs.com/library/0_6_2_{{page}}.html\n悬疑灵异 • 全部::https://www.9txs.com/library/0_7_0_{{page}}.html\n悬疑灵异 • 连载::https://www.9txs.com/library/0_7_1_{{page}}.html\n悬疑灵异 • 完结::https://www.9txs.com/library/0_7_2_{{page}}.html\n二 次 元 • 全部::https://www.9txs.com/library/0_8_0_{{page}}.html\n二 次 元 • 连载::https://www.9txs.com/library/0_8_1_{{page}}.html\n二 次 元 • 完结::https://www.9txs.com/library/0_8_2_{{page}}.html\n经典短篇 • 全部::https://www.9txs.com/library/0_9_0_{{page}}.html\n经典短篇 • 连载::https://www.9txs.com/library/0_9_1_{{page}}.html\n经典短篇 • 完结::https://www.9txs.com/library/0_9_2_{{page}}.html\n古代言情 • 全部::https://www.9txs.com/library/0_10_0_{{page}}.html\n古代言情 • 连载::https://www.9txs.com/library/0_10_1_{{page}}.html\n古代言情 • 完结::https://www.9txs.com/library/0_10_2_{{page}}.html\n现代言情 • 全部::https://www.9txs.com/library/0_11_0_{{page}}.html\n现代言情 • 连载::https://www.9txs.com/library/0_11_1_{{page}}.html\n现代言情 • 完结::https://www.9txs.com/library/0_11_2_{{page}}.html\n幻想奇缘 • 全部::https://www.9txs.com/library/0_12_0_{{page}}.html\n幻想奇缘 • 连载::https://www.9txs.com/library/0_12_1_{{page}}.html\n幻想奇缘 • 完结::https://www.9txs.com/library/0_12_2_{{page}}.html\n浪漫青春 • 全部::https://www.9txs.com/library/0_13_0_{{page}}.html\n浪漫青春 • 连载::https://www.9txs.com/library/0_13_1_{{page}}.html\n浪漫青春 • 完结::https://www.9txs.com/library/0_13_2_{{page}}.html\n网络情缘 • 全部::https://www.9txs.com/library/0_14_0_{{page}}.html\n网络情缘 • 连载::https://www.9txs.com/library/0_14_1_{{page}}.html\n网络情缘 • 完结::https://www.9txs.com/library/0_14_2_{{page}}.html\n科幻空间 • 全部::https://www.9txs.com/library/0_15_0_{{page}}.html\n科幻空间 • 连载::https://www.9txs.com/library/0_15_1_{{page}}.html\n科幻空间 • 完结::https://www.9txs.com/library/0_15_2_{{page}}.html\n恐怖灵异 • 全部::https://www.9txs.com/library/0_16_0_{{page}}.html\n恐怖灵异 • 连载::https://www.9txs.com/library/0_16_1_{{page}}.html\n恐怖灵异 • 完结::https://www.9txs.com/library/0_16_2_{{page}}.html\nN 次 元 • 全部::https://www.9txs.com/library/0_17_0_{{page}}.html\nN 次 元 • 连载::https://www.9txs.com/library/0_17_1_{{page}}.html\nN 次 元 • 完结::https://www.9txs.com/library/0_17_2_{{page}}.html\n言情美文 • 全部::https://www.9txs.com/library/0_18_0_{{page}}.html\n言情美文 • 连载::https://www.9txs.com/library/0_18_1_{{page}}.html\n言情美文 • 完结::https://www.9txs.com/library/0_18_2_{{page}}.html\n其他类型 • 全部::https://www.9txs.com/library/0_19_0_{{page}}.html\n其他类型 • 连载::https://www.9txs.com/library/0_19_1_{{page}}.html\n其他类型 • 完结::https://www.9txs.com/library/0_19_2_{{page}}.html",
@@ -2959,7 +2987,7 @@
     "bookSourceName": "E小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zwda.com",
-    "customOrder": 1,
+    "customOrder": 3,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -2990,11 +3018,82 @@
   },
   {
     "bookSourceGroup": "",
+    "bookSourceName": "衍墨轩",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ymoxuan.org",
+    "customOrder": 4,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "http://www.ymoxuan.org/login.htm",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.desc@tag.p.0@textNodes",
+      "tocUrl": "class.operate@tag.a.2@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##最快更新.*|第\\d*章.*|小说网.*|—|手机站:|org|一秒记住.*?精彩小说无弹窗免费阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.a2@tag.a.0@text",
+      "bookList": "class.left@li!0",
+      "bookUrl": "class.n2@tag.a.0@href",
+      "kind": "class.nt@text",
+      "lastChapter": "class.c2@tag.a.0@text",
+      "name": "class.n2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col3!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.htm?keyword={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
+    "bookSourceName": "全小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://qxs.la",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://qxs.la/login.htm",
+    "ruleBookInfo": {
+    },
+    "ruleContent": {
+      "content": "id.content@html##全新的短域名\\s+qxs.la\\s+.*?亲爱的读者.*?全小说无弹窗.|手机端https://|www.*?com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cc4@a@text",
+      "bookList": "class.list_content",
+      "bookUrl": "class.cc2@a@href",
+      "kind": "class.cc5@text",
+      "lastChapter": "class.cc3@a@text",
+      "name": "class.cc2@a@text"
+    },
+    "ruleToc": {
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/s_{{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
     "bookSourceName": "斋书苑",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zhaishuyuan.com",
     "bookUrlPattern": "",
-    "customOrder": 2,
+    "customOrder": 6,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "男生书库::/shuku/0_1_0_0_0_{{page}}_0_1\n男频连载::/shuku/0_2_0_0_0_{{page}}_0_1\n男频完结::/shuku/0_3_0_0_0_{{page}}_0_1\n添加时间::/shuku/11_1_0_0_8_{{page}}_0_1\n总点击榜::/shuku/0_1_0_0_2_{{page}}_0_1\n月点击榜::/shuku/0_1_0_0_5_{{page}}_0_1\n周点击榜::/shuku/0_1_0_0_4_{{page}}_0_1\n总推荐榜::/shuku/0_1_0_0_1_{{page}}_0_1\n月推荐榜::/shuku/0_1_0_0_7_{{page}}_0_1\n周推荐榜::/shuku/0_1_0_0_6_{{page}}_0_1\n总收藏榜::/shuku/0_1_0_0_3_{{page}}_0_1\n总字数榜::/shuku/0_1_0_0_9_{{page}}_0_1\n玄幻奇幻::/shuku/1_1_0_0_0_{{page}}_0_1\n玄幻总点::/shuku/1_1_0_0_2_{{page}}_0_1\n玄幻月点::/shuku/1_1_0_0_5_{{page}}_0_1\n玄幻周点::/shuku/1_1_0_0_4_{{page}}_0_1\n玄幻总推::/shuku/1_1_0_0_1_{{page}}_0_1\n玄幻月推::/shuku/1_1_0_0_7_{{page}}_0_1\n玄幻周推::/shuku/1_1_0_0_6_{{page}}_0_1\n玄幻总收::/shuku/1_1_0_0_3_{{page}}_0_1\n玄幻总字::/shuku/1_1_0_0_9_{{page}}_0_1\n东方玄幻::/shuku/1_1_0_1_0_{{page}}_0_1\n异世大陆::/shuku/1_1_0_2_0_{{page}}_0_1\n史诗奇幻::/shuku/1_1_0_3_0_{{page}}_0_1\n高武世界::/shuku/1_1_0_4_0_{{page}}_0_1\n剑与魔法::/shuku/1_1_0_5_0_{{page}}_0_1\n武侠仙侠::/shuku/2_1_0_0_0_{{page}}_0_1\n武侠总点::/shuku/2_1_0_0_2_{{page}}_0_1\n武侠月点::/shuku/2_1_0_0_5_{{page}}_0_1\n武侠周点::/shuku/2_1_0_0_4_{{page}}_0_1\n武侠总推::/shuku/2_1_0_0_1_{{page}}_0_1\n武侠月推::/shuku/2_1_0_0_7_{{page}}_0_1\n武侠周推::/shuku/2_1_0_0_6_{{page}}_0_1\n武侠总收::/shuku/2_1_0_0_3_{{page}}_0_1\n武侠总字::/shuku/2_1_0_0_9_{{page}}_0_1\n古典仙侠::/shuku/2_1_0_1_0_{{page}}_0_1\n修真文明::/shuku/2_1_0_2_0_{{page}}_0_1\n现代修真::/shuku/2_1_0_3_0_{{page}}_0_1\n神话修真::/shuku/2_1_0_4_0_{{page}}_0_1\n武侠幻想::/shuku/2_1_0_5_0_{{page}}_0_1\n幻想修仙::/shuku/2_1_0_6_0_{{page}}_0_1\n都市青春::/shuku/3_1_0_0_0_{{page}}_0_1\n都市总点::/shuku/3_1_0_0_2_{{page}}_0_1\n都市月点::/shuku/3_1_0_0_5_{{page}}_0_1\n都市周点::/shuku/3_1_0_0_4_{{page}}_0_1\n都市总推::/shuku/3_1_0_0_1_{{page}}_0_1\n都市月推::/shuku/3_1_0_0_7_{{page}}_0_1\n都市周推::/shuku/3_1_0_0_6_{{page}}_0_1\n都市总收::/shuku/3_1_0_0_3_{{page}}_0_1\n都市总字::/shuku/3_1_0_0_9_{{page}}_0_1\n都市生活::/shuku/3_1_0_1_0_{{page}}_0_1\n官场沉浮::/shuku/3_1_0_2_0_{{page}}_0_1\n娱乐明星::/shuku/3_1_0_3_0_{{page}}_0_1\n异术超能::/shuku/3_1_0_4_0_{{page}}_0_1\n历史军事::/shuku/4_1_0_0_0_{{page}}_0_1\n历史总点::/shuku/4_1_0_0_2_{{page}}_0_1\n历史月点::/shuku/4_1_0_0_5_{{page}}_0_1\n历史周点::/shuku/4_1_0_0_4_{{page}}_0_1\n历史总推::/shuku/4_1_0_0_1_{{page}}_0_1\n历史月推::/shuku/4_1_0_0_7_{{page}}_0_1\n历史周推::/shuku/4_1_0_0_6_{{page}}_0_1\n历史总收::/shuku/4_1_0_0_3_{{page}}_0_1\n历史总字::/shuku/4_1_0_0_9_{{page}}_0_1\n架空历史::/shuku/4_1_0_1_0_{{page}}_0_1\n秦汉三国::/shuku/4_1_0_2_0_{{page}}_0_1\n两晋隋唐::/shuku/4_1_0_3_0_{{page}}_0_1\n两宋元明::/shuku/4_1_0_4_0_{{page}}_0_1\n清史民国::/shuku/4_1_0_5_0_{{page}}_0_1\n外国历史::/shuku/4_1_0_6_0_{{page}}_0_1\n军事战争::/shuku/4_1_0_7_0_{{page}}_0_1\n抗战烽火::/shuku/4_1_0_8_0_{{page}}_0_1\n科幻灵异::/shuku/5_1_0_0_0_{{page}}_0_1\n科幻总点::/shuku/5_1_0_0_2_{{page}}_0_1\n科幻月点::/shuku/5_1_0_0_5_{{page}}_0_1\n科幻周点::/shuku/5_1_0_0_4_{{page}}_0_1\n科幻总推::/shuku/5_1_0_0_1_{{page}}_0_1\n科幻月推::/shuku/5_1_0_0_7_{{page}}_0_1\n科幻周推::/shuku/5_1_0_0_6_{{page}}_0_1\n科幻总收::/shuku/5_1_0_0_3_{{page}}_0_1\n科幻总字::/shuku/5_1_0_0_9_{{page}}_0_1\n未来世界::/shuku/5_1_0_1_0_{{page}}_0_1\n超级科技::/shuku/5_1_0_2_0_{{page}}_0_1\n时空穿梭::/shuku/5_1_0_3_0_{{page}}_0_1\n进化变异::/shuku/5_1_0_4_0_{{page}}_0_1\n末世危机::/shuku/5_1_0_5_0_{{page}}_0_1\n灵异鬼怪::/shuku/5_1_0_6_0_{{page}}_0_1\n侦探推理::/shuku/5_1_0_7_0_{{page}}_0_1\n寻墓探险::/shuku/5_1_0_8_0_{{page}}_0_1\n游戏竞技::/shuku/6_1_0_0_0_{{page}}_0_1\n游戏总点::/shuku/6_1_0_0_2_{{page}}_0_1\n游戏月点::/shuku/6_1_0_0_5_{{page}}_0_1\n游戏周点::/shuku/6_1_0_0_4_{{page}}_0_1\n游戏总推::/shuku/6_1_0_0_1_{{page}}_0_1\n游戏月推::/shuku/6_1_0_0_7_{{page}}_0_1\n游戏周推::/shuku/6_1_0_0_6_{{page}}_0_1\n游戏总收::/shuku/6_1_0_0_3_{{page}}_0_1\n游戏总字::/shuku/6_1_0_0_9_{{page}}_0_1\n虚拟网游::/shuku/6_1_0_1_0_{{page}}_0_1\n游戏异界::/shuku/6_1_0_2_0_{{page}}_0_1\n体育竞技::/shuku/6_1_0_3_0_{{page}}_0_1\n游戏生涯::/shuku/6_1_0_4_0_{{page}}_0_1\n电子竞技::/shuku/6_1_0_5_0_{{page}}_0_1\n女生言情::/shuku/9_1_0_0_0_{{page}}_0_1\n女生总点::/shuku/9_1_0_0_2_{{page}}_0_1\n女生月点::/shuku/9_1_0_0_5_{{page}}_0_1\n女生周点::/shuku/9_1_0_0_4_{{page}}_0_1\n女生总推::/shuku/9_1_0_0_1_{{page}}_0_1\n女生月推::/shuku/9_1_0_0_7_{{page}}_0_1\n女生周推::/shuku/9_1_0_0_6_{{page}}_0_1\n女生总收::/shuku/9_1_0_0_3_{{page}}_0_1\n女生总字::/shuku/9_1_0_0_9_{{page}}_0_1\n豪门总裁::/shuku/9_1_0_1_0_{{page}}_0_1\n现代言情::/shuku/9_1_0_2_0_{{page}}_0_1\n星际科幻::/shuku/9_1_0_3_0_{{page}}_0_1\n灵异推理::/shuku/9_1_0_4_0_{{page}}_0_1\n婚恋情缘::/shuku/9_1_0_5_0_{{page}}_0_1\n古代言情::/shuku/9_1_0_6_0_{{page}}_0_1\n玄幻仙侠::/shuku/9_1_0_7_0_{{page}}_0_1\n宫闱宅斗::/shuku/9_1_0_8_0_{{page}}_0_1\n次元同人::/shuku/20_1_0_0_0_{{page}}_0_1\n次元总点::/shuku/20_1_0_0_2_{{page}}_0_1\n次元月点::/shuku/20_1_0_0_5_{{page}}_0_1\n次元周点::/shuku/20_1_0_0_4_{{page}}_0_1\n次元总推::/shuku/20_1_0_0_1_{{page}}_0_1\n次元月推::/shuku/20_1_0_0_7_{{page}}_0_1\n次元周推::/shuku/20_1_0_0_6_{{page}}_0_1\n次元总收::/shuku/20_1_0_0_3_{{page}}_0_1\n次元总字::/shuku/20_1_0_0_9_{{page}}_0_1\n动漫同人::/shuku/20_1_0_1_0_{{page}}_0_1\n小说同人::/shuku/20_1_0_2_0_{{page}}_0_1\n影视同人::/shuku/20_1_0_3_0_{{page}}_0_1\n原生幻想::/shuku/20_1_0_4_0_{{page}}_0_1",
@@ -3040,142 +3139,10 @@
   },
   {
     "bookSourceGroup": "",
-    "bookSourceName": "衍墨轩",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.ymoxuan.org",
-    "customOrder": 3,
-    "enabled": true,
-    "enabledExplore": false,
-    "header": "",
-    "lastUpdateTime": 0,
-    "loginUrl": "http://www.ymoxuan.org/login.htm",
-    "ruleBookInfo": {
-      "coverUrl": "class.cover@tag.img@src",
-      "intro": "class.desc@tag.p.0@textNodes",
-      "tocUrl": "class.operate@tag.a.2@href"
-    },
-    "ruleContent": {
-      "content": "id.content@html##最快更新.*|第\\d*章.*|小说网.*|—|手机站:|org|一秒记住.*?精彩小说无弹窗免费阅读！"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.a2@tag.a.0@text",
-      "bookList": "class.left@li!0",
-      "bookUrl": "class.n2@tag.a.0@href",
-      "kind": "class.nt@text",
-      "lastChapter": "class.c2@tag.a.0@text",
-      "name": "class.n2@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.col3!0:1:2:3:4:5:6:7:8",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href",
-      "isVip": "",
-      "updateTime": ""
-    },
-    "searchUrl": "/search.htm?keyword={{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
-    "bookSourceName": "下书网",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.xiashu.cc",
-    "bookUrlPattern": "",
-    "customOrder": 4,
-    "enabled": true,
-    "enabledExplore": false,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 0,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "",
-      "coverUrl": "",
-      "init": "",
-      "intro": "id.aboutbook@textNodes##^\\s*##<br>",
-      "kind": "",
-      "lastChapter": "",
-      "name": "",
-      "tocUrl": "",
-      "wordCount": ""
-    },
-    "ruleContent": {
-      "content": "id.chaptercontent@textNodes",
-      "nextContentUrl": "",
-      "sourceRegex": "",
-      "webJs": ""
-    },
-    "ruleExplore": {
-      "author": "",
-      "bookList": "",
-      "bookUrl": "",
-      "coverUrl": "",
-      "intro": "",
-      "kind": "",
-      "lastChapter": "",
-      "name": "",
-      "wordCount": ""
-    },
-    "ruleSearch": {
-      "author": "author",
-      "bookUrl": "catalogUrl",
-      "coverUrl": "cover",
-      "intro": "intro",
-      "kind": "tags",
-      "lastChapter": "latest",
-      "name": "name",
-      "wordCount": ""
-    },
-    "ruleToc": {
-      "chapterName": "text",
-      "chapterUrl": "href",
-      "isVip": "",
-      "nextTocUrl": "",
-      "updateTime": ""
-    },
-    "searchUrl": "/search.html?searchtype=all&searchkey={{key}}&page={{page}}",
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
-    "bookSourceName": "全小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://qxs.la",
-    "customOrder": 5,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 0,
-    "loginUrl": "https://qxs.la/login.htm",
-    "ruleBookInfo": {
-    },
-    "ruleContent": {
-      "content": "id.content@html##全新的短域名\\s+qxs.la\\s+.*?亲爱的读者.*?全小说无弹窗.|手机端https://|www.*?com"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.cc4@a@text",
-      "bookList": "class.list_content",
-      "bookUrl": "class.cc2@a@href",
-      "kind": "class.cc5@text",
-      "lastChapter": "class.cc3@a@text",
-      "name": "class.cc2@a@text"
-    },
-    "ruleToc": {
-      "chapterName": "$2",
-      "chapterUrl": "$1"
-    },
-    "searchUrl": "/s_{{key}}",
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
     "bookSourceName": "采墨阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.caimoge.com",
-    "customOrder": 6,
+    "customOrder": 9,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3220,7 +3187,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.imiaobige.com",
     "bookUrlPattern": "",
-    "customOrder": 9,
+    "customOrder": 10,
     "enabled": true,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -3241,12 +3208,12 @@
       "coverUrl": "tag.img@src",
       "intro": "class.book_des@text",
       "kind": "class.book_other.0@tag.a.0@text",
-      "lastChapter": "class.book_other.1@tag.a.0@text##章\\s\\d+\\.##章",
+      "lastChapter": "class.book_other.1@tag.a.0@text",
       "name": "tag.h3.0@tag.a.0@text##免费阅读全文"
     },
     "ruleToc": {
       "chapterList": "id.readerlists@tag.li!0:1:2:3:4:5:6:7:8:9:10:11",
-      "chapterName": "tag.a@text##章\\s\\d+\\.##章",
+      "chapterName": "tag.a@text",
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
@@ -3257,7 +3224,7 @@
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.b5200.net",
-    "customOrder": 10,
+    "customOrder": 11,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3291,7 +3258,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://xs.kdays.net",
     "bookUrlPattern": "",
-    "customOrder": 11,
+    "customOrder": 12,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::http://xs.kdays.net/list/all?page={{page}}\n热血::http://xs.kdays.net/list/all?type=1&page={{page}}\n冒险::http://xs.kdays.net/list/all?type=2&page={{page}}\n运动::http://xs.kdays.net/list/all?type=3&page={{page}}\n魔幻::http://xs.kdays.net/list/all?type=4&page={{page}}\n武侠::http://xs.kdays.net/list/all?type=5&page={{page}}\n校园::http://xs.kdays.net/list/all?type=6&page={{page}}\n治愈::http://xs.kdays.net/list/all?type=8&page={{page}}\n推理::http://xs.kdays.net/list/all?type=9&page={{page}}\n惊悚::http://xs.kdays.net/list/all?type=10&page={{page}}\n科幻::http://xs.kdays.net/list/all?type=11&page={{page}}\n社会::http://xs.kdays.net/list/all?type=12&page={{page}}\n动画化::http://xs.kdays.net/list/all?type=14&page={{page}}\n点击榜::http://xs.kdays.net/list/top\n收藏榜::http://xs.kdays.net/list/top?type=fav\n喜欢榜::http://xs.kdays.net/list/top?type=like\nGAL::http://xs.kdays.net/list/all?type=13&page={{page}}",
@@ -3334,7 +3301,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.38kanshu.cc",
     "bookUrlPattern": "",
-    "customOrder": 12,
+    "customOrder": 13,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3385,10 +3352,9 @@
     "bookSourceName": "玫瑰小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.meiguixs.com",
-    "customOrder": 13,
+    "customOrder": 14,
     "enabled": true,
     "enabledExplore": false,
-    "header": "",
     "lastUpdateTime": 0,
     "ruleBookInfo": {
       "author": "",
@@ -3403,7 +3369,7 @@
       "author": "class.odd.1@text||tag.a.5@text",
       "bookList": "class.grid searall@tag.tr!0||id.conn",
       "bookUrl": "class.odd.0@tag.a.0@href",
-      "coverUrl": "",
+      "coverUrl": "tag.div.0@tag.img.0@src",
       "kind": "class.even.2@text||tag.span.1@text",
       "lastChapter": "class.even.0@tag.a.0@text||tag.ul.2@tag.li.0@tag.a.0@text",
       "name": "class.odd.0@tag.a.0@text||tag.h1.0@text"
@@ -3412,7 +3378,7 @@
       "chapterList": "id.readerlist@tag.ul@tag.li@tag.a",
       "chapterUrl": "href"
     },
-    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\",\n  \"method\": \"POST\"\n}\n",
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\",\n  \"method\": \"POST\"\n}",
     "weight": 0
   },
   {
@@ -3421,7 +3387,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.x23qb.com",
     "bookUrlPattern": "",
-    "customOrder": 14,
+    "customOrder": 15,
     "enabled": true,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9; zh-cn; MI 9 SE Build/PKQ1.181121.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/9.4 Mobile Safari/537.36\"\n}",
@@ -3461,7 +3427,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yawen365.com",
     "bookUrlPattern": "",
-    "customOrder": 15,
+    "customOrder": 16,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3500,7 +3466,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.23txt.com",
     "bookUrlPattern": "",
-    "customOrder": 16,
+    "customOrder": 17,
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 0,
@@ -3535,11 +3501,50 @@
   },
   {
     "bookSourceGroup": "",
+    "bookSourceName": "丹书铁卷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dstiejuan.com",
+    "bookUrlPattern": "",
+    "customOrder": 18,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "class.intro.0@text",
+      "lastChapter": "class.detail@tag.p.3@text##最新.|\\(.*",
+      "tocUrl": "class.more@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "text.作者：@tag.a.0@text||tag.td.3@text||tag.span@text",
+      "bookList": "class.library@tag.li||class.rank zoom@tag.li||class.table@tag.tr||class.block@tag.li",
+      "bookUrl": "tag.td.1@tag.a.0@href||tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.p.0@tag.a.1@text",
+      "lastChapter": "class.chapter@tag.a.0@text||tag.td.2@text##最新章节.",
+      "name": "class.bookname.0@text||class.on@tag.a.1@text||tag.td.1@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.html,{\n  \"body\": \"searchkey={{key}}\",\n  \"method\": \"POST\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
     "bookSourceName": "八一中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zwdu.com",
     "bookUrlPattern": "",
-    "customOrder": 18,
+    "customOrder": 19,
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 0,
@@ -3573,7 +3578,7 @@
     "bookSourceName": "云中书库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.yunxs.com",
-    "customOrder": 19,
+    "customOrder": 20,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,
@@ -3606,7 +3611,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.23us.net",
     "bookUrlPattern": "",
-    "customOrder": 20,
+    "customOrder": 21,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3646,7 +3651,7 @@
     "bookSourceName": "完本神站",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wanbentxt.com",
-    "customOrder": 21,
+    "customOrder": 22,
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 0,
@@ -3682,10 +3687,47 @@
   },
   {
     "bookSourceGroup": "",
+    "bookSourceName": "龙坛书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ltsw888.com",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.ltsw888.com/user/login.php",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text##简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s.php?ie=gbk&q={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
     "bookSourceName": "亲之文库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.linovel.net",
-    "customOrder": 24,
+    "customOrder": 25,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "重推周榜::/hub/getTopBooks?unit=zt&time=week&page={{page}}\n佳作周榜::/hub/getTopBooks?unit=jz&time=week&page={{page}}\n月票周榜::/hub/getTopBooks?unit=ticket&time=week&page={{page}}\n轻币周榜::/hub/getTopBooks?unit=coin&time=week&page={{page}}\n墨水周榜::/hub/getTopBooks?unit=ink&time=week&page={{page}}\n应援周榜::/hub/getTopBooks?unit=supp&time=week&page={{page}}\n重推月榜::/hub/getTopBooks?unit=zt&time=month&page={{page}}\n佳作月榜::/hub/getTopBooks?unit=jz&time=month&page={{page}}\n月票月榜::/hub/getTopBooks?unit=ticket&time=month&page={{page}}\n轻币月榜::/hub/getTopBooks?unit=coin&time=month&page={{page}}\n墨水月榜::/hub/getTopBooks?unit=ink&time=month&page={{page}}\n应援月榜::/hub/getTopBooks?unit=supp&time=month&page={{page}}\n重推新人榜::/hub/getTopBooks?unit=zt&time=new&page={{page}}\n佳作新人榜::/hub/getTopBooks?unit=jz&time=new&page={{page}}\n轻币新人榜::/hub/getTopBooks?unit=coin&time=new&page={{page}}\n墨水新人榜::/hub/getTopBooks?unit=ink&time=new&page={{page}}\n应援新人榜::/hub/getTopBooks?unit=supp&time=new&page={{page}}\n月票新人榜::/hub/getTopBooks?unit=ticket&time=new&page={{page}}",
@@ -3727,7 +3769,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.100ben.net",
     "bookUrlPattern": "",
-    "customOrder": 25,
+    "customOrder": 26,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "世界名著::https://www.100ben.net/shijiemingzhu/list_{{page}}.html\n现代文学::https://www.100ben.net/xiandaiwenxue/list_{{page}}.html\n外国小说::https://www.100ben.net/waiguoxiaoshuo/list_{{page}}.html\n励志书籍::https://www.100ben.net/lizhishuji/list_{{page}}.html\n古典小说::https://www.100ben.net/gudianwenxue/list_{{page}}.html\n武侠小说::https://www.100ben.net/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::https://www.100ben.net/yanqingxiaoshuo/list_{{page}}.html\n推理小说::https://www.100ben.net/tuilixiaoshuo/list_{{page}}.html\n科幻小说::https://www.100ben.net/kehuanxiaoshuo/list_{{page}}.html\n人物传记::https://www.100ben.net/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::https://www.100ben.net/daomuxuanyi/list_{{page}}.html\n玄幻穿越::https://www.100ben.net/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::https://www.100ben.net/kepushuji/list_{{page}}.html",
@@ -3756,46 +3798,6 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "/plus/search.php?keyword={{key}},{\n  \"charset\": \"utf-8\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
-    "bookSourceName": "九九藏书",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.99csw.com",
-    "bookUrlPattern": "",
-    "customOrder": 26,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "热门读物::/top/index.php\n传记回忆::/book/index.php?type=传记回忆&page={{page}}\n英文读本::/book/index.php?type=英文读本&page={{page}}\n杂文随笔::/book/index.php?type=杂文随笔&page={{page}}\n现代小说::/book/index.php?type=现代小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n侦探推理::/book/index.php?type=侦探推理&page={{page}}\n惊悚悬疑::/book/index.php?type=惊悚悬疑&page={{page}}\n网络玄幻::/book/index.php?type=网络玄幻&page={{page}}\n寓言童话::/book/index.php?type=寓言童话&page={{page}}\n青春都市::/book/index.php?type=青春都市&page={{page}}\n社会心理::/book/index.php?type=社会心理&page={{page}}\n外国小说::/book/index.php?type=外国小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n当代小说::/book/index.php?type=当代小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n纪实报告::/book/index.php?type=纪实报告&page={{page}}\n世界历史::/book/index.php?type=世界历史&page={{page}}\n中国历史::/book/index.php?type=中国历史&page={{page}}\n科普学习::/book/index.php?type=科普学习&page={{page}}\n诗歌戏曲::/book/index.php?type=诗歌戏曲&page={{page}}\n宗教哲学::/book/index.php?type=宗教哲学&page={{page}}\n文学理论::/book/index.php?type=文学理论&page={{page}}\n日语读物::/book/index.php?type=日语读物&page={{page}}\n作品合集::/book/index.php?type=作品集&page={{page}}\n国学/古籍::/book/index.php?type=国学%2F古籍&page={{page}}\n战争军事::/book/index.php?type=战争军事&page={{page}}\n政治经济::/book/index.php?type=政治经济&page={{page}}\n古典文学::/book/index.php?type=古典文学&page={{page}}\n官场小说::/book/index.php?type=官场小说&page={{page}}\n轻小说::/book/index.php?type=轻小说&page={{page}}",
-    "lastUpdateTime": 0,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "id.book_info@tag.h4.0@tag.a@text",
-      "coverUrl": "id.book_info@tag.img@src",
-      "intro": "class.intro@tag.p@text",
-      "lastChapter": "id.dir@tag.dd.-1@tag.a@text",
-      "name": "id.book_info@tag.h2@text"
-    },
-    "ruleContent": {
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "tag.h4.0@tag.a@text",
-      "bookList": "class.list_box@tag.li",
-      "bookUrl": "tag.h2@tag.a@href",
-      "coverUrl": "tag.a@tag.img@src",
-      "intro": "class.intro@text##^\\s+",
-      "kind": "tag.h4.1@tag.a@text",
-      "lastChapter": "",
-      "name": "tag.h2@tag.a@text"
-    },
-    "ruleToc": {
-      "chapterList": "id.dir@tag.dd",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "http://www.99csw.com/book/search.php?type=all&keyword={{key}}&page={{page}}",
     "weight": 0
   },
   {
