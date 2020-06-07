@@ -2596,6 +2596,35 @@
   "weight": 0
 },{
   "bookSourceGroup": "",
+  "bookSourceName": "云来阁小说",
+  "bookSourceUrl": "http://www.yunlaige.com",
+  "enable": true,
+  "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36",
+  "loginUrl": "",
+  "ruleBookAuthor": "",
+  "ruleBookContent": "id.content@textNodes",
+  "ruleBookName": "",
+  "ruleChapterList": "id.contenttable@tag.td",
+  "ruleChapterName": "tag.a@text",
+  "ruleChapterUrl": "class.op@tag.a@href",
+  "ruleChapterUrlNext": "",
+  "ruleContentUrl": "tag.a@href",
+  "ruleContentUrlNext": "",
+  "ruleCoverUrl": "",
+  "ruleFindUrl": "",
+  "ruleIntroduce": "class.con@textNodes",
+  "ruleSearchAuthor": "class.author@text|class.intr@tag.a.0@text",
+  "ruleSearchCoverUrl": "tag.img@src",
+  "ruleSearchKind": "",
+  "ruleSearchLastChapter": "class.gxz@tag.a@text|class.tabnewlist@tag.li.0@tag.a@text",
+  "ruleSearchList": "class.listbox@tag.li|class.book-info",
+  "ruleSearchName": "class.fleft@text|class.info@tag.h2@text",
+  "ruleSearchNoteUrl": "class.clearfix@tag.a.0@href",
+  "ruleSearchUrl": "https://www.yunlaige.com/modules/article/search.php@searchkey=searchKey|char=gbk&action=login",
+  "serialNumber": 2,
+  "weight": 0
+},{
+  "bookSourceGroup": "",
   "bookSourceName": "衍墨轩",
   "bookSourceUrl": "https://www.ymoxuan.com",
   "enable": true,
@@ -3338,15 +3367,15 @@
     "lastUpdateTime": 0,
     "loginUrl": "",
     "ruleBookInfo": {
-      "author": "",
+      "author": "class.block_txt2@tag.p.2@text",
       "coverUrl": "class.block_img2@tag.img.0@src",
       "init": "",
       "intro": "class.intro_info@text",
-      "kind": "",
-      "lastChapter": "",
-      "name": "",
+      "kind": "class.block_txt2@tag.p.4@text&&class.block_txt2@tag.p.5@text##分类：|状态：",
+      "lastChapter": "class._17mb_jump@tag.p.0@text",
+      "name": "class.block_txt2@tag.h2@text",
       "tocUrl": "text.查看目录@href",
-      "wordCount": ""
+      "wordCount": "class.block_txt2@tag.p.6@text##更新："
     },
     "ruleContent": {
       "content": "id.nr@html##一秒记住.*|\\【38看书.*|最新章节前往|\\【1\\】|\\【6\\】|\\【8\\】|\\【看\\】|\\【书\\】|搜一下就能找.*",
@@ -3364,7 +3393,8 @@
     },
     "ruleSearch": {
       "author": "tag.a.2@text",
-      "bookList": "class.cover@tag.p",
+      "bookList": "class.cover@class.line",
+      "bookUrl": "tag.a.1@href",
       "name": "tag.a.1@text##免费阅读全文"
     },
     "ruleToc": {
@@ -3380,11 +3410,11 @@
     "bookSourceGroup": "",
     "bookSourceName": "玫瑰小说",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.meiguixs.net",
+    "bookSourceUrl": "https://www.meiguixs.com",
     "customOrder": 13,
     "enabled": true,
     "enabledExplore": false,
-    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "header": "",
     "lastUpdateTime": 0,
     "ruleBookInfo": {
       "author": "",
@@ -3494,29 +3524,27 @@
     "bookSourceGroup": "",
     "bookSourceName": "天籁小说",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.23txt.com",
+    "bookSourceUrl": "http://www.23txt.com",
     "bookUrlPattern": "",
     "customOrder": 16,
     "enabled": true,
     "enabledExplore": false,
-    "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "",
-      "coverUrl": "",
-      "intro": "",
-      "name": "",
-      "tocUrl": ""
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
     },
     "ruleContent": {
-      "content": "id.nr1@textNodes",
-      "nextContentUrl": "text.下一章@href"
+      "content": "id.content@textNodes"
     },
     "ruleExplore": {},
     "ruleSearch": {
       "author": "class.result-game-item-info.0@tag.p.0@tag.span.1@text",
       "bookList": "@css:.result-item:lt(20)",
+      "bookUrl": "class.result-item-title result-game-item-title.0@tag.a.0@href",
       "coverUrl": "class.result-game-item-pic.0@tag.img.0@src",
       "intro": "class.result-game-item-desc@text",
       "kind": "class.result-game-item-info.0@tag.p.1@tag.span.1@text",
@@ -3524,10 +3552,11 @@
       "name": "class.result-item-title result-game-item-title.0@tag.a.0@text"
     },
     "ruleToc": {
+      "chapterList": "id.list@tag.dd",
       "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href",
+      "chapterUrl": "tag.a@href"
     },
-    "searchUrl": "https://m.23txt.com/search.php?keyword={{key}}",
+    "searchUrl": "/search.php?keyword={{key}}",
     "weight": 0
   },
   {
@@ -3635,7 +3664,7 @@
       "chapterName": "tag.a.0@text",
       "chapterUrl": "tag.a.0@href"
     },
-    "searchUrl": "/s.php?s=1&keyword={{key}}",
+    "searchUrl": "/s.php?s=11111111111111111111&keyword={{key}}",
     "weight": 0
   },
   {
@@ -3902,7 +3931,7 @@
       "chapterName": "tag.a.0@text",
       "chapterUrl": "tag.a.0@href"
     },
-    "searchUrl": "https://www.22ff.com/s_{{key}}",
+    "searchUrl": "/s_{{key}}",
     "weight": 0
   },
   {
@@ -3949,6 +3978,39 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "/plus/search.php?q={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
+    "bookSourceName": "恋上你看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.630ksw.com",
+    "customOrder": 31,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/SearchBook.aspx?keyword={{key}},{\n  \"charset\": \"utf-8\"\n}",
     "weight": 0
   },
   {
