@@ -612,39 +612,6 @@
   },
   {
     "bookSourceGroup": "",
-    "bookSourceName": "全本小说网 xiaoshuo5",
-    "bookSourceUrl": "https://www.xiaoshuo5.org",
-    "enable": true,
-    "httpUserAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36",
-    "loginUrl": "",
-    "ruleBookAuthor": "",
-    "ruleBookContent": "id.content@textNodes",
-    "ruleBookKind": "",
-    "ruleBookLastChapter": "",
-    "ruleBookName": "",
-    "ruleBookUrlPattern": "",
-    "ruleChapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
-    "ruleChapterName": "tag.a@text",
-    "ruleChapterUrl": "",
-    "ruleChapterUrlNext": "",
-    "ruleContentUrl": "tag.a@href",
-    "ruleContentUrlNext": "",
-    "ruleCoverUrl": "id.fmimg@tag.img.0@src",
-    "ruleFindUrl": "",
-    "ruleIntroduce": "id.intro@text",
-    "ruleSearchAuthor": "class.odd.1@text|id.info@tag.p.0@text",
-    "ruleSearchCoverUrl": "",
-    "ruleSearchKind": "",
-    "ruleSearchLastChapter": "class.even.0@text|id.list@tag.a.0@text",
-    "ruleSearchList": "id.nr|id.wrapper",
-    "ruleSearchName": "class.odd.0@text|tag.h1@text",
-    "ruleSearchNoteUrl": "class.odd.0@tag.a@href",
-    "ruleSearchUrl": "https://www.xiaoshuo5.org/modules/article/search.php@searchkey=searchKey|char=gbk",
-    "serialNumber": 8,
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
     "bookSourceName": "千千小说网",
     "bookSourceUrl": "https://www.qqxsw.la",
     "enable": true,
@@ -2935,7 +2902,7 @@
     "bookSourceName": "起点",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qidian.com",
-    "customOrder": 1,
+    "customOrder": 0,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "                        【起点男频】                         ::\n月票榜::/rank/yuepiao?style=1&page={{page}} \n推荐榜::/rank/recom?style=1&page={{page}}\r\n阅读榜::/rank/readIndex?style=1&page={{page}}\n 玄    幻 ::https://www.qidian.com/all?chanId=21&siteid=1&page={{page}}\n                                            ::\n东方玄幻::https://www.qidian.com/all?chanId=21&subCateId=8&siteid=1&page={{page}}\n异世大陆::https://www.qidian.com/all?chanId=21&subCateId=73&siteid=1&page={{page}}\n王朝争霸::https://www.qidian.com/all?chanId=21&subCateId=58&siteid=1&page={{page}}\n高武世界::https://www.qidian.com/all?chanId=21&subCateId=78&siteid=1&page={{page}}\n                ::\n                ::\n 奇    幻 ::https://www.qidian.com/all?chanId=1&siteid=1&page={{page}}\n                                            ::\n剑与魔法::https://www.qidian.com/all?chanId=1&subCateId=62&siteid=1&page={{page}}\n史诗奇幻::https://www.qidian.com/all?chanId=1&subCateId=201&siteid=1&page={{page}}\n黑暗幻想::https://www.qidian.com/all?chanId=1&subCateId=202&siteid=1&page={{page}}\n现代魔法::https://www.qidian.com/all?chanId=1&subCateId=38&siteid=1&page={{page}}\n历史神话::https://www.qidian.com/all?chanId=1&subCateId=20092&siteid=1&page={{page}}\n另类幻想::https://www.qidian.com/all?chanId=1&subCateId=20093&siteid=1&page={{page}}\n 武    侠 ::https://www.qidian.com/all?chanId=2&siteid=1&page={{page}}\n                                            ::\n传统武侠::https://www.qidian.com/all?chanId=2&subCateId=5&siteid=1&page={{page}}\n武侠幻想::https://www.qidian.com/all?chanId=2&subCateId=30&siteid=1&page={{page}}\n国术无双::https://www.qidian.com/all?chanId=2&subCateId=206&siteid=1&page={{page}}\n古武未来::https://www.qidian.com/all?chanId=2&subCateId=20099&siteid=1&page={{page}}\n武侠同人::https://www.qidian.com/all?chanId=2&subCateId=20100&siteid=1&page={{page}}\n                ::\n 仙    侠 ::https://www.qidian.com/all?chanId=22&siteid=1&page={{page}}\n                                            ::\n修真文明::https://www.qidian.com/all?chanId=22&subCateId=18&siteid=1&page={{page}}\n幻想修仙::https://www.qidian.com/all?chanId=22&subCateId=44&siteid=1&page={{page}}\n现代修真::https://www.qidian.com/all?chanId=22&subCateId=64&siteid=1&page={{page}}\n神话修真::https://www.qidian.com/all?chanId=22&subCateId=207&siteid=1&page={{page}}\n古典仙侠::https://www.qidian.com/all?chanId=22&subCateId=20101&siteid=1&page={{page}}\n                ::\n 都    市 ::https://www.qidian.com/all?chanId=4&siteid=1&page={{page}}\n                                            ::\n都市生活::https://www.qidian.com/all?chanId=4&subCateId=12&siteid=1&page={{page}}\n异术超能::https://www.qidian.com/all?chanId=4&subCateId=74&siteid=1&page={{page}}\n都市异能::https://www.qidian.com/all?chanId=4&subCateId=16&siteid=1&page={{page}}\n青春校园::https://www.qidian.com/all?chanId=4&subCateId=130&siteid=1&page={{page}}\n娱乐明星::https://www.qidian.com/all?chanId=4&subCateId=151&siteid=1&page={{page}}\n商战职场::https://www.qidian.com/all?chanId=4&subCateId=153&siteid=1&page={{page}}\n 现    实 ::https://www.qidian.com/all?chanId=15&siteid=1&page={{page}}\n                                            ::\n现实百态::https://www.qidian.com/all?chanId=15&subCateId=209&siteid=1&page={{page}}\n爱情婚姻::https://www.qidian.com/all?chanId=15&subCateId=6&siteid=1&page={{page}}\n社会乡土::https://www.qidian.com/all?chanId=15&subCateId=20104&siteid=1&page={{page}}\n生活时尚::https://www.qidian.com/all?chanId=15&subCateId=20105&siteid=1&page={{page}}\n文学艺术::https://www.qidian.com/all?chanId=15&subCateId=20106&siteid=1&page={{page}}\n成功励志::https://www.qidian.com/all?chanId=15&subCateId=20107&siteid=1&page={{page}}\n青春文学::https://www.qidian.com/all?chanId=15&subCateId=20108&siteid=1&page={{page}}\n                ::\n                ::\n 军    事 ::https://www.qidian.com/all?chanId=6&siteid=1&page={{page}}\n                                            ::\n战争幻想::https://www.qidian.com/all?chanId=6&subCateId=80&siteid=1&page={{page}}\n谍战特工::https://www.qidian.com/all?chanId=6&subCateId=231&siteid=1&page={{page}}\n军旅生涯::https://www.qidian.com/all?chanId=6&subCateId=54&siteid=1&page={{page}}\n抗战烽火::https://www.qidian.com/all?chanId=6&subCateId=230&siteid=1&page={{page}}\n军事战争::https://www.qidian.com/all?chanId=6&subCateId=65&siteid=1&page={{page}}\n                ::\n 历    史 ::https://www.qidian.com/all?chanId=5&siteid=1&page={{page}}\n                                            ::\n外国历史::https://www.qidian.com/all?chanId=5&subCateId=226&siteid=1&page={{page}}\n历史传记::https://www.qidian.com/all?chanId=5&subCateId=32&siteid=1&page={{page}}\n架空历史::https://www.qidian.com/all?chanId=5&subCateId=22&siteid=1&page={{page}}\n上古先秦::https://www.qidian.com/all?chanId=5&subCateId=220&siteid=1&page={{page}}\n秦汉三国::https://www.qidian.com/all?chanId=5&subCateId=48&siteid=1&page={{page}}\n两晋隋唐::https://www.qidian.com/all?chanId=5&subCateId=222&siteid=1&page={{page}}\n五代十国::https://www.qidian.com/all?chanId=5&subCateId=223&siteid=1&page={{page}}\n两宋元明::https://www.qidian.com/all?chanId=5&subCateId=224&siteid=1&page={{page}}\n清史民国::https://www.qidian.com/all?chanId=5&subCateId=225&siteid=1&page={{page}}\n民间传说::https://www.qidian.com/all?chanId=5&subCateId=20094&siteid=1&page={{page}}\n                ::\n                ::\n 游    戏 ::https://www.qidian.com/all?chanId=7&siteid=1&page={{page}}\n                                            ::\n电子竞技::https://www.qidian.com/all?chanId=7&subCateId=7&siteid=1&page={{page}}\n虚拟网游::https://www.qidian.com/all?chanId=7&subCateId=70&siteid=1&page={{page}}\n游戏异界::https://www.qidian.com/all?chanId=7&subCateId=240&siteid=1&page={{page}}\n游戏系统::https://www.qidian.com/all?chanId=7&subCateId=20102&siteid=1&page={{page}}\n游戏主播::https://www.qidian.com/all?chanId=7&subCateId=20103&siteid=1&page={{page}}\n                ::\n 体    育 ::https://www.qidian.com/all?chanId=8&siteid=1&page={{page}}\n                                            ::\n篮球运动::https://www.qidian.com/all?chanId=8&subCateId=28&siteid=1&page={{page}}\n体育赛事::https://www.qidian.com/all?chanId=8&subCateId=55&siteid=1&page={{page}}\n足球运动::https://www.qidian.com/all?chanId=8&subCateId=82&siteid=1&page={{page}}\n 科    幻 ::https://www.qidian.com/all?chanId=9&siteid=1&page={{page}}\n                                            ::\n星际文明::https://www.qidian.com/all?chanId=9&subCateId=68&siteid=1&page={{page}}\n时空穿梭::https://www.qidian.com/all?chanId=9&subCateId=251&siteid=1&page={{page}}\n未来世界::https://www.qidian.com/all?chanId=9&subCateId=25&siteid=1&page={{page}}\n古武机甲::https://www.qidian.com/all?chanId=9&subCateId=21&siteid=1&page={{page}}\n超级科技::https://www.qidian.com/all?chanId=9&subCateId=250&siteid=1&page={{page}}\n进化变异::https://www.qidian.com/all?chanId=9&subCateId=252&siteid=1&page={{page}}\n末世危机::https://www.qidian.com/all?chanId=9&subCateId=253&siteid=1&page={{page}}\n                ::\n                ::\n   悬  疑   ::https://www.qidian.com/all?chanId=10&siteid=1&page={{page}}\n                                           ::\n诡秘惊险::https://www.qidian.com/all?chanId=10&subCateId=26&siteid=1&page={{page}}\n奇妙世界::https://www.qidian.com/all?chanId=10&subCateId=35&siteid=1&page={{page}}\n悬疑侦探::https://www.qidian.com/all?chanId=10&subCateId=57&siteid=1&page={{page}}\n寻墓探险::https://www.qidian.com/all?chanId=10&subCateId=260&siteid=1&page={{page}}\n古今传奇::https://www.qidian.com/all?chanId=10&subCateId=20095&siteid=1&page={{page}}\n                ::\n 轻 小 说 ::https://www.qidian.com/all?chanId=12&siteid=1&page={{page}}\n                                           ::\n原生幻想::https://www.qidian.com/all?chanId=12&subCateId=60&siteid=1&page={{page}}\n衍生同人::https://www.qidian.com/all?chanId=12&subCateId=281&siteid=1&page={{page}}\n搞笑吐槽::https://www.qidian.com/all?chanId=12&subCateId=282&siteid=1&page={{page}}\n青春日常::https://www.qidian.com/all?chanId=12&subCateId=66&siteid=1&page={{page}}\n                ::\n                ::\n 短    篇 ::https://www.qidian.com/all?chanId=20076&siteid=1&page={{page}}\n                                            ::\n诗歌散文::https://www.qidian.com/all?chanId=20076&subCateId=20097&siteid=1&page={{page}}\n人物传记::https://www.qidian.com/all?chanId=20076&subCateId=20098&siteid=1&page={{page}}\n影视剧本::https://www.qidian.com/all?chanId=20076&subCateId=20075&siteid=1&page={{page}}\n评论文集::https://www.qidian.com/all?chanId=20076&subCateId=20077&siteid=1&page={{page}}\n生活随笔::https://www.qidian.com/all?chanId=20076&subCateId=20078&siteid=1&page={{page}}\n美文游记::https://www.qidian.com/all?chanId=20076&subCateId=20079&siteid=1&page={{page}}\n短篇小说::https://www.qidian.com/all?chanId=20076&subCateId=20096&siteid=1&page={{page}}\n                ::\n                ::\n                        【起点女频】                         ::\n最近更新::https://www.qidian.com/mm/all?update=1&siteid=0&page={{page}}\n 周 推 荐 ::https://www.qidian.com/mm/all?orderId=9&siteid=0&page={{page}}\n  完    本  ::https://www.qidian.com/mm/all?action=1&siteid=0&page={{page}}\n古代言情::https://www.qidian.com/mm/all?chanId=80&siteid=0&page={{page}}\n女尊王朝::https://www.qidian.com/mm/all?chanId=80&subCateId=805&siteid=0&page={{page}}\n古典架空::https://www.qidian.com/mm/all?chanId=80&subCateId=804&siteid=0&page={{page}}\n古代情缘::https://www.qidian.com/mm/all?chanId=80&subCateId=801&siteid=0&page={{page}}\n穿越奇情::https://www.qidian.com/mm/all?chanId=80&subCateId=806&siteid=0&page={{page}}\n宫闱宅斗::https://www.qidian.com/mm/all?chanId=80&subCateId=802&siteid=0&page={{page}}\n经商种田::https://www.qidian.com/mm/all?chanId=80&subCateId=803&siteid=0&page={{page}}\n西方时空::https://www.qidian.com/mm/all?chanId=80&subCateId=30094&siteid=0&page={{page}}\n清穿民国::https://www.qidian.com/mm/all?chanId=80&subCateId=30095&siteid=0&page={{page}}\n上古蛮荒::https://www.qidian.com/mm/all?chanId=80&subCateId=30096&siteid=0&page={{page}}\n热血江湖::https://www.qidian.com/mm/all?chanId=80&subCateId=30097&siteid=0&page={{page}}\n现实生活::https://www.qidian.com/mm/all?chanId=30120&siteid=0&page={{page}}\n家与情感::https://www.qidian.com/mm/all?chanId=30120&subCateId=30121&siteid=0&page={{page}}\n行业人生::https://www.qidian.com/mm/all?chanId=30120&subCateId=30122&siteid=0&page={{page}}\n探索科幻::https://www.qidian.com/mm/all?chanId=30120&subCateId=30123&siteid=0&page={{page}}\n人文博览::https://www.qidian.com/mm/all?chanId=30120&subCateId=30124&siteid=0&page={{page}}\n仙侠奇缘::https://www.qidian.com/mm/all?chanId=81&siteid=0&page={{page}}\n武侠情缘::https://www.qidian.com/mm/all?chanId=81&subCateId=810&siteid=0&page={{page}}\n古典仙侠::https://www.qidian.com/mm/all?chanId=81&subCateId=811&siteid=0&page={{page}}\n现代修真::https://www.qidian.com/mm/all?chanId=81&subCateId=812&siteid=0&page={{page}}\n远古洪荒::https://www.qidian.com/mm/all?chanId=81&subCateId=813&siteid=0&page={{page}}\n仙侣奇缘::https://www.qidian.com/mm/all?chanId=81&subCateId=30093&siteid=0&page={{page}}\n现代言情::https://www.qidian.com/mm/all?chanId=82&siteid=0&page={{page}}\n都市生活::https://www.qidian.com/mm/all?chanId=82&subCateId=823&siteid=0&page={{page}}\n婚恋情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=824&siteid=0&page={{page}}\n娱乐明星::https://www.qidian.com/mm/all?chanId=82&subCateId=825&siteid=0&page={{page}}\n商战职场::https://www.qidian.com/mm/all?chanId=82&subCateId=821&siteid=0&page={{page}}\n都市异能::https://www.qidian.com/mm/all?chanId=82&subCateId=827&siteid=0&page={{page}}\n豪门世家::https://www.qidian.com/mm/all?chanId=82&subCateId=822&siteid=0&page={{page}}\n极道江湖::https://www.qidian.com/mm/all?chanId=82&subCateId=828&siteid=0&page={{page}}\n民国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=829&siteid=0&page={{page}}\n异国情缘::https://www.qidian.com/mm/all?chanId=82&subCateId=30098&siteid=0&page={{page}}\n浪漫青春::https://www.qidian.com/mm/all?chanId=83&siteid=0&page={{page}}\n青春校园::https://www.qidian.com/mm/all?chanId=83&subCateId=831&siteid=0&page={{page}}\n青春疼痛::https://www.qidian.com/mm/all?chanId=83&subCateId=832&siteid=0&page={{page}}\n叛逆成长::https://www.qidian.com/mm/all?chanId=83&subCateId=833&siteid=0&page={{page}}\n青春纯爱::https://www.qidian.com/mm/all?chanId=83&subCateId=834&siteid=0&page={{page}}\n玄幻言情::https://www.qidian.com/mm/all?chanId=84&siteid=0&page={{page}}\n东方玄幻::https://www.qidian.com/mm/all?chanId=84&subCateId=841&siteid=0&page={{page}}\n异界大陆::https://www.qidian.com/mm/all?chanId=84&subCateId=844&siteid=0&page={{page}}\n远古神话::https://www.qidian.com/mm/all?chanId=84&subCateId=847&siteid=0&page={{page}}\n异族恋情::https://www.qidian.com/mm/all?chanId=84&subCateId=848&siteid=0&page={{page}}\n魔法幻情::https://www.qidian.com/mm/all?chanId=84&subCateId=849&siteid=0&page={{page}}\n西方奇幻::https://www.qidian.com/mm/all?chanId=84&subCateId=846&siteid=0&page={{page}}\n异能超术::https://www.qidian.com/mm/all?chanId=84&subCateId=30092&siteid=0&page={{page}}\n 悬    疑 ::https://www.qidian.com/mm/all?chanId=85&siteid=0&page={{page}}\n推理侦探::https://www.qidian.com/mm/all?chanId=85&subCateId=850&siteid=0&page={{page}}\n诡秘惊险::https://www.qidian.com/mm/all?chanId=85&subCateId=851&siteid=0&page={{page}}\n悬疑探险::https://www.qidian.com/mm/all?chanId=85&subCateId=852&siteid=0&page={{page}}\n奇妙世界::https://www.qidian.com/mm/all?chanId=85&subCateId=853&siteid=0&page={{page}}\n神秘文化::https://www.qidian.com/mm/all?chanId=85&subCateId=854&siteid=0&page={{page}}\n幽情奇缘::https://www.qidian.com/mm/all?chanId=85&subCateId=30099&siteid=0&page={{page}}\n科幻空间::https://www.qidian.com/mm/all?chanId=86&siteid=0&page={{page}}\n未来世界::https://www.qidian.com/mm/all?chanId=86&subCateId=862&siteid=0&page={{page}}\n进化变异::https://www.qidian.com/mm/all?chanId=86&subCateId=863&siteid=0&page={{page}}\n星际恋歌::https://www.qidian.com/mm/all?chanId=86&subCateId=864&siteid=0&page={{page}}\n时空穿梭::https://www.qidian.com/mm/all?chanId=86&subCateId=866&siteid=0&page={{page}}\n古武机甲::https://www.qidian.com/mm/all?chanId=86&subCateId=867&siteid=0&page={{page}}\n超级科技::https://www.qidian.com/mm/all?chanId=86&subCateId=868&siteid=0&page={{page}}\n末世危机::https://www.qidian.com/mm/all?chanId=86&subCateId=869&siteid=0&page={{page}}\n游戏竞技::https://www.qidian.com/mm/all?chanId=88&siteid=0&page={{page}}\n电子竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=880&siteid=0&page={{page}}\n网游情缘::https://www.qidian.com/mm/all?chanId=88&subCateId=881&siteid=0&page={{page}}\n游戏异界::https://www.qidian.com/mm/all?chanId=88&subCateId=882&siteid=0&page={{page}}\n体育竞技::https://www.qidian.com/mm/all?chanId=88&subCateId=883&siteid=0&page={{page}}\n轻 小 说::https://www.qidian.com/mm/all?chanId=87&siteid=0&page={{page}}\n同人衍生::https://www.qidian.com/mm/all?chanId=87&subCateId=30100&siteid=0&page={{page}}\n唯美幻想::https://www.qidian.com/mm/all?chanId=87&subCateId=30101&siteid=0&page={{page}}\n萌系变身::https://www.qidian.com/mm/all?chanId=87&subCateId=30102&siteid=0&page={{page}}\n青春日常::https://www.qidian.com/mm/all?chanId=87&subCateId=30103&siteid=0&page={{page}}\n搞笑吐槽::https://www.qidian.com/mm/all?chanId=87&subCateId=30104&siteid=0&page={{page}}\n                 ::\n                       【男频榜单】                          ::\n热 销::/rank/hotsales?style=1&page={{page}}\r\n粉 丝::/rank/newFans?style=1&page={{page}}\r\n收 藏::/rank/collect?style=1&page={{page}}\r\n更 新::/rank/vipup?style=1&page={{page}}\r\n打 赏::/rank/vipreward?style=1&page={{page}}\r\n三江强推::/\r\n往期三江::/book/sanjiang?page={{page}}\r\n往期强推::/book/strongrec?page={{page}}\r\n限时免费::/free\r\n男频全部::/all?style=1&page={{page}}\r\n男频连载::/all?style=1&page={{page}}&action=0\r\n男频完本::/all?style=1&page={{page}}&action=1\r\n男频免费::/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/all?style=1&page={{page}}&orderId=2\r\n玄幻全部::/all?style=1&page={{page}}&chanId=21\r\n玄幻连载::/all?style=1&page={{page}}&chanId=21&action=0\r\n玄幻完本::/all?style=1&page={{page}}&chanId=21&action=1\r\n玄幻免费::/all?style=1&page={{page}}&chanId=21&vip=0\r\n奇幻全部::/all?style=1&page={{page}}&chanId=1\r\n奇幻连载::/all?style=1&page={{page}}&chanId=1&action=0\r\n奇幻完本::/all?style=1&page={{page}}&chanId=1&action=1\r\n奇幻免费::/all?style=1&page={{page}}&chanId=1&vip=0\r\n武侠全部::/all?style=1&page={{page}}&chanId=2\r\n武侠连载::/all?style=1&page={{page}}&chanId=2&action=0\r\n武侠完本::/all?style=1&page={{page}}&chanId=2&action=1\r\n武侠免费::/all?style=1&page={{page}}&chanId=2&vip=0\r\n仙侠全部::/all?style=1&page={{page}}&chanId=22\r\n仙侠连载::/all?style=1&page={{page}}&chanId=22&action=0\r\n仙侠完本::/all?style=1&page={{page}}&chanId=22&action=1\r\n仙侠免费::/all?style=1&page={{page}}&chanId=22&vip=0\r\n都市全部::/all?style=1&page={{page}}&chanId=4\r\n都市连载::/all?style=1&page={{page}}&chanId=4&action=0\r\n都市完本::/all?style=1&page={{page}}&chanId=4&action=1\r\n都市免费::/all?style=1&page={{page}}&chanId=4&vip=0\r\n现实全部::/all?style=1&page={{page}}&chanId=15\r\n现实连载::/all?style=1&page={{page}}&chanId=15&action=0\r\n现实完本::/all?style=1&page={{page}}&chanId=15&action=1\r\n现实免费::/all?style=1&page={{page}}&chanId=15&vip=0\r\n军事全部::/all?style=1&page={{page}}&chanId=6\r\n军事连载::/all?style=1&page={{page}}&chanId=6&action=0\r\n军事完本::/all?style=1&page={{page}}&chanId=6&action=1\r\n军事免费::/all?style=1&page={{page}}&chanId=6&vip=0\r\n历史全部::/all?style=1&page={{page}}&chanId=5\r\n历史连载::/all?style=1&page={{page}}&chanId=5&action=0\r\n历史完本::/all?style=1&page={{page}}&chanId=5&action=1\r\n历史免费::/all?style=1&page={{page}}&chanId=5&vip=0\r\n游戏全部::/all?style=1&page={{page}}&chanId=7\r\n游戏连载::/all?style=1&page={{page}}&chanId=7&action=0\r\n游戏完本::/all?style=1&page={{page}}&chanId=7&action=1\r\n游戏免费::/all?style=1&page={{page}}&chanId=7&vip=0\r\n体育全部::/all?style=1&page={{page}}&chanId=8\r\n体育连载::/all?style=1&page={{page}}&chanId=8&action=0\r\n体育完本::/all?style=1&page={{page}}&chanId=8&action=1\r\n体育免费::/all?style=1&page={{page}}&chanId=8&vip=0\r\n科幻全部::/all?style=1&page={{page}}&chanId=9\r\n科幻连载::/all?style=1&page={{page}}&chanId=9&action=0\r\n科幻完本::/all?style=1&page={{page}}&chanId=9&action=1\r\n科幻免费::/all?style=1&page={{page}}&chanId=9&vip=0\r\n悬疑全部::/all?style=1&page={{page}}&chanId=10\r\n悬疑连载::/all?style=1&page={{page}}&chanId=10&action=0\r\n悬疑完本::/all?style=1&page={{page}}&chanId=10&action=1\r\n悬疑免费::/all?style=1&page={{page}}&chanId=10&vip=0\r\n轻小说全::/all?style=1&page={{page}}&chanId=12\r\n轻小说连::/all?style=1&page={{page}}&chanId=12&action=0\r\n轻小说完::/all?style=1&page={{page}}&chanId=12&action=1\r\n轻小说免::/all?style=1&page={{page}}&chanId=12&vip=0\r\n短篇全部::/all?style=1&page={{page}}&chanId=20076\r\n短篇连载::/all?style=1&page={{page}}&chanId=20076&action=0\r\n短篇完本::/all?style=1&page={{page}}&chanId=20076&action=1\r\n短篇免费::/all?style=1&page={{page}}&chanId=20076&vip=0\n                                           ::\r\n                       【女频榜单】                          ::\n月 票::/mm/rank/yuepiao?style=1&page={{page}}\r\n新 书::/mm/rank/newsales?style=1&page={{page}}\r\n阅 读::/mm/rank/readIndex?style=1&page={{page}}\r\n热 销::/mm/rank/hotsales?style=1&page={{page}}\r\n粉 丝::/mm/rank/newFans?style=1&page={{page}}\r\n单 订::/mm/rank/subscr?style=1&page={{page}}\r\n推 荐::/mm/rank/recom?style=1&page={{page}}\r\n收 藏::/mm/rank/collect?style=1&page={{page}}\r\n更 新::/mm/rank/vipup?style=1&page={{page}}\r\n字 数::/mm/rank/wordcount?style=1&page={{page}}\n         ::\n         ::\r\n限时免费::/mm/free\r\n女频全部::/mm/all?style=1&page={{page}}\r\n女频连载::/mm/all?style=1&page={{page}}&action=0\r\n女频完本::/mm/all?style=1&page={{page}}&action=1\r\n女频免费::/mm/all?style=1&page={{page}}&vip=0\r\n总收藏榜::/mm/all?style=1&page={{page}}&orderId=11\r\n月推荐榜::/mm/all?style=1&page={{page}}&orderId=10\r\n总推荐榜::/mm/all?style=1&page={{page}}&orderId=2\r\n古代全部::/mm/all?style=1&page={{page}}&chanId=80\r\n古代连载::/mm/all?style=1&page={{page}}&chanId=80&action=0\r\n古代完本::/mm/all?style=1&page={{page}}&chanId=80&action=1\r\n古代免费::/mm/all?style=1&page={{page}}&chanId=80&vip=0\r\n仙侠全部::/mm/all?style=1&page={{page}}&chanId=81\r\n仙侠连载::/mm/all?style=1&page={{page}}&chanId=81&action=0\r\n仙侠完本::/mm/all?style=1&page={{page}}&chanId=81&action=1\r\n仙侠免费::/mm/all?style=1&page={{page}}&chanId=81&vip=0\r\n现代全部::/mm/all?style=1&page={{page}}&chanId=82\r\n现代连载::/mm/all?style=1&page={{page}}&chanId=82&action=0\r\n现代完本::/mm/all?style=1&page={{page}}&chanId=82&action=1\r\n现代免费::/mm/all?style=1&page={{page}}&chanId=82&vip=0\r\n青春全部::/mm/all?style=1&page={{page}}&chanId=83\r\n青春连载::/mm/all?style=1&page={{page}}&chanId=83&action=0\r\n青春完本::/mm/all?style=1&page={{page}}&chanId=83&action=1\r\n青春免费::/mm/all?style=1&page={{page}}&chanId=83&vip=0\r\n玄幻全部::/mm/all?style=1&page={{page}}&chanId=84\r\n玄幻连载::/mm/all?style=1&page={{page}}&chanId=84&action=0\r\n玄幻完本::/mm/all?style=1&page={{page}}&chanId=84&action=1\r\n玄幻免费::/mm/all?style=1&page={{page}}&chanId=84&vip=0\r\n悬疑全部::/mm/all?style=1&page={{page}}&chanId=85\r\n悬疑连载::/mm/all?style=1&page={{page}}&chanId=85&action=0\r\n悬疑完本::/mm/all?style=1&page={{page}}&chanId=85&action=1\r\n悬疑免费::/mm/all?style=1&page={{page}}&chanId=85&vip=0\r\n短篇全部::/mm/all?style=1&page={{page}}&chanId=30083\r\n短篇连载::/mm/all?style=1&page={{page}}&chanId=30083&action=0\r\n短篇完本::/mm/all?style=1&page={{page}}&chanId=30083&action=1\r\n短篇免费::/mm/all?style=1&page={{page}}&chanId=30083&vip=0\r\n科幻全部::/mm/all?style=1&page={{page}}&chanId=86\r\n科幻连载::/mm/all?style=1&page={{page}}&chanId=86&action=0\r\n科幻完本::/mm/all?style=1&page={{page}}&chanId=86&action=1\r\n科幻免费::/mm/all?style=1&page={{page}}&chanId=86&vip=0\r\n游戏全部::/mm/all?style=1&page={{page}}&chanId=88\r\n游戏连载::/mm/all?style=1&page={{page}}&chanId=88&action=0\r\n游戏完本::/mm/all?style=1&page={{page}}&chanId=88&action=1\r\n游戏免费::/mm/all?style=1&page={{page}}&chanId=88&vip=0\r\n轻小说全::/mm/all?style=1&page={{page}}&chanId=87\r\n轻小说连::/mm/all?style=1&page={{page}}&chanId=87&action=0\r\n轻小说完::/mm/all?style=1&page={{page}}&chanId=87&action=1\r\n轻小说免::/mm/all?style=1&page={{page}}&chanId=87&vip=0\r\n现实生活::/mm/all?style=1&page={{page}}&chanId=30120\r\n出版全部::/all_pub?style=1&page={{page}}\r\n出版连载::/all_pub?style=1&page={{page}}&action=0\r\n出版完本::/all_pub?style=1&page={{page}}&action=1\r\n出版免费::/all_pub?style=1&page={{page}}&vip=0\r\n小说出版::/all_pub?style=1&page={{page}}&chanId=13100\r\n青春文学::/all_pub?style=1&page={{page}}&chanId=14300\r\n两性关系::/all_pub?style=1&page={{page}}&chanId=13700\r\n文学出版::/all_pub?style=1&page={{page}}&chanId=14100\r\n历史出版::/all_pub?style=1&page={{page}}&chanId=14400\r\n传记出版::/all_pub?style=1&page={{page}}&chanId=14500",
@@ -2953,7 +2920,7 @@
     },
     "ruleContent": {
       "content": "class.read-content@html",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -2983,10 +2950,10 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://ku.mumuceo.com",
     "bookUrlPattern": "",
-    "customOrder": 2,
+    "customOrder": 1,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "❀                          【 起点数据网 】                          ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1194\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1195\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1196\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1197\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1198\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1199\n现实::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1200\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1201\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1202\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1203\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1204\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1205\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1206\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1207\n ❀                          【 起点男生榜 】                          ❀::http://ku.mumuceo.com\n【 原创月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1224\n【 新人新书榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1192\n【 24小时热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1162\n❀                          【 起点女生榜 】                          ❀::http://ku.mumuceo.com\n【 原创月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1227\n【 24小时热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1163\n【 24小时首订榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1193\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【  橙瓜评分榜 】                         ❀::http://ku.mumuceo.com\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1171\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1172\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1173\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1174\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1175\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1176\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1177\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1178\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1179\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1180\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1181\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1182\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1183\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1184\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1185\n见证·网络文学20年百强作品评选中::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1170\n❀                          【 橙瓜连载榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1208\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1209\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1210\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1211\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1212\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1213\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1214\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1215\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1216\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1217\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1218\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1219\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1220\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1221\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1222\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1223\n第四届网络文学奖::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10026\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【 创世中文网 】                          ❀::http://ku.mumuceo.com\n【 创世销售榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1228\n【 全平台销售榜】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1160\n----------------------------------------------::http://ku.mumuceo.com\n❀                            【 云起书院 】                            ❀::http://ku.mumuceo.com\n                               【 云起销售榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10023\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10024\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10025\n                             【 全平台销售榜 】                            ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10001\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10002\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10003\n----------------------------------------------::http://ku.mumuceo.com\n❀                           【 纵横中文网 】                          ❀::http://ku.mumuceo.com\n【 月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1263\n【 新书订阅榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1262\n【 24小时畅销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1159\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【 17K小说网 】                          ❀::http://ku.mumuceo.com\n                              【 全站订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10004\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10005\n                              【 男生订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10006\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10007\n                              【 女生订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10008\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10009\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【 晋江文学城 】                          ❀::http://ku.mumuceo.com\n【 言情小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1154\n 【 纯爱/无cp-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1155\n 【 衍生/轻小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1156\n 【 原创小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1157\n 【 言情小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1264\n 【 言情小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1265\n 【 纯爱/无cp-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1266\n 【 纯爱/无cp-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1267\n 【 原创小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1270\n 【 原创小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1271\n 【 衍生/轻小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1268\n 【 衍生/轻小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1269\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【掌阅iReader】                          ❀::http://ku.mumuceo.com\n【 男生热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1300\n 【 女生热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1301\n 【 男生包月榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1302\n 【 女生包月榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1303\n----------------------------------------------::http://ku.mumuceo.com\n❀                            【 书旗小说 】                            ❀::http://ku.mumuceo.com\n                                                    【 男生包月人气榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1272\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1273\n                                                    【 女生包月人气榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1274\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1275\n                                                    【 男生原创订阅榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1276\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1277\n                                                    【 女生原创订阅榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1278\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1279\n                                                    【 男频综合人气榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10012\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10013\n                                                    【 女频综合人气榜 】                                                  ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10014\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10015\n----------------------------------------------::http://ku.mumuceo.com\n❀                          【 逐浪小说网 】                          ❀::http://ku.mumuceo.com\n【 鲜花榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1310\n【 PC热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1189\n----------------------------------------------::http://ku.mumuceo.com\n ❀                             【 红袖添香 】                           ❀::http://ku.mumuceo.com\n日榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1230\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1231\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1232\n月票榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1233",
+    "exploreUrl": "<<===== 【 起点排行榜 】 =====>>::http://www.chenggua.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1194\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1195\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1196\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1197\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1198\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1199\n现实::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1200\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1201\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1202\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1203\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1204\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1205\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1206\n轻小说::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1207\n新人新书::http://106.75.166.106:9997/data/rank/new?page={{page}} &page_size=100&ver=v1&menu_id=1192\n<<===== 【 起点男生网 】 =====>>::http://www.chenggua.com\n新书月票榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1224\n24小时热销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1162\n<<===== 【 起点女生网 】 =====>>::http://www.chenggua.com\n月票榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1227\n24小时热销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1163\n24小时首订榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1193\n<<===== 【 创世中文网 】 =====>>::http://www.chenggua.com\n创世销售榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1228\n全平台销售榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1160\n<<===== 【 橙瓜评分榜 】 =====>>::http://www.chenggua.com\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1171\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1172\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1173\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1174\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1175\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1176\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1177\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1178\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1179\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1180\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1181\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1182\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1183\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1184\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1185\n网学20年百强作品::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1170\n<<===== 【 橙瓜连载榜 】 =====>>::http://www.chenggua.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1208\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1209\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1210\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1211\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1212\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1213\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1214\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1215\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1216\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1217\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1218\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1219\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1220\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1221\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1222\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1223\n<<===== 【 纵横中文网 】 =====>>::http://www.chenggua.com\n月票榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1263\n新书订阅榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1262\n24小时畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1159\n<<===== 【 17K小说网-全站订阅榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10004\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10005\n<<===== 【 17K小说网-男生订阅榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10006\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10007\n<<===== 【 17K小说网-女生订阅榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10008\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10009\n<<===== 【 晋江文学城】 =====>>::http://www.chenggua.com\n言情-VIP金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1154\n言情-完结金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1264\n言情-千字金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1265\n原创-完结金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1270\n原创-千字金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1271\n纯爱/无cp-完结金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1266\n纯爱/无cp-VIP金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1155\n纯爱/无cp-千字金榜 ::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1267\n衍生/轻小说-VIP金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1156\n衍生/轻小说-完结金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1268\n衍生/轻小说-千字金榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1269\n<<===== 【 掌阅iReader 】 =====>>::http://www.chenggua.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}\n男生热销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1300\n女生热销榜::http://www.chenggua.com\n&page_size=100&ver=v1&menu_id=1301\n男生包月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1302\n女生包月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1303\n<<===== 【 书旗小说-男生包月人气榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1272\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1273\n<<===== 【 书旗小说-女生包月人气榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1274\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1275\n<<===== 【 书旗小说-男生原创订阅榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1276\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1277\n<<===== 【 书旗小说-女生原创订阅榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1278\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1279\n<<===== 【 书旗小说-男频综合人气榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10012\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10013\n<<===== 【 书旗小说-女频综合人气榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10014\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10015\n<<===== 【 咪咕阅读 】 =====>>::http://www.chenggua.com\n男生人气畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1166\n女生人气畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1167\n<<===== 【 红袖添香-热销榜 】 =====>>::http://www.chenggua.com\n日榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1230\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1231\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1232\n<<===== 【 红袖添香-红袖月票榜 】 =====>>::http://www.chenggua.com\n全部::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1233\n<<===== 【 潇湘书院-作品粉丝人数榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1234\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1235\n年榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1236\n<<===== 【 潇湘书院-月票排行榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1237\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1238\n年榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1239\n<<===== 【 QQ阅读-男生畅销榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1248\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1249\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1250\n<<===== 【 QQ阅读-女生畅销榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1251\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1252\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1253\n<<===== 【 QQ阅读-男生月票榜 】 =====>>::http://www.chenggua.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1254\n<<===== 【 QQ阅读-女生月票榜 】 =====>>::http://www.chenggua.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1255\n<<===== 【 QQ阅读-男生包月榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1256\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1257\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1258\n<<===== 【 QQ阅读-女生包月榜 】 =====>>::http://www.chenggua.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1259\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1260\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1261",
     "header": "",
     "lastUpdateTime": 0,
     "loginUrl": "",
@@ -3002,8 +2969,8 @@
       "wordCount": ""
     },
     "ruleContent": {
-      "content": "@js:'此书源仅提供榜单数据，您可以点击[换源]按钮切换书源即可阅读。'",
-      "imageStyle": "0",
+      "content": "@js:'此书源仅提供发现，您可以点击[换源]按钮切换书源即可阅读。'",
+      "imageStyle": 0,
       "nextContentUrl": "",
       "sourceRegex": "",
       "webJs": ""
@@ -3047,7 +3014,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://app.youzibank.com",
     "bookUrlPattern": "",
-    "customOrder": 3,
+    "customOrder": 2,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻*热门::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n玄幻*日更::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n奇幻*热门::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n奇幻*日更::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n武侠*热门::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n武侠*日更::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n仙侠*热门::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n仙侠*日更::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n都市*热门::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n都市*日更::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n校园*热门::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n校园*日更::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n历史*热门::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n历史*日更::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n军事*热门::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n军事*日更::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n游戏*热门::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n游戏*日更::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n竞技*热门::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n竞技*日更::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n科幻*热门::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n科幻*日更::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n耽美*热门::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n耽美*日更::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n其他*热门::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n其他*日更::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n推理悬疑*热门::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n推理悬疑*日更::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n恐怖惊悚*热门::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n恐怖惊悚*日更::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n有兔怪谈*热门::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n有兔怪谈*日更::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n现代言情*热门::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n现代言情*日更::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n古代言情*热门::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n古代言情*日更::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n幻想言情*热门::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n幻想言情*日更::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n青春校园*热门::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n青春校园*日更::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n同人作品*热门::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n同人作品*日更::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n次元专区*热门::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n次元专区*日更::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n人气榜单::/popular/detail?pageNo={{page}}&type=1\n收藏榜单::/popular/detail?pageNo={{page}}&type=5\n男频榜单::/popular/detail?pageNo={{page}}&type=3\n女频榜单::/popular/detail?pageNo={{page}}&type=2\n完本榜单::/popular/detail?pageNo={{page}}&type=4\n特别推荐::/book/list?pageNo={{page}}&selectionModuleId=1\n火爆好书::/book/list?pageNo={{page}}&selectionModuleId=4\n日更作品::/book/list?orderBy=last_serialize_date&fullFlag=1&pageNo={{page}}\n边谈恋爱边破案*超赞::/book/list?pageNo={{page}}&selectionModuleId=36\n人气佳作*中毒不可自拔::/book/list?pageNo={{page}}&selectionModuleId=19",
@@ -3066,8 +3033,8 @@
       "wordCount": ""
     },
     "ruleContent": {
-      "content": "@js:result.replace(/\\W紧急通告.*?com\\W.*永不丢失./,\"\")",
-      "imageStyle": "0",
+      "content": "//*@js:result.replace(/ /g,\"\\n\").replace(/<html>/,\"\").replace(/<head>/,\"\").replace(/<\\/head>/,\"\")",
+      "imageStyle": 0,
       "nextContentUrl": "",
       "sourceRegex": "",
       "webJs": ""
@@ -3111,7 +3078,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.9txs.com",
     "bookUrlPattern": "",
-    "customOrder": 4,
+    "customOrder": 3,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总点击榜::https://www.9txs.com/top/allvisit/{{page}}.html\n月点击榜::https://www.9txs.com/top/monthvisit/{{page}}.html\n周点击榜::https://www.9txs.com/top/weekvisit/{{page}}.html\n总推荐榜::https://www.9txs.com/top/allvote/{{page}}.html\n月推荐榜::https://www.9txs.com/top/monthvote/{{page}}.html\n周推荐榜::https://www.9txs.com/top/weekvote/{{page}}.html\n总收藏榜::https://www.9txs.com/top/goodnum/{{page}}.html\n总字数榜::https://www.9txs.com/top/size/{{page}}.html\n强推榜::https://www.9txs.com/top/toptime/{{page}}.html\n新书榜::https://www.9txs.com/top/goodnew/{{page}}.html\n最新入库::https://www.9txs.com/top/postdate/{{page}}.html\n最近更新::https://www.9txs.com/top/lastupdate/{{page}}.html\n玄幻奇幻 • 全部::https://www.9txs.com/library/0_1_0_{{page}}.html\n玄幻奇幻 • 连载::https://www.9txs.com/library/0_1_1_{{page}}.html\n玄幻奇幻 • 完结::https://www.9txs.com/library/0_1_2_{{page}}.html\n武侠修真 • 全部::https://www.9txs.com/library/0_2_0_{{page}}.html\n武侠修真 • 连载::https://www.9txs.com/library/0_2_1_{{page}}.html\n武侠修真 • 完结::https://www.9txs.com/library/0_2_2_{{page}}.html\n都市生活 • 全部::https://www.9txs.com/library/0_3_0_{{page}}.html\n都市生活 • 连载::https://www.9txs.com/library/0_3_1_{{page}}.html\n都市生活 • 完结::https://www.9txs.com/library/0_3_2_{{page}}.html\n历史军事 • 全部::https://www.9txs.com/library/0_4_0_{{page}}.html\n历史军事 • 连载::https://www.9txs.com/library/0_4_1_{{page}}.html\n历史军事 • 完结::https://www.9txs.com/library/0_4_2_{{page}}.html\n游戏竞技 • 全部::https://www.9txs.com/library/0_5_0_{{page}}.html\n游戏竞技 • 连载::https://www.9txs.com/library/0_5_1_{{page}}.html\n游戏竞技 • 完结::https://www.9txs.com/library/0_5_2_{{page}}.html\n科幻未来 • 全部::https://www.9txs.com/library/0_6_0_{{page}}.html\n科幻未来 • 连载::https://www.9txs.com/library/0_6_1_{{page}}.html\n科幻未来 • 完结::https://www.9txs.com/library/0_6_2_{{page}}.html\n悬疑灵异 • 全部::https://www.9txs.com/library/0_7_0_{{page}}.html\n悬疑灵异 • 连载::https://www.9txs.com/library/0_7_1_{{page}}.html\n悬疑灵异 • 完结::https://www.9txs.com/library/0_7_2_{{page}}.html\n二 次 元 • 全部::https://www.9txs.com/library/0_8_0_{{page}}.html\n二 次 元 • 连载::https://www.9txs.com/library/0_8_1_{{page}}.html\n二 次 元 • 完结::https://www.9txs.com/library/0_8_2_{{page}}.html\n经典短篇 • 全部::https://www.9txs.com/library/0_9_0_{{page}}.html\n经典短篇 • 连载::https://www.9txs.com/library/0_9_1_{{page}}.html\n经典短篇 • 完结::https://www.9txs.com/library/0_9_2_{{page}}.html\n古代言情 • 全部::https://www.9txs.com/library/0_10_0_{{page}}.html\n古代言情 • 连载::https://www.9txs.com/library/0_10_1_{{page}}.html\n古代言情 • 完结::https://www.9txs.com/library/0_10_2_{{page}}.html\n现代言情 • 全部::https://www.9txs.com/library/0_11_0_{{page}}.html\n现代言情 • 连载::https://www.9txs.com/library/0_11_1_{{page}}.html\n现代言情 • 完结::https://www.9txs.com/library/0_11_2_{{page}}.html\n幻想奇缘 • 全部::https://www.9txs.com/library/0_12_0_{{page}}.html\n幻想奇缘 • 连载::https://www.9txs.com/library/0_12_1_{{page}}.html\n幻想奇缘 • 完结::https://www.9txs.com/library/0_12_2_{{page}}.html\n浪漫青春 • 全部::https://www.9txs.com/library/0_13_0_{{page}}.html\n浪漫青春 • 连载::https://www.9txs.com/library/0_13_1_{{page}}.html\n浪漫青春 • 完结::https://www.9txs.com/library/0_13_2_{{page}}.html\n网络情缘 • 全部::https://www.9txs.com/library/0_14_0_{{page}}.html\n网络情缘 • 连载::https://www.9txs.com/library/0_14_1_{{page}}.html\n网络情缘 • 完结::https://www.9txs.com/library/0_14_2_{{page}}.html\n科幻空间 • 全部::https://www.9txs.com/library/0_15_0_{{page}}.html\n科幻空间 • 连载::https://www.9txs.com/library/0_15_1_{{page}}.html\n科幻空间 • 完结::https://www.9txs.com/library/0_15_2_{{page}}.html\n恐怖灵异 • 全部::https://www.9txs.com/library/0_16_0_{{page}}.html\n恐怖灵异 • 连载::https://www.9txs.com/library/0_16_1_{{page}}.html\n恐怖灵异 • 完结::https://www.9txs.com/library/0_16_2_{{page}}.html\nN 次 元 • 全部::https://www.9txs.com/library/0_17_0_{{page}}.html\nN 次 元 • 连载::https://www.9txs.com/library/0_17_1_{{page}}.html\nN 次 元 • 完结::https://www.9txs.com/library/0_17_2_{{page}}.html\n言情美文 • 全部::https://www.9txs.com/library/0_18_0_{{page}}.html\n言情美文 • 连载::https://www.9txs.com/library/0_18_1_{{page}}.html\n言情美文 • 完结::https://www.9txs.com/library/0_18_2_{{page}}.html\n其他类型 • 全部::https://www.9txs.com/library/0_19_0_{{page}}.html\n其他类型 • 连载::https://www.9txs.com/library/0_19_1_{{page}}.html\n其他类型 • 完结::https://www.9txs.com/library/0_19_2_{{page}}.html",
@@ -3127,8 +3094,8 @@
       "tocUrl": "##more\"[^\"]*\"([^\"]+)\">查看##$1##"
     },
     "ruleContent": {
-      "content": "@css:#content@html##您可以在百度里搜索.*查找最新章节！",
-      "imageStyle": "Full",
+      "content": "@css:#content@html",
+      "imageStyle": 0,
       "nextContentUrl": ""
     },
     "ruleExplore": {
@@ -3146,7 +3113,7 @@
       "bookList": "@css:.library>li:lt(10)",
       "bookUrl": "class.bookname@href",
       "coverUrl": "tag.img@src",
-      "intro": "class.intro@text",
+      "intro": "class.intro@html",
       "kind": "@css:p:not([class]),span@text<js>\nString(result).replace(/作者.*?\\|/g,'').replace('|',',')</js>",
       "lastChapter": "class.chapter@text##.*?章\\s(\\d+\\..*)##$1<js>\nString(result).replace(/最新章节：/,'')</js>",
       "name": "class.bookname@text##免费阅读.*|最新章节"
@@ -3166,7 +3133,7 @@
     "bookSourceName": "E小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zwda.com",
-    "customOrder": 5,
+    "customOrder": 4,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3177,7 +3144,7 @@
     },
     "ruleContent": {
       "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3188,7 +3155,7 @@
       "intro": "class.result-game-item-desc@tag.p@text",
       "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&tag.p.3@text",
       "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text##章\\s+\\d+\\.##章",
-      "name": "class.result-item-title.0@tag.a.0@text##免费阅读全文"
+      "name": "class.result-item-title.0@tag.a.0@text"
     },
     "ruleToc": {
       "chapterList": "id.list@tag.dd",
@@ -3203,7 +3170,7 @@
     "bookSourceName": "全小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://qxs.la",
-    "customOrder": 6,
+    "customOrder": 5,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3215,7 +3182,7 @@
     },
     "ruleContent": {
       "content": "id.content@textNodes##全新的短域名\\s+qxs.la\\s+.*?亲爱的读者.*?全小说无弹窗.|手机端https://|www.*?com|\\s.*正文卷第\\d+章",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3239,52 +3206,7 @@
     "bookSourceName": "斋书苑",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.zhaishuyuan.com",
-    "customOrder": 7,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "❀                         男生书库                        ❀::/shuku/0_1_0_0_0_{{page}}_0_1\n男频连载::/shuku/0_2_0_0_0_{{page}}_0_1\n男频完结::/shuku/0_3_0_0_0_{{page}}_0_1\n添加时间::/shuku/11_1_0_0_8_{{page}}_0_1\n三日更新::/shuku/0_1_4_0_8_{{page}}_0_1\n总点击榜::/shuku/0_1_0_0_2_{{page}}_0_1\n月点击榜::/shuku/0_1_0_0_5_{{page}}_0_1\n周点击榜::/shuku/0_1_0_0_4_{{page}}_0_1\n总推荐榜::/shuku/0_1_0_0_1_{{page}}_0_1\n月推荐榜::/shuku/0_1_0_0_7_{{page}}_0_1\n周推荐榜::/shuku/0_1_0_0_6_{{page}}_0_1\n总收藏榜::/shuku/0_1_0_0_3_{{page}}_0_1\n总字数榜::/shuku/0_1_0_0_9_{{page}}_0_1\n❀                         二次元                        ❀::/shuku/20_1_0_0_0_{{page}}_0_1\n动漫同人::/shuku/20_1_0_1_0_{{page}}_0_1\n小说同人::/shuku/20_1_0_2_0_{{page}}_0_1\n影视同人::/shuku/20_1_0_3_0_{{page}}_0_1\n原生幻想::/shuku/20_1_0_4_0_{{page}}_0_1\n搞笑吐槽::/shuku/20_1_0_5_0_{{page}}_0_1\n❀                         玄幻奇幻                        ❀::/shuku/1_1_0_0_0_{{page}}_0_1\n东方玄幻::/shuku/1_1_0_1_0_{{page}}_0_1\n异世大陆::/shuku/1_1_0_2_0_{{page}}_0_1\n史诗奇幻::/shuku/1_1_0_3_0_{{page}}_0_1\n高武世界::/shuku/1_1_0_4_0_{{page}}_0_1\n剑与魔法::/shuku/1_1_0_5_0_{{page}}_0_1\n❀                         武侠仙侠                        ❀::/shuku/2_1_0_0_0_{{page}}_0_1\n古典仙侠::/shuku/2_1_0_1_0_{{page}}_0_1\n修真文明::/shuku/2_1_0_2_0_{{page}}_0_1\n现代修真::/shuku/2_1_0_3_0_{{page}}_0_1\n神话修真::/shuku/2_1_0_4_0_{{page}}_0_1\n武侠幻想::/shuku/2_1_0_5_0_{{page}}_0_1\n幻想修仙::/shuku/2_1_0_6_0_{{page}}_0_1\n❀                         都市青春                        ❀::/shuku/3_1_0_0_0_{{page}}_0_1\n都市生活::/shuku/3_1_0_1_0_{{page}}_0_1\n官场沉浮::/shuku/3_1_0_2_0_{{page}}_0_1\n娱乐明星::/shuku/3_1_0_3_0_{{page}}_0_1\n异术超能::/shuku/3_1_0_4_0_{{page}}_0_1\n❀                         历史军事                        ❀::/shuku/4_1_0_0_0_{{page}}_0_1\n架空历史::/shuku/4_1_0_1_0_{{page}}_0_1\n秦汉三国::/shuku/4_1_0_2_0_{{page}}_0_1\n两晋隋唐::/shuku/4_1_0_3_0_{{page}}_0_1\n两宋元明::/shuku/4_1_0_4_0_{{page}}_0_1\n清史民国::/shuku/4_1_0_5_0_{{page}}_0_1\n外国历史::/shuku/4_1_0_6_0_{{page}}_0_1\n军事战争::/shuku/4_1_0_7_0_{{page}}_0_1\n抗战烽火::/shuku/4_1_0_8_0_{{page}}_0_1\n❀                         科幻灵异                        ❀::/shuku/5_1_0_0_0_{{page}}_0_1\n星际文明::/shuku/5_1_0_1_0_{{page}}_0_1\n超级科技::/shuku/5_1_0_2_0_{{page}}_0_1\n时空穿梭::/shuku/5_1_0_3_0_{{page}}_0_1\n进化变异::/shuku/5_1_0_4_0_{{page}}_0_1\n末世危机::/shuku/5_1_0_5_0_{{page}}_0_1\n灵异鬼怪::/shuku/5_1_0_6_0_{{page}}_0_1\n侦探推理::/shuku/5_1_0_7_0_{{page}}_0_1\n寻墓探险::/shuku/5_1_0_8_0_{{page}}_0_1\n❀                         游戏竞技                        ❀::/shuku/6_1_0_0_0_{{page}}_0_1\n虚拟网游::/shuku/6_1_0_1_0_{{page}}_0_1\n游戏异界::/shuku/6_1_0_2_0_{{page}}_0_1\n体育竞技::/shuku/6_1_0_3_0_{{page}}_0_1\n游戏生涯::/shuku/6_1_0_4_0_{{page}}_0_1\n电子竞技::/shuku/6_1_0_5_0_{{page}}_0_1\n❀                         女生书库                        ❀::/shuku/9_1_0_0_0_{{page}}_0_1\n女频连载::/shuku/9_2_0_0_0_{{page}}_0_1\n女频完结::/shuku/9_3_0_0_0_{{page}}_0_1\n添加时间::/shuku/9_1_0_0_8_{{page}}_0_1\n总点击榜::/shuku/9_1_0_0_2_{{page}}_0_1\n月点击榜::/shuku/9_1_0_0_5_{{page}}_0_1\n周点击榜::/shuku/9_1_0_0_4_{{page}}_0_1\n总推荐榜::/shuku/9_1_0_0_1_{{page}}_0_1\n月推荐榜::/shuku/9_1_0_0_7_{{page}}_0_1\n周推荐榜::/shuku/9_1_0_0_6_{{page}}_0_1\n总收藏榜::/shuku/9_1_0_0_3_{{page}}_0_1\n总字数榜::/shuku/9_1_0_0_9_{{page}}_0_1\n豪门总裁::/shuku/9_1_0_1_0_{{page}}_0_1\n都市青春::/shuku/9_1_0_2_0_{{page}}_0_1\n星际科幻::/shuku/9_1_0_3_0_{{page}}_0_1\n灵异推理::/shuku/9_1_0_4_0_{{page}}_0_1\n婚恋情缘::/shuku/9_1_0_5_0_{{page}}_0_1\n穿越架空::/shuku/9_1_0_6_0_{{page}}_0_1\n玄幻仙侠::/shuku/9_1_0_7_0_{{page}}_0_1\n宫闱宅斗::/shuku/9_1_0_8_0_{{page}}_0_1",
-    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Android)\"\n}",
-    "lastUpdateTime": 0,
-    "ruleBookInfo": {
-      "author": "class.info@tag.span.0@text",
-      "intro": "class.book-intro@text",
-      "kind": "class.info@tag.span.1@text",
-      "lastChapter": "class.newlist@tag.a.0@text## - \\d+-\\d+$",
-      "name": " id.book@text",
-      "tocUrl": "@js:baseUrl.replace('book', 'read')"
-    },
-    "ruleContent": {
-      "content": "all@js:result.replace(/.*a>/g,\"\").replace(/书签/g,\"\").replace(/.*script>/g,\"\").replace(/\\s+第.*?章.*/,\"\")",
-      "imageStyle": "0",
-      "webJs": "getDecode();$('.chapter-box').html();"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": ".author@text",
-      "bookList": ".bookbox",
-      "bookUrl": "a@href",
-      "coverUrl": "img@data-src",
-      "intro": ".intro_line@text##简介.",
-      "lastChapter": ".update@text##最新.",
-      "name": "h4@text"
-    },
-    "ruleToc": {
-      "chapterList": ":li><a href=\"([^\"]+)\">(.*?)\\s-\\s(.*?)<",
-      "chapterName": "$2",
-      "chapterUrl": "$1,{\"webView\":true}",
-      "isVip": "",
-      "nextTocUrl": "option@value",
-      "updateTime": "$3"
-    },
-    "searchUrl": "/search/,{\n  \"charset\": \"gbk\",\n  \"body\": \"key={{key}}&y={{page}}\",\n  \"method\": \"POST\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceGroup": "",
-    "bookSourceName": "次元猫",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.ciymao.com",
-    "customOrder": 8,
+    "customOrder": 6,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3296,19 +3218,19 @@
       "kind": "class.info@tag.span.1@text",
       "lastChapter": "class.newlist@tag.a.0@text## - \\d+-\\d+$",
       "name": " id.book@text",
-      "tocUrl": "text.阅读@href"
+      "tocUrl": "@js:baseUrl.replace('book', 'read')"
     },
     "ruleContent": {
-      "content": "all@js:result.replace(/.*a>/g,\"\").replace(/书签/g,\"\").replace(/.*script>/g,\"\").replace(/\\s+第.*?章.*/,\"\")",
-      "imageStyle": "0",
+      "content": "all@js:result.replace(/<html>/,\"\").replace(/<head>/,\"\").replace(/<\\/head>/,\"\").replace(/<\\/html>/,\"\").replace(/.*a>/g,\"\").replace(/书签/g,\"\").replace(/.*script>/g,\"\").replace(/\\s+第.*?章.*/,\"\")",
+      "imageStyle": 0,
       "webJs": "getDecode();$('.chapter-box').html();"
     },
     "ruleExplore": {},
     "ruleSearch": {
       "author": ".author@text",
-      "bookList": ".bookbox",
+      "bookList": "div.bookbox",
       "bookUrl": "a@href",
-      "coverUrl": "",
+      "coverUrl": "img@data-src",
       "intro": ".intro_line@text##简介.",
       "lastChapter": ".update@text##最新.",
       "name": "h4@text"
@@ -3318,7 +3240,7 @@
       "chapterName": "$2",
       "chapterUrl": "$1,{\"webView\":true}",
       "isVip": "",
-      "nextTocUrl": "option@value",
+      "nextTocUrl": "@js:\nvar x=[];\nif(result.match(/class=\"hd-sel\">(暂无分页)/)){\n}else{page=result.match(/(\\d+)\\/0\">[^<]*<\\/option><\\/select>/)[1];\nfor(var i=1;i<=page;i++)\n{x.push(baseUrl+\"/\"+i+\"/0\");}\n}\nx;",
       "updateTime": "$3"
     },
     "searchUrl": "/search/,{\n  \"charset\": \"gbk\",\n  \"body\": \"key={{key}}&y={{page}}\",\n  \"method\": \"POST\"\n}",
@@ -3328,14 +3250,14 @@
     "bookSourceName": "搜书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.soshuw.com",
-    "customOrder": 9,
+    "customOrder": 7,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "class.content@html##喜欢.*?soshuw.com.*?搜书网.*?最快。|。.*?\\swww\\..*?.*|，.*?\\swww\\..*?.*",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3346,13 +3268,13 @@
       "intro": "class.intro@text",
       "kind": "class.data@tag.span.0@text",
       "lastChapter": "tag.p.3@tag.a@text",
-      "name": "class.bookname@text##免费阅读全文"
+      "name": "class.bookname@text"
     },
     "ruleToc": {
       "chapterList": "class.read@li@a",
       "chapterName": "text",
       "chapterUrl": "href",
-      "nextTocUrl": "@js:\nvar x=[];\npage=result.match(/(\\d+).html\"\\s>[^<]+<\\/option><\\/select>/)[1];\nurl=baseUrl.replace(/\\/$/,\"/read_\")\nfor(var i=2;i<=page;i++)\n{x.push(url+i+\".html\");}\nx;"
+      "nextTocUrl": "@js:\nvar x=[];\npage=result.match(/(\\d+).html\"\\s>[^<]+<\\/option><\\/select>/)[1];\nurl=baseUrl.replace(/\\/$/,\"/read_\")\nfor(var i=1;i<=page;i++)\n{x.push(url+i+\".html\");}\nx;"
     },
     "searchUrl": "/search.html,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
     "weight": 0
@@ -3362,7 +3284,7 @@
     "bookSourceName": "下书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xiashucom.com",
-    "customOrder": 10,
+    "customOrder": 8,
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 0,
@@ -3376,7 +3298,7 @@
     },
     "ruleContent": {
       "content": "id.pt-pop@html",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3384,7 +3306,7 @@
       "bookList": "class.booklists@tbody@tr",
       "bookUrl": "tag.a.1@href",
       "kind": "tag.a.0@text",
-      "lastChapter": "tag.a.2@text##^正文\\s",
+      "lastChapter": "tag.a.2@text",
       "name": "tag.a.1@text"
     },
     "ruleToc": {
@@ -3400,7 +3322,7 @@
     "bookSourceName": "衍墨轩",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ymoxuan.org",
-    "customOrder": 11,
+    "customOrder": 9,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3413,7 +3335,7 @@
     },
     "ruleContent": {
       "content": "id.content@html##最快更新.*|第\\d*章.*|小说网.*|—|手机站:|org|一秒记住.*?精彩小说无弹窗免费阅读！|一秒记.*?手机用户输入：",
-      "imageStyle": "0",
+      "imageStyle": 0,
       "nextContentUrl": ""
     },
     "ruleExplore": {},
@@ -3441,7 +3363,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.imiaobige.com",
     "bookUrlPattern": "",
-    "customOrder": 12,
+    "customOrder": 10,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3454,7 +3376,7 @@
     },
     "ruleContent": {
       "content": "id.content@html##您可以在.*?最新章节.",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3480,7 +3402,7 @@
     "bookSourceName": "采墨阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.caimoge.com",
-    "customOrder": 13,
+    "customOrder": 11,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3490,7 +3412,7 @@
     },
     "ruleContent": {
       "content": "id.content@tag.p@textNodes##本站域名更换为.*?有声小说在线收听",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {
       "author": "",
@@ -3525,7 +3447,7 @@
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.b5200.net",
-    "customOrder": 14,
+    "customOrder": 12,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3536,7 +3458,7 @@
     },
     "ruleContent": {
       "content": "id.content@tag.p@html##记住手机版网址.|第\\d+章.*|小说网.*",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3560,7 +3482,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://xs.kdays.net",
     "bookUrlPattern": "",
-    "customOrder": 15,
+    "customOrder": 13,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::http://xs.kdays.net/list/all?page={{page}}\n热血::http://xs.kdays.net/list/all?type=1&page={{page}}\n冒险::http://xs.kdays.net/list/all?type=2&page={{page}}\n运动::http://xs.kdays.net/list/all?type=3&page={{page}}\n魔幻::http://xs.kdays.net/list/all?type=4&page={{page}}\n武侠::http://xs.kdays.net/list/all?type=5&page={{page}}\n校园::http://xs.kdays.net/list/all?type=6&page={{page}}\n治愈::http://xs.kdays.net/list/all?type=8&page={{page}}\n推理::http://xs.kdays.net/list/all?type=9&page={{page}}\n惊悚::http://xs.kdays.net/list/all?type=10&page={{page}}\n科幻::http://xs.kdays.net/list/all?type=11&page={{page}}\n社会::http://xs.kdays.net/list/all?type=12&page={{page}}\n动画化::http://xs.kdays.net/list/all?type=14&page={{page}}\n点击榜::http://xs.kdays.net/list/top\n收藏榜::http://xs.kdays.net/list/top?type=fav\n喜欢榜::http://xs.kdays.net/list/top?type=like\nGAL::http://xs.kdays.net/list/all?type=13&page={{page}}",
@@ -3572,7 +3494,7 @@
     },
     "ruleContent": {
       "content": "tag.article@html",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {
       "author": "class.author@text##^作者:",
@@ -3607,7 +3529,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.38kanshu.cc",
     "bookUrlPattern": "",
-    "customOrder": 16,
+    "customOrder": 14,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3626,7 +3548,7 @@
     },
     "ruleContent": {
       "content": "id.nr@html##一秒记住.*|\\【38看书.*|最新章节前往|\\【1\\】|\\【6\\】|\\【8\\】|\\【看\\】|\\【书\\】|搜一下就能找.*",
-      "imageStyle": "0",
+      "imageStyle": 0,
       "nextContentUrl": "text.下一章@href"
     },
     "ruleExplore": {
@@ -3661,7 +3583,7 @@
     "bookSourceName": "玫瑰小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.meiguixs.net",
-    "customOrder": 17,
+    "customOrder": 15,
     "enabled": true,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
@@ -3675,7 +3597,7 @@
     },
     "ruleContent": {
       "content": "id.content@textNodes##玫瑰小说网[^书]+书[^群]*群...\\d+[^群]*群号.",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3685,7 +3607,7 @@
       "coverUrl": "",
       "kind": "class.even.2@text||tag.span.1@text",
       "lastChapter": "class.even.0@tag.a.0@text||tag.ul.2@tag.li.0@tag.a.0@text",
-      "name": "class.odd.0@tag.a.0@text||tag.h1.0@text##免费阅读全文"
+      "name": "class.odd.0@tag.a.0@text||tag.h1.0@text"
     },
     "ruleToc": {
       "chapterList": "id.readerlist@tag.ul@tag.li@a",
@@ -3701,7 +3623,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.x23qb.com",
     "bookUrlPattern": "",
-    "customOrder": 18,
+    "customOrder": 16,
     "enabled": true,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9; zh-cn; MI 9 SE Build/PKQ1.181121.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/9.4 Mobile Safari/537.36\"\n}",
@@ -3719,7 +3641,7 @@
     },
     "ruleContent": {
       "content": "@css:#TextContent@textNodes##.*本章未完.*|铅笔小说|.*x23qb.*",
-      "imageStyle": "0",
+      "imageStyle": 0,
       "nextContentUrl": "text.下一页@href"
     },
     "ruleExplore": {},
@@ -3731,7 +3653,7 @@
       "intro": "@css:.book_des@textNodes",
       "kind": "@css:.book_other:eq(2)>span:eq(0)@text",
       "lastChapter": "@css:.book_other:eq(4)>a:eq(0)@text",
-      "name": "@css:h3>a@text##免费阅读全文",
+      "name": "@css:h3>a@text",
       "wordCount": ""
     },
     "ruleToc": {
@@ -3746,9 +3668,9 @@
     "bookSourceGroup": "",
     "bookSourceName": "天籁小说",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://m.23txt.com",
+    "bookSourceUrl": "https://www.23txt.com",
     "bookUrlPattern": "",
-    "customOrder": 19,
+    "customOrder": 18,
     "enabled": true,
     "enabledExplore": false,
     "header": "",
@@ -3763,14 +3685,14 @@
     },
     "ruleContent": {
       "content": "id.nr1@textNodes",
-      "imageStyle": "0",
-      "nextContentUrl": "text.下一页@href"
+      "imageStyle": 0,
+      "nextContentUrl": "text.下一章@href"
     },
     "ruleExplore": {},
     "ruleSearch": {
       "author": "class.result-game-item-info.0@tag.p.0@tag.span.1@text",
       "bookList": "@css:.result-item:lt(20)",
-      "bookUrl": "##e\"\\shref=\".*?([^\"]+)##$1##",
+      "bookUrl": "##e\"\\shref=\".*?com([^\"]+)##$1##",
       "coverUrl": "class.result-game-item-pic.0@tag.img.0@src",
       "intro": "class.result-game-item-desc@text",
       "kind": "class.result-game-item-info.0@tag.p.1@tag.span.1@text",
@@ -3783,7 +3705,7 @@
       "chapterUrl": "tag.a@href",
       "nextTocUrl": "##=\"([^\"]*)\"\\s[^\\s]+下一页##$1##"
     },
-    "searchUrl": "/search.php?q={{key}}",
+    "searchUrl": "https://m.23txt.com/search.php?keyword={{key}}",
     "weight": 0
   },
   {
@@ -3792,7 +3714,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.23us.net",
     "bookUrlPattern": "",
-    "customOrder": 20,
+    "customOrder": 19,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
@@ -3809,7 +3731,7 @@
     },
     "ruleContent": {
       "content": "id.BookText@html",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3836,7 +3758,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zwdu.com",
     "bookUrlPattern": "",
-    "customOrder": 21,
+    "customOrder": 20,
     "enabled": true,
     "enabledExplore": false,
     "lastUpdateTime": 0,
@@ -3846,11 +3768,11 @@
     },
     "ruleContent": {
       "content": "id.content@textNodes",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
-      "author": "class.result-game-item-info-tag.0@tag.span.1@text##免费阅读全文",
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
       "bookList": "class.result-item",
       "bookUrl": "class.result-item-title.0@tag.a.0@href",
       "coverUrl": "tag.img.0@src",
@@ -3872,7 +3794,7 @@
     "bookSourceName": "云中书库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.yunxs.com",
-    "customOrder": 22,
+    "customOrder": 21,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,
@@ -3881,7 +3803,7 @@
     },
     "ruleContent": {
       "content": "class.box_box@textNodes##推荐阅读：《.*?》",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -3906,7 +3828,7 @@
     "bookSourceName": "亲之文库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.linovel.net",
-    "customOrder": 24,
+    "customOrder": 22,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "重推周榜::/hub/getTopBooks?unit=zt&time=week&page={{page}}\n佳作周榜::/hub/getTopBooks?unit=jz&time=week&page={{page}}\n月票周榜::/hub/getTopBooks?unit=ticket&time=week&page={{page}}\n轻币周榜::/hub/getTopBooks?unit=coin&time=week&page={{page}}\n墨水周榜::/hub/getTopBooks?unit=ink&time=week&page={{page}}\n应援周榜::/hub/getTopBooks?unit=supp&time=week&page={{page}}\n重推月榜::/hub/getTopBooks?unit=zt&time=month&page={{page}}\n佳作月榜::/hub/getTopBooks?unit=jz&time=month&page={{page}}\n月票月榜::/hub/getTopBooks?unit=ticket&time=month&page={{page}}\n轻币月榜::/hub/getTopBooks?unit=coin&time=month&page={{page}}\n墨水月榜::/hub/getTopBooks?unit=ink&time=month&page={{page}}\n应援月榜::/hub/getTopBooks?unit=supp&time=month&page={{page}}\n重推新人榜::/hub/getTopBooks?unit=zt&time=new&page={{page}}\n佳作新人榜::/hub/getTopBooks?unit=jz&time=new&page={{page}}\n轻币新人榜::/hub/getTopBooks?unit=coin&time=new&page={{page}}\n墨水新人榜::/hub/getTopBooks?unit=ink&time=new&page={{page}}\n应援新人榜::/hub/getTopBooks?unit=supp&time=new&page={{page}}\n月票新人榜::/hub/getTopBooks?unit=ticket&time=new&page={{page}}",
@@ -3916,8 +3838,8 @@
       "lastChapter": "class.chapter-list clearfix@class.new@tag.a.0@text"
     },
     "ruleContent": {
-      "content": "class.l@html",
-      "imageStyle": "Full"
+      "content": "class.l@textNodes",
+      "imageStyle": 0
     },
     "ruleExplore": {
       "author": "author||class.author@text##\\s",
@@ -3951,7 +3873,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.100ben.net",
     "bookUrlPattern": "",
-    "customOrder": 25,
+    "customOrder": 23,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "一百本书::https://www.100ben.net/\n世界名著::https://www.100ben.net/shijiemingzhu/list_{{page}}.html\n现代文学::https://www.100ben.net/xiandaiwenxue/list_{{page}}.html\n外国小说::https://www.100ben.net/waiguoxiaoshuo/list_{{page}}.html\n励志书籍::https://www.100ben.net/lizhishuji/list_{{page}}.html\n古典文学::https://www.100ben.net/gudianwenxue/list_{{page}}.html\n武侠小说::https://www.100ben.net/wuxiaxiaoshuo/list_{{page}}.html\n言情小说::https://www.100ben.net/yanqingxiaoshuo/list_{{page}}.html\n推理小说::https://www.100ben.net/tuilixiaoshuo/list_{{page}}.html\n科幻小说::https://www.100ben.net/kehuanxiaoshuo/list_{{page}}.html\n人物传记::https://www.100ben.net/renwuzhuanji/list_{{page}}.html\n盗墓悬疑::https://www.100ben.net/daomuxuanyi/list_{{page}}.html\n玄幻穿越::https://www.100ben.net/xuanhuanchuanyue/list_{{page}}.html\n科普书籍::https://www.100ben.net/kepushuji/list_{{page}}.html\n全部小说::https://www.100ben.net/all/list_{{page}}.html",
@@ -3971,7 +3893,7 @@
     },
     "ruleContent": {
       "content": "id.content@html",
-      "imageStyle": "0",
+      "imageStyle": 0,
       "nextContentUrl": "",
       "sourceRegex": "",
       "webJs": ""
@@ -4011,13 +3933,55 @@
   },
   {
     "bookSourceGroup": "",
+    "bookSourceName": "九九藏书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.99csw.com",
+    "bookUrlPattern": "",
+    "customOrder": 24,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门读物::/top/index.php\n传记回忆::/book/index.php?type=传记回忆&page={{page}}\n英文读本::/book/index.php?type=英文读本&page={{page}}\n杂文随笔::/book/index.php?type=杂文随笔&page={{page}}\n现代小说::/book/index.php?type=现代小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n侦探推理::/book/index.php?type=侦探推理&page={{page}}\n惊悚悬疑::/book/index.php?type=惊悚悬疑&page={{page}}\n网络玄幻::/book/index.php?type=网络玄幻&page={{page}}\n寓言童话::/book/index.php?type=寓言童话&page={{page}}\n青春都市::/book/index.php?type=青春都市&page={{page}}\n社会心理::/book/index.php?type=社会心理&page={{page}}\n外国小说::/book/index.php?type=外国小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n当代小说::/book/index.php?type=当代小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n纪实报告::/book/index.php?type=纪实报告&page={{page}}\n世界历史::/book/index.php?type=世界历史&page={{page}}\n中国历史::/book/index.php?type=中国历史&page={{page}}\n科普学习::/book/index.php?type=科普学习&page={{page}}\n诗歌戏曲::/book/index.php?type=诗歌戏曲&page={{page}}\n宗教哲学::/book/index.php?type=宗教哲学&page={{page}}\n文学理论::/book/index.php?type=文学理论&page={{page}}\n日语读物::/book/index.php?type=日语读物&page={{page}}\n作品合集::/book/index.php?type=作品集&page={{page}}\n国学/古籍::/book/index.php?type=国学%2F古籍&page={{page}}\n战争军事::/book/index.php?type=战争军事&page={{page}}\n政治经济::/book/index.php?type=政治经济&page={{page}}\n古典文学::/book/index.php?type=古典文学&page={{page}}\n官场小说::/book/index.php?type=官场小说&page={{page}}\n轻小说::/book/index.php?type=轻小说&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.book_info@tag.h4.0@tag.a@text",
+      "coverUrl": "id.book_info@tag.img@src",
+      "intro": "class.intro@tag.p@text",
+      "lastChapter": "id.dir@tag.dd.-1@tag.a@text",
+      "name": "id.book_info@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "@css:#content > div@text##\\s*(([ｈh].+)?([wｗ]+.)?[９9]+[ｌl][ｉi][ｂb].[ｎn][ｅe][ｔt]|九.?九.{1,5}书.?网?)\\s*",
+      "imageStyle": 0
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.h4.0@tag.a@text",
+      "bookList": "class.list_box@tag.li",
+      "bookUrl": "tag.h2@tag.a@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "intro": "class.intro@text##^\\s+",
+      "kind": "tag.h4.1@tag.a@text",
+      "lastChapter": "",
+      "name": "tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.dir@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.99csw.com/book/search.php?type=all&keyword={{key}}&page={{page}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
     "bookSourceName": "超星图书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://yz4.chaoxing.com",
-    "customOrder": 26,
+    "customOrder": 25,
     "enabled": true,
     "enabledExplore": true,
-    "exploreUrl": "❀                          【 起点数据网 】                          ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1194\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1195\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1196\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1197\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1198\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1199\n现实::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1200\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1201\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1202\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1203\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1204\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1205\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1206\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1207\n新人新书::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1192\n❀                          【 橙瓜网 】 - - - 【 橙瓜评分榜 】                         ❀::http://ku.mumuceo.com\n见证·网络文学20年百强作品评选中::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1170\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1171\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1172\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1173\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1174\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1175\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1176\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1177\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1178\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1179\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1180\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1181\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1182\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1183\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1184\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1185\n❀                          【 橙瓜网 】 - - - 【 橙瓜连载榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1208\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1209\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1210\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1211\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1212\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1213\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1214\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1215\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1216\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1217\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1218\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1219\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1220\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1221\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1222\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1223\n❀                          【 橙瓜网 】 - - - 【 第四届网络文学奖 】                         ❀::http://ku.mumuceo.com\n第四届网络文学奖::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10026\n❀                          【 起点中文网 】 - - - 【 24小时热销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1162\n❀                          【 起点中文网 】 - - - 【 原创风云榜 】                         ❀::http://ku.mumuceo.com\n本月新书::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1224\n❀                          【 起点女生网 】 - - - 【 24小时热销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1163\n❀                          【 起点女生网 】 - - - 【 24小时首订榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1193\n❀                          【 起点女生网 】 - - - 【 原创风云榜 】                         ❀::http://ku.mumuceo.com\n全部::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1227\n❀                          【 创世中文网 】 - - - 【 全平台销售榜 】                         ❀::http://ku.mumuceo.com\n全平台销售榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1160\n❀                          【 创世中文网 】 - - - 【 创世销售榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1228\n❀                          【 云起书院 】 - - - 【 全平台销售榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10001\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10002\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10003\n❀                          【 云起书院 】 - - - 【 云起销售榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10023\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10024\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10025\n❀                          【 纵横中文网 】 - - - 【 24小时畅销榜 】                         ❀::http://ku.mumuceo.com\n24小时畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1159\n❀                          【 纵横中文网 】 - - - 【 新书订阅榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1262\n❀                          【 纵横中文网 】 - - - 【 月票榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1263\n❀                          【 花语女生网 】 - - - 【 女生网热书榜 】                         ❀::http://ku.mumuceo.com\n女生网热书榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1158\n❀                          【 17K小说网 】 - - - 【 全站订阅榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10004\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10005\n❀                          【 17K小说网 】 - - - 【 男生订阅榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10006\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10007\n❀                          【 17K小说网 】 - - - 【 女生订阅榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10008\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10009\n❀                          【 晋江文学城 】 - - - 【 言情小说-VIP金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1154\n❀                          【 晋江文学城 】 - - - 【 纯爱/无cp-VIP金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1155\n❀                          【 晋江文学城 】 - - - 【 衍生/轻小说-VIP金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1156\n❀                          【 晋江文学城 】 - - - 【 原创小说-VIP金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1157\n❀                          【 晋江文学城 】 - - - 【 言情小说-完结金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1264\n❀                          【 晋江文学城 】 - - - 【 言情小说-千字金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1265\n❀                          【 晋江文学城 】 - - - 【 纯爱/无cp-完结金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1266\n❀                          【 晋江文学城 】 - - - 【 纯爱/无cp-千字金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1267\n❀                          【 晋江文学城 】 - - - 【 衍生/轻小说-完结金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1268\n❀                          【 晋江文学城 】 - - - 【 衍生/轻小说-千字金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1269\n❀                          【 晋江文学城 】 - - - 【 原创小说-完结金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1270\n❀                          【 晋江文学城 】 - - - 【 原创小说-千字金榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1271\n❀                          【 掌阅iReader 】 - - - 【 男生热销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1300\n❀                          【 掌阅iReader 】 - - - 【 女生热销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1301\n❀                          【 掌阅iReader 】 - - - 【 男生包月榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1302\n❀                          【 掌阅iReader 】 - - - 【 女生包月榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1303\n❀                          【 书旗小说APP 】 - - - 【 男生包月人气榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1272\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1273\n❀                          【 书旗小说APP 】 - - - 【 女生包月人气榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1274\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1275\n❀                          【 书旗小说APP 】 - - - 【 男生原创订阅榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1276\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1277\n❀                          【 书旗小说APP 】 - - - 【 女生原创订阅榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1278\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1279\n❀                          【 书旗小说APP 】 - - - 【 男频综合人气榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10012\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10013\n❀                          【 书旗小说APP 】 - - - 【 女频综合人气榜 】                         ❀::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10014\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10015\n❀                          【 咪咕阅读 】 - - - 【 男生人气畅销榜 】                         ❀::http://ku.mumuceo.com\n人气畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1166\n❀                          【 咪咕阅读 】 - - - 【 女生人气畅销榜 】                         ❀::http://ku.mumuceo.com\n人气畅销榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1167\n❀                          【 逐浪小说网 】 - - - 【 PC热销榜 】                         ❀::http://ku.mumuceo.com\n热销榜\n::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1189\n❀                          【 逐浪小说网 】 - - - 【 鲜花榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1310\n❀                          【 红袖添香 】 - - - 【 热销榜 】                         ❀::http://ku.mumuceo.com\n日榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1230\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1231\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1232\n❀                          【 红袖添香 】 - - - 【 红袖风云榜 】                         ❀::http://ku.mumuceo.com\n全部::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1233\n❀                          【 潇湘书院 】 - - - 【 作品粉丝人数榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1234\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1235\n年::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1236\n❀                          【 潇湘书院 】 - - - 【 月票排行榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1237\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1238\n年::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1239\n❀                          【 小说阅读网 】 - - - 【 热销榜 】                         ❀::http://ku.mumuceo.com\n日::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1240\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1241\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1242\n❀                          【 小说阅读网 】 - - - 【 小阅风云榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1243\n❀                          【 言情小说吧 】 - - - 【 热销榜 】                         ❀::http://ku.mumuceo.com\n日::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1244\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1245\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1246\n❀                          【 言情小说吧 】 - - - 【 言吧风云榜 】                         ❀::http://ku.mumuceo.com\n全部::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1247\n❀                          【 QQ阅读 】 - - - 【 男生畅销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1248\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1249\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1250\n❀                          【 QQ阅读 】 - - - 【 女生畅销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1251\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1252\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1253\n❀                          【 QQ阅读 】 - - - 【 男生风云榜 】                         ❀::http://ku.mumuceo.com\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1254\n❀                          【 QQ阅读 】 - - - 【 女生风云榜 】                         ❀::http://ku.mumuceo.com\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1255\n❀                          【 QQ阅读 】 - - - 【 男生包月榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1256\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1257\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1258\n❀                          【 QQ阅读 】 - - - 【 女生包月榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1259\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1260\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1261\n❀                          【 熊猫看书 】 - - - 【 男频畅销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1280\n❀                          【 熊猫看书 】 - - - 【 女频畅销榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1281\n❀                          【 追书神器 】 - - - 【 男频最热榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1282\n❀                          【 追书神器 】 - - - 【 女频最热榜 】                         ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1283\n❀                          【 国风中文网 】 - - - 【 畅销榜 】                         ❀::http://ku.mumuceo.com\n日::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1290\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1291\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1292\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1293\n❀                          【 采薇书院 】 - - - 【 畅销榜 】                         ❀::http://ku.mumuceo.com\n日::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1294\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1295\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1296\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1297\n❀                          【 红薯中文网 】 - - - 【 男生销售榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1304\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1305\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1306\n❀                          【 红薯中文网 】 - - - 【 女生销售榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1307\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1308\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1309\n❀                          【 逐浪小说APP 】 - - - 【 APP男生热销榜 】                         ❀::http://ku.mumuceo.com\n热销榜\n::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1190\n❀                          【 逐浪小说APP 】 - - - 【 APP女生热销榜 】                         ❀::http://ku.mumuceo.com\n热销榜\n::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1191\n❀                          【 爱奇艺阅读APP 】 - - - 【 男生热销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1311\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1312\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1313\n❀                          【 爱奇艺阅读APP 】 - - - 【 女生热销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1314\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1315\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1316\n❀                          【 爱奇艺阅读APP 】 - - - 【 独家热销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1317\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1318\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1319\n❀                          【 多看阅读APP 】 - - - 【 原创-男生畅销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1320\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1321\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1322\n❀                          【 多看阅读APP 】 - - - 【 原创-女生畅销榜 】                         ❀::http://ku.mumuceo.com\n周::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1323\n月::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1324\n总::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1325\n❀                          【 松鼠阅读网 】 - - - 【 热销榜 】                         ❀::http://ku.mumuceo.com\n24小时销售榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1400",
+    "exploreUrl": "❀                         推荐                        ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=130&\"}\n\n❀        文学·世界文学名著         ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000007&\"}\n\n名家名作::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000008&\"}\n流行小说::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000010&\"}\n古典文学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000009&\"}\n诗歌散文::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000033&\"}\n文学理论::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000063&\"}\n纪实文学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000498&\"}\n少儿文学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000001204&\"}\n外文原著::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"/start=0&size=1000&channelId=1000000438&\"}\n❀                历史·中国史               ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000057&\"}\n世界史::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000001049&\"}\n史学研究::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000072&\"}\n人物传记::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000066&\"}\n文物考古::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000069&\"}\n通俗演绎::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000060&\"}\n❀             哲学·中国哲学             ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000013&\"}\n西方哲学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000014&\"}\n马克思主义哲学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000015&\"}\n宗教::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000393&\"}\n❀                  艺术·摄影                  ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000051&\"}\n美术书法::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000042&\"}\n音乐舞蹈::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000045&\"}\n建筑雕塑::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000048&\"}\n戏曲戏剧::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000081&\"}\n电影电视::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000001046&\"}\n艺术理论::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000075&\"}\n❀            经管·经济管理              ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000102&\"}\n投资理财::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000105&\"}\n金融会计::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000108&\"}\n成功励志::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000111&\"}\n创业创新::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000138&\"}\n❀                政法·政治学               ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000414&\"}\n   法学   ::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000417&\"}\n国际关系::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000420&\"}\n❀                杜科·心理学               ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000090&\"}\n社会学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000087&\"}\n语言文字::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000135&\"}\n新闻与传播::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000435&\"}\n❀              军事·军事理论            ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000426&\"}\n军事技术::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000429&\"}\n军事百科::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000432&\"}\n❀             工学·工业技术             ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000026&\"}\n航空航天::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000027&\"}\n交通运输::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000030&\"}\n环境科学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000031&\"}\n计算机科学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000036&\"}\n农业科学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000032&\"}\n❀             医药·公共卫生            ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000471&\"}\n基础医学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000474&\"}\n中医学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000477&\"}\n临床医学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000480&\"}\n    药学    ::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000483&\"}\n❀             教育·高等教育             ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000399&\"}\n基础教育::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000402&\"}\n职业教育::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000405&\"}\n理论与管理::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000408&\"}\n❀                  大众·烹饪                  ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000120&\"}\n   旅游   ::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000123&\"}\n保健::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000126&\"}\n育儿::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000129&\"}\n体育::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000001048&\"}\n小人书::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000522&\"}\n生活百科::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000486&\"}\n❀              理学·科普读物            ❀::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000017&\"}\n数学物理化学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000019&\"}\n天文地球::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000020&\"}\n生物科学::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000022&\"}\n自然科学总论::http://yz4.chaoxing.com/circlemarket/getBook,{\"method\": \"POST\",\"body\": \"start=0&size=1000&channelId=1000000023&\"}\nnull",
     "lastUpdateTime": 0,
     "loginUrl": "",
     "ruleBookInfo": {
@@ -4025,7 +3989,7 @@
     },
     "ruleContent": {
       "content": ".ztArtCon@p@html",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {
       "author": "$.author",
@@ -4053,11 +4017,46 @@
   },
   {
     "bookSourceGroup": "",
+    "bookSourceName": "无弹窗小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.22ff.com",
+    "customOrder": 26,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.22ff.org/login.htm",
+    "ruleBookInfo": {
+      "coverUrl": "class.main.1@class.fw@tag.img.0@src",
+      "intro": "class.main.1@tag.tbody.0@tag.td.9@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.chapter_content@tag.p@textNodes##soudu|org|www|ttzw|com|c66c|手机用户请到阅读|MMWe|@22ff%",
+      "imageStyle": 0
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.neirong4@tag.a.0@text",
+      "bookList": "class.neirong@ul!0",
+      "bookUrl": "class.neirong1@tag.a.0@href",
+      "lastChapter": "class.neirong2@tag.a.0@text",
+      "name": "class.neirong1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.neirong@class.clc",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "/s_{{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
     "bookSourceName": "梧州中文台",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ztv.la",
     "bookUrlPattern": "",
-    "customOrder": 28,
+    "customOrder": 27,
     "enabled": true,
     "enabledExplore": false,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows)\"\n}",
@@ -4070,7 +4069,7 @@
     },
     "ruleContent": {
       "content": "id.txtContent@textNodes",
-      "imageStyle": "0"
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
@@ -4091,37 +4090,98 @@
   },
   {
     "bookSourceGroup": "",
-    "bookSourceName": "无弹窗小说",
+    "bookSourceName": "稻草人书屋",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://www.22ff.com",
-    "customOrder": 29,
+    "bookSourceUrl": "https://www.daocaorenshuwu.com",
+    "bookUrlPattern": "",
+    "customOrder": 28,
     "enabled": true,
-    "enabledExplore": false,
-    "header": "",
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan<,{{page}}>.html\n奇幻::/qihuan<,{{page}}>.html\n武侠::/wuxia<,{{page}}>.html\n仙侠::/xianxia<,{{page}}>.html\n都市::/dushi<,{{page}}>.html\n轻改::/qing<,{{page}}>.html\n历史::/lishi<,{{page}}>.html\n军事::/junshi<,{{page}}>.html\n游戏::/youxi<,{{page}}>.html\n科幻::/kehuan<,{{page}}>.html\n灵异::/lingyi<,{{page}}>.html\n言情::/yanqing<,{{page}}>.html\n耽美::/danmei<,{{page}}>.html\n当代::/dangdai<,{{page}}>.html\n侦探::/zhentan<,{{page}}>.html\n儿童::/ertong<,{{page}}>.html\n名著::/mingzhu<,{{page}}>.html\n励志::/lizhi<,{{page}}>.html\n悬疑::/xuanyi<,{{page}}>.html\n经管::/jingguan<,{{page}}>.html\n同人::/tongren<,{{page}}>.html\n传记::/zhuanji<,{{page}}>.html\n散文::/sanwen<,{{page}}>.html\n外国::/waiguo<,{{page}}>.htmli\n畅销::/chuban<,{{page}}>.html\n杂志::/zazhi<,{{page}}>.html\n漫画::/manhua<,{{page}}>.html\n纪实::/jishi<,{{page}}>.html\n幽默::/youmo<,{{page}}>.html\n健康::/health<,{{page}}>.html\n诗集::/poetry<,{{page}}>.html\n学习::/xuexi<,{{page}}>.html\n心理::/xinli<,{{page}}>.html\n宗教::/foxue<,{{page}}>.html\n哲学::/zhexue<,{{page}}>.html\n旅游::/travel<,{{page}}>.html\n科普::/kepu<,{{page}}>.html\n育儿::/yuer<,{{page}}>.html\n女性::/woman<,{{page}}>.html\n文化::/culture<,{{page}}>.html\n官场::/guanchang<,{{page}}>.html\n青春::/youth<,{{page}}>.html\n网络::/net<,{{page}}>.html\n国学::/guoxue<,{{page}}>.html\n逻辑::/logic<,{{page}}>.html\n创业::/cuangye<,{{page}}>.html\n次元::/erciyuan<,{{page}}>.html\n英文::/english<,{{page}}>.html\n其他::/other<,{{page}}>.html",
+    "header": "<js>\n(()=>{\n\tvar ua = \"navigator.userAgent.toLowerCase(); \t\t\treturn { \t\t\t\t'mobile': !!(ua.match(/applewebkit.*mobile.*/) || ua.match(/iemobile/) || ua.match(/windows phone/) || ua.match(/android/) || ua.match(/iphone/) || ua.match(/ipad/)), \t\t\t\t'weixin': ua.indexOf('micromessenger') > -1 \t\t\t};\";\n\tvar heders = {\"User-Agent\": ua};\n\treturn JSON.stringify(heders);\n})()\n</js>",
     "lastUpdateTime": 0,
-    "loginUrl": "https://www.22ff.org/login.htm",
+    "loginUrl": "",
     "ruleBookInfo": {
-      "coverUrl": "class.main.1@class.fw@tag.img.0@src",
-      "intro": "class.main.1@tag.tbody.0@tag.td.9@textNodes"
+      "author": "",
+      "coverUrl": "##og:image\"\\scontent=\"\\/\\/([^\"]+)##$1##",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
     },
     "ruleContent": {
-      "content": "id.chapter_content@tag.p@textNodes##soudu|org|www|ttzw|com|c66c|手机用户请到阅读|MMWe|@22ff%",
-      "imageStyle": "0"
+      "content": "class.cont-text@tag.div@html##内容来自.*|www.*|daocao.*|copy.*|稻草人.*",
+      "imageStyle": 0
+    },
+    "ruleExplore": {
+      "author": "class.dark@text",
+      "bookList": "class.media",
+      "bookUrl": "h4@tag.a.0@href",
+      "coverUrl": "class.book-img@src&&class.book-img-small lazy@data-original",
+      "intro": "class.media-info@text",
+      "lastChapter": "",
+      "name": "class.media@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.1@text",
+      "bookList": "tag.tbody@tag.tr",
+      "bookUrl": "//td[1]/a/@href",
+      "intro": "",
+      "lastChapter": "tag.td.0@tag.a@href<js>url=\"https://www.daocaorenshuwu.com\"+result+\"\";var data = java.ajax(url);var zuixin = data.match(/chapter_name\"\\scontent=\"([^\"]+)/)[1];result=zuixin\n</js>",
+      "name": "tag.td.0@tag.a@title"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-md-6 item!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/plus/search.php?q={{key}}",
+    "weight": 0
+  },
+  {
+    "bookSourceGroup": "",
+    "bookSourceName": "万界小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wanjiexianwang.com",
+    "bookUrlPattern": "",
+    "customOrder": 29,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "//*[@property='og:description']/@content",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "//*[@class='more']/p/a/@href"
+    },
+    "ruleContent": {
+      "content": "//*[@id='content']",
+      "imageStyle": 0
     },
     "ruleExplore": {},
     "ruleSearch": {
-      "author": "class.neirong4@tag.a.0@text",
-      "bookList": "class.neirong@ul!0",
-      "bookUrl": "class.neirong1@tag.a.0@href",
-      "lastChapter": "class.neirong2@tag.a.0@text",
-      "name": "class.neirong1@tag.a.0@text"
+      "author": "//a[@class='author']/text()",
+      "bookList": "//*[@class='library']/li",
+      "bookUrl": "##bookimg\" href=\"(/.*?)\"##$1##",
+      "coverUrl": "class.bookimg@img@data-echo",
+      "intro": "//p[@class='intro']/text()",
+      "kind": "//p[1]/a[2]/text()",
+      "lastChapter": "//a[@class='chapter']/text()",
+      "name": "//a[@class='bookname']/text()"
     },
     "ruleToc": {
-      "chapterList": "class.neirong@class.clc",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
+      "chapterList": "//*[@class='read']/dl[2]/dd/a",
+      "chapterName": "//text()@js:result.replace(/更新：.*/, '');",
+      "chapterUrl": "//@href",
+      "updateTime": "class.time@text##更新."
     },
-    "searchUrl": "/s_{{key}}",
+    "searchUrl": "/so/search.html?searchkey={{key}}",
     "weight": 0
   },
   {
@@ -4130,7 +4190,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.cn3k5.com",
     "bookUrlPattern": "",
-    "customOrder": 31,
+    "customOrder": 30,
     "enabled": true,
     "enabledExplore": false,
     "exploreUrl": "",
@@ -4150,7 +4210,7 @@
     },
     "ruleContent": {
       "content": "id.nr1@html##你是天才.*三千五中文网，网址:.*cn3k5.com|天才本站地址：|\"爱书网\"网站访问地址为|《.*?》来源：|你是.*?秒记.*?五中文.*?网址:",
-      "imageStyle": "0",
+      "imageStyle": 0,
       "nextContentUrl": "",
       "sourceRegex": "",
       "webJs": ""
@@ -4167,14 +4227,14 @@
       "wordCount": ""
     },
     "ruleSearch": {
-      "author": "id.author@tag.a@text||id.nr@tag.td.2@text##免费阅读全文",
+      "author": "id.author@tag.a@text||id.nr@tag.td.2@text",
       "bookList": "id.nr||id.conn",
       "bookUrl": "id.nr@tag.td.0@tag.a@href",
       "coverUrl": "id.bookimg@tag.img@src||id.nr@tag.td.1@tag.a@href##\\/(\\d+)\\/(\\d+)##http://image.cn3k5.com/$1/$2/$2s.jpg###",
       "intro": "id.bookintro@tag.p@text",
       "kind": "id.nr@tag.td.5@text&&id.nr@tag.td.3@text&&id.nr@tag.td.4@text",
       "lastChapter": "id.nr@tag.td.1@tag.a@text||id.newlist@tag.ul@tag.li.0@tag.a@text",
-      "name": "id.bookinfo@tag.h1@text||id.nr@tag.td.0@tag.a@text##免费阅读全文",
+      "name": "id.bookinfo@tag.h1@text||id.nr@tag.td.0@tag.a@text",
       "wordCount": "tag.td.3@text"
     },
     "ruleToc": {
