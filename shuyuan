@@ -1434,7 +1434,7 @@
     "ruleSearchList": "class.result-item",
     "ruleSearchName": "class.result-item-title.0@tag.a.0@text",
     "ruleSearchNoteUrl": "class.result-item-title.0@tag.a.0@href",
-    "ruleSearchUrl": "https://www.mibaoge.com/search.php?keyword=searchKey",
+    "ruleSearchUrl": "https://www.mibaoge.com/search.php?q=searchKey",
     "serialNumber": 10,
     "weight": 0
   },
