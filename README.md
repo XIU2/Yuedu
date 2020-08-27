@@ -3,18 +3,17 @@
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb)](https://github.com/XIU2/yuedu/blob/master/LICENSE)
 [![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb)](https://github.com/XIU2/yuedu/stargazers)
 [![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb)](https://github.com/XIU2/yuedu/network/members)
-[![xiu2.github.io/yuedu](https://img.shields.io/static/v1?label=%20&message=Xiu2.github.io/yuedu&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://xiu2.github.io/yuedu/)
+[![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
 本项目每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便大家一键导入！  
 彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！  
 > 为了避免阅读作者打爆我的狗头，所以... **「阅读」官方微信公众号：「开源阅读软件」**  
 
-> 之所以搬到 Github，主要是莫名其妙好像又火了，现在一天几十万访问量，而且每天还在稳定增加，我怕我的小服务器以后撑不住，干脆就给搬到 Github 上面了！
-
 ****
 
 ## 更新日志：
-- **更新：** 阅读3.0书源。
+- **更新：** 网站域名及服务器（解决部分地区无法访问或速度慢的问题）。
+- **新增：** 阅读3.0书源。
 - **新增：** 校验书源功能。  
 —— 脚本会把无法访问的书源网站去除。  
 —— 该功能对于那些书源规则失效（而不是书源网站挂了）的书源是无效的，所以依然可能存在小部分失效书源。
@@ -39,11 +38,11 @@ https://www.coolapk.com/apk/256030
 
 ## 书源地址：
 书源每日更新，大家可以定期导入一次~ 放心！导入时会自动去重复的！
-- **书源分享地址：** https://xiu2.github.io/yuedu/
-- **网络导入地址：** https://xiu2.github.io/yuedu/shuyuan
+- **书源分享地址：** https://yuedu.xiu2.xyz
+- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan
 
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**
-- **历史书源文件：** https://github.com/XIU2/yuedu/tree/master/old
+- **历史书源文件：** https://yuedu.xiu2.xyz/old
 
 ****
 
@@ -51,30 +50,30 @@ https://www.coolapk.com/apk/256030
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://xiu2.github.io/yuedu/dist/img/img-01.png)
+![](https://yuedu.xiu2.xyz/dist/img/img-02.png)
 
 ****
 
 ### 网络导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
-- **网络导入地址：** https://xiu2.github.io/yuedu/shuyuan
+- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan
 
 ****
 
 ### 本地导入：
-打开 [书源分享地址](https://xiu2.github.io/yuedu/) 后点击 **\[下载文件\]** 即可下载 **shuyuan.json** 文件，存放到手机中任何你能找到的位置。  
+打开 [书源分享地址](https://yuedu.xiu2.xyz) 后点击 **\[下载文件\]** 即可下载 **shuyuan.json** 文件，存放到手机中任何你能找到的位置。  
 
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
 
-![](https://xiu2.github.io/yuedu/dist/img/img-03.png)
+![](https://yuedu.xiu2.xyz/dist/img/img-04.png)
 
 ****
 
 ### 历史书源导入：
 
-先去[这里](https://github.com/XIU2/yuedu/tree/master/old)找到你要导入历史书源，例如：**shuyuan_20191014.json**  
+先去[这里](https://yuedu.xiu2.xyz/old)找到你要导入历史书源，例如：**shuyuan_20191014.json**  
 
-那么网络导入地址为：https://xiu2.github.io/yuedu/old/shuyuan_20191014.json  
+那么网络导入地址为：https://yuedu.xiu2.xyz/old/shuyuan_20191014.json  
 
 自行替换 URL 最后的文件名即可。
 
