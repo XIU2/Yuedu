@@ -12,7 +12,7 @@
 ****
 
 ## 更新日志：
-- **更新：** 网站域名及服务器（解决部分地区无法访问或速度慢的问题）。
+- **更新：** 网站域名。
 - **新增：** 阅读3.0书源。
 - **新增：** 校验书源功能。  
 —— 脚本会把无法访问的书源网站去除。  
@@ -30,19 +30,20 @@ https://www.coolapk.com/apk/256030
 ****
 
 ## 下载地址：
-- **软件下载地址：** https://www.coolapk.com/apk/256030
-- **软件开源地址：** https://github.com/gedoor/legado
-- **官方下载地址：** https://github.com/gedoor/legado/releases
+- **软件下载地址：** https://www.coolapk.com/apk/256030  
+- **软件开源地址：** https://github.com/gedoor/legado  
+- **官方下载地址：** https://github.com/gedoor/legado/releases  
 
 ****
 
 ## 书源地址：
 书源每日更新，大家可以定期导入一次~ 放心！导入时会自动去重复的！
-- **书源分享地址：** https://yuedu.xiu2.xyz
-- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan
+- **书源分享地址：** https://yuedu.xiu2.xyz  
+- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan  
+- **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
+- **历史书源文件：** https://yuedu.xiu2.xyz/old  
 
-- **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**
-- **历史书源文件：** https://yuedu.xiu2.xyz/old
+> **备用网络导入地址：** _https://cdn.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
 
 ****
 
@@ -56,7 +57,8 @@ https://www.coolapk.com/apk/256030
 
 ### 网络导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
-- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan
+- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan  
+> **备用网络导入地址：** _https://cdn.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
 
 ****
 
