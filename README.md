@@ -5,8 +5,8 @@
 [![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb)](https://github.com/XIU2/yuedu/network/members)
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
-本项目每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便大家一键导入！  
-彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！  
+每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便一键导入！  
+彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！**如果觉得好用请点个⭐鼓励一下下~**  
 > 为了避免阅读作者打爆我的狗头，所以... **「阅读」官方微信公众号：「开源阅读软件」**  
 
 ****
