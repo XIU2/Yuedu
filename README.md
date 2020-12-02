@@ -51,7 +51,7 @@ https://www.coolapk.com/apk/256030
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://yuedu.xiu2.xyz/dist/img/img-02.png)
+![](https://cdn.jsdelivr.net/gh/XIU2/Yuedu@master/dist/img/img-02.png)
 
 ****
 
@@ -67,15 +67,15 @@ https://www.coolapk.com/apk/256030
 
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
 
-![](https://yuedu.xiu2.xyz/dist/img/img-04.png)
+![](https://cdn.jsdelivr.net/gh/XIU2/Yuedu@master/dist/img/img-04.png)
 
 ****
 
 ### 历史书源导入：
 
-先去[这里](https://yuedu.xiu2.xyz/old)找到你要导入历史书源，例如：**shuyuan_20191014.json**  
+先去[这里](https://yuedu.xiu2.xyz/old)找到你要导入历史书源，例如：**shuyuan_20201122.json**  
 
-那么网络导入地址为：https://yuedu.xiu2.xyz/old/shuyuan_20191014.json  
+那么网络导入地址为：https://yuedu.xiu2.xyz/old/shuyuan_20201122.json  
 
 自行替换 URL 最后的文件名即可。
 
