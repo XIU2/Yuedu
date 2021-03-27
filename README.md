@@ -5,33 +5,15 @@
 [![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb)](https://github.com/XIU2/yuedu/network/members)
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
-每天抓取「阅读」官方微信公众号中分享的优质精品书源，制作成一个单独的书源文件，方便一键导入！  
-彻底解决了「阅读」官方公众号每次更新都需要打开微信手动复制导入的痛点了！现在只需要定期重复导入该书源（二维码或URL）即可，省时省力！**如果觉得好用请点个⭐鼓励一下下~**  
-> 为了避免阅读作者打爆我的狗头，所以... **「阅读」官方微信公众号：「开源阅读软件」**  
+📚 自用的一些「阅读」书源，一部分是网上搜集，一部分是自己写的书源规则。  
+如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/UserScript/issues/new/choose) 告诉我**，我看看能不能写出书源，觉得**好用请点个⭐鼓励一下下~**   
 
 ****
 
-## 更新日志：
-- **更新：** 精简书源。
-- **更新：** 网站域名。
-- **新增：** 阅读3.0书源。
-- **新增：** 校验书源功能。  
-—— 脚本会把无法访问的书源网站去除。  
-—— 该功能对于那些书源规则失效（而不是书源网站挂了）的书源是无效的，所以依然可能存在小部分失效书源。
-- **修复：** 昨天脚本新抓取的书源有问题，已经修复了格式不对的问题（以后每次更新前会先检查JSON格式是否正确再更新）。
-- **新增：** 历史书源文件：https://yuedu.xiu2.xyz/old
-- **新增：** 网站将显示书源更新时间及数量。
-
-****
-
-## 软件介绍：
 「阅读」我就不多介绍了，我见过不少人安利，我直接贴酷安的介绍吧。  
 https://www.coolapk.com/apk/256030
 
-****
-
-## 下载地址：
-- **软件下载地址：** https://www.coolapk.com/apk/256030  
+- **酷安下载地址：** https://www.coolapk.com/apk/256030  
 - **软件开源地址：** https://github.com/gedoor/legado  
 - **官方下载地址：** https://github.com/gedoor/legado/releases  
 
@@ -98,5 +80,18 @@ https://www.coolapk.com/apk/256030
 
 ****
 
-## 许可证
+## 更新日志：
+- **更新：** 精简书源。
+- **更新：** 网站域名。
+- **新增：** 阅读3.0书源。
+- **新增：** 校验书源功能。  
+—— 脚本会把无法访问的书源网站去除。  
+—— 该功能对于那些书源规则失效（而不是书源网站挂了）的书源是无效的，所以依然可能存在小部分失效书源。
+- **修复：** 昨天脚本新抓取的书源有问题，已经修复了格式不对的问题（以后每次更新前会先检查JSON格式是否正确再更新）。
+- **新增：** 历史书源文件：https://yuedu.xiu2.xyz/old
+- **新增：** 网站将显示书源更新时间及数量。
+
+****
+
+## License
 The GPL-3.0 License.  
