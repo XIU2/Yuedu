@@ -6,7 +6,7 @@
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
 📚 自用的一些「阅读」书源，一部分是网上搜集，一部分是自己写的书源规则。  
-如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/UserScript/issues/new/choose) 告诉我**，我看看能不能写出书源，觉得**好用请点个⭐鼓励一下下~**   
+如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**，我看看能不能写出书源，觉得**好用请点个⭐鼓励一下下~**   
 
 ****
 
