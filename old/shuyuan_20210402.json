@@ -18,7 +18,7 @@
       "init": "",
       "intro": "id.intro@tag.p@text",
       "kind": "",
-      "lastChapter": "id.list@tag.dl@tag.dd.0",
+      "lastChapter": "id.list@tag.dl@tag.dd.0@text",
       "name": "id.info@tag.h1@text",
       "tocUrl": "<js>\nvar booktxt_index = baseUrl.lastIndexOf(\"\\/\");\nbooktxt_str = baseUrl.substring(booktxt_index + 1, baseUrl.length);\nbooktxt_str1 = booktxt_str.substring(0, booktxt_str.length-3);\nif (booktxt_str1==\"\") booktxt_str1=\"0\";\n'https://www.booktxt.net/'+booktxt_str1+'_'+booktxt_str+'/'\n</js>",
       "wordCount": ""
