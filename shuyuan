@@ -169,10 +169,48 @@
     "weight": 0
   },
   {
+    "bookSourceName": "E小说",
+    "bookSourceUrl": "https://www.zwda.com",
+    "bookSourceGroup": "推荐",
+    "customOrder": 3,
+    "bookSourceType": "0",
+    "bookSourceComment": "",
+    "loginUrl": "https://www.zwda.com/login.php?action=login",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php?q={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "lastUpdateTime": 1619625317256,
+    "ruleSearch": {
+      "bookList": "//div[@class=\"result-item result-game-item\"]",
+      "name": "class.result-item-title.0@tag.a.0@text##免费阅读全文",
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&tag.p.3@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text##章\\s+\\d+\\.##章",
+      "intro": "class.result-game-item-desc@tag.p@text",
+      "coverUrl": "tag.img.0@src",
+      "bookUrl": "class.result-item-title.0@tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {},
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]|ｗ.+ｍ|\\?|壹|小|说",
+      "imageStyle": "0"
+    }
+  },
+  {
     "bookSourceName": "顶点小说 booktxt.net",
     "bookSourceUrl": "https://www.booktxt.net",
     "bookSourceGroup": "推荐",
-    "customOrder": 3,
+    "customOrder": 4,
     "bookSourceType": 0,
     "bookUrlPattern": "",
     "enabled": true,
@@ -235,7 +273,7 @@
     "bookSourceName": "武林中文网 .net",
     "bookSourceUrl": "https://www.50zw.net",
     "bookSourceGroup": "推荐",
-    "customOrder": 4,
+    "customOrder": 5,
     "bookSourceType": 0,
     "enabled": true,
     "enabledExplore": false,
@@ -294,7 +332,7 @@
     "bookSourceName": "笔趣阁 mibaoge",
     "bookSourceUrl": "https://www.mibaoge.com",
     "bookSourceGroup": "推荐",
-    "customOrder": 5,
+    "customOrder": 6,
     "bookSourceType": 0,
     "loginUrl": "",
     "bookUrlPattern": "",
@@ -360,7 +398,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://ku.mumuceo.com",
     "bookUrlPattern": "",
-    "customOrder": 6,
+    "customOrder": 7,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "❀                     【 起点数据网 】                     ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1194\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1195\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1196\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1197\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1198\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1199\n现实::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1200\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1201\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1202\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1203\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1204\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1205\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1206\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1207\n ❀                     【 起点男生榜 】                     ❀::http://ku.mumuceo.com\n【 新人月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1224\n【 新人新书榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1192\n【 24小时热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1162\n❀                      【 起点女生榜 】                      ❀::http://ku.mumuceo.com\n【 新人月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1227\n【 24小时热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1163\n【 24小时首订榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1193\n\n❀                      【  橙瓜评分榜 】                      ❀::http://ku.mumuceo.com\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1171\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1172\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1173\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1174\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1175\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1176\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1177\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1178\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1179\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1180\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1181\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1182\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1183\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1184\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1185\n见证·网络文学20年百强作品评选中::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1170\n❀                      【 橙瓜连载榜 】                      ❀::http://ku.mumuceo.com\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1208\n玄幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1209\n奇幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1210\n武侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1211\n仙侠::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1212\n都市::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1213\n职场::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1214\n军事::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1215\n历史::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1216\n游戏::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1217\n体育::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1218\n科幻::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1219\n灵异::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1220\n悬疑::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1221\n言情::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1222\n二次元::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1223\n第四届网络文学奖::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10026\n\n❀                      【 创世中文网 】                      ❀::http://ku.mumuceo.com\n【 创世销售榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1228\n【 全平台销售榜】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1160\n\n❀                      【 云起书院 】                      ❀::http://ku.mumuceo.com\n                               【 云起销售榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10023\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10024\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10025\n                             【 全平台销售榜 】                            ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10001\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10002\n总榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10003\n\n❀                      【 纵横中文网 】                      ❀::http://ku.mumuceo.com\n【 月票榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1263\n【 新书订阅榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1262\n【 24小时畅销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1159\n\n❀                      【 17K小说网 】                      ❀::http://ku.mumuceo.com\n                              【 全站订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10004\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10005\n                              【 男生订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10006\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10007\n                              【 女生订阅榜 】                              ::http://ku.mumuceo.com\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10008\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=10009\n\n❀                      【 晋江文学城 】                      ❀::http://ku.mumuceo.com\n【 言情小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1154\n 【 纯爱/无cp-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1155\n 【 衍生/轻小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1156\n 【 原创小说-VIP金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1157\n 【 言情小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1264\n 【 言情小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1265\n 【 纯爱/无cp-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1266\n 【 纯爱/无cp-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1267\n 【 原创小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1270\n 【 原创小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1271\n 【 衍生/轻小说-完结金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1268\n 【 衍生/轻小说-千字金榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1269\n\n❀                      【掌阅iReader】                      ❀::http://ku.mumuceo.com\n【 男生热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1300\n 【 女生热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1301\n 【 男生包月榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1302\n 【 女生包月榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1303\n\n❀                      【 逐浪小说网 】                      ❀::http://ku.mumuceo.com\n【 鲜花榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1310\n【 PC热销榜 】::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1189\n\n ❀                      【 红袖添香 】                      ❀::http://ku.mumuceo.com\n日榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1230\n周榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1231\n月榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1232\n月票榜::http://106.75.166.106:9997/data/rank/new?page={{page}}&page_size=100&ver=v1&menu_id=1233",
@@ -416,44 +454,6 @@
       "updateTime": ""
     },
     "searchUrl": "",
-    "weight": 0
-  },
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
-    "bookSourceName": "E小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.zwda.com",
-    "customOrder": 7,
-    "enabled": true,
-    "enabledExplore": true,
-    "header": "",
-    "lastUpdateTime": 1610626579049,
-    "loginUrl": "https://www.zwda.com/login.php?action=login",
-    "ruleBookInfo": {
-      "intro": ""
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]",
-      "imageStyle": "0"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
-      "bookList": "//div[@class=\"result-item result-game-item\"]",
-      "bookUrl": "class.result-item-title.0@tag.a.0@href",
-      "coverUrl": "tag.img.0@src",
-      "intro": "class.result-game-item-desc@tag.p@text",
-      "kind": "class.result-game-item-info-tag.1@tag.span.1@text&&tag.p.3@text",
-      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text##章\\s+\\d+\\.##章",
-      "name": "class.result-item-title.0@tag.a.0@text##免费阅读全文"
-    },
-    "ruleToc": {
-      "chapterList": "id.list@tag.dd",
-      "chapterName": "tag.a.0@text",
-      "chapterUrl": "tag.a.0@href"
-    },
-    "searchUrl": "/search.php?q={{key}}",
     "weight": 0
   },
   {
