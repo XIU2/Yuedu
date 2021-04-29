@@ -202,7 +202,7 @@
       "chapterUrl": "tag.a.0@href"
     },
     "ruleContent": {
-      "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]|ｗ.+ｍ|\\?|壹|小|说",
+      "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]|\\?E|E\\?|E.*小|壹|小|说|ｗ.+ｍ|\\?+",
       "imageStyle": "0"
     }
   },
