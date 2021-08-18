@@ -1,8 +1,8 @@
 # 「阅读」APP 精品书源
 
-[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb)](https://github.com/XIU2/yuedu/blob/master/LICENSE)
-[![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb)](https://github.com/XIU2/yuedu/stargazers)
-[![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb)](https://github.com/XIU2/yuedu/network/members)
+[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
+[![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
+[![GitHub Fork](https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
 📚 自用的一些「阅读」书源，一部分是网上搜集，一部分是自己写的书源规则。  
