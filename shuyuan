@@ -11,7 +11,7 @@
     "enabledExplore": true,
     "exploreUrl": "↓ 月  票  榜   ::/rank/yuepiao?style=1&page={{page}}\n ⇦ 风  云  榜 ⇨ ::/rank/fengyun?style=1&page={{page}}\n    热  销  榜 ↓::/rank/hotsales?style=1&page={{page}}\n↓ 阅  读  榜   ::/rank/readIndex?style=1&page={{page}}\n ⇦ 粉  丝  榜 ⇨ ::/rank/newFans?style=1&page={{page}}\n    推  荐  榜 ↓::/rank/recom?style=1&page={{page}}\n↓ 收  藏  榜   ::/rank/collect?style=1&page={{page}}\n ⇦ 更  新  榜 ⇨ ::/rank/vipup?style=1&page={{page}}\n    打  赏  榜 ↓::/rank/vipreward?style=1&page={{page}}\n↓ 三江强推   ::/\n ⇦ 往期三江 ⇨ ::/book/sanjiang?page={{page}}\n    往期强推 ↓::/book/strongrec?page={{page}}\n↓ 签约新书   ::/rank/signnewbook?style=1&page={{page}}\n ⇦ 新人新书 ⇨ ::/rank/newsign?style=1&page={{page}}\n    限时免费 ↓::/free\n↓ 按总收藏   ::/all?style=1&page={{page}}&orderId=11\n ⇦ 男生全部 ⇨ ::/all?style=1&page={{page}}\n    按月推荐 ↓::/all?style=1&page={{page}}&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&action=1&orderId=11\n ⇦ 男生完本 ⇨ ::/all?style=1&page={{page}}&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&vip=0&orderId=11\n ⇦ 男生免费 ⇨ ::/all?style=1&page={{page}}&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=21&orderId=11\n ⇦ 玄幻全部 ⇨ ::/all?style=1&page={{page}}&chanId=21\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=21&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=21&action=1&orderId=11\n ⇦ 玄幻完本 ⇨ ::/all?style=1&page={{page}}&chanId=21&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=21&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=21&vip=0&orderId=11\n ⇦ 玄幻免费 ⇨ ::/all?style=1&page={{page}}&chanId=21&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=21&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=1&orderId=11\n ⇦ 奇幻全部 ⇨ ::/all?style=1&page={{page}}&chanId=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=1&action=1&orderId=11\n ⇦ 奇幻完本 ⇨ ::/all?style=1&page={{page}}&chanId=1&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=1&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=1&vip=0&orderId=11\n ⇦ 奇幻免费 ⇨ ::/all?style=1&page={{page}}&chanId=1&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=1&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=2&orderId=11\n ⇦ 武侠全部 ⇨ ::/all?style=1&page={{page}}&chanId=2\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=2&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=2&action=1&orderId=11\n ⇦ 武侠完本 ⇨ ::/all?style=1&page={{page}}&chanId=2&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=2&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=2&vip=0&orderId=11\n ⇦ 武侠免费 ⇨ ::/all?style=1&page={{page}}&chanId=2&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=2&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=22&orderId=11\n ⇦ 仙侠全部 ⇨ ::/all?style=1&page={{page}}&chanId=22\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=22&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=22&action=1&orderId=11\n ⇦ 仙侠完本 ⇨ ::/all?style=1&page={{page}}&chanId=22&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=22&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=22&vip=0&orderId=11\n ⇦ 仙侠免费 ⇨ ::/all?style=1&page={{page}}&chanId=22&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=22&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=4&orderId=11\n ⇦ 都市全部 ⇨ ::/all?style=1&page={{page}}&chanId=4\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=4&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=4&action=1&orderId=11\n ⇦ 都市完本 ⇨ ::/all?style=1&page={{page}}&chanId=4&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=4&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=4&vip=0&orderId=11\n ⇦ 都市免费 ⇨ ::/all?style=1&page={{page}}&chanId=4&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=4&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=15&orderId=11\n ⇦ 现实全部 ⇨ ::/all?style=1&page={{page}}&chanId=15\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=15&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=15&action=1&orderId=11\n ⇦ 现实完本 ⇨ ::/all?style=1&page={{page}}&chanId=15&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=15&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=15&vip=0&orderId=11\n ⇦ 现实免费 ⇨ ::/all?style=1&page={{page}}&chanId=15&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=15&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=6&orderId=11\n ⇦ 军事全部 ⇨ ::/all?style=1&page={{page}}&chanId=6\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=6&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=6&action=1&orderId=11\n ⇦ 军事完本 ⇨ ::/all?style=1&page={{page}}&chanId=6&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=6&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=6&vip=0&orderId=11\n ⇦ 军事免费 ⇨ ::/all?style=1&page={{page}}&chanId=6&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=6&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=5&orderId=11\n ⇦ 历史全部 ⇨ ::/all?style=1&page={{page}}&chanId=5\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=5&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=5&action=1&orderId=11\n ⇦ 历史完本 ⇨ ::/all?style=1&page={{page}}&chanId=5&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=5&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=5&vip=0&orderId=11\n ⇦ 历史免费 ⇨ ::/all?style=1&page={{page}}&chanId=5&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=5&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=7&orderId=11\n ⇦ 游戏全部 ⇨ ::/all?style=1&page={{page}}&chanId=7\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=7&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=7&action=1&orderId=11\n ⇦ 游戏完本 ⇨ ::/all?style=1&page={{page}}&chanId=7&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=7&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=7&vip=0&orderId=11\n ⇦ 游戏免费 ⇨ ::/all?style=1&page={{page}}&chanId=7&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=7&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=8&orderId=11\n ⇦ 体育全部 ⇨ ::/all?style=1&page={{page}}&chanId=8\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=8&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=8&action=1&orderId=11\n ⇦ 体育完本 ⇨ ::/all?style=1&page={{page}}&chanId=8&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=8&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=8&vip=0&orderId=11\n ⇦ 体育免费 ⇨ ::/all?style=1&page={{page}}&chanId=8&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=8&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=9&orderId=11\n ⇦ 科幻全部 ⇨ ::/all?style=1&page={{page}}&chanId=9\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=9&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=9&action=1&orderId=11\n ⇦ 科幻完本 ⇨ ::/all?style=1&page={{page}}&chanId=9&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=9&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=9&vip=0&orderId=11\n ⇦ 科幻免费 ⇨ ::/all?style=1&page={{page}}&chanId=9&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=9&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=10&orderId=11\n ⇦ 悬疑全部 ⇨ ::/all?style=1&page={{page}}&chanId=10\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=10&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=10&action=1&orderId=11\n ⇦ 悬疑完本 ⇨ ::/all?style=1&page={{page}}&chanId=10&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=10&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=10&vip=0&orderId=11\n ⇦ 悬疑免费 ⇨ ::/all?style=1&page={{page}}&chanId=10&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=10&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=12&orderId=11\n ⇦ 轻小说全 ⇨ ::/all?style=1&page={{page}}&chanId=12\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=12&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=12&action=1&orderId=11\n ⇦ 轻小说完 ⇨ ::/all?style=1&page={{page}}&chanId=12&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=12&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=12&vip=0&orderId=11\n ⇦ 轻小说免 ⇨ ::/all?style=1&page={{page}}&chanId=12&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=12&vip=0&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=20076&orderId=11\n ⇦ 短篇全部 ⇨ ::/all?style=1&page={{page}}&chanId=20076\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=20076&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=20076&action=1&orderId=11\n ⇦ 短篇完本 ⇨ ::/all?style=1&page={{page}}&chanId=20076&action=1\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=20076&action=1&orderId=10\n↓ 按总收藏   ::/all?style=1&page={{page}}&chanId=20076&vip=0&orderId=11\n ⇦ 短篇免费 ⇨ ::/all?style=1&page={{page}}&chanId=20076&vip=0\n    按月推荐 ↓::/all?style=1&page={{page}}&chanId=20076&vip=0&orderId=10\n↓ 月  票  榜   ::/mm/rank/yuepiao?style=1&page={{page}}\n ⇦ 新  书  榜 ⇨ ::/mm/rank/newsales?style=1&page={{page}}\n    阅  读  榜 ↓::/mm/rank/readIndex?style=1&page={{page}}\n↓ 热  销  榜   ::/mm/rank/hotsales?style=1&page={{page}}\n ⇦ 粉  丝  榜 ⇨ ::/mm/rank/newFans?style=1&page={{page}}\n    单  订  榜 ↓::/mm/rank/subscr?style=1&page={{page}}\n↓ 推  荐  榜   ::/mm/rank/recom?style=1&page={{page}}\n ⇦ 收  藏  榜 ⇨ ::/mm/rank/collect?style=1&page={{page}}\n    更  新  榜 ↓::/mm/rank/vipup?style=1&page={{page}}\n↓ 字  数  榜   ::/mm/rank/wordcount?style=1&page={{page}}\n ⇦ 新人新书 ⇨ ::/mm/rank/newsign?style=1&page={{page}}\n    限时免费 ↓::/mm/free\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&orderId=11\n ⇦ 女生全部 ⇨ ::/mm/all?style=1&page={{page}}\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&action=1&orderId=11\n ⇦ 女生完本 ⇨ ::/mm/all?style=1&page={{page}}&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&vip=0&orderId=11\n ⇦ 女生免费 ⇨ ::/mm/all?style=1&page={{page}}&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=80&orderId=11\n ⇦ 古代全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=80\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=80&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=80&action=1&orderId=11\n ⇦ 古代完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=80&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=80&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=80&vip=0&orderId=11\n ⇦ 古代免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=80&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=80&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=81&orderId=11\n ⇦ 仙侠全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=81\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=81&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=81&action=1&orderId=11\n ⇦ 仙侠完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=81&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=81&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=81&vip=0&orderId=11\n ⇦ 仙侠免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=81&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=81&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=82&orderId=11\n ⇦ 现代全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=82\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=82&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=82&action=1&orderId=11\n ⇦ 现代完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=82&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=82&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=82&vip=0&orderId=11\n ⇦ 现代免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=82&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=82&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=83&orderId=11\n ⇦ 青春全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=83\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=83&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=83&action=1&orderId=11\n ⇦ 青春完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=83&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=83&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=83&vip=0&orderId=11\n ⇦ 青春免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=83&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=83&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=84&orderId=11\n ⇦ 玄幻全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=84\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=84&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=84&action=1&orderId=11\n ⇦ 玄幻完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=84&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=84&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=84&vip=0&orderId=11\n ⇦ 玄幻免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=84&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=84&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=85&orderId=11\n ⇦ 悬疑全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=85\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=85&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=85&action=1&orderId=11\n ⇦ 悬疑完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=85&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=85&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=85&vip=0&orderId=11\n ⇦ 悬疑免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=85&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=85&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30083&orderId=11\n ⇦ 短篇全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30083\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30083&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30083&action=1&orderId=11\n ⇦ 短篇完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30083&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30083&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30083&vip=0&orderId=11\n ⇦ 短篇免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30083&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30083&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=86&orderId=11\n ⇦ 科幻全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=86\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=86&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=86&action=1&orderId=11\n ⇦ 科幻完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=86&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=86&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=86&vip=0&orderId=11\n ⇦ 科幻免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=86&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=86&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=88&orderId=11\n ⇦ 游戏全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=88\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=88&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=88&action=1&orderId=11\n ⇦ 游戏完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=88&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=88&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=88&vip=0&orderId=11\n ⇦ 游戏免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=88&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=88&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=87&orderId=11\n ⇦ 轻小说全 ⇨ ::/mm/all?style=1&page={{page}}&chanId=87\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=87&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=87&action=1&orderId=11\n ⇦ 轻小说完 ⇨ ::/mm/all?style=1&page={{page}}&chanId=87&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=87&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=87&vip=0&orderId=11\n ⇦ 轻小说免 ⇨ ::/mm/all?style=1&page={{page}}&chanId=87&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=87&vip=0&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30120&orderId=11\n ⇦ 生活全部 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30120\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30120&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30120&action=1&orderId=11\n ⇦ 生活完本 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30120&action=1\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30120&action=1&orderId=10\n↓ 按总收藏   ::/mm/all?style=1&page={{page}}&chanId=30120&vip=0&orderId=11\n ⇦ 生活免费 ⇨ ::/mm/all?style=1&page={{page}}&chanId=30120&vip=0\n    按月推荐 ↓::/mm/all?style=1&page={{page}}&chanId=30120&vip=0&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&orderId=11\n ⇦ 出版全部 ⇨ ::/all_pub?style=1&page={{page}}\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&action=1&orderId=11\n ⇦ 出版完本 ⇨ ::/all_pub?style=1&page={{page}}&action=1\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&action=1&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&vip=0&orderId=11\n ⇦ 出版免费 ⇨ ::/all_pub?style=1&page={{page}}&vip=0\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&vip=0&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=13100&orderId=11\n ⇦ 小说出版 ⇨ ::/all_pub?style=1&page={{page}}&chanId=13100\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=13100&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=14300&orderId=11\n ⇦ 青春文学 ⇨ ::/all_pub?style=1&page={{page}}&chanId=14300\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=14300&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=13700&orderId=11\n ⇦ 两性关系 ⇨ ::/all_pub?style=1&page={{page}}&chanId=13700\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=13700&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=14100&orderId=11\n ⇦ 文学出版 ⇨ ::/all_pub?style=1&page={{page}}&chanId=14100\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=14100&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=14400&orderId=11\n ⇦ 历史出版 ⇨ ::/all_pub?style=1&page={{page}}&chanId=14400\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=14400&orderId=10\n↓ 按总收藏   ::/all_pub?style=1&page={{page}}&chanId=14500&orderId=11\n ⇦ 传记出版 ⇨ ::/all_pub?style=1&page={{page}}&chanId=14500\n    按月推荐 ↓::/all_pub?style=1&page={{page}}&chanId=14500&orderId=10",
     "header": "",
-    "lastUpdateTime": 1632368590477,
+    "lastUpdateTime": 1632369295240,
     "loginUrl": "https://passport.qidian.com",
     "ruleBookInfo": {
       "name": "##\"book-title\">([^<]+)</h2##$1###",
@@ -44,7 +44,7 @@
       "updateTime": "<js>java.timeFormat($3)</js>"
     },
     "searchUrl": "/search?kw={{key}}",
-    "weight": 0
+    "weight": 99
   },
   {
     "bookSourceComment": "",
@@ -58,7 +58,7 @@
     "enabledExplore": true,
     "exploreUrl": "总点击榜::https://www.9txs.org/top/allvisit/{{page}}.html\n月点击榜::https://www.9txs.org/top/monthvisit/{{page}}.html\n周点击榜::https://www.9txs.org/top/weekvisit/{{page}}.html\n总推荐榜::https://www.9txs.org/top/allvote/{{page}}.html\n月推荐榜::https://www.9txs.org/top/monthvote/{{page}}.html\n周推荐榜::https://www.9txs.org/top/weekvote/{{page}}.html\n总收藏榜::https://www.9txs.org/top/goodnum/{{page}}.html\n总字数榜::https://www.9txs.org/top/size/{{page}}.html\n强推榜::https://www.9txs.org/top/toptime/{{page}}.html\n新书榜::https://www.9txs.org/top/goodnew/{{page}}.html\n最新入库::https://www.9txs.org/top/postdate/{{page}}.html\n最近更新::https://www.9txs.org/top/lastupdate/{{page}}.html\n玄幻奇幻 • 全部::https://www.9txs.org/library/0_1_0_{{page}}.html\n玄幻奇幻 • 连载::https://www.9txs.org/library/0_1_1_{{page}}.html\n玄幻奇幻 • 完结::https://www.9txs.org/library/0_1_2_{{page}}.html\n武侠修真 • 全部::https://www.9txs.org/library/0_2_0_{{page}}.html\n武侠修真 • 连载::https://www.9txs.org/library/0_2_1_{{page}}.html\n武侠修真 • 完结::https://www.9txs.org/library/0_2_2_{{page}}.html\n都市生活 • 全部::https://www.9txs.org/library/0_3_0_{{page}}.html\n都市生活 • 连载::https://www.9txs.org/library/0_3_1_{{page}}.html\n都市生活 • 完结::https://www.9txs.org/library/0_3_2_{{page}}.html\n历史军事 • 全部::https://www.9txs.org/library/0_4_0_{{page}}.html\n历史军事 • 连载::https://www.9txs.org/library/0_4_1_{{page}}.html\n历史军事 • 完结::https://www.9txs.org/library/0_4_2_{{page}}.html\n游戏竞技 • 全部::https://www.9txs.org/library/0_5_0_{{page}}.html\n游戏竞技 • 连载::https://www.9txs.org/library/0_5_1_{{page}}.html\n游戏竞技 • 完结::https://www.9txs.org/library/0_5_2_{{page}}.html\n科幻未来 • 全部::https://www.9txs.org/library/0_6_0_{{page}}.html\n科幻未来 • 连载::https://www.9txs.org/library/0_6_1_{{page}}.html\n科幻未来 • 完结::https://www.9txs.org/library/0_6_2_{{page}}.html\n悬疑灵异 • 全部::https://www.9txs.org/library/0_7_0_{{page}}.html\n悬疑灵异 • 连载::https://www.9txs.org/library/0_7_1_{{page}}.html\n悬疑灵异 • 完结::https://www.9txs.org/library/0_7_2_{{page}}.html\n二 次 元 • 全部::https://www.9txs.org/library/0_8_0_{{page}}.html\n二 次 元 • 连载::https://www.9txs.org/library/0_8_1_{{page}}.html\n二 次 元 • 完结::https://www.9txs.org/library/0_8_2_{{page}}.html\n经典短篇 • 全部::https://www.9txs.org/library/0_9_0_{{page}}.html\n经典短篇 • 连载::https://www.9txs.org/library/0_9_1_{{page}}.html\n经典短篇 • 完结::https://www.9txs.org/library/0_9_2_{{page}}.html\n古代言情 • 全部::https://www.9txs.org/library/0_10_0_{{page}}.html\n古代言情 • 连载::https://www.9txs.org/library/0_10_1_{{page}}.html\n古代言情 • 完结::https://www.9txs.org/library/0_10_2_{{page}}.html\n现代言情 • 全部::https://www.9txs.org/library/0_11_0_{{page}}.html\n现代言情 • 连载::https://www.9txs.org/library/0_11_1_{{page}}.html\n现代言情 • 完结::https://www.9txs.org/library/0_11_2_{{page}}.html\n幻想奇缘 • 全部::https://www.9txs.org/library/0_12_0_{{page}}.html\n幻想奇缘 • 连载::https://www.9txs.org/library/0_12_1_{{page}}.html\n幻想奇缘 • 完结::https://www.9txs.org/library/0_12_2_{{page}}.html\n浪漫青春 • 全部::https://www.9txs.org/library/0_13_0_{{page}}.html\n浪漫青春 • 连载::https://www.9txs.org/library/0_13_1_{{page}}.html\n浪漫青春 • 完结::https://www.9txs.org/library/0_13_2_{{page}}.html\n网络情缘 • 全部::https://www.9txs.org/library/0_14_0_{{page}}.html\n网络情缘 • 连载::https://www.9txs.org/library/0_14_1_{{page}}.html\n网络情缘 • 完结::https://www.9txs.org/library/0_14_2_{{page}}.html\n科幻空间 • 全部::https://www.9txs.org/library/0_15_0_{{page}}.html\n科幻空间 • 连载::https://www.9txs.org/library/0_15_1_{{page}}.html\n科幻空间 • 完结::https://www.9txs.org/library/0_15_2_{{page}}.html\n恐怖灵异 • 全部::https://www.9txs.org/library/0_16_0_{{page}}.html\n恐怖灵异 • 连载::https://www.9txs.org/library/0_16_1_{{page}}.html\n恐怖灵异 • 完结::https://www.9txs.org/library/0_16_2_{{page}}.html\nN 次 元 • 全部::https://www.9txs.org/library/0_17_0_{{page}}.html\nN 次 元 • 连载::https://www.9txs.org/library/0_17_1_{{page}}.html\nN 次 元 • 完结::https://www.9txs.org/library/0_17_2_{{page}}.html\n言情美文 • 全部::https://www.9txs.org/library/0_18_0_{{page}}.html\n言情美文 • 连载::https://www.9txs.org/library/0_18_1_{{page}}.html\n言情美文 • 完结::https://www.9txs.org/library/0_18_2_{{page}}.html\n其他类型 • 全部::https://www.9txs.org/library/0_19_0_{{page}}.html\n其他类型 • 连载::https://www.9txs.org/library/0_19_1_{{page}}.html\n其他类型 • 完结::https://www.9txs.org/library/0_19_2_{{page}}.html",
     "header": "",
-    "lastUpdateTime": 1632368591772,
+    "lastUpdateTime": 1632369396580,
     "loginUrl": "https://www.9txs.org/login.html",
     "ruleBookInfo": {
       "kind": "class.detail@tag.p.0@tag.a.1@text%%class.detail@tag.p@text##.*字数.",
@@ -93,7 +93,7 @@
       "chapterUrl": "href"
     },
     "searchUrl": "https://so.9txs.org/www/,{\n\"charset\": \"UTF-8\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
-    "weight": 0
+    "weight": 98
   },
   {
     "bookSourceComment": "",
@@ -107,7 +107,7 @@
     "enabledExplore": true,
     "exploreUrl": "玄幻*热门::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n玄幻*日更::/book/list?gender=-1&clsIdFirst=1&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n奇幻*热门::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n奇幻*日更::/book/list?gender=-1&clsIdFirst=2&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n武侠*热门::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n武侠*日更::/book/list?gender=-1&clsIdFirst=3&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n仙侠*热门::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n仙侠*日更::/book/list?gender=-1&clsIdFirst=4&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n都市*热门::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n都市*日更::/book/list?gender=-1&clsIdFirst=5&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n校园*热门::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n校园*日更::/book/list?gender=-1&clsIdFirst=6&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n历史*热门::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n历史*日更::/book/list?gender=-1&clsIdFirst=7&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n军事*热门::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n军事*日更::/book/list?gender=-1&clsIdFirst=8&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n游戏*热门::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n游戏*日更::/book/list?gender=-1&clsIdFirst=9&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n竞技*热门::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n竞技*日更::/book/list?gender=-1&clsIdFirst=10&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n科幻*热门::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n科幻*日更::/book/list?gender=-1&clsIdFirst=11&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n耽美*热门::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n耽美*日更::/book/list?gender=-1&clsIdFirst=128&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n其他*热门::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n其他*日更::/book/list?gender=-1&clsIdFirst=116&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n推理悬疑*热门::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n推理悬疑*日更::/book/list?gender=-1&clsIdFirst=17&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n恐怖惊悚*热门::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n恐怖惊悚*日更::/book/list?gender=-1&clsIdFirst=84&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n有兔怪谈*热门::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n有兔怪谈*日更::/book/list?gender=-1&clsIdFirst=112&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n现代言情*热门::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n现代言情*日更::/book/list?gender=-1&clsIdFirst=12&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n古代言情*热门::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n古代言情*日更::/book/list?gender=-1&clsIdFirst=13&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n幻想言情*热门::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n幻想言情*日更::/book/list?gender=-1&clsIdFirst=14&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n青春校园*热门::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n青春校园*日更::/book/list?gender=-1&clsIdFirst=15&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n同人作品*热门::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n同人作品*日更::/book/list?gender=-1&clsIdFirst=16&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n次元专区*热门::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=read_cnt&fullFlag=0&clsIdSecond=\n次元专区*日更::/book/list?gender=-1&clsIdFirst=18&pageNo={{page}}&orderBy=last_serialize_date&fullFlag=0&clsIdSecond=\n人气榜单::/popular/detail?pageNo={{page}}&type=1\n收藏榜单::/popular/detail?pageNo={{page}}&type=5\n男频榜单::/popular/detail?pageNo={{page}}&type=3\n女频榜单::/popular/detail?pageNo={{page}}&type=2\n完本榜单::/popular/detail?pageNo={{page}}&type=4\n特别推荐::/book/list?pageNo={{page}}&selectionModuleId=1\n火爆好书::/book/list?pageNo={{page}}&selectionModuleId=4\n日更作品::/book/list?orderBy=last_serialize_date&fullFlag=1&pageNo={{page}}\n边谈恋爱边破案*超赞::/book/list?pageNo={{page}}&selectionModuleId=36\n人气佳作*中毒不可自拔::/book/list?pageNo={{page}}&selectionModuleId=19",
     "header": "{\"Seq\":\"11111111111111111111111111111111\"}",
-    "lastUpdateTime": 1632368592602,
+    "lastUpdateTime": 1632371336581,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {
@@ -132,7 +132,7 @@
       "chapterUrl": "@json:https://book.chengxinqinye.com/book{$.filePath}"
     },
     "searchUrl": "/es/search/book?q={{key}}&pageNo={{page}}&pageSize=10",
-    "weight": 0
+    "weight": 97
   },
   {
     "bookSourceComment": "1\n\"",
@@ -142,11 +142,11 @@
     "bookSourceUrl": "https://www.zwda.com",
     "bookUrlPattern": "",
     "customOrder": 3,
-    "enabled": true,
-    "enabledExplore": true,
+    "enabled": false,
+    "enabledExplore": false,
     "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1632368580933,
+    "header": "{\n     \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n }",
+    "lastUpdateTime": 1632371336155,
     "loginUrl": "https://www.zwda.com/login.php?action=login",
     "ruleBookInfo": {},
     "ruleContent": {
@@ -183,7 +183,7 @@
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "{\n     \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n }",
-    "lastUpdateTime": 1632368595422,
+    "lastUpdateTime": 1632371316271,
     "loginUrl": "https://www.booktxt.net/user/login.php",
     "ruleBookInfo": {
       "name": "id.info@tag.h1@text",
@@ -209,7 +209,7 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "https://so.biqusoso.com/s1.php?ie=utf-8&siteid=booktxt.net&q={{key}}",
-    "weight": 0
+    "weight": 96
   },
   {
     "bookSourceGroup": "",
@@ -222,7 +222,7 @@
     "enabledExplore": false,
     "exploreUrl": "",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1632368598283,
+    "lastUpdateTime": 1632371315196,
     "loginUrl": "",
     "ruleBookInfo": {
       "name": "class.box_con.0@id.info@tag.h1.0@text",
@@ -249,7 +249,7 @@
       "chapterUrl": "tag.a@href"
     },
     "searchUrl": "https://www.mibaoge.com/search.php?q={{key}}",
-    "weight": 0
+    "weight": 95
   },
   {
     "bookSourceComment": "",
@@ -260,10 +260,10 @@
     "bookUrlPattern": "",
     "customOrder": 6,
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "exploreUrl": "",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows)\"\n}",
-    "lastUpdateTime": 1632368600122,
+    "lastUpdateTime": 1632371314609,
     "loginUrl": "",
     "ruleBookInfo": {
       "name": "class.line@tag.hl.0@text",
@@ -302,9 +302,9 @@
     "bookUrlPattern": "",
     "customOrder": 7,
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "header": "",
-    "lastUpdateTime": 1632368601931,
+    "lastUpdateTime": 1632371314209,
     "loginUrl": "",
     "ruleBookInfo": {
       "name": "id.smallcons@tag.h1@text##免费阅读全文",
@@ -342,9 +342,9 @@
     "bookSourceUrl": "https://www.caimoge.com",
     "customOrder": 8,
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "exploreUrl": "",
-    "lastUpdateTime": 1632368603766,
+    "lastUpdateTime": 1632371313805,
     "ruleBookInfo": {
       "tocUrl": "class.motion2@tag.a.0@href"
     },
@@ -372,16 +372,16 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "1\n\"",
+    "bookSourceComment": "\n\"",
     "bookSourceGroup": "",
     "bookSourceName": "笔趣阁 b5200",
     "bookSourceType": "0",
     "bookSourceUrl": "http://www.b5200.net",
     "customOrder": 9,
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "header": "",
-    "lastUpdateTime": 1632368605304,
+    "lastUpdateTime": 1632371313238,
     "ruleBookInfo": {
       "intro": "id.intro.0@tag.p.0@text",
       "coverUrl": "id.fmimg.0@tag.img.0@src"
@@ -415,8 +415,8 @@
     "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
     "customOrder": 10,
     "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1632368607104,
+    "enabledExplore": false,
+    "lastUpdateTime": 1632371312137,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$..content"
@@ -449,9 +449,9 @@
     "bookUrlPattern": "",
     "customOrder": 11,
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "header": "",
-    "lastUpdateTime": 1632368609514,
+    "lastUpdateTime": 1632371311620,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {
@@ -487,8 +487,8 @@
     "bookSourceUrl": "http://m.yunxs.com",
     "customOrder": 12,
     "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1632368611240,
+    "enabledExplore": false,
+    "lastUpdateTime": 1632371311178,
     "ruleBookInfo": {
       "intro": "//meta[@name=\"description\"]/@content##.*小说主要讲述.\\s+|无弹.*?在.*?在云中书库"
     },
@@ -515,64 +515,21 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "1",
-    "bookSourceGroup": "",
-    "bookSourceName": "墨雪小说网",
-    "bookSourceType": "0",
-    "bookSourceUrl": "https://www.moxue99.com",
-    "bookUrlPattern": "",
-    "customOrder": 13,
-    "enabled": true,
-    "enabledExplore": true,
-    "lastUpdateTime": 1632368613018,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "init": ":g:d[^:]*:([^\"]*)(?:[^\"]*\"){8}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){4}([^\"]*)(?:[^\"]*\"){12}([^\"]*)(?:[^\"]*\"){4}([^\\s]*)(?:[^\"]*\"){4}([^\"]*)",
-      "name": "$5",
-      "author": "$4",
-      "kind": "$3,$6,$7",
-      "lastChapter": "$8",
-      "intro": "$1",
-      "coverUrl": "$2"
-    },
-    "ruleContent": {
-      "content": "id.content@p@textNodes##喜欢.*?请大家收藏：\\(.*?\\).*?墨雪网更新速度最快。"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "bookList": "id.sitembox@dl",
-      "name": "h3@text",
-      "author": "tag.span.0@text",
-      "kind": "span!0:1@text##\\s.*",
-      "lastChapter": "a!0:1@text",
-      "intro": ".book_des@text##\\...$",
-      "coverUrl": "img@src",
-      "bookUrl": "a@href"
-    },
-    "ruleToc": {
-      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
-      "chapterName": "text",
-      "chapterUrl": "href"
-    },
-    "searchUrl": "/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
-    "weight": 0
-  },
-  {
-    "bookSourceUrl": "https://www.zw50.com/",
+    "bookSourceUrl": "https://www.zw50.com",
     "bookSourceType": "0",
     "bookSourceName": "武林中文网",
     "bookSourceGroup": "",
-    "bookSourceComment": "1\nnull\"",
+    "bookSourceComment": "\nnull\"",
     "loginUrl": "",
     "bookUrlPattern": "",
     "header": "",
-    "searchUrl": "https://www.50zw.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
     "exploreUrl": "",
     "enabled": true,
     "enabledExplore": false,
     "weight": 0,
-    "customOrder": 14,
-    "lastUpdateTime": 1632368614951,
+    "customOrder": 13,
+    "lastUpdateTime": 1632371310547,
     "ruleSearch": {
       "bookList": "class.grid@tag.tr!0||class.liebiao_top",
       "name": "class.odd.0@tag.a.0@text||class.intro@tag.li.0@tag.h2.0@text",
@@ -584,16 +541,18 @@
     },
     "ruleExplore": {},
     "ruleBookInfo": {
+      "name": "id.info@tag.h1@textNodes",
+      "author": "id.info@tag.h1@tag.small@tag.a@text",
       "intro": "class.intro@class.jieshao@textNodes",
-      "coverUrl": "class.liebiao_top@class.intro@tag.img.0@src"
+      "coverUrl": "id.picbox@tag.img.0@src"
     },
     "ruleToc": {
-      "chapterList": "class.liebiao_bottom@tag.dd@tag.a",
+      "chapterList": "class.zjlist@tag.dd@tag.a",
       "chapterName": "text",
       "chapterUrl": "href"
     },
     "ruleContent": {
-      "content": "id.neirong@textNodes##一秒.*阅读！"
+      "content": "id.content@textNodes"
     }
   }
 ]
