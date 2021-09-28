@@ -7,7 +7,7 @@
 
 📚 自用的一些「阅读」书源，一部分是网上搜集，一部分是自己写的书源规则。  
 如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**，我会看看能不能制作为书源并添加至本项目中~  
-如果觉得**好用请在 Github 右上角点个⭐Star 鼓励一下下~**   
+如果觉得**好用请在 [本 Github 项目]((https://github.com/XIU2/Yuedu)) 右上角点个⭐Star 鼓励一下下~**   
 
 ****
 
