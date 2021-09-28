@@ -10,21 +10,21 @@
 
 ****
 
-「阅读」我就不多介绍了，我见过不少人安利，我直接贴酷安的介绍吧。  
-https://www.coolapk.com/apk/256030
+「阅读」不同于其他小说阅读 APP，其原理是**解析各小说网站（书源）提取小说内容**显示给你看，因此并不自带书源，需要自行寻找书源。  
 
-- **酷安下载地址：** https://www.coolapk.com/apk/256030  
-- **软件开源地址：** https://github.com/gedoor/legado  
-- **官方下载地址：** https://github.com/gedoor/legado/releases  
+- **酷安下载地址：** _https://www.coolapk.com/apk/256030_  
+- **软件开源地址：** _https://github.com/gedoor/legado_  
+- **官方下载地址：** _https://github.com/gedoor/legado/releases_  
+- **IOS 版「阅读」：** _https://apps.apple.com/cn/app/%E6%BA%90%E9%98%85%E8%AF%BB/id1561787704_
 
 ****
 
 ## 书源地址：
 书源每日更新，大家可以定期导入一次~ 放心！导入时会自动去重复的！
-- **书源分享地址：** https://yuedu.xiu2.xyz  
-- **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan  
+- **书源分享地址：** _https://yuedu.xiu2.xyz_  
+- **网络导入地址：** _https://yuedu.xiu2.xyz/shuyuan_  
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
-- **历史书源文件：** https://yuedu.xiu2.xyz/old  
+- **历史书源文件：** _https://yuedu.xiu2.xyz/old_  
 
 > **备用网络导入地址：** _https://cdn.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
 
@@ -58,7 +58,7 @@ https://www.coolapk.com/apk/256030
 
 先去[这里](https://yuedu.xiu2.xyz/old)找到你要导入历史书源，例如：**shuyuan_20201122.json**  
 
-那么网络导入地址为：https://yuedu.xiu2.xyz/old/shuyuan_20201122.json  
+那么网络导入地址为：_https://yuedu.xiu2.xyz/old/shuyuan_20201122.json_  
 
 自行替换 URL 最后的文件名即可。
 
