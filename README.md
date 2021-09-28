@@ -1,4 +1,4 @@
-# 「阅读」APP 精品书源
+# [「阅读」APP 精品书源](https://github.com/XIU2/Yuedu)
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
 [![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
@@ -6,16 +6,20 @@
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
 📚 自用的一些「阅读」书源，一部分是网上搜集，一部分是自己写的书源规则。  
-如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**，我看看能不能写出书源，觉得**好用请点个⭐鼓励一下下~**   
+如果你有什么**质量不错的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**，我会看看能不能制作为书源并添加至本项目中~  
+如果觉得**好用请在 Github 右上角点个⭐Star 鼓励一下下~**   
 
 ****
 
-「阅读」不同于其他小说阅读 APP，其原理是**解析各小说网站（书源）提取小说内容**显示给你看，因此并不自带书源，需要自行寻找书源。  
+**「阅读」**不同于其他小说阅读 APP，其原理是**解析各小说网站（书源）提取小说内容**显示给你看，因此并不自带书源，需要自行寻找书源。  
 
+**\# Android：**
 - **酷安下载地址：** _https://www.coolapk.com/apk/256030_  
 - **软件开源地址：** _https://github.com/gedoor/legado_  
 - **官方下载地址：** _https://github.com/gedoor/legado/releases_  
-- **IOS 版「阅读」：** _https://apps.apple.com/cn/app/%E6%BA%90%E9%98%85%E8%AF%BB/id1561787704_
+
+**\# IOS：**
+- **软件下载地址：** _https://apps.apple.com/cn/app/%E6%BA%90%E9%98%85%E8%AF%BB/id1561787704_
 
 ****
 
