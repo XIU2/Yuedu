@@ -26,7 +26,7 @@
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
 - **历史书源文件：** _https://yuedu.xiu2.xyz/old_  
 
-> **备用网络导入地址：** _https://cdn.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
+> **备用网络导入地址：** _https://gcore.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
 
 ****
 
@@ -34,14 +34,14 @@
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://cdn.jsdelivr.net/gh/XIU2/Yuedu@master/dist/img/img-02.png)
+![](https://fastly.jsdelivr.net/gh/XIU2/Yuedu/dist/img/img-02.png)
 
 ****
 
 ### 网络导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
 - **网络导入地址：** https://yuedu.xiu2.xyz/shuyuan  
-> **备用网络导入地址：** _https://cdn.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
+> **备用网络导入地址：** _https://gcore.jsdelivr.net/gh/XIU2/Yuedu/shuyuan_  
 
 ****
 
@@ -50,7 +50,7 @@
 
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
 
-![](https://cdn.jsdelivr.net/gh/XIU2/Yuedu@master/dist/img/img-04.png)
+![](https://fastly.jsdelivr.net/gh/XIU2/Yuedu/dist/img/img-04.png)
 
 ****
 
@@ -83,7 +83,7 @@
 
 ## 赞赏支持
 
-![微信赞赏](https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/img/zs-01.png)![支付宝赞赏](https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/img/zs-02.png)
+![微信赞赏](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/img/zs-01.png)![支付宝赞赏](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/img/zs-02.png)
 
 ****
 
