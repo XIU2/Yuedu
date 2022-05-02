@@ -151,32 +151,31 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "八一",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://api.81zwapp.com",
         "customOrder": 4,
         "enabled": true,
         "enabledExplore": true,
         "exploreUrl": "男频人气::/static/ranking/1/1/popularity.json\n男频新书::/static/ranking/1/1/new.json\n男频推荐::/static/ranking/1/1/reco.json\n男频收藏::/static/ranking/1/1/collect.json\n男频好评::/static/ranking/1/1/praise.json\n男频热搜::/static/ranking/1/1/hotsearch.json\n男频完结::/static/ranking/1/1/finish.json\n玄幻热门::/static/book/category/1/13/hot/{{page}}.json\n玄幻新书::/static/book/category/1/13/new/{{page}}.json\n玄幻好评::/static/book/category/1/13/praise/{{page}}.json\n玄幻完结::/static/book/category/1/13/finish/{{page}}.json\n奇幻热门::/static/book/category/1/17/hot/{{page}}.json\n奇幻新书::/static/book/category/1/17/new/{{page}}.json\n奇幻好评::/static/book/category/1/17/praise/{{page}}.json\n奇幻完结::/static/book/category/1/17/finish/{{page}}.json\n武侠热门::/static/book/category/1/10/hot/{{page}}.json\n武侠新书::/static/book/category/1/10/new/{{page}}.json\n武侠好评::/static/book/category/1/10/praise/{{page}}.json\n武侠完结::/static/book/category/1/10/finish/{{page}}.json\n仙侠热门::/static/book/category/1/18/hot/{{page}}.json\n仙侠新书::/static/book/category/1/18/new/{{page}}.json\n仙侠好评::/static/book/category/1/18/praise/{{page}}.json\n仙侠完结::/static/book/category/1/18/finish/{{page}}.json\n都市热门::/static/book/category/1/12/hot/{{page}}.json\n都市新书::/static/book/category/1/12/new/{{page}}.json\n都市好评::/static/book/category/1/12/praise/{{page}}.json\n都市完结::/static/book/category/1/12/finish/{{page}}.json\n历史热门::/static/book/category/1/15/hot/{{page}}.json\n历史新书::/static/book/category/1/15/new/{{page}}.json\n历史好评::/static/book/category/1/15/praise/{{page}}.json\n历史完结::/static/book/category/1/15/finish/{{page}}.json\n军事热门::/static/book/category/1/19/hot/{{page}}.json\n军事新书::/static/book/category/1/19/new/{{page}}.json\n军事好评::/static/book/category/1/19/praise/{{page}}.json\n军事完结::/static/book/category/1/19/finish/{{page}}.json\n游戏热门::/static/book/category/1/11/hot/{{page}}.json\n游戏新书::/static/book/category/1/11/new/{{page}}.json\n游戏好评::/static/book/category/1/11/praise/{{page}}.json\n游戏完结::/static/book/category/1/11/finish/{{page}}.json\n体育热门::/static/book/category/1/20/hot/{{page}}.json\n体育新书::/static/book/category/1/20/new/{{page}}.json\n体育好评::/static/book/category/1/20/praise/{{page}}.json\n体育完结::/static/book/category/1/20/finish/{{page}}.json\n科幻热门::/static/book/category/1/21/hot/{{page}}.json\n科幻新书::/static/book/category/1/21/new/{{page}}.json\n科幻好评::/static/book/category/1/21/praise/{{page}}.json\n科幻完结::/static/book/category/1/21/finish/{{page}}.json\n灵异热门::/static/book/category/1/22/hot/{{page}}.json\n灵异新书::/static/book/category/1/22/new/{{page}}.json\n灵异好评::/static/book/category/1/22/praise/{{page}}.json\n灵异完结::/static/book/category/1/22/finish/{{page}}.json\n其它热门::/static/book/category/1/16/hot/{{page}}.json\n其它新书::/static/book/category/1/16/new/{{page}}.json\n其它好评::/static/book/category/1/16/praise/{{page}}.json\n其它完结::/static/book/category/1/16/finish/{{page}}.json\n女频人气::/static/ranking/1/2/popularity.json\n女频新书::/static/ranking/1/2/new.json\n女频推荐::/static/ranking/1/2/reco.json\n女频收藏::/static/ranking/1/2/collect.json\n女频好评::/static/ranking/1/2/praise.json\n女频热搜::/static/ranking/1/2/hotsearch.json\n女频完结::/static/ranking/1/2/finish.json\n古言热门::/static/book/category/1/8/hot/{{page}}.json\n古言新书::/static/book/category/1/8/new/{{page}}.json\n古言好评::/static/book/category/1/8/praise/{{page}}.json\n特殊热门::/static/book/category/1/28/hot/{{page}}.json\n特殊好评::/static/book/category/1/28/praise/{{page}}.json\n特殊完结::/static/book/category/1/28/finish/{{page}}.json",
-        "lastUpdateTime": 1651199457434,
-        "respondTime": 180000,
+        "lastUpdateTime": 1651489842502,
         "ruleBookInfo": {
-            "author": "@get:{author}",
-            "name": "@get:{name}"
+            "name": "@get:{name}",
+            "author": "@get:{author}"
         },
         "ruleContent": {
             "content": "all"
         },
         "ruleExplore": {},
         "ruleSearch": {
-            "author": "$.author@put:{author:$.author}",
             "bookList": "$.data.list||$.data[*]",
-            "bookUrl": "<js>\nvar bid=parseInt(java.getString('$.bookId'));\nif(!bid>0){\nbid=parseInt(java.getString('$.id'));\n}\njava.put(\"bid\",bid);\nvar subpath=parseInt((1999+bid)/2000);\nvar url=\"http://statics.rungean.com/static/book/zip/\"+subpath+\"/\"+bid+\".zip\";\nresult=url;</js>",
-            "coverUrl": "$.picture",
-            "intro": "$.intro",
-            "kind": "$.categoryName&&$.bookStatus",
-            "lastChapter": "$.chapterName@put:{update:$.chapterName}",
             "name": "$.name@put:{name:$.name}",
-            "wordCount": "$.wordNum"
+            "author": "$.author@put:{author:$.author}",
+            "kind": "$.categoryName&&$.bookStatus",
+            "wordCount": "$.wordNum",
+            "lastChapter": "$.chapterName@put:{update:$.chapterName}",
+            "intro": "$.intro",
+            "coverUrl": "$.picture",
+            "bookUrl": "<js>\nvar bid=parseInt(java.getString('$.bookId'));\nif(!bid>0){\nbid=parseInt(java.getString('$.id'));\n}\njava.put(\"bid\",bid);\nvar subpath=parseInt((1999+bid)/2000);\nvar url=\"http://statics.rungean.com/static/book/zip/\"+subpath+\"/\"+bid+\".zip\";\nresult=url;</js>"
         },
         "ruleToc": {
             "chapterList": "<js>\n//java.log(\"SSSS\"+baseUrl)\nresult=java.getZipStringContent(baseUrl,\"chapter.json\")\n//java.log(result);\n</js>$.data[*]",
@@ -225,7 +224,7 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "E小说",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://m.eexiaoshuo.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
@@ -234,17 +233,16 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "{\n     \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n }",
-        "lastUpdateTime": 1651199459091,
+        "lastUpdateTime": 1651199704923,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "id.maininfo.0@tag.h1.0@text",
             "author": "id.info.0@tag.p.0@text##作.+者：",
-            "coverUrl": "id.sidebar.0@tag.img.0@src",
-            "intro": "id.intro.0@text",
             "lastChapter": "id.info.0@tag.p.3@tag.a.0@text",
-            "name": "id.maininfo.0@tag.h1.0@text"
+            "intro": "id.intro.0@text",
+            "coverUrl": "id.sidebar.0@tag.img.0@src"
         },
         "ruleContent": {
             "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]|\\?+|ｗ.+ｍ|E.{0,10}小.{0,10}说|壹.{0,10}小.{0,10}说",
@@ -252,14 +250,14 @@
         },
         "ruleExplore": {},
         "ruleSearch": {
-            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
             "bookList": "//div[@class=\"result-item result-game-item\"]",
-            "bookUrl": "class.result-item-title.0@tag.a.0@href@js:\"https://www.eexiaoshuo.com\"+result",
-            "coverUrl": "tag.img.0@src",
-            "intro": "class.result-game-item-desc@text",
+            "name": "class.result-item-title.0@tag.a.0@text",
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
             "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
             "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text##章\\s+\\d+\\.##章",
-            "name": "class.result-item-title.0@tag.a.0@text"
+            "intro": "class.result-game-item-desc@text",
+            "coverUrl": "tag.img.0@src",
+            "bookUrl": "class.result-item-title.0@tag.a.0@href@js:\"https://www.eexiaoshuo.com\"+result"
         },
         "ruleToc": {
             "chapterList": "id.list@tag.a",
@@ -273,7 +271,7 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "斗破苍穹小说网",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://doupocangqiong1.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
@@ -282,18 +280,17 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1651199500801,
+        "lastUpdateTime": 1651199704530,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "tag.h1.0@text",
             "author": "id.author.0@tag.a.0@text",
-            "coverUrl": "class.novelinfo-r.0@tag.img.0@src",
-            "intro": "id.intro.0@tag.p.0@text",
             "kind": "id.author.0@tag.a.1@text",
             "lastChapter": "id.update.0@tag.a.0@text",
-            "name": "tag.h1.0@text"
+            "intro": "id.intro.0@tag.p.0@text",
+            "coverUrl": "class.novelinfo-r.0@tag.img.0@src"
         },
         "ruleContent": {
             "content": "id.chaptercontent@html",
@@ -302,10 +299,10 @@
         "ruleExplore": {},
         "ruleSearch": {
             "bookList": "class.marklist.0@tag.li[0:19]",
-            "bookUrl": "class.novelname.0@href",
-            "coverUrl": "tag.img.0@src",
+            "name": "class.novelname.0@text",
             "lastChapter": "class.info.0@tag.a.0@text",
-            "name": "class.novelname.0@text"
+            "coverUrl": "tag.img.0@src",
+            "bookUrl": "class.novelname.0@href"
         },
         "ruleToc": {
             "chapterList": "class.dirlist.0@tag.a",
@@ -404,7 +401,7 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "必看悦读",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://api.97yd.com",
         "bookUrlPattern": "",
         "customOrder": 10,
@@ -412,38 +409,37 @@
         "enabledExplore": true,
         "exploreUrl": "                              男频                              ::https://api.97yd.com/top?&bid=1&type=today&page={{page-1}}\n男生人气榜::https://api.97yd.com/top?&bid=1&type=0&page={{page-1}}\n男生好评榜::https://api.97yd.com/top?&bid=1&type=1&page={{page-1}}\n男生完结榜::https://api.97yd.com/top?&bid=1&type=2&page={{page-1}}\n男生新书榜::https://api.97yd.com/top?&bid=1&type=3&page={{page-1}}\n男生热搜榜::https://api.97yd.com/top?&bid=1&type=4&page={{page-1}}\n男生推荐榜::https://api.97yd.com/top?&bid=1&type=5&page={{page-1}}\n玄幻魔法::https://api.97yd.com/sortlist?&sortid=1&page={{page-1}}\n武侠修真::https://api.97yd.com/sortlist?&sortid=2&page={{page-1}}\n都市生活::https://api.97yd.com/sortlist?&sortid=3&page={{page-1}}\n历史军事::https://api.97yd.com/sortlist?&sortid=4&page={{page-1}}\n游戏竞技::https://api.97yd.com/sortlist?&sortid=5&page={{page-1}}\n科幻灵异::https://api.97yd.com/sortlist?&sortid=6&page={{page-1}}\n恐怖悬疑::https://api.97yd.com/sortlist?&sortid=7&page={{page-1}}\n穿越架空::https://api.97yd.com/sortlist?&sortid=8&page={{page-1}}\n经典短篇::https://api.97yd.com/sortlist?&sortid=9&page={{page-1}}\n                              女频                             ::https://api.97yd.com/top?&bid=2&type=today&page={{page-1}}\n女生人气榜::https://api.97yd.com/top?&bid=2&type=0&page={{page-1}}\n女生好评榜::https://api.97yd.com/top?&bid=2&type=1&page={{page-1}}\n女生完结榜::https://api.97yd.com/top?&bid=2&type=2&page={{page-1}}\n女生新书榜::https://api.97yd.com/top?&bid=2&type=3&page={{page-1}}\n女生热搜榜::https://api.97yd.com/top?&bid=2&type=4&page={{page-1}}\n女生推荐榜::https://api.97yd.com/top?&bid=2&type=5&page={{page-1}}\n古代言情::https://api.97yd.com/sortlist?&sortid=10&page={{page-1}}\n现代言情::https://api.97yd.com/sortlist?&sortid=11&page={{page-1}}\n幻想奇缘::https://api.97yd.com/sortlist?&sortid=12&page={{page-1}}\n青春校园::https://api.97yd.com/sortlist?&sortid=13&page={{page-1}}\n网络情缘::https://api.97yd.com/sortlist?&sortid=14&page={{page-1}}\n精选爽文::https://api.97yd.com/sortlist?&sortid=15&page={{page-1}}\n言情美文::https://api.97yd.com/sortlist?&sortid=17&page={{page-1}}\n其他类型::https://api.97yd.com/sortlist?&sortid=18&page={{page-1}}\nN次元::https://api.97yd.com/sortlist?&sortid=16&page={{page-1}}",
         "header": "{\"type\"=\"app\"}",
-        "lastUpdateTime": 1651199463133,
+        "lastUpdateTime": 1651489920042,
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "$..title",
             "author": "$..author",
-            "coverUrl": "$..img",
-            "intro": "$..intro",
             "kind": "$..sortname&&$..lastupdate",
             "lastChapter": "$..lastchapter",
-            "name": "$..title",
+            "intro": "$..intro",
+            "coverUrl": "$..img",
             "tocUrl": "https://api.97yd.com/menu?&bookid=@get:{bid}&start=0"
         },
         "ruleContent": {
             "content": "$.data"
         },
         "ruleExplore": {
-            "author": "$.author",
             "bookList": "$..data[*]",
-            "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>",
-            "coverUrl": "$.img",
-            "intro": "$.desc",
+            "name": "$.title",
+            "author": "$.author",
             "kind": "$.sortname",
-            "name": "$.title"
+            "intro": "$.desc",
+            "coverUrl": "$.img",
+            "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>"
         },
         "ruleSearch": {
-            "author": "$.author",
             "bookList": "$..data[*]",
-            "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>",
-            "coverUrl": "$.img",
-            "intro": "$.desc",
+            "name": "$.title",
+            "author": "$.author",
             "kind": "$.sortname",
-            "name": "$.title"
+            "intro": "$.desc",
+            "coverUrl": "$.img",
+            "bookUrl": "$.bookid<js>\nbid=result;\njava.put('bid',bid);\nresult=\"https://api.97yd.com/info?&bookid=\"+bid+\"&type=all\";\n</js>"
         },
         "ruleToc": {
             "chapterList": "$..data[*]",
@@ -457,7 +453,7 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "八一中文",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://www.81zw.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
@@ -466,31 +462,30 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1651199463812,
+        "lastUpdateTime": 1651489919416,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "id.info.0@tag.h1.0@text",
             "author": "id.info.0@tag.p.0@text##作.*者：",
-            "coverUrl": "id.fmimg.0@tag.img.0@src",
-            "intro": "id.intro.0@text",
             "lastChapter": "id.info.0@tag.p.-1@tag.a.0@text",
-            "name": "id.info.0@tag.h1.0@text"
+            "intro": "id.intro.0@text",
+            "coverUrl": "id.fmimg.0@tag.img.0@src"
         },
         "ruleContent": {
-            "content": "id.content.0@text"
+            "content": "id.content.0@html"
         },
         "ruleExplore": {},
         "ruleSearch": {
-            "author": "//p[@class=\"result-game-item-info-tag\"][1]/span[last()]/text()",
             "bookList": "@css:div.result-item",
-            "bookUrl": "@css:a.result-game-item-title-link@href",
-            "coverUrl": "@css:img.result-game-item-pic-link-img@src",
-            "intro": "@css:p.result-game-item-desc@text",
+            "name": "@css:a.result-game-item-title-link>span@text",
+            "author": "//p[@class=\"result-game-item-info-tag\"][1]/span[last()]/text()",
             "kind": "//p[@class=\"result-game-item-info-tag\"][2]/span[last()]/text()",
             "lastChapter": "@css:a[cpos=\"newchapter\"]@text",
-            "name": "@css:a.result-game-item-title-link>span@text"
+            "intro": "@css:p.result-game-item-desc@text",
+            "coverUrl": "@css:img.result-game-item-pic-link-img@src",
+            "bookUrl": "@css:a.result-game-item-title-link@href"
         },
         "ruleToc": {
             "chapterList": "id.list.0@tag.dd",
@@ -896,26 +891,25 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "大文学无错小说网",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://www.wucuoxs.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
-        "customOrder": 21,
+        "customOrder": 20,
         "enabled": true,
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1651199489758,
+        "lastUpdateTime": 1651489819053,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "id.info.0@tag.h1.0@text",
             "author": "id.info.0@tag.p.0@text##作.+者：",
-            "coverUrl": "id.fmimg.0@tag.img.0@src",
-            "intro": "id.intro.0@tag.p.0@text",
             "lastChapter": "id.info.0@tag.p.3@tag.a.0@text",
-            "name": "id.info.0@tag.h1.0@text"
+            "intro": "id.intro.0@tag.p.0@text",
+            "coverUrl": "id.fmimg.0@tag.img.0@src"
         },
         "ruleContent": {
             "content": "id.content.0@html##【.+?咪咪.+?】|【(话说|讲真|推荐).+?】",
@@ -923,12 +917,12 @@
         },
         "ruleExplore": {},
         "ruleSearch": {
-            "author": "class.s4.0@text",
             "bookList": "id.main.0@tag.ul.0@tag.li.!0",
-            "bookUrl": "class.s2.0@tag.a.0@href",
+            "name": "class.s2.0@tag.a.0@text",
+            "author": "class.s4.0@text",
             "kind": "class.s1.0@text",
             "lastChapter": "class.s3.0@tag.a.0@text",
-            "name": "class.s2.0@tag.a.0@text"
+            "bookUrl": "class.s2.0@tag.a.0@href"
         },
         "ruleToc": {
             "chapterList": "//div[@id=\"list\"]/dl/dt[last()]/following-sibling::dd/a",
