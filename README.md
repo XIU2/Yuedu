@@ -35,7 +35,7 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/dist/img/img-01.png)
+![](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/dist/img/img-02.png)
 
 ****
 
