@@ -8,7 +8,7 @@
     <meta name="keywords" content="阅读,阅读APP,小说阅读,小说阅读APP,书源,小说书源,阅读书源,阅读APP书源,XIU2,X.I.U,西柚秀" />
     <meta name="description" content="每日更新！「阅读」APP 精品书源！" />
     <meta name="author" contect="XIU2,X.I.U,西柚秀" />
-    <link rel="icon" href="dist/img/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/dist/img/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
     <script src="dist/js/scrollreveal.min.js"></script>
@@ -40,7 +40,7 @@
                     </p>
                         <div class="h233-form new233-form field233 field233-grouped is233-revealing">
                             <div class="cont233 cont233-expanded">
-                                <input class="input" id="input" readOnly="true" value="https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan">
+                                <input class="input" id="input" readOnly="true" onclick="this.select()" value="https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan">
                             </div>
 
                             <div class="cont233">
@@ -153,7 +153,7 @@
     <script src="dist/js/main.min.js"></script>
 	<script type="text/javascript">
     document.getElementById("url").href = document.getElementById("input").value = url[0];
-    document.getElementById("qr").src = url[1];
+    document.getElementById("qr").src = "https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/" + url[1];
     function copyText() {
       document.getElementById("input").select();
       document.execCommand("copy");
