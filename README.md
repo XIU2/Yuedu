@@ -26,7 +26,7 @@
 - **网络导入地址：** 以下**香港 CDN** 分流，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://hk1.monika.love/XIU2/Yuedu/master/shuyuan_  
-_https://ghproxy.fsofso.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
+_https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_  
 
 ****
@@ -35,7 +35,7 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/dist/img/img-02.png)
+![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-02.png)
 
 ****
 
@@ -44,7 +44,7 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 - **网络导入地址：** 以下**香港 CDN** 分流，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://hk1.monika.love/XIU2/Yuedu/master/shuyuan_  
-_https://ghproxy.fsofso.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
+_https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_  
 
 ****
@@ -54,7 +54,7 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
 
-![](https://github-do.panbaidu.cn/https://raw.githubusercontent.com/XIU2/Yuedu/master/dist/img/img-04.png)
+![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-04.png)
 
 ****
 
@@ -75,7 +75,7 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 
 ## 赞赏支持
 
-![微信赞赏](https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/img/zs-01.png)![支付宝赞赏](https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/img/zs-02.png)
+![微信赞赏](https://cdn.staticaly.com/gh/XIU2/XIU2/master/img/zs-01.png)![支付宝赞赏](https://cdn.staticaly.com/gh/XIU2/XIU2/master/img/zs-02.png)
 
 ****
 
