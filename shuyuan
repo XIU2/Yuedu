@@ -230,27 +230,25 @@
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "E小说",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://m.eexiaoshuo.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
         "customOrder": 6,
         "enabled": true,
-        "enabledCookieJar": false,
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "{\n     \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n }",
-        "lastUpdateTime": 1651199459091,
+        "lastUpdateTime": 1654518467337,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "id.maininfo.0@tag.h1.0@text",
             "author": "id.info.0@tag.p.0@text##作.+者：",
-            "coverUrl": "id.sidebar.0@tag.img.0@src",
-            "intro": "id.intro.0@text",
             "lastChapter": "id.info.0@tag.p.3@tag.a.0@text",
-            "name": "id.maininfo.0@tag.h1.0@text"
+            "intro": "id.intro.0@text",
+            "coverUrl": "id.sidebar.0@tag.img.0@src"
         },
         "ruleContent": {
             "content": "id.content@textNodes##正在手打.*稍等片刻.*更新|\\(www\\..*?E小说.*?高速.*?在线阅读.|\\[.*?\\swww\\..*?\\..*?]|\\?+|ｗ.+ｍ|E.{0,10}小.{0,10}说|壹.{0,10}小.{0,10}说",
@@ -258,14 +256,14 @@
         },
         "ruleExplore": {},
         "ruleSearch": {
-            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
             "bookList": "//div[@class=\"result-item result-game-item\"]",
-            "bookUrl": "class.result-item-title.0@tag.a.0@href@js:\"https://www.eexiaoshuo.com\"+result",
-            "coverUrl": "tag.img.0@src",
-            "intro": "class.result-game-item-desc@text",
+            "name": "class.result-item-title.0@tag.a.0@text",
+            "author": "class.result-game-item-info-tag.0@tag.span.1@text",
             "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
             "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text##章\\s+\\d+\\.##章",
-            "name": "class.result-item-title.0@tag.a.0@text"
+            "intro": "class.result-game-item-desc@text",
+            "coverUrl": "tag.img.0@src",
+            "bookUrl": "class.result-item-title.0@tag.a.0@href@js:\"https://www.eexiaoshuo.com\"+result"
         },
         "ruleToc": {
             "chapterList": "id.list@tag.a",
@@ -276,85 +274,29 @@
         "weight": 94
     },
     {
-        "bookSourceComment": "搜索需要附带 Cookie",
-        "bookSourceGroup": "",
-        "bookSourceName": "铅笔小说",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.23qb.net",
-        "bookUrlPattern": "",
-        "concurrentRate": "",
-        "customOrder": 7,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": false,
-        "exploreUrl": "",
-        "header": "{\n\"Cookie\": \"jq_Obj=1; zh_choose=n; PHPSESSID=a9kil8tb2gqojlcu9lvluoghji; jieqiUserInfo=jieqiUserId%3D1142087%2CjieqiUserName%3Dqbxs233%2CjieqiUserGroup%3D3%2CjieqiUserName_un%3Dqbxs233%2CjieqiUserLogin%3D1654418969; jieqiVisitInfo=jieqiUserLogin%3D1654418969%2CjieqiUserId%3D1142087\"\n}",
-        "lastUpdateTime": 1654420497315,
-        "loginCheckJs": "",
-        "loginUi": "",
-        "loginUrl": "https://www.23qb.net/login.php?jumpurl=https%3A%2F%2Fwww.23qb.net",
-        "respondTime": 180000,
-        "ruleBookInfo": {
-            "author": "id.count@tag.li.0@a@text",
-            "coverUrl": "id.bookimg@img@src",
-            "init": "",
-            "intro": "id.bookintro@p@textNodes",
-            "kind": "id.count@li!0:3@span@text",
-            "lastChapter": "class.chaw@tag.li.0@a@text",
-            "name": "class.d_title@text"
-        },
-        "ruleContent": {
-            "content": "id.TextContent.0@html",
-            "replaceRegex": "##\\s*铅笔小说.*|\\s*（继续下一页）\\s*"
-        },
-        "ruleExplore": {
-            "bookList": ""
-        },
-        "ruleSearch": {
-            "author": ".book_other@span.0@text",
-            "bookList": "id.sitebox@dl",
-            "bookUrl": "a@href",
-            "coverUrl": "img@_src",
-            "intro": ".book_des@text",
-            "kind": "tag.span.0@text&&tag.span.3@text",
-            "lastChapter": "class.book_other.1@a@text",
-            "name": "h3@a@text",
-            "wordCount": "class.book_other.0@tag.span.2@text"
-        },
-        "ruleToc": {
-            "chapterList": "class.chaw_c@li@a",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "https://www.23qb.net/saerch.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
-        "weight": 0
-    },
-    {
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "斗破苍穹小说网",
-        "bookSourceType": 0,
+        "bookSourceType": "0",
         "bookSourceUrl": "https://doupocangqiong1.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
         "customOrder": 8,
         "enabled": true,
-        "enabledCookieJar": false,
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1651199500801,
+        "lastUpdateTime": 1654518638731,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "respondTime": 180000,
         "ruleBookInfo": {
+            "name": "tag.h1.0@text",
             "author": "id.author.0@tag.a.0@text",
-            "coverUrl": "class.novelinfo-r.0@tag.img.0@src",
-            "intro": "id.intro.0@tag.p.0@text",
             "kind": "id.author.0@tag.a.1@text",
             "lastChapter": "id.update.0@tag.a.0@text",
-            "name": "tag.h1.0@text"
+            "intro": "id.intro.0@tag.p.0@text",
+            "coverUrl": "class.novelinfo-r.0@tag.img.0@src"
         },
         "ruleContent": {
             "content": "id.chaptercontent@html",
@@ -363,10 +305,10 @@
         "ruleExplore": {},
         "ruleSearch": {
             "bookList": "class.marklist.0@tag.li[0:19]",
-            "bookUrl": "class.novelname.0@href",
-            "coverUrl": "tag.img.0@src",
+            "name": "class.novelname.0@text",
             "lastChapter": "class.info.0@tag.a.0@text",
-            "name": "class.novelname.0@text"
+            "coverUrl": "tag.img.0@src",
+            "bookUrl": "class.novelname.0@href"
         },
         "ruleToc": {
             "chapterList": "class.dirlist.0@tag.a",
