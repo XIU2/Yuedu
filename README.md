@@ -23,11 +23,12 @@
 大家可以定期导入一次书源，导入时 APP 会自动去重复的~
 - **书源分享地址：** _https://yuedu.xiu2.xyz_  
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
-- **网络导入地址：** 以下**香港 CDN** 分流，任选一个速度快的  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://hk1.monika.love/XIU2/Yuedu/master/shuyuan_  
+- **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
+_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
+_https://raw.xn--p8jhe.tw/XIU2/Yuedu/master/shuyuan_  
+_https://raw.xn--gzu630h.xn--kpry57d/XIU2/Yuedu/master/shuyuan_  
 _https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_  
+_https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_
 
 ****
 
@@ -41,11 +42,12 @@ _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_
 
 ### 网络导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
-- **网络导入地址：** 以下**香港 CDN** 分流，任选一个速度快的  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://hk1.monika.love/XIU2/Yuedu/master/shuyuan_  
+- **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
+_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
+_https://raw.xn--p8jhe.tw/XIU2/Yuedu/master/shuyuan_  
+_https://raw.xn--gzu630h.xn--kpry57d/XIU2/Yuedu/master/shuyuan_  
 _https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan （日本_  
+_https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_
 
 ****
 
