@@ -26,10 +26,8 @@
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
-_https://raw.xn--p8jhe.tw/XIU2/Yuedu/master/shuyuan_  
-_https://raw.xn--gzu630h.xn--kpry57d/XIU2/Yuedu/master/shuyuan_  
-_https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
-_https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_
+_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan_  
+_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
 
 ****
 
@@ -37,7 +35,7 @@ _https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/sh
 ### 二维码导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
 
-![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-02.png)
+![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-03.png)
 
 ****
 
@@ -46,10 +44,8 @@ _https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/sh
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
-_https://raw.xn--p8jhe.tw/XIU2/Yuedu/master/shuyuan_  
-_https://raw.xn--gzu630h.xn--kpry57d/XIU2/Yuedu/master/shuyuan_  
-_https://ghproxy.futils.com/https://github.com/XIU2/Yuedu/blob/master/shuyuan_  
-_https://git.yumenaka.net/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_
+_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan_  
+_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
 
 ****
 
