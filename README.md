@@ -24,10 +24,10 @@
 - **书源分享地址：** _https://yuedu.xiu2.xyz_  
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
-_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan_  
-_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
+_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan ( 中国香港 CDN_  
+_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan ( 日本 CDN_  
+_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 新加坡 CDN，网页打开乱码正常，不影响导入_  
+_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_  
 
 ****
 
@@ -42,10 +42,10 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 ### 网络导入(推荐)：
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
-_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan_  
-_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
+_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan ( 中国香港 CDN_  
+_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan ( 日本 CDN_  
+_https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 新加坡 CDN，网页打开乱码正常，不影响导入_  
+_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_  
 
 ****
 
@@ -67,7 +67,7 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 - **Google 文字转语音引擎**  
 - **讯飞语记**  
 
-最近发现了个大神制作的微软 TTS，试了下感觉比谷歌、讯飞更好，而且还是开源的~
+最近发现了个大神制作的微软 TTS，试了下感觉比谷歌、讯飞更好，而且还是**开源**的~
 
 > 讯飞语记安装后需要去 **通用设置 - 语音合成设置 - 开启\[合成系统接口\]** ，然后根据需求去上面的系统默认发音人处设置发音人（音色）就行了。  
 
