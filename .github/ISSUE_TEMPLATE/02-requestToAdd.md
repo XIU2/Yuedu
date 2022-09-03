@@ -1,7 +1,7 @@
 ---
 name: 书源请求：XXX 小说网
 about: 希望制作 XXX 小说网站的书源~
-title: 书源请求：XXX 小说网（记得修改该示例标题）
+title: 书源请求：XXX 小说网（记得修改该示例标题，并移除该括号提示）
 labels: 书源请求
 assignees: ''
 
