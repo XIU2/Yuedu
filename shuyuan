@@ -18,7 +18,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "https://passport.qidian.com",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -83,7 +82,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "$.author",
@@ -139,7 +137,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "author",
@@ -204,7 +201,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "$.author",
@@ -258,7 +254,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "author",
@@ -314,7 +309,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "$..author",
@@ -373,7 +367,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "@get:{author}",
@@ -417,7 +410,6 @@
         "exploreUrl": "热门连载::https://scxs.pysmei.com/top/man/top/hot/week/{{page}}.html\n抖音热书::https://scxs.pysmei.com/top/man/top/collect/week/{{page}}.html\n高分神作::https://scxs.pysmei.com/top/man/top/vote/week/{{page}}.html\n微信热书::https://scxs.pysmei.com/top/man/top/commend/week/{{page}}.html\n豆瓣高分::https://scxs.pysmei.com/top/man/top/new/week/{{page}}.html\n完本精选::https://scxs.pysmei.com/top/man/top/over/week/{{page}}.html",
         "header": "{'User-Agent': 'okhttp-okgo/jeasonlzy'}",
         "lastUpdateTime": 1662193211746,
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "name": "$.data.name"
@@ -459,7 +451,6 @@
         "enabledExplore": true,
         "enabledReview": false,
         "lastUpdateTime": 1662193212481,
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {},
         "ruleContent": {
@@ -504,7 +495,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "@get:{author}",
@@ -552,7 +542,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {},
         "ruleContent": {
@@ -581,23 +570,82 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "",
+        "bookSourceName": "和图书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://hetushu.com",
+        "customOrder": 11,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "网游小说::/book/index.php?type=网游小说&page={{page}}\n玄幻小说::/book/index.php?type=玄幻小说&page={{page}}\n穿越小说::/book/index.php?type=穿越小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n仙侠小说::/book/index.php?type=仙侠小说&page={{page}}\n都市小说::/book/index.php?type=都市小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n竞技小说::/book/index.php?type=竞技小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n悬疑小说::/book/index.php?type=悬疑小说&page={{page}}\n军事小说::/book/index.php?type=军事小说&page={{page}}\n灵异小说::/book/index.php?type=灵异小说&page={{page}}",
+        "lastUpdateTime": 1666147528576,
+        "loginUrl": "",
+        "respondTime": 199686,
+        "ruleBookInfo": {
+            "author": "class.book_info.0@tag.a.0@text",
+            "canReName": "true",
+            "coverUrl": "class.book_info@tag.img.0@src",
+            "init": "",
+            "intro": "class.intro.0@html",
+            "kind": "<js>result=String(result).replace(/<h2>.*<\\/h2>/,String(result).match(/continue/)?'<h2>连载中<\\/h2>':'<h2>已完结<\\/h2>').replace(/<\\/a><a[^>]*>/g,\" / \")</js>\nclass.book_info.0@tag.h2.0@text&&\nclass.book_info.0@tag.div.2@text##类型：",
+            "lastChapter": "id.dir.0@tag.dd.-1@tag.a.0@text",
+            "name": "class.book_info.0@tag.h2.0@text",
+            "wordCount": "class.book_info.0@tag.div.3@text##字数："
+        },
+        "ruleContent": {
+            "content": "<js>\nloadDocType=\"{{@@body@data-doctype}}\";\nloadType=\"{{@@body@data-randomtype}}\";\nsid=baseUrl.match(/(\\d+).html/)[1];\nurl=baseUrl.replace(/\\d+.html/,'')\n\nvar section = {\n    loadDocType: loadDocType,\n    loadType: loadType,\n    sid:sid,\n    content: {\n        childNode: [],\n        \n        init: function(c){\n            this.body=c\n            if (section.loadType == 'normal') {\n      this.load(String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))))\n            } else if (section.loadType == 'substep') {\n                var d = 'r' + section.sid;\n                var f = false;\n                if (section.loadDocType == 'xml') {\n                    d += '.xml'\n                } else if (section.loadDocType == 'json') {\n                    d += '.json';\n                    f = true\n                } else {\n                    return false\n                };        \n             cookie=\"PHPSESSID=\"+java.get(baseUrl,{}).cookie(\"PHPSESSID\");\n            token= java.get(url+d,{\"X-Requested-With\": \"XMLHttpRequest\",\"referer\":baseUrl,\"cookie\":String(cookie)}).header(\"token\")                \n                \tthis.load(token)      \t\n            } else {\n                return false\n            };               \n        },\n        load: function(a) {         \n            a = String(java.base64Decode(a)).split(/[A-Z]+%/);      \n            var b = 0,\n            start = 0;\n            for (var i = 0; i < this.body.length; i++) {\n                if (String(this.body[i]).match(/h2/i)) {\n                    start = i + 1\n                };\n                if (String(this.body[i]).match(/div/i)&& this.body[i].attr(\"class\") != 'chapter') {\n                    break\n                }\n            };\n          \n            for (var i = 0; i < a.length; i++) {\n                if (a[i] < 5) {\n                    this.childNode[a[i]] = this.body[i + start];\n                      b++\n                } else {\n                    this.childNode[a[i] - b] = this.body[i + start]                 \n                }\n            };\n  }\n}\n}\nsection.content.init(java.getElement(\"@@id.content@children!0\").toArray());\nsection.content.childNode.join(\"\")\n</js>\ntag.div@ownText",
+            "imageStyle": "FULL",
+            "nextContentUrl": "",
+            "replaceRegex": "",
+            "sourceRegex": "",
+            "webJs": ""
+        },
+        "ruleExplore": {
+            "author": "class.author.0@text",
+            "bookList": "class.book_list.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "kind": "class.author_box.0@tag.span.0@text",
+            "name": "class.name.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.h4.0@tag.span.0@text##\\/",
+            "bookList": "class.list.0@tag.dd",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro.0@html",
+            "kind": "<js>result=String(result).match(/continue/)?'连载中':'已完结'</js>",
+            "name": "tag.h4.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "//dl[@id='dir']/*",
+            "chapterName": "text",
+            "chapterUrl": "tag.a.0@href",
+            "isVolume": "<js>\nresult=String(result).match(/^<dt/)?true:false\n</js>"
+        },
+        "searchUrl": "/book/search.php?word={{key}}",
+        "weight": 90
+    },
+    {
+        "bookSourceComment": "搜索页加了人机验证，待解决",
+        "bookSourceGroup": "",
         "bookSourceName": "思路客",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.siluke.com",
         "bookUrlPattern": "",
         "concurrentRate": "",
-        "customOrder": 11,
-        "enabled": true,
+        "customOrder": 12,
+        "enabled": false,
         "enabledCookieJar": false,
         "enabledExplore": false,
         "enabledReview": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1662193242488,
+        "lastUpdateTime": 1666146816487,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -611,6 +659,7 @@
             "content": "id.content.0@html"
         },
         "ruleExplore": {},
+        "ruleReview": {},
         "ruleSearch": {
             "author": "tag.span.2@text",
             "bookList": "class.novelslist.0@tag.ul.0@tag.li.!0",
@@ -625,59 +674,6 @@
             "chapterUrl": "href"
         },
         "searchUrl": "/search.php,{'charset':'UTF-8','method':'POST','body':'keyword={{key}}'}",
-        "weight": 90
-    },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "灯笔小说网",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.dengbi.com",
-        "bookUrlPattern": "",
-        "concurrentRate": "",
-        "customOrder": 12,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": false,
-        "enabledReview": false,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1662193241488,
-        "loginCheckJs": "",
-        "loginUi": "",
-        "loginUrl": "",
-        "mutex": {},
-        "respondTime": 180000,
-        "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "class.novel_info_main.0@tag.img.0@src",
-            "intro": "//meta[@property='og:description']/@content",
-            "kind": "//meta[@property='og:novel:category'][last()]/@content",
-            "lastChapter": "//meta[@property='og:novel:lastest_chapter_name']/@content",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "wordCount": "class.novel_info_title.0@tag.p.0@tag.span.1@text"
-        },
-        "ruleContent": {
-            "content": "id.article.0@tag.p[!-1,-2]@text"
-        },
-        "ruleExplore": {},
-        "ruleSearch": {
-            "author": "tag.div.1@tag.p.0@textNodes",
-            "bookList": "class.searchresult",
-            "bookUrl": "class.img_span.0@tag.a.0@href",
-            "coverUrl": "tag.img.0@src",
-            "intro": "class.searchresult_p.0@text",
-            "kind": "class.img_span.0@tag.span.0@text",
-            "lastChapter": "tag.div.1@tag.p.-1@text",
-            "name": "tag.h3.0@text",
-            "wordCount": "class.s_gray.0@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.ul_all_chapters.0@tag.a",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "/search/,{'charset': 'utf-8','method':'POST','body':'searchkey={{key}}&searchtype=all&Submit='}",
         "weight": 89
     },
     {
@@ -699,7 +695,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -734,6 +729,58 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "",
+        "bookSourceName": "灯笔小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dengbi.com",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 13,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1666146835068,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "class.novel_info_main.0@tag.img.0@src",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category'][last()]/@content",
+            "lastChapter": "//meta[@property='og:novel:lastest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "wordCount": "class.novel_info_title.0@tag.p.0@tag.span.1@text"
+        },
+        "ruleContent": {
+            "content": "id.article.0@tag.p[!-1,-2]@text"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "tag.div.1@tag.p.0@textNodes",
+            "bookList": "class.searchresult",
+            "bookUrl": "class.img_span.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.searchresult_p.0@text",
+            "kind": "class.img_span.0@tag.span.0@text",
+            "lastChapter": "tag.div.1@tag.p.-1@text",
+            "name": "tag.h3.0@text",
+            "wordCount": "class.s_gray.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.ul_all_chapters.0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/,{'charset': 'utf-8','method':'POST','body':'searchkey={{key}}&searchtype=all&Submit='}",
+        "weight": 88
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
         "bookSourceName": "武林中文网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.zw50.com",
@@ -747,7 +794,6 @@
         "header": "",
         "lastUpdateTime": 1662610338743,
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -797,7 +843,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property=\"og:novel:author\"]/@content",
@@ -846,7 +891,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@name='og:novel:author']/@content",
@@ -903,7 +947,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//*[@property='og:novel:author']/@content",
@@ -952,7 +995,6 @@
         "header": "",
         "lastUpdateTime": 1663747775887,
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "id.info.0@tag.p.0@text",
@@ -1003,7 +1045,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -1050,7 +1091,6 @@
         "header": "",
         "lastUpdateTime": 1662193235462,
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "class.small.0@tag.span.0@text##作者：",
@@ -1094,7 +1134,6 @@
         "enabledReview": false,
         "exploreUrl": "",
         "lastUpdateTime": 1662193235083,
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "tocUrl": "class.motion2@tag.a.0@href"
@@ -1134,7 +1173,6 @@
         "enabledExplore": false,
         "enabledReview": false,
         "lastUpdateTime": 1662193234573,
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "intro": "//meta[@name='description']/@content##.*小说主要讲述.\\s+|无弹.*?在.*?在云中书库"
@@ -1174,7 +1212,6 @@
         "enabledReview": false,
         "header": "",
         "lastUpdateTime": 1662193234141,
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "coverUrl": "id.fmimg.0@tag.img.0@src",
@@ -1219,7 +1256,6 @@
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
-        "mutex": {},
         "respondTime": 180000,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
