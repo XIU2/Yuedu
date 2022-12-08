@@ -842,6 +842,60 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "",
+        "bookSourceName": "手机小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.shoujixs.net",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 16,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "enabledReview": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1670492329553,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "downloadUrls": "id.shojixsinto.0@tag.a.0@src"
+        },
+        "ruleContent": {
+            "content": "id.zjny.0@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "author": "class.c_value.0@text",
+            "bookList": "class.c_row",
+            "bookUrl": "class.c_subject.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.c_description.0@text",
+            "kind": "class.c_value.1@text",
+            "lastChapter": "class.c_tag.1@class.c_value.0@tag.a.0@text",
+            "name": "class.c_subject.0@tag.a.0@text",
+            "wordCount": "class.c_value.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "//div[@id=\"lbks\"]/dl/dt[last()]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.right.0@tag.a.0@href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}','method':'POST'}",
+        "weight": 89
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
         "bookSourceName": "爱好中文网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://m.ah123z.com",
