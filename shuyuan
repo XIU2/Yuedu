@@ -862,11 +862,11 @@
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
             "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "id.shojixsinto.0@tag.a.0@src",
             "intro": "//meta[@property='og:description']/@content",
             "kind": "//meta[@property='og:novel:category']/@content",
             "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "downloadUrls": "id.shojixsinto.0@tag.a.0@src"
+            "name": "//meta[@property='og:novel:book_name']/@content"
         },
         "ruleContent": {
             "content": "id.zjny.0@html",
@@ -891,6 +891,63 @@
             "nextTocUrl": "class.right.0@tag.a.0@href"
         },
         "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}','method':'POST'}",
+        "weight": 89
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "香书小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.ibiquge.la",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 16,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/fenlei/1_{{page}}.html\n修真小说::/fenlei/2_{{page}}.html\n都市小说::/fenlei/3_{{page}}.html\n穿越小说::/fenlei/4_{{page}}.html\n网游小说::/fenlei/5_{{page}}.html\n科幻小说::/fenlei/6_{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1673067875019,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "id.info.0@tag.a.-1@text",
+            "name": "//meta[@property='og:novel:book_name']/@content"
+        },
+        "ruleContent": {
+            "content": "id.content.0@textNodes"
+        },
+        "ruleExplore": {
+            "author": "class.s5.0@text",
+            "bookList": "class.l@li",
+            "bookUrl": "class.s2.0@tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "class.s3.0@tag.a.0@text",
+            "name": "class.s2.0@tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.td.2@text",
+            "bookList": "tag.tbody.0@tag.tr.!0",
+            "bookUrl": "tag.td.0@tag.a.0@href",
+            "kind": "",
+            "lastChapter": "tag.td.1@text",
+            "name": "tag.td.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.list.0@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/waps.php?searchkey={{key}}",
         "weight": 89
     },
     {
@@ -1100,11 +1157,11 @@
         "customOrder": 21,
         "enabled": false,
         "enabledCookieJar": false,
-        "enabledExplore": false,
+        "enabledExplore": true,
         "enabledReview": false,
-        "exploreUrl": "玄幻小说:https://www.ddxs.com/xuanhuan/\n武侠小说:https://www.ddxs.com/wuxia/\n军事小说:https://www.ddxs.com/junshi/\n都市小说:https://www.ddxs.com/dushi/\n游戏小说:https://www.ddxs.com/youxi/\n科幻小说:https://www.ddxs.com/kehuan/\n言情小说:https://www.ddxs.com/yanqin/\n次元小说:https://www.ddxs.com/ciyuan/\n排行榜:https://www.ddxs.com/top/\n完本小说:https://www.ddxs.com/quanben/",
+        "exploreUrl": "玄幻小说::/xuanhuan/\n武侠小说::/wuxia/\n军事小说::/junshi/\n都市小说::/dushi/\n游戏小说::/youxi/\n科幻小说::/kehuan/\n言情小说::/yanqin/\n次元小说::/ciyuan/\n完本小说::/quanben/",
         "header": "",
-        "lastUpdateTime": 1670390641429,
+        "lastUpdateTime": 1673066930360,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
@@ -1121,13 +1178,13 @@
             "content": "@css:#contents>p:not([style])@text"
         },
         "ruleExplore": {
-            "author": "class.author@text##｜.*",
-            "bookList": "class.g-plate@ul@li",
-            "bookUrl": "class.img@href",
-            "coverUrl": "class.img@img@data-src",
-            "intro": "class.desc@text",
-            "kind": "class.author@text##.*｜",
-            "name": "h2@text"
+            "author": "textNodes##/",
+            "bookList": "#content@tag.dd",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "name": "tag.a.0@text"
         },
         "ruleSearch": {
             "author": "tag.td.3@text",
