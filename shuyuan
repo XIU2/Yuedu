@@ -953,6 +953,68 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "",
+        "bookSourceName": "乐文小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.365xs.la",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 16,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "玄幻小说::/fenlei1_{{page}}.html\n奇幻小说::/fenlei2_{{page}}.html\n武侠小说::/fenlei3_{{page}}.html\n都市小说::/fenlei4_{{page}}.html\n历史小说::/fenlei5_{{page}}.html\n军事小说::/fenlei6_{{page}}.html\n悬疑小说::/fenlei7_{{page}}.html\n游戏小说::/fenlei8_{{page}}.html\n科幻小说::/fenlei9_{{page}}.html\n体育小说::/fenlei10_{{page}}.html\n官场小说::/fenlei11_{{page}}.html\n古言小说::/fenlei12_{{page}}.html\n现言小说::/fenlei13_{{page}}.html\n幻言小说::/fenlei14_{{page}}.html\n仙侠小说::/fenlei15_{{page}}.html\n青春小说::/fenlei16_{{page}}.html\n穿越小说::/fenlei17_{{page}}.html\n女生小说::/fenlei18_{{page}}.html\nN次元小说::/fenlei19_{{page}}.html\n完本小说::/quanben/{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1675663072709,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content"
+        },
+        "ruleContent": {
+            "content": "id.content.0@tag.p@text",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {
+            "bookList": "id.alistbox",
+            "name": "class.title.0@tag.a.0@text",
+            "author": "class.title.0@tag.span.0@text##^作者：",
+            "lastChapter": "class.sys.0@tag.a.0@text",
+            "intro": "class.intro.0@text",
+            "coverUrl": "tag.img.0@src",
+            "bookUrl": "class.title.0@tag.a.0@href##/book/##/books/"
+        },
+        "ruleSearch": {
+            "author": "class.title.0@tag.span.0@text##^作者：",
+            "bookList": "id.alistbox",
+            "bookUrl": "class.title.0@tag.a.0@href##/book/##/books/",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.intro.0@text",
+            "kind": "",
+            "lastChapter": "class.sys.0@tag.a.0@text",
+            "name": "class.title.0@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "tag.dl.0@tag.dd@tag.a.0",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": ""
+        },
+        "searchUrl": "/search.html,{'charset':'utf-8','body':'searchkey={{key}}','method':'POST'}",
+        "weight": 89
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
         "bookSourceName": "爱好中文网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://m.ah123z.com",
