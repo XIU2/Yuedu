@@ -76,7 +76,8 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_
 > 鉴于一些人有这方面需求，我就特意说明一下。  
 
 「阅读」APP 支持朗读文字，但是依靠的是手机的 TTS（文字转语音引擎），很多手机自带的并不支持朗读中文（小米的好像可以），所以需要安装额外的TTS，我推荐几个：
-- **[微软 TTS](https://github.com/ag2s20150909/TTS)**
+- **[微软 TTS 1](https://github.com/jing332/tts-server-android)**  
+- **[微软 TTS 2](https://github.com/ag2s20150909/TTS)**  
 - **Google 文字转语音引擎**  
 - **讯飞语记**  
 
