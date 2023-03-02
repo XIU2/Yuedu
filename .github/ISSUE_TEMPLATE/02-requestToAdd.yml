@@ -1,0 +1,30 @@
+name: 书源请求 (BookSource request)
+description: 希望制作 xxx 小说网站的书源...
+title: "书源请求：xxx 小说网（记得修改该示例标题，并移除该括号提示）"
+labels: 书源请求
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ***写书源需要消耗时间与精力，因此确保有充足的推荐理由，不要把我当工具人~***  
+        另外，本项目只制作《阅读》3.X 版本的书源，不考虑也无法转换为 2.X 版本！
+        ****
+        发之前，请先搜下有没有类似的 [Issues](https://github.com/XIU2/Yuedu/issues) （包括[关闭](https://github.com/XIU2/Yuedu/issues?q=is%3Aissue+is%3Aclosed)的），请勿重复发起！   
+        ****
+        如果只是单纯的某几本书在该网站更新快/无错误，那么请确保本项目的 **所 有 书 源 都 无 法 满 足**，否则我可能懒得费劲制作~
+        ****
+  - type: textarea
+    id: url
+    attributes:
+      label: 网站地址
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐原因
+      description: 必填，不要写的太敷衍、简略，最好举几个例子，否则我可能懒得去费劲检测网站质量！
+      placeholder: 请输入...
+    validations:
+      required: true

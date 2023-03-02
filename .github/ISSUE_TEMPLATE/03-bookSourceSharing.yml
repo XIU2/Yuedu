@@ -1,0 +1,14 @@
+name: 书源分享 (BookSource sharing)
+description: 欢迎分享好用的书源...
+title: "书源分享：xxx 小说网（记得修改该示例标题，并移除该括号提示）"
+labels: 书源分享
+body:
+  - type: textarea
+    id: share
+    attributes:
+      label: 书源内容
+      description: 请粘贴 JSON 格式的书源内容，也可以是书源文件地址
+      render: json
+      placeholder: 请输入...
+    validations:
+      required: true
