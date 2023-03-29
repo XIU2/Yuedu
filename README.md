@@ -30,7 +30,6 @@
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan ( 中国香港 CDN_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan ( 日本 CDN_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 新加坡 CDN，网页打开乱码正常，不影响 APP 导入_  
 _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_  
 
@@ -48,7 +47,6 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_
 打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan ( 中国香港 CDN_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan ( 日本 CDN_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 新加坡 CDN，网页打开乱码正常，不影响 APP 导入_  
 _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan ( 中国香港 CDN_  
 
