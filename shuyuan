@@ -1392,6 +1392,55 @@
         "weight": 0
     },
     {
+        "bookSourceComment": "需要在书源管理中登录后才能搜索，备用 https://www.23qb.com",
+        "bookSourceGroup": "",
+        "bookSourceName": "铅笔小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.23qb.net",
+        "bookUrlPattern": "",
+        "customOrder": 58,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "enabledReview": false,
+        "exploreUrl": "最近更新::/book/0-lastupdate-0-0-0-0-0-0-{{page}}.html\n最新入库::/book/0-postdate-0-0-0-0-0-0-{{page}}.html\n总点击榜::/book/0-allvisit-0-0-0-0-0-0-{{page}}.html\n总推荐榜::/book/0-allvote-0-0-0-0-0-0-{{page}}.html\n总收藏榜::/book/0-goodnum-0-0-0-0-0-0-{{page}}.html\n总字数榜::/book/0-size-0-0-0-0-0-0-{{page}}.html\n完本小说::/book/0-quanben-0-0-0-0-2-0-{{page}}.html\n全部小说::/book/0-quanben-0-0-0-0-0-0-{{page}}.html\n言情女生::/yanqing/{{page}}/\n玄幻奇幻::/xuanhuan/{{page}}/\n都市青春::/dushi/{{page}}/\n武侠仙侠::/wuxia/{{page}}/\n唯美纯爱::/danmei/{{page}}/\n科幻灵异::/kehuan/{{page}}/\n轻小说の::/lightnovel/{{page}}/\n历史军事::/lishi/{{page}}/",
+        "lastUpdateTime": 1681883342067,
+        "loginUrl": "https://www.23qb.net/login.php",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content"
+        },
+        "ruleContent": {
+            "content": "id.TextContent@tag.p@html##23qb.net",
+            "nextContentUrl": "##nextpage=\"([^\"]+)\"##$1###",
+            "replaceRegex": "##铅笔小说|\\s*（继续下一页）\\s*",
+            "webJs": "##nextpage=\"([^\"]+)\"##$1###"
+        },
+        "ruleSearch": {
+            "author": ".book_other@span.0@text",
+            "bookList": "id.sitebox@dl",
+            "bookUrl": "a@href",
+            "coverUrl": "img@_src",
+            "intro": ".book_des@text",
+            "kind": "tag.span.0@text&&tag.span.3@text",
+            "lastChapter": "class.book_other.1@a@text",
+            "name": "h3@a@text",
+            "wordCount": "class.book_other.0@tag.span.2@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.chaw_c@li@a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "https://www.23qb.net/saerch.php,{\"charset\": \"gbk\",\"method\": \"POST\",\"body\": \"searchkey={{key}}&page={{page}}&searchtype=all\"}",
+        "weight": 0
+    },
+    {
         "bookSourceComment": "",
         "bookSourceGroup": "",
         "bookSourceName": "乐文小说",
