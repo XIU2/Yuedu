@@ -8,6 +8,9 @@
 📚 自用的一些「阅读」小说书源，一部分是网上搜集/他人推荐，一部分是自己写的书源规则。  
 如果你有什么**好用的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**做成书源，另外觉得**好用请在右上角点个⭐Star 鼓励一下下~**   
 
+> _分享我其他开源项目：[**TrackersList.com** - 全网热门 BT Tracker 列表！有效提高 BT 下载速度~](https://github.com/XIU2/TrackersListCollection) <img src="https://img.shields.io/github/stars/XIU2/TrackersListCollection.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_  
+> _[**UserScript** - 🐵 Github 高速下载、知乎增强、自动无缝翻页、护眼模式 等十几个**油猴脚本**~](https://github.com/XIU2/UserScript) <img src="https://img.shields.io/github/stars/XIU2/UserScript.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_
+
 ****
 
 **「阅读」APP**不同于其他小说阅读软件，其原理为：**解析小说网站的搜索页、详情页、目录页、正文页，提取相关信息**来显示给你看，因此安装后还需要**自行寻找并导入书源**才能使用，该项目就是为了把我自写自用的书源分享出来~  
