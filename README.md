@@ -1,4 +1,4 @@
-# [「阅读」APP 精品书源](https://github.com/XIU2/Yuedu)
+# 「阅读」APP 精品书源
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
 [![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
@@ -6,16 +6,16 @@
 [![YUEDU.XIU2.XYZ](https://img.shields.io/static/v1?label=%20&message=YUEDU.XIU2.XYZ&style=flat-square&labelColor=1172EB&color=0f6adb&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA1ElEQVR42mMULHr9n4ECwEhVA971ijDUb/7CMPnAD4Y4M3aGCeG8ODUKFb/BNCDYgI1hdiwfXBIbQFcDNwBkO0wQXRGyHDofqwHOaiwMq9MFGDwnvWfw0WNnyHbgYnCf+J7h9KO/xBkAYuPzN1EGoIcDLnnaGUCRF5D5INqk/R3DvTf/iI8FmAtgBtRt+sJw8ckfho1ZAnAxnAYgawYBH21WhkVJ/HAxgglJlJuR4cnHfwzsLIwo/o8yYWOYEsnH8PHbP4bStV8Y1lz4hZmUyQEUGwAAWJ624X5VLdcAAAAASUVORK5CYII=)](https://yuedu.xiu2.xyz)
 
 📚 自用的一些「阅读」小说书源，一部分是网上搜集/他人推荐，一部分是自己写的书源规则。  
-如果你有什么**好用的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**做成书源，另外觉得**好用请在右上角点个⭐Star 鼓励一下下~**   
+如果你有什么**好用的小说网站也可以 [Issues](https://github.com/XIU2/Yuedu/issues/new/choose) 告诉我**做成书源，另外觉得**好用请在右上角点个⭐Star 鼓励一下~**   
 
 > _分享我其他开源项目：[**TrackersList.com** - 全网热门 BT Tracker 列表！有效提高 BT 下载速度~](https://github.com/XIU2/TrackersListCollection) <img src="https://img.shields.io/github/stars/XIU2/TrackersListCollection.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_  
 > _[**UserScript** - 🐵 Github 高速下载、知乎增强、自动无缝翻页、护眼模式 等十几个**油猴脚本**~](https://github.com/XIU2/UserScript) <img src="https://img.shields.io/github/stars/XIU2/UserScript.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_
 
 ****
 
-**「阅读」APP**不同于其他小说阅读软件，其原理为：**解析小说网站的搜索页、详情页、目录页、正文页，提取相关信息**来显示给你看，因此安装后还需要**自行寻找并导入书源**才能使用，该项目就是为了把我自写自用的书源分享出来~  
+**「阅读」APP** 不同于其他小说阅读软件，其原理为：**解析小说网站的搜索页、详情页、目录页、正文页，提取相关信息**来显示给你看，因此安装后还需要**自行编写或导入书源**才能使用，该项目就是将我自写自用的书源分享出来~  
 
-> 阅读 APP [软件开源地址](https://github.com/gedoor/legado)、[官方下载地址](https://github.com/gedoor/legado/releases)、[酷安下载地址](https://www.coolapk.com/apk/256030)
+> 本项目是「阅读」APP 的书源分享，官方项目为：[阅读开源地址](https://github.com/gedoor/legado)、[官方下载地址](https://github.com/gedoor/legado/releases)、[酷安下载地址](https://www.coolapk.com/apk/256030)
 
 ****
 
@@ -25,7 +25,7 @@
 
 我的书架里收藏的绝大部分都是完本的，因此我也早早的都替换成了本地 TXT 文件，省心多了~
 
-> 另外，本项目书源数量较少，想要更多书源的话可以去 [源仓库](https://www.yckceo.com/yuedu/shuyuan) 看看。
+> 另外，因为精力有限 且 在精不在多，因此本项目书源数量较少，想要更多书源的话可以去 [源仓库](https://www.yckceo.com/yuedu/shuyuan) 看看。
 
 ****
 
@@ -33,7 +33,7 @@
 大家可以定期导入一次书源，导入时 APP 会自动去重复的~
 - **书源分享地址：** _https://yuedu.xiu2.xyz_  
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
-- **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
+- **网络导入地址：** 以下 CDN 分流地址，任选一个  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
@@ -42,16 +42,17 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 ****
 
 ## 导入步骤：
+
 ### 二维码导入(推荐)：
-打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]**(最下方第二张图) - 然后手机扫描下方二维码即可即可。  
+打开「阅读」APP 点击右下角的 **\[我的\] 按钮 - \[书源管理\]** (最下方 图一)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[二维码导入\]** (最下方 图二) - 然后手机扫描下方二维码即可即可。  
 
 ![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-03.png)
 
 ****
 
 ### 网络导入(推荐)：
-打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]**(最下方第二张图) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方第三张图）。  
-- **网络导入地址：** 以下 CDN 分流地址，任选一个速度快的  
+打开「阅读」APP 点击右下角的 **\[我的\] 按钮 - \[书源管理\]** (最下方 图一)，这时候再点击右上角的 **\[三圆点\] 按钮 - \[网络导入\]** (最下方 图二) - 输入下面的网络导入地址并点击 **\[确定\]** 按钮即可（最下方 图三）。  
+- **网络导入地址：** 以下 CDN 分流地址，任选一个  
 _https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
 _https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
@@ -62,9 +63,13 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 ### 本地导入：
 打开 [书源分享地址](https://yuedu.xiu2.xyz) 后点击 **\[下载文件\]** 即可下载 **shuyuan.json** 文件，存放到手机中任何你能找到的位置。  
 
-打开「阅读」APP点击右下角的 **\[我的\] 按钮 - \[书源管理\]**(最下方第一张图)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]**(最下方第二张图) - 选择 **shuyuan.json** 文件导入即可（最下方第四张图）。  
+打开「阅读」APP 点击右下角的 **\[我的\] 按钮 - \[书源管理\]** (最下方 图一)， 这时候再点击右上角的 **\[三圆点\] 按钮 - \[本地导入\]** (最下方 图二) - 选择 **shuyuan.json** 文件导入即可（最下方 图四）。  
 
-![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-04.png)
+****
+
+> 上述三个导入步骤的简单操作示例图，从左向右分别为：**图一、图二、图三、图四**
+
+![操作示例](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-04.png)
 
 ****
 
@@ -85,8 +90,6 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 - **[微软 TTS 2](https://github.com/ag2s20150909/TTS)**  
 - **Google 文字转语音引擎**  
 - **讯飞语记**  
-
-最近发现了个大神制作的微软 TTS，试了下感觉比谷歌、讯飞更好，而且还是**开源**的~
 
 > 讯飞语记安装后需要去 **通用设置 - 语音合成设置 - 开启\[合成系统接口\]** ，然后根据需求去上面的系统默认发音人处设置发音人（音色）即可。  
 
