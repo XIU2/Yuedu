@@ -778,7 +778,7 @@
         "weight": 0
     },
     {
-        "bookSourceComment": "只能搜索关键词，搜索完整书名时会被重定向至被墙的原域名 www.69shu.com",
+        "bookSourceComment": "可 免翻 完美使用（修复：无法搜索完整书名、书籍换源搜不到 等问题）\n因 www.69shu.com 主域名被墙，所以改为使用其另一个隐藏域名（并非第三方镜像，因为该网站用的是 CloudFront CDN，因此都会有一个专属的 ***.cloudfront.net 的域名），但因为该隐藏域名搜索 完整书名 时会重定向到被墙的主域名导致使用很不方便，所以我研究了下成功解决了该问题，目前书源是完美状态~",
         "bookSourceGroup": "",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
@@ -809,20 +809,11 @@
             "nextContentUrl": "",
             "replaceRegex": "##^　　.+|\\(本章完\\)$"
         },
-        "ruleExplore": {
-            "author": "",
-            "bookList": "",
-            "bookUrl": "",
-            "coverUrl": "",
-            "intro": "",
-            "kind": "",
-            "lastChapter": "",
-            "name": ""
-        },
+        "ruleExplore": {},
         "ruleReview": {},
         "ruleSearch": {
             "author": "tag.label.0@text",
-            "bookList": "class.newbox.0@tag.ul.0@tag.li || tag.li",
+            "bookList": "@css:.newbox>ul>li,body>li",
             "bookUrl": "class.imgbox.0@href##.+\\/(\\d+)##https://d34xj6zzll2cc7.cloudfront.net/txt/A$1",
             "coverUrl": "tag.img.0@src",
             "intro": "class.ellipsis_2.0@text",
@@ -835,7 +826,7 @@
             "chapterName": "text",
             "chapterUrl": "href##www\\.69shu\\.com##d34xj6zzll2cc7.cloudfront.net"
         },
-        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "searchUrl": "<js>\nlet headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Content-Type': 'application/x-www-form-urlencoded;charset=gbk','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet res = java.head('https://d34xj6zzll2cc7.cloudfront.net/modules/article/search.php?searchtype=all&searchkey='+ java.encodeURI(key,'GBK'),headers);\nif(res.header('Location') == null){'https://d34xj6zzll2cc7.cloudfront.net/modules/article/search.php,' + JSON.stringify({'charset': 'gbk','method': 'POST','body': \"searchkey={{key}}&searchtype=all\",'headers': headers,});}else{'https://d34xj6zzll2cc7.cloudfront.net/txt/A' + res.header('Location').match(/txt\\/(\\d+)/)[1] + '.htm';}\n</js>",
         "weight": 0
     },
     {
