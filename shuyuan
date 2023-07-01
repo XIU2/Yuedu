@@ -574,12 +574,179 @@
         "weight": 50
     },
     {
+        "bookSourceComment": "可 免翻 完美使用（修复：无法搜索完整书名、书籍换源搜不到 等问题）\n因 www.69shu.com 主域名被墙，所以改为使用其另一个隐藏域名（非第三方镜像），但因为该域名搜索 完整书名 时会重定向到被墙的主域名导致使用很不方便，所以我研究了下成功解决了该问题，目前书源是完美状态~",
+        "bookSourceGroup": "",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://d34xj6zzll2cc7.cloudfront.net",
+        "bookUrlPattern": "",
+        "customOrder": 50,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/ajax_top/0/{{page}}.htm\n玄幻魔法::/ajax_top/1/{{page}}.htm\n修真武侠::/ajax_top/2/{{page}}.htm\n言情小说::/ajax_top/3/{{page}}.htm\n历史军事::/ajax_top/4/{{page}}.htm\n游戏竞技::/ajax_top/5/{{page}}.htm\n科幻空间::/ajax_top/6/{{page}}.htm\n悬疑惊悚::/ajax_top/7/{{page}}.htm\n同人小说::/ajax_top/8/{{page}}.htm\n都市小说::/ajax_top/9/{{page}}.htm\n官场职场::/ajax_top/10/{{page}}.htm\n穿越时空::/ajax_top/11/{{page}}.htm\n青春校园::/ajax_top/12/{{page}}.htm\n完本排行::/ajax_wanben/{{page}}",
+        "header": "",
+        "lastUpdateTime": 1686976895279,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 21167,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content&&//meta[@property='og:novel:status']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')"
+        },
+        "ruleContent": {
+            "content": "class.txtnav@textNodes##\\n  　.+",
+            "nextContentUrl": "",
+            "replaceRegex": "##(^　　.+)|(\\(本章完\\)$)"
+        },
+        "ruleExplore": {},
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "@css:.newbox>ul>li,body>li",
+            "bookUrl": "class.imgbox.0@href@js:let headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet url = book.origin+result.match(/\\/txt\\/.+$/)[0], res = java.head(url,headers);\nif(res.header('Location') == null){url;}else{book.origin+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog.0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href##www\\.69shu\\.com##d34xj6zzll2cc7.cloudfront.net"
+        },
+        "searchUrl": "<js>\nlet headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Content-Type': 'application/x-www-form-urlencoded;charset=gbk','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet res = java.head(baseUrl+'/modules/article/search.php?searchtype=all&searchkey='+ java.encodeURI(key,'GBK'),headers);\nif(res.header('Location') == null){\njava.log(baseUrl);baseUrl+'/modules/article/search.php,' + JSON.stringify({'charset': 'gbk','method': 'POST','body': \"searchkey={{key}}&searchtype=all\",'headers': headers,});\n}else{\nlet url = baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];\nres = java.head(url,headers);\nif(res.header('Location') == null){url;}else{baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n}\n</js>",
+        "weight": 0
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "天天看小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://cn.ttkan.co",
+        "bookUrlPattern": "",
+        "customOrder": 51,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1687361913056,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 21167,
+        "ruleBookInfo": {
+            "author": "//meta[@name='og:novel:author']/@content",
+            "coverUrl": "//meta[@name='og:image']/@content",
+            "downloadUrls": "",
+            "intro": "//meta[@name='og:description']/@content",
+            "kind": "//meta[@name='og:novel:category']/@content&&//meta[@name='og:novel:status']/@content",
+            "lastChapter": "//meta[@name='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@name='og:novel:book_name']/@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.content@tag.p@text",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {},
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "tag.li.1@text",
+            "bookList": "class.novel_cell",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.amp-img.0@src",
+            "intro": "tag.li.2@text",
+            "kind": "",
+            "lastChapter": "",
+            "name": "tag.h3.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.full_chapters@children[0]@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "preUpdateJs": "",
+            "updateTime": ""
+        },
+        "searchUrl": "/novel/search?q={{key}}",
+        "weight": 0
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "大熊猫文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.dxmwx.org",
+        "bookUrlPattern": "",
+        "customOrder": 52,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/list/topall_玄幻_{{page}}.html\n奇幻::/list/topall_奇幻_{{page}}.html\n武侠::/list/topall_武侠_{{page}}.html\n仙侠::/list/topall_仙侠_{{page}}.html\n都市::/list/topall_都市_{{page}}.html\n言情::/list/topall_言情_{{page}}.html\n军事::/list/topall_军事_{{page}}.html\n历史::/list/topall_历史_{{page}}.html\n科幻::/list/topall_科幻_{{page}}.html\n悬疑::/list/topall_悬疑_{{page}}.html\n女生::/list/topmm__{{page}}.html\n完本::/list/topend__{{page}}.html\n新书榜::/list/topnew__{{page}}.html\n更新榜::/list/topupdate__{{page}}.html\n月点击::/list/topmonth__{{page}}.html\n周点击::/list/topweek__{{page}}.html\n日点击::/list/topday__{{page}}.html",
+        "header": "",
+        "lastUpdateTime": 1685766742191,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 21167,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@css:a[href^='/chapter/']@href"
+        },
+        "ruleContent": {
+            "content": "id.Lab_Contents.0@html",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "class.margin0h5.0@tag.a.1@text",
+            "bookList": "@css:#ListContents>div[style*='margin']",
+            "bookUrl": "class.margin0h5.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.neirongh5.0@tag.a.0@text",
+            "kind": "class.biaoqian.0@tag.a.0@text",
+            "lastChapter": "@css:a[href='javascript:void(0)']@textNodes",
+            "name": "class.margin0h5.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "@css:a[href^='/read/']:not([title])",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/list/{{key}}.html",
+        "weight": 0
+    },
+    {
         "bookSourceComment": "",
         "bookSourceGroup": "暂不可用",
         "bookSourceName": "和图书",
         "bookSourceType": 0,
         "bookSourceUrl": "https://hetushu.com",
-        "customOrder": 52,
+        "customOrder": 53,
         "enabled": false,
         "enabledCookieJar": false,
         "enabledExplore": false,
@@ -719,119 +886,6 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "",
-        "bookSourceName": "大熊猫文学网",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.dxmwx.org",
-        "bookUrlPattern": "",
-        "customOrder": 56,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": true,
-        "exploreUrl": "玄幻::/list/topall_玄幻_{{page}}.html\n奇幻::/list/topall_奇幻_{{page}}.html\n武侠::/list/topall_武侠_{{page}}.html\n仙侠::/list/topall_仙侠_{{page}}.html\n都市::/list/topall_都市_{{page}}.html\n言情::/list/topall_言情_{{page}}.html\n军事::/list/topall_军事_{{page}}.html\n历史::/list/topall_历史_{{page}}.html\n科幻::/list/topall_科幻_{{page}}.html\n悬疑::/list/topall_悬疑_{{page}}.html\n女生::/list/topmm__{{page}}.html\n完本::/list/topend__{{page}}.html\n新书榜::/list/topnew__{{page}}.html\n更新榜::/list/topupdate__{{page}}.html\n月点击::/list/topmonth__{{page}}.html\n周点击::/list/topweek__{{page}}.html\n日点击::/list/topday__{{page}}.html",
-        "header": "",
-        "lastUpdateTime": 1685766742191,
-        "loginUi": "",
-        "loginUrl": "",
-        "respondTime": 21167,
-        "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "//meta[@property='og:image']/@content",
-            "downloadUrls": "",
-            "intro": "//meta[@property='og:description']/@content",
-            "kind": "//meta[@property='og:novel:category']/@content",
-            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "tocUrl": "@css:a[href^='/chapter/']@href"
-        },
-        "ruleContent": {
-            "content": "id.Lab_Contents.0@html",
-            "nextContentUrl": "",
-            "replaceRegex": ""
-        },
-        "ruleExplore": {
-            "author": "",
-            "bookList": "",
-            "bookUrl": "",
-            "coverUrl": "",
-            "intro": "",
-            "kind": "",
-            "lastChapter": "",
-            "name": ""
-        },
-        "ruleReview": {},
-        "ruleSearch": {
-            "author": "class.margin0h5.0@tag.a.1@text",
-            "bookList": "@css:#ListContents>div[style*='margin']",
-            "bookUrl": "class.margin0h5.0@tag.a.0@href",
-            "coverUrl": "tag.img.0@src",
-            "intro": "class.neirongh5.0@tag.a.0@text",
-            "kind": "class.biaoqian.0@tag.a.0@text",
-            "lastChapter": "@css:a[href='javascript:void(0)']@textNodes",
-            "name": "class.margin0h5.0@tag.a.0@text"
-        },
-        "ruleToc": {
-            "chapterList": "@css:a[href^='/read/']:not([title])",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "/list/{{key}}.html",
-        "weight": 0
-    },
-    {
-        "bookSourceComment": "可 免翻 完美使用（修复：无法搜索完整书名、书籍换源搜不到 等问题）\n因 www.69shu.com 主域名被墙，所以改为使用其另一个隐藏域名（非第三方镜像），但因为该域名搜索 完整书名 时会重定向到被墙的主域名导致使用很不方便，所以我研究了下成功解决了该问题，目前书源是完美状态~",
-        "bookSourceGroup": "",
-        "bookSourceName": "69书吧",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://d34xj6zzll2cc7.cloudfront.net",
-        "bookUrlPattern": "",
-        "customOrder": 56,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": true,
-        "exploreUrl": "全部分类::/ajax_top/0/{{page}}.htm\n玄幻魔法::/ajax_top/1/{{page}}.htm\n修真武侠::/ajax_top/2/{{page}}.htm\n言情小说::/ajax_top/3/{{page}}.htm\n历史军事::/ajax_top/4/{{page}}.htm\n游戏竞技::/ajax_top/5/{{page}}.htm\n科幻空间::/ajax_top/6/{{page}}.htm\n悬疑惊悚::/ajax_top/7/{{page}}.htm\n同人小说::/ajax_top/8/{{page}}.htm\n都市小说::/ajax_top/9/{{page}}.htm\n官场职场::/ajax_top/10/{{page}}.htm\n穿越时空::/ajax_top/11/{{page}}.htm\n青春校园::/ajax_top/12/{{page}}.htm\n完本排行::/ajax_wanben/{{page}}",
-        "header": "",
-        "lastUpdateTime": 1686976895279,
-        "loginUi": "",
-        "loginUrl": "",
-        "respondTime": 21167,
-        "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "//meta[@property='og:image']/@content",
-            "downloadUrls": "",
-            "intro": "//meta[@property='og:description']/@content",
-            "kind": "//meta[@property='og:novel:category']/@content&&//meta[@property='og:novel:status']/@content",
-            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')"
-        },
-        "ruleContent": {
-            "content": "class.txtnav@textNodes##\\n  　.+",
-            "nextContentUrl": "",
-            "replaceRegex": "##(^　　.+)|(\\(本章完\\)$)"
-        },
-        "ruleExplore": {},
-        "ruleReview": {},
-        "ruleSearch": {
-            "author": "tag.label.0@text",
-            "bookList": "@css:.newbox>ul>li,body>li",
-            "bookUrl": "class.imgbox.0@href@js:let headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet url = book.origin+result.match(/\\/txt\\/.+$/)[0], res = java.head(url,headers);\nif(res.header('Location') == null){url;}else{book.origin+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n",
-            "coverUrl": "tag.img.0@src",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.catalog.0@tag.a",
-            "chapterName": "text",
-            "chapterUrl": "href##www\\.69shu\\.com##d34xj6zzll2cc7.cloudfront.net"
-        },
-        "searchUrl": "<js>\nlet headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Content-Type': 'application/x-www-form-urlencoded;charset=gbk','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet res = java.head(baseUrl+'/modules/article/search.php?searchtype=all&searchkey='+ java.encodeURI(key,'GBK'),headers);\nif(res.header('Location') == null){\njava.log(baseUrl);baseUrl+'/modules/article/search.php,' + JSON.stringify({'charset': 'gbk','method': 'POST','body': \"searchkey={{key}}&searchtype=all\",'headers': headers,});\n}else{\nlet url = baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];\nres = java.head(url,headers);\nif(res.header('Location') == null){url;}else{baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n}\n</js>",
-        "weight": 0
-    },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
         "bookSourceName": "Ｖ笔趣阁",
         "bookSourceType": 0,
         "bookSourceUrl": "http://www.vbiquge.org",
@@ -916,7 +970,7 @@
             "name": ".book_name"
         },
         "ruleToc": {
-            "chapterList": "#list dd a",
+            "chapterList": "id.list.0@tag.a",
             "chapterName": "text##正文卷.|正文.|VIP卷.|默认卷.|卷_|VIP章节.|免费章节.|章节目录.|最新章节.|[\\(（【].*?[求更票谢乐发订合补加架字修Kk].*?[】）\\)]",
             "chapterUrl": "href"
         },
