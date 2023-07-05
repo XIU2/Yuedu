@@ -1104,57 +1104,6 @@
     {
         "bookSourceComment": "",
         "bookSourceGroup": "API",
-        "bookSourceName": "番薯小说",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://ggs.manmeng168.com",
-        "bookUrlPattern": "",
-        "customOrder": 12,
-        "enabled": true,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1685592700439,
-        "loginUrl": "",
-        "respondTime": 30428,
-        "ruleBookInfo": {
-            "author": "",
-            "coverUrl": "",
-            "init": "",
-            "intro": "",
-            "kind": "",
-            "lastChapter": "",
-            "name": "",
-            "tocUrl": "/v1/book/chapter_list?novel_id=@get:{id}"
-        },
-        "ruleContent": {
-            "content": "data[0].content"
-        },
-        "ruleExplore": {},
-        "ruleReview": {},
-        "ruleSearch": {
-            "author": "author",
-            "bookList": "data.novel_list",
-            "bookUrl": "@js:java.put(\"book\",result)",
-            "coverUrl": "image_url",
-            "intro": "🏷️   标签：{{$.tag}}{{'\\n'+'​'}}\n🔖   简介：{{$.desc_info}}##(^|[。！？]+[”」）】]?)##$1<br>",
-            "kind": "category_name&&rank_score&&source##小说",
-            "lastChapter": "newest_chapter_name",
-            "name": "name@put:{id:id,name:name,author:author}",
-            "wordCount": "word_count"
-        },
-        "ruleToc": {
-            "chapterList": "data",
-            "chapterName": "name",
-            "chapterUrl": "/v1/book/chapter_contents,{\"method\":\"POST\",\"body\":{\"chapter_ids\":\"{{$.chapter_id}}\",\"novelId\":{{java.get('id')}}}}",
-            "updateTime": "{{java.timeFormat(java.getString('$.version')*1000)}}•{{$.word_count}}字"
-        },
-        "searchUrl": "/v1/search/do_search,{\"method\":\"POST\",\"body\":{\"keyword\":{{key}},\"page_index\":{{page}},\"page_size\":20}}",
-        "weight": 50
-    },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "API",
         "bookSourceName": "酷我小说",
         "bookSourceType": 0,
         "bookSourceUrl": "http://appi.kuwo.cn",
@@ -1202,6 +1151,57 @@
             "updateTime": "{{$.volume_name}} {{$.original_words}}字"
         },
         "searchUrl": "http://appi.kuwo.cn/novels/api/book/search?keyword={{key}}&pi={{page}}&ps=30",
+        "weight": 50
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "API",
+        "bookSourceName": "番薯小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://ggs.manmeng168.com",
+        "bookUrlPattern": "",
+        "customOrder": 12,
+        "enabled": true,
+        "enabledCookieJar": true,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1685592700439,
+        "loginUrl": "",
+        "respondTime": 30428,
+        "ruleBookInfo": {
+            "author": "",
+            "coverUrl": "",
+            "init": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": "",
+            "tocUrl": "/v1/book/chapter_list?novel_id=@get:{id}"
+        },
+        "ruleContent": {
+            "content": "data[0].content"
+        },
+        "ruleExplore": {},
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "author",
+            "bookList": "data.novel_list",
+            "bookUrl": "@js:java.put(\"book\",result)",
+            "coverUrl": "image_url",
+            "intro": "🏷️   标签：{{$.tag}}{{'\\n'+'​'}}\n🔖   简介：{{$.desc_info}}##(^|[。！？]+[”」）】]?)##$1<br>",
+            "kind": "category_name&&rank_score&&source##小说",
+            "lastChapter": "newest_chapter_name",
+            "name": "name@put:{id:id,name:name,author:author}",
+            "wordCount": "word_count"
+        },
+        "ruleToc": {
+            "chapterList": "data",
+            "chapterName": "name",
+            "chapterUrl": "/v1/book/chapter_contents,{\"method\":\"POST\",\"body\":{\"chapter_ids\":\"{{$.chapter_id}}\",\"novelId\":{{java.get('id')}}}}",
+            "updateTime": "{{java.timeFormat(java.getString('$.version')*1000)}}•{{$.word_count}}字"
+        },
+        "searchUrl": "/v1/search/do_search,{\"method\":\"POST\",\"body\":{\"keyword\":{{key}},\"page_index\":{{page}},\"page_size\":20}}",
         "weight": 50
     },
     {
@@ -1314,7 +1314,7 @@
             "chapterName": "text",
             "chapterUrl": "href##www\\.69shu\\.com##d34xj6zzll2cc7.cloudfront.net"
         },
-        "searchUrl": "<js>\nlet headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Content-Type': 'application/x-www-form-urlencoded;charset=gbk','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet res = java.head(baseUrl+'/modules/article/search.php?searchtype=all&searchkey='+ java.encodeURI(key,'GBK'),headers);\nif(res.header('Location') == null){\njava.log(baseUrl);baseUrl+'/modules/article/search.php,' + JSON.stringify({'charset': 'gbk','method': 'POST','body': \"searchkey={{key}}&searchtype=all\",'headers': headers,});\n}else{\nlet url = baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];\nres = java.head(url,headers);\nif(res.header('Location') == null){url;}else{baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n}\n</js>",
+        "searchUrl": "<js>\nlet headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36','Content-Type': 'application/x-www-form-urlencoded;charset=gbk','Origin': 'https://www.69shu.com','Referer': 'https://www.69shu.com/'};\nlet res = java.post(baseUrl+'/modules/article/search.php','searchtype=all&searchkey='+ java.encodeURI(key,'GBK'),headers);\nif(res.header('Location') == null){\nbaseUrl+'/modules/article/search.php,' + JSON.stringify({'charset': 'gbk','method': 'POST','body': \"searchkey={{key}}&searchtype=all\",'headers': headers,});\n}else{\nlet url = baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];\nres = java.head(url,headers);\nif(res.header('Location') == null){url;}else{baseUrl+res.header('Location').match(/\\/txt\\/.+$/)[0];}\n}\n</js>",
         "weight": 0
     },
     {
