@@ -1277,7 +1277,7 @@
         "enabledCookieJar": false,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/ajax_top/0/{{page}}.htm\n玄幻魔法::/ajax_top/1/{{page}}.htm\n修真武侠::/ajax_top/2/{{page}}.htm\n言情小说::/ajax_top/3/{{page}}.htm\n历史军事::/ajax_top/4/{{page}}.htm\n游戏竞技::/ajax_top/5/{{page}}.htm\n科幻空间::/ajax_top/6/{{page}}.htm\n悬疑惊悚::/ajax_top/7/{{page}}.htm\n同人小说::/ajax_top/8/{{page}}.htm\n都市小说::/ajax_top/9/{{page}}.htm\n官场职场::/ajax_top/10/{{page}}.htm\n穿越时空::/ajax_top/11/{{page}}.htm\n青春校园::/ajax_top/12/{{page}}.htm\n完本排行::/ajax_wanben/{{page}}",
-        "header": "",
+        "header": "{\n'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36',\n'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',\n'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7'\n'Origin': 'https://www.69shu.com',\n'Referer': 'https://www.69shu.com/'\n}",
         "lastUpdateTime": 1686976895279,
         "loginUi": "",
         "loginUrl": "",
@@ -2556,6 +2556,110 @@
         "weight": 0
     },
     {
+        "bookSourceComment": "",
+        "bookSourceGroup": "API",
+        "bookSourceName": "爱下电子书",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://api.aixdzs.com",
+        "customOrder": 78,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":1}},{\"title\":\"周榜\",\"url\":\"/ranking/1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"月榜\",\"url\":\"/ranking/2\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"总榜\",\"url\":\"/ranking/3\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}}]",
+        "lastUpdateTime": 1687237194134,
+        "respondTime": 7667,
+        "ruleBookInfo": {
+            "author": "$.author",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "init": "",
+            "intro": "$.longIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": "$.lastChapter",
+            "name": "$.title",
+            "tocUrl": "/content/{{$._id}}?view=chapter",
+            "wordCount": "$.wordCount"
+        },
+        "ruleContent": {
+            "content": "$..body##.*第.*章.*|.*武林中文网.*最新章节！"
+        },
+        "ruleExplore": {
+            "author": "$.author",
+            "bookList": "$..books[*]",
+            "bookUrl": "/book/{{$._id}}",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "intro": "$.shortIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": "$.lastchapter##更新到:",
+            "name": "$.title"
+        },
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "$.author",
+            "bookList": "$.books[*]",
+            "bookUrl": "/book/{{$._id}}",
+            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
+            "intro": "$.shortIntro",
+            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
+            "lastChapter": "",
+            "name": "$.title",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "$..chapters[*]",
+            "chapterName": "$.title",
+            "chapterUrl": "/chapter/{{$.link}}"
+        },
+        "searchUrl": "/book/search?query={{key}}",
+        "weight": 50
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "斗破苍穹小说网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "http://www.doupocangqiong.info",
+        "bookUrlPattern": "",
+        "concurrentRate": "",
+        "customOrder": 78,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1675926199816,
+        "loginCheckJs": "",
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property=\"og:novel:author\"]/@content",
+            "coverUrl": "//meta[@property=\"og:image\"]/@content",
+            "intro": "//meta[@property=\"og:description\"]/@content",
+            "kind": "//meta[@property=\"og:novel:category\"]/@content",
+            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+            "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+        },
+        "ruleContent": {
+            "content": "id.chaptercontent@html",
+            "imageStyle": "0"
+        },
+        "ruleExplore": {},
+        "ruleSearch": {
+            "bookList": "class.marklist.0@tag.li[0:19]",
+            "bookUrl": "class.novelname.0@href",
+            "coverUrl": "tag.img.0@src",
+            "lastChapter": "class.info.0@tag.a.0@text",
+            "name": "class.novelname.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.dirlist.0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href##$##,{\"webView\":true}"
+        },
+        "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
+        "weight": 50
+    },
+    {
         "bookSourceComment": "搜索页加了人机验证，待解决",
         "bookSourceGroup": "暂不可用",
         "bookSourceName": "顶点小说 ddxs",
@@ -2756,53 +2860,6 @@
         "weight": 0
     },
     {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
-        "bookSourceName": "斗破苍穹小说网",
-        "bookSourceType": 0,
-        "bookSourceUrl": "http://www.doupocangqiong.info",
-        "bookUrlPattern": "",
-        "concurrentRate": "",
-        "customOrder": 86,
-        "enabled": false,
-        "enabledCookieJar": false,
-        "enabledExplore": false,
-        "exploreUrl": "",
-        "header": "",
-        "lastUpdateTime": 1675926199816,
-        "loginCheckJs": "",
-        "loginUi": "",
-        "loginUrl": "",
-        "respondTime": 180000,
-        "ruleBookInfo": {
-            "author": "//meta[@property=\"og:novel:author\"]/@content",
-            "coverUrl": "//meta[@property=\"og:image\"]/@content",
-            "intro": "//meta[@property=\"og:description\"]/@content",
-            "kind": "//meta[@property=\"og:novel:category\"]/@content",
-            "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
-            "name": "//meta[@property=\"og:novel:book_name\"]/@content"
-        },
-        "ruleContent": {
-            "content": "id.chaptercontent@html",
-            "imageStyle": "0"
-        },
-        "ruleExplore": {},
-        "ruleSearch": {
-            "bookList": "class.marklist.0@tag.li[0:19]",
-            "bookUrl": "class.novelname.0@href",
-            "coverUrl": "tag.img.0@src",
-            "lastChapter": "class.info.0@tag.a.0@text",
-            "name": "class.novelname.0@text"
-        },
-        "ruleToc": {
-            "chapterList": "class.dirlist.0@tag.a",
-            "chapterName": "text",
-            "chapterUrl": "href##$##,{\"webView\":true}"
-        },
-        "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
-        "weight": 0
-    },
-    {
         "bookSourceComment": "搜索页加了人机验证，待解决",
         "bookSourceGroup": "暂不可用",
         "bookSourceName": "大文学无错小说网",
@@ -2993,62 +3050,5 @@
         },
         "searchUrl": "/search.php,{'charset':'utf-8','body':'keyword={{key}}&submit=搜索','method':'POST'}",
         "weight": 0
-    },
-    {
-        "bookSourceComment": "",
-        "bookSourceGroup": "API",
-        "bookSourceName": "爱下电子书",
-        "bookSourceType": 0,
-        "bookSourceUrl": "http://api.aixdzs.com/",
-        "customOrder": 110,
-        "enabled": true,
-        "enabledCookieJar": false,
-        "enabledExplore": true,
-        "exploreUrl": "[{\"title\":\"排行榜\",\"url\":\"\",\"style\":{\"layout_flexGrow\":0,\"layout_flexBasisPercent\":1}},{\"title\":\"周榜\",\"url\":\"http://api.aixdzs.com/ranking/1\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"月榜\",\"url\":\"http://api.aixdzs.com/ranking/2\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}},{\"title\":\"总榜\",\"url\":\"http://api.aixdzs.com/ranking/3\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.29}}]",
-        "lastUpdateTime": 1687237194134,
-        "respondTime": 7667,
-        "ruleBookInfo": {
-            "author": "$.author",
-            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
-            "init": "",
-            "intro": "$.longIntro",
-            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
-            "lastChapter": "$.lastChapter",
-            "name": "$.title",
-            "tocUrl": "http://api.aixdzs.com/content/{{$._id}}?view=chapter",
-            "wordCount": "$.wordCount"
-        },
-        "ruleContent": {
-            "content": "$..body##.*第.*章.*|.*武林中文网.*最新章节！"
-        },
-        "ruleExplore": {
-            "author": "$.author",
-            "bookList": "$..books[*]",
-            "bookUrl": "http://api.aixdzs.com/book/{{$._id}}",
-            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
-            "intro": "$.shortIntro",
-            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
-            "lastChapter": "$.lastchapter##更新到:",
-            "name": "$.title"
-        },
-        "ruleReview": {},
-        "ruleSearch": {
-            "author": "$.author",
-            "bookList": "$.books[*]",
-            "bookUrl": "http://api.aixdzs.com/book/{{$._id}}",
-            "coverUrl": "https://img22.aixdzs.com/{{$.cover}}",
-            "intro": "$.shortIntro",
-            "kind": "{{$.updated}}\n{{$.cat}}\n{{$.zt}}",
-            "lastChapter": "",
-            "name": "$.title",
-            "wordCount": ""
-        },
-        "ruleToc": {
-            "chapterList": "$..chapters[*]",
-            "chapterName": "$.title",
-            "chapterUrl": "http://api.aixdzs.com/chapter/{{$.link}}"
-        },
-        "searchUrl": "http://api.aixdzs.com/book/search?query={{key}}",
-        "weight": 50
     }
 ]
