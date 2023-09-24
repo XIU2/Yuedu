@@ -34,8 +34,6 @@
 - **书源分享地址：** _https://yuedu.xiu2.xyz_  
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
 
@@ -46,15 +44,13 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 ### 二维码导入(推荐)：
 打开「阅读」APP 点击右下角的 **`我的` - `书源管理`** (最下方 图一)，这时候再点击右上角的 **` ┇ ` - `二维码导入`** (最下方 图二) - 然后手机扫描下方二维码即可即可。  
 
-![](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-03.png)
+![](https://bitbucket.org/xiu2/yuedu/raw/master/dist/img/img-03.png)
 
 ****
 
 ### 网络导入(推荐)：
 打开「阅读」APP 点击右下角的 **`我的` - `书源管理`** (最下方 图一)，这时候再点击右上角的 **` ┇ ` - `网络导入`** (最下方 图二) - 输入下面的网络导入地址并点击 **`确定`** 按钮即可（最下方 图三）。  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个  
-_https://raw.iqiq.io/XIU2/Yuedu/master/shuyuan_  
-_https://raw.fastgit.org/XIU2/Yuedu/master/shuyuan_  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
 
@@ -69,7 +65,7 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 
 > 上述三个导入步骤的简单操作示例图，从左向右分别为：**图一、图二、图三、图四**
 
-![操作示例](https://cdn.staticaly.com/gh/XIU2/Yuedu/master/dist/img/img-04.png)
+![操作示例](https://bitbucket.org/xiu2/yuedu/raw/master/dist/img/img-04.png)
 
 ****
 
@@ -100,7 +96,7 @@ _（支持众多离线语音，酷安里发布的，被举报停更后最近又�
 
 ## 赞赏支持
 
-![微信赞赏](https://cdn.staticaly.com/gh/XIU2/XIU2/master/img/zs-01.png)![支付宝赞赏](https://cdn.staticaly.com/gh/XIU2/XIU2/master/img/zs-02.png)
+![微信赞赏](https://bitbucket.org/xiu2/xiu2/raw/master/img/zs-01.png)![支付宝赞赏](https://bitbucket.org/xiu2/xiu2/raw/master/img/zs-02.png)
 
 ****
 
