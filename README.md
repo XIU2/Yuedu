@@ -35,7 +35,13 @@
 - **本地导入地址：** 去上面的书源分享地址里点击 **\[下载文件\]**  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
-_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
+_https://raw.fgit.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
+_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
+_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://mirror.ghproxy.com/.../XIU2/Yuedu/master/shuyuan](https://mirror.ghproxy.com/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
@@ -52,7 +58,13 @@ _https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_
 打开「阅读」APP 点击右下角的 **`我的` - `书源管理`** (最下方 图一)，这时候再点击右上角的 **` ┇ ` - `网络导入`** (最下方 图二) - 输入下面的网络导入地址并点击 **`确定`** 按钮即可（最下方 图三）。  
 - **网络导入地址：** 以下 CDN 分流地址，任选一个  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
-_https://gitea.com/XIU2/Yuedu/raw/branch/master/shuyuan_  
+_https://raw.fgit.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
+_https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
+_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
+_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://mirror.ghproxy.com/.../XIU2/Yuedu/master/shuyuan](https://mirror.ghproxy.com/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
