@@ -873,11 +873,11 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "原 www.69shu.com 的新域名，但后续莫名奇妙的主动屏蔽了国内 IP（不懂站长咋想的...），因此该书源目前只能挂代理使用（或者自建镜像）",
+        "bookSourceComment": "（最近这段时间频繁换域名）原 www.69shu.com 的新域名，但后续莫名奇妙的主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
         "bookSourceGroup": "梯子",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
-        "bookSourceUrl": "https://www.69shu.top",
+        "bookSourceUrl": "https://www.69shuba.pro",
         "bookUrlPattern": "",
         "customOrder": 19,
         "enabled": true,
