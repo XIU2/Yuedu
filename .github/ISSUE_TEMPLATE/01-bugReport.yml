@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        发之前，请先搜下有没有类似的 [Issues](https://github.com/XIU2/Yuedu/issues) 问题（包括[关闭](https://github.com/XIU2/Yuedu/issues?q=is%3Aissue+is%3Aclosed)的），请勿重复发起！  
+        发之前，请先搜下有没有类似的 [**Issues**](https://github.com/XIU2/Yuedu/issues) 问题（包括[**关闭**](https://github.com/XIU2/Yuedu/issues?q=is%3Aissue+is%3Aclosed)的），请勿重复发起！  
         ****
   - type: input
     id: version
