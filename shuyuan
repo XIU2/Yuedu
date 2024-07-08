@@ -918,7 +918,7 @@
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "id.catalog.0@tag.a",
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a",
             "chapterName": "text",
             "chapterUrl": "href"
         },
