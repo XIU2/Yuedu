@@ -873,7 +873,7 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "（最近这段时间频繁换域名）原 www.69shu.com 的新域名",
+        "bookSourceComment": "（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
         "bookSourceGroup": "梯子",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
@@ -907,12 +907,12 @@
             "replaceRegex": "##(^(.+\\n){3})|(.*\\(本章完\\)$)"
         },
         "ruleExplore": {
-            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
-            "name": "tag.h3.0@tag.a.0@text",
             "author": "tag.label.0@text",
-            "kind": "tag.label.1@text",
-            "intro": "class.ellipsis_2.0@text",
+            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text",
+            "name": "tag.h3.0@tag.a.0@text",
             "wordCount": "tag.label.2@text"
         },
         "ruleReview": {},
