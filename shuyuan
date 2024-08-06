@@ -1110,6 +1110,67 @@
         "weight": 0
     },
     {
+        "bookSourceComment": "",
+        "bookSourceGroup": "",
+        "bookSourceName": "柒六八文学网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.778668.com",
+        "bookUrlPattern": "",
+        "customOrder": 22,
+        "enabled": true,
+        "enabledCookieJar": false,
+        "enabledExplore": false,
+        "exploreUrl": "",
+        "header": "",
+        "lastUpdateTime": 1685766742191,
+        "loginUi": "",
+        "loginUrl": "",
+        "respondTime": 12507,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "",
+            "intro": "//meta[@property='og:description']/@content##您要是觉得",
+            "kind": "//meta[@property='og:novel:category']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": ""
+        },
+        "ruleContent": {
+            "content": "class.pt-read-text.0@html##微信小程序“小说迷”.+",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "",
+            "bookList": "",
+            "bookUrl": "",
+            "coverUrl": "",
+            "intro": "",
+            "kind": "",
+            "lastChapter": "",
+            "name": ""
+        },
+        "ruleReview": {},
+        "ruleSearch": {
+            "author": "class.block_txt.0@tag.p.2@text##(作者：| )",
+            "bookList": "class.block",
+            "bookUrl": "tag.h2.0@tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.block_txt.0@tag.p.4@text##(简介:|您要是觉得| )",
+            "kind": "class.block_txt.0@tag.p.3@text##(类型：| )",
+            "lastChapter": "",
+            "name": "tag.h2.0@tag.a.0@text"
+        },
+        "ruleToc": {
+            "chapterList": "class.mulu.0@tag.ul.0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/search/result.html?searchkey={{key}}",
+        "weight": 0
+    },
+    {
         "bookSourceComment": "需要在书源管理中登录后才能搜索\n备用：https://www.23qb.net",
         "bookSourceGroup": "",
         "bookSourceName": "铅笔小说",
