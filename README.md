@@ -40,7 +40,6 @@ _https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_
 _https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
-_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 _[https://mirror.ghproxy.com/.../XIU2/Yuedu/master/shuyuan](https://mirror.ghproxy.com/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
@@ -64,7 +63,6 @@ _https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_
 _https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
-_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 _[https://mirror.ghproxy.com/.../XIU2/Yuedu/master/shuyuan](https://mirror.ghproxy.com/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
