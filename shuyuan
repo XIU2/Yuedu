@@ -307,8 +307,8 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "注意：该书源全站启用了 \"【全站】人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
-        "bookSourceGroup": "梯子,人机验证",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
+        "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shuba.cx",
@@ -368,8 +368,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源全站启用了 \"【全站】人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
-        "bookSourceGroup": "人机验证",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
+        "bookSourceGroup": "人机验证-全站",
         "bookSourceName": "阿酷小说",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.owlook.top",
@@ -486,13 +486,13 @@
     },
     {
         "bookSourceComment": "该书源的搜索功能好像出问题了，建议从【发现】中找书，或者在阅读里直接添加书籍详情页的地址 URL 也行",
-        "bookSourceGroup": "",
+        "bookSourceGroup": "搜索不可用",
         "bookSourceName": "独步小说网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.dbxsd.com",
         "bookUrlPattern": "",
         "customOrder": 53,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": false,
         "enabledExplore": true,
         "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/nav/xh-qh-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"科幻游戏\",\"url\":\"/nav/kh-yx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"仙侠武侠\",\"url\":\"/nav/xx-wx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"女生言情\",\"url\":\"/nav/ns-yq-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"都市娱乐\",\"url\":\"/nav/ds-yl-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"历史军事\",\"url\":\"/nav/ls-js-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"悬疑灵异\",\"url\":\"/nav/xy-ly-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"耽美纯爱\",\"url\":\"/nav/dm-ca-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"成长励志\",\"url\":\"/nav/cz-lz-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"散文随笔\",\"url\":\"/nav/sw-sb-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"轻の小说\",\"url\":\"/nav/qxs-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"国外文学\",\"url\":\"/nav/gwwx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"文学名著\",\"url\":\"/nav/wxmz-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"现代当代\",\"url\":\"/nav/xddwx-{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},{\"title\":\"\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
@@ -604,8 +604,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "",
-        "bookSourceGroup": "",
+        "bookSourceComment": "这个小说网站好像有点问题？先禁用了。",
+        "bookSourceGroup": "暂时不可用",
         "bookSourceName": "柒六八文学网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.778668.com",
@@ -664,8 +664,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源全站启用了 \"【搜索】人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
-        "bookSourceGroup": "人机验证",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
+        "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "大文学无错小说网",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.wcxsw.org",
@@ -715,8 +715,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源全站启用了 \"【全站】人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
-        "bookSourceGroup": "人机验证",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
+        "bookSourceGroup": "人机验证-全站",
         "bookSourceName": "和图书",
         "bookSourceType": 0,
         "bookSourceUrl": "https://hetushu.com",
@@ -775,8 +775,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源全站启用了 \"【搜索】人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
-        "bookSourceGroup": "人机验证",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
+        "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "思路客",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.siluke.com",
@@ -884,8 +884,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "",
-        "bookSourceGroup": "人机验证",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
+        "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "顶点小说 ddxs",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.ddxs.com",
