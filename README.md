@@ -1,4 +1,4 @@
-# 「阅读」APP 精品书源
+# 「阅读」APP 自用书源
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
 [![GitHub Star](https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github)](https://github.com/XIU2/yuedu/)
@@ -15,7 +15,7 @@
 
 **「阅读」APP** 不同于其他小说阅读软件，其原理为：**解析小说网站的搜索页、详情页、目录页、正文页，提取相关信息**来显示给你看，因此安装后还需要**自行编写或导入书源**才能使用，该项目就是将我自写自用的书源分享出来~  
 
-> 本项目是「阅读」APP 的书源分享，官方项目为：[阅读开源地址](https://github.com/gedoor/legado)、[官方下载地址](https://github.com/gedoor/legado/releases)、[酷安下载地址](https://www.coolapk.com/apk/256030)
+> 本项目是「阅读」APP 的书源分享，官方项目为：[阅读开源地址](https://github.com/gedoor/legado)、[官方下载地址](https://github.com/gedoor/legado/releases)
 
 ****
 
@@ -25,7 +25,7 @@
 
 我的阅读书架里绝大部分都是这些年收藏的完本小说，因此我也早早的都替换成了本地 TXT 文件，省心多了。
 
-> 注意！因为**精力有限**加上我现在基本上只看本地收藏的完本小说，所以 **`本项目书源较少，维护也不积极`**，因此**请勿过度依赖**本项目，想要更多书源的话建议去 [**源仓库**](https://www.yckceo.com/yuedu/shuyuan)、[**Yiove 综合书源库**](https://shuyuan.yiove.com/complex) 看看。
+> 注意！因为**精力有限**加上我现在基本上只看本地收藏的完本小说了，所以 **`本项目书源较少，维护也不积极`**，因此**请勿过度依赖**本项目，想要更多书源的话建议去 [**源仓库**](https://www.yckceo.com/yuedu/shuyuan)、[**Yiove 综合书源库**](https://shuyuan.yiove.com/complex) 淘一淘。
 
 ****
 
