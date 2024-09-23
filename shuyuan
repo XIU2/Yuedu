@@ -307,7 +307,7 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n一些新书可能会跳转到一个叫做 69好书 的分站（特别是一些书名带逗号的那种，两个网站的书籍资源不重合），分站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n一些新书可能会跳转到一个叫做 69好书 的分站，因此你可能会额外再进行一次人机验证（特别是一些书名带逗号的那种，两个网站的书籍资源不重合），分站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
         "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
@@ -338,28 +338,28 @@
         "ruleContent": {
             "content": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.txtnav@html",
             "nextContentUrl": "",
-            "replaceRegex": "##(^(.+\\n){3})|(.*\\(本章完\\)$)"
+            "replaceRegex": "##(^(.+\\n){3})|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "tag.label.0@text",
             "bookList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
+            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text",
             "name": "tag.h3.0@tag.a.0@text",
-            "wordCount": "tag.label.2@text",
-            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}"
+            "wordCount": "tag.label.2@text"
         },
         "ruleSearch": {
             "author": "tag.label.0@text",
             "bookList": "class.newbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.1@href",
+            "checkKeyWord": "我有一个",
             "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text&&tag.label.2@text",
             "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text",
-            "checkKeyWord": "我有一个"
+            "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
             "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
@@ -370,7 +370,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n这似乎是 69书吧 的分站？但两个网站的书籍资源不重合，这个网站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站(特别是一些书名带逗号的那种)。",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n这似乎是 69书吧 的分站？但两个网站的书籍资源不重合，这个网站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站(特别是一些书名带逗号的那种，当然并不会跳转到该书源，但不影响正常阅读，只不过因为跳转的原因，可能会额外再进行一次人机验证)。",
         "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69好书",
         "bookSourceType": 0,
@@ -407,22 +407,22 @@
             "author": "tag.label.0@text",
             "bookList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
+            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text",
             "name": "tag.h3.0@tag.a.0@text",
-            "wordCount": "tag.label.2@text",
-            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}"
+            "wordCount": "tag.label.2@text"
         },
         "ruleSearch": {
             "author": "tag.label.0@text",
             "bookList": "class.newbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.1@href",
+            "checkKeyWord": "合成",
             "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text&&tag.label.2@text",
             "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text",
-            "checkKeyWord": "合成"
+            "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
             "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
@@ -481,13 +481,13 @@
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
             "bookList": "class.secd-rank-list",
             "bookUrl": "class.bigpic-book-name.0@href",
+            "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@data-original",
             "intro": "class.big-book-info.0@text##(\\n|\\t)",
             "kind": "tag.dd.0@tag.p.0@tag.a.1@text&&tag.dd.0@tag.p.0@textNodes##(\\n|\\t|\\|| )",
             "lastChapter": "tag.dd.0@tag.p.2@tag.a.0@text##最近更新 ",
             "name": "class.bigpic-book-name.0@text##(\\n|\\t|(\\(.+\\)))",
-            "wordCount": "tag.em.0@text",
-            "checkKeyWord": "系统"
+            "wordCount": "tag.em.0@text"
         },
         "ruleToc": {
             "chapterList": "<js>if (result.includes('//challenge')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.cate-list.0@tag.a",
@@ -765,13 +765,13 @@
             "author": "$.author",
             "bookList": "$[*]",
             "bookUrl": "$.index##m\\.##www.",
+            "checkKeyWord": "系统",
             "coverUrl": "$.bookid@js:`${book.origin}/image/${result.slice(0,-3)}/${result}/${result}s.jpg`",
             "intro": "$.intro",
             "kind": "$.caption",
             "lastChapter": "$.lastchapter",
             "name": "$.articlename",
-            "wordCount": "$.size_c",
-            "checkKeyWord": "系统"
+            "wordCount": "$.size_c"
         },
         "ruleToc": {
             "chapterList": "//div[@id=\"list\"]/dl/dt[last()]/following-sibling::dd/a",
@@ -827,11 +827,11 @@
             "author": "tag.h4.0@tag.span.0@text##\\/",
             "bookList": "class.list.0@tag.dd",
             "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@src",
             "intro": "class.intro.0@html",
             "kind": "<js>result=String(result).match(/continue/)?'连载':'完结'</js>",
-            "name": "tag.h4.0@tag.a.0@text",
-            "checkKeyWord": "系统"
+            "name": "tag.h4.0@tag.a.0@text"
         },
         "ruleToc": {
             "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.dir.0@children",
@@ -877,13 +877,13 @@
             "author": "$.author",
             "bookList": "$[*]",
             "bookUrl": "$.index##m\\.##www.",
+            "checkKeyWord": "系统",
             "coverUrl": "$.bookid@js:`${book.origin}/img/${result.slice(0,-3)}/${result}/${result}s.jpg`",
             "intro": "$.intro",
             "kind": "$.caption",
             "lastChapter": "$.lastchapter",
             "name": "$.articlename",
-            "wordCount": "$.size_c",
-            "checkKeyWord": "系统"
+            "wordCount": "$.size_c"
         },
         "ruleToc": {
             "chapterList": "//div[@id=\"list\"]/dl/dt[last()]/following-sibling::dd/a",
@@ -995,13 +995,13 @@
             "author": "$.author",
             "bookList": "$[*]",
             "bookUrl": "$.index##m\\.##www.",
+            "checkKeyWord": "系统",
             "coverUrl": "$.bookid@js:`${book.origin}/img/${result.slice(0,-3)}/${result}.jpg`",
             "intro": "$.intro",
             "kind": "$.caption",
             "lastChapter": "$.lastchapter",
             "name": "$.articlename",
-            "wordCount": "$.size_c",
-            "checkKeyWord": "系统"
+            "wordCount": "$.size_c"
         },
         "ruleToc": {
             "chapterList": "id.at.-1@tag.a",
