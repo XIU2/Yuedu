@@ -25,7 +25,11 @@
 
 我的阅读书架里绝大部分都是这些年收藏的完本小说，因此我也早早的都替换成了本地 TXT 文件，省心多了。
 
-> 注意！因为**精力有限**加上我现在基本上只看本地收藏的完本小说了，所以 **`本项目书源较少，维护也不积极`**，因此**请勿过度依赖**本项目，想要更多书源的话建议去 [**源仓库**](https://www.yckceo.com/yuedu/shuyuan)、[**Yiove 综合书源库**](https://shuyuan.yiove.com/complex) 淘一淘。
+> [!NOTE]
+> 因为**精力有限**加上我现在主要还是看本地收藏的完本小说，所以 **`本项目书源较少，维护也不积极`**，因此**请勿过度依赖**本项目，想要更多书源的话建议去 [**源仓库**](https://www.yckceo.com/yuedu/shuyuan)、[**Yiove 综合书源库**](https://shuyuan.yiove.com/complex) 淘一淘。
+
+> [!TIP]
+> 各书源（小说网站）一般都会有一些**访问速率限制**（各不一样），如果访问频繁可能会触发限制（**封禁 IP / 弹验证**），因此建议在 `阅读 - 其他设置` 中将 `预下载` 调低（就是阅读会提前加载好前后的 X 章内容，建议 **`1~5`**），以及下面的 `更新和搜索线程数` 也要调低（这个也会影响到离线缓存书籍时的并发速度，如果离线缓存一部分章节就发现后续全都失败了，可能就是因为触发限制了，建议 **`1~5`**。）
 
 ****
 
@@ -39,10 +43,10 @@ _https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan_
 _https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
-_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
-_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_
+_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
-_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
@@ -63,10 +67,10 @@ _https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan_
 _https://raw.nuaa.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.yzuu.cf/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
-_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_  
-_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_
+_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
-_[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
@@ -99,7 +103,7 @@ _[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.x
 - **[TTS Server](https://github.com/jing332/tts-server-android)**  
 _（内置微软 TTS，也支持其他声源接口，可搭配其他 TTS 软件使用_  
 - **[MultiTTS](https://t.me/MultiTTS)**  
-_（支持众多离线语音，酷安里发布的，被举报停更后最近又恢复了_  
+_（支持众多离线语音，经历了意外源码丢失，后来又重写恢复了更新_  
 - **[微软 TTS](https://github.com/ag2s20150909/TTS)**  
 - **Google 文字转语音引擎**  
 - **讯飞语记**  
