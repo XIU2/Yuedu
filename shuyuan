@@ -431,7 +431,7 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n一些新书可能会跳转到一个叫做 69好书 的分站，因此你可能会额外再进行一次人机验证（特别是一些书名带逗号的那种，两个网站的书籍资源不重合），分站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
+        "bookSourceComment": "注意：该书源【详情页、目录页】启用了 \"人机验证\"，因此使用过程中（刷新书籍、更新目录）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n一些新书可能会跳转到一个叫做 69好书 的分站，因此你可能会额外再进行一次人机验证（特别是一些书名带逗号的那种，两个网站的书籍资源不重合），分站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
         "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
@@ -454,19 +454,20 @@
             "downloadUrls": "",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
-            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
             "name": "//meta[@property='og:novel:book_name']/@content",
             "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
+            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)",
+            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>"
         },
         "ruleContent": {
-            "content": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.txtnav@html",
+            "content": "class.txtnav@html",
             "nextContentUrl": "",
             "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "tag.label.0@text",
-            "bookList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
+            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
             "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
             "intro": "class.ellipsis_2.0@text",
@@ -486,11 +487,11 @@
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}';a=java.ajax(baseUrl);if (a.includes('Just a moment')) {java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
+        "searchUrl": "/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}",
         "weight": 25
     },
     {
@@ -580,19 +581,20 @@
             "downloadUrls": "",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
-            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
             "name": "//meta[@property='og:novel:book_name']/@content",
             "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
+            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)",
+            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>"
         },
         "ruleContent": {
-            "content": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.txtnav@html",
+            "content": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.txtnav@html",
             "nextContentUrl": "",
             "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "tag.label.0@text",
-            "bookList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
+            "bookList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
             "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
             "intro": "class.ellipsis_2.0@text",
@@ -612,11 +614,11 @@
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}';a=java.ajax(baseUrl);if (a.includes('Just a moment')) {java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
+        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}';a=java.ajax(baseUrl);if(a.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
         "weight": 25
     },
     {
