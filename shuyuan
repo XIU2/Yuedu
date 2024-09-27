@@ -452,7 +452,7 @@
             "author": "//meta[@property='og:novel:author']/@content",
             "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "downloadUrls": "",
-            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>",
+            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
             "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
@@ -487,11 +487,11 @@
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\\\"charset\\\":\\\"gbk\\\",\\\"body\\\":\\\"searchkey={{key}}&searchtype=all\\\",\\\"method\\\":\\\"POST\\\"}';a=java.ajax(baseUrl);if (a.includes('Just a moment')) {java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
+        "searchUrl": "@js:url=baseUrl+\"/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}\";u=baseUrl+'/modules/article/search.php';a=java.ajax(u);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(u,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -618,7 +618,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}",
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
         "weight": 25
     },
     {
@@ -648,16 +648,17 @@
             "lastChapter": "class.chaptername.0@tag.a.0@text",
             "name": "class.name.0@text##\\(.+\\)",
             "tocUrl": "",
-            "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字"
+            "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字",
+            "init": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>"
         },
         "ruleContent": {
-            "content": "<js>if (result.includes('//challenge')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.read-content@html",
+            "content": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html",
             "nextContentUrl": "",
             "replaceRegex": ""
         },
         "ruleExplore": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if (result.includes('//challenge')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.listboxw.0@tag.dl",
+            "bookList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
             "bookUrl": "class.bigpic-book-name.0@href",
             "coverUrl": "tag.img.0@data-original",
             "intro": "class.big-book-info.0@text##\\n本站提示.+",
@@ -668,7 +669,7 @@
         },
         "ruleSearch": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "class.secd-rank-list",
+            "bookList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.secd-rank-list",
             "bookUrl": "class.bigpic-book-name.0@href",
             "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@data-original",
@@ -679,11 +680,11 @@
             "wordCount": "tag.em.0@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if (result.includes('//challenge')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.cate-list.0@tag.a",
+            "chapterList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
             "chapterName": "tag.span.0@text",
             "chapterUrl": "href"
         },
-        "searchUrl": "<js>a=java.ajax(baseUrl);if (a.includes('//challenge')) {java.startBrowserAwait(baseUrl,'人机验证');};</js>/search.html?keyword={{key}}",
+        "searchUrl": "/search.html?keyword={{key}}",
         "weight": 25
     },
     {
@@ -968,7 +969,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url='https://m.wcxsw.org/search.php,{\"body\":\"submit=搜索&keyword={{key}}&json=1\",\"method\":\"POST\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36\"}}';a=java.ajax(url);if (a.includes('Just a moment')) {java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.wcxsw.org/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -990,7 +991,7 @@
             "author": "class.book_info.0@tag.a.0@text",
             "canReName": "",
             "coverUrl": "class.book_info@tag.img.0@src",
-            "init": "",
+            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
             "intro": "class.intro.0@html",
             "kind": "class.tag.0@tag.a.!0:1@text&&class.continue.0@tag.div.2@text<js>if(result[result.length-1].includes('类型：')){result[result.length-1]='连载'}else{result[result.length]='完结'};result;</js>",
             "lastChapter": "id.dir.0@tag.dd.-1@tag.a.0@text",
@@ -998,7 +999,7 @@
             "wordCount": "class.book_info.0@tag.div.3@text##字数："
         },
         "ruleContent": {
-            "content": "<js>\nif (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;\nloadDocType=\"{{@@body@data-doctype}}\";\nloadType=\"{{@@body@data-randomtype}}\";\nsid=baseUrl.match(/(\\d+).html/)[1];\nurl=baseUrl.replace(/\\d+.html/,'')\n\nvar section = {\n    loadDocType: loadDocType,\n    loadType: loadType,\n    sid:sid,\n    content: {\n        childNode: [],\n        init: function(c){\n            this.body=c\n            if (section.loadType == 'normal') {\n      this.load(String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))))\n            } else if (section.loadType == 'substep') {\n                var d = 'r' + section.sid;\n                var f = false;\n                if (section.loadDocType == 'xml') {\n                    d += '.xml'\n                } else if (section.loadDocType == 'json') {\n                    d += '.json';\n                    f = true\n                } else {\n                    return false\n                };        \n             cookie='PHPSESSID='+java.get(baseUrl,{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).cookie('PHPSESSID');\n            token= java.get(url+d,{'X-Requested-With': 'XMLHttpRequest','referer':baseUrl,'cookie':String(cookie),'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).header('token')              \n                \tthis.load(token)      \t\n            } else {\n                return false\n            };               \n        },\n        load: function(a) {         \n            a = String(java.base64Decode(a)).split(/[A-Z]+%/);      \n            var b = 0,\n            start = 0;\n            for (var i = 0; i < this.body.length; i++) {\n                if (String(this.body[i]).match(/h2/i)) {\n                    start = i + 1\n                };\n                if (String(this.body[i]).match(/div/i)&& this.body[i].attr(\"class\") != 'chapter') {\n                    break\n                }\n            };\n            for (var i = 0; i < a.length; i++) {\n                if (a[i] < 5) {\n                    this.childNode[a[i]] = this.body[i + start];\n                      b++\n                } else {\n                    this.childNode[a[i] - b] = this.body[i + start]                 \n                }\n            };\n  }\n}\n}\nsection.content.init(java.getElement(\"@@id.content@children!0\").toArray());\nsection.content.childNode.join(\"\")\n</js>tag.div@ownText",
+            "content": "<js>\nif(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;\nloadDocType=\"{{@@body@data-doctype}}\";\nloadType=\"{{@@body@data-randomtype}}\";\nsid=baseUrl.match(/(\\d+).html/)[1];\nurl=baseUrl.replace(/\\d+.html/,'')\n\nvar section = {\n    loadDocType: loadDocType,\n    loadType: loadType,\n    sid:sid,\n    content: {\n        childNode: [],\n        init: function(c){\n            this.body=c\n            if (section.loadType == 'normal') {\n      this.load(String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))))\n            } else if (section.loadType == 'substep') {\n                var d = 'r' + section.sid;\n                var f = false;\n                if (section.loadDocType == 'xml') {\n                    d += '.xml'\n                } else if (section.loadDocType == 'json') {\n                    d += '.json';\n                    f = true\n                } else {\n                    return false\n                };        \n             cookie='PHPSESSID='+java.get(baseUrl,{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).cookie('PHPSESSID');\n            token= java.get(url+d,{'X-Requested-With': 'XMLHttpRequest','referer':baseUrl,'cookie':String(cookie),'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).header('token')              \n                \tthis.load(token)      \t\n            } else {\n                return false\n            };               \n        },\n        load: function(a) {         \n            a = String(java.base64Decode(a)).split(/[A-Z]+%/);      \n            var b = 0,\n            start = 0;\n            for (var i = 0; i < this.body.length; i++) {\n                if (String(this.body[i]).match(/h2/i)) {\n                    start = i + 1\n                };\n                if (String(this.body[i]).match(/div/i)&& this.body[i].attr(\"class\") != 'chapter') {\n                    break\n                }\n            };\n            for (var i = 0; i < a.length; i++) {\n                if (a[i] < 5) {\n                    this.childNode[a[i]] = this.body[i + start];\n                      b++\n                } else {\n                    this.childNode[a[i] - b] = this.body[i + start]                 \n                }\n            };\n  }\n}\n}\nsection.content.init(java.getElement(\"@@id.content@children!0\").toArray());\nsection.content.childNode.join(\"\")\n</js>tag.div@ownText",
             "imageStyle": "FULL",
             "nextContentUrl": "",
             "replaceRegex": "",
@@ -1007,7 +1008,7 @@
         },
         "ruleExplore": {
             "author": "class.author.0@text",
-            "bookList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.book_list.0@tag.li",
+            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.book_list.0@tag.li",
             "bookUrl": "tag.a.0@href",
             "coverUrl": "tag.img.0@src",
             "kind": "class.author_box.0@tag.span.0@text",
@@ -1015,7 +1016,7 @@
         },
         "ruleSearch": {
             "author": "tag.h4.0@tag.span.0@text##\\/",
-            "bookList": "class.list.0@tag.dd",
+            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.list.0@tag.dd",
             "bookUrl": "tag.a.0@href",
             "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@src",
@@ -1024,12 +1025,12 @@
             "name": "tag.h4.0@tag.a.0@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if (result.includes('Just a moment')) {result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.dir.0@children",
+            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>id.dir.0@children",
             "chapterName": "text",
             "chapterUrl": "tag.a.0@href",
             "isVolume": "@js:result=String(result).match(/^<dt/)?true:false"
         },
-        "searchUrl": "<js>a=java.ajax(baseUrl);if (a.includes('Just a moment')) {java.startBrowserAwait(baseUrl,'人机验证');};</js>/search/?keyword={{key}}",
+        "searchUrl": "/search/?keyword={{key}}",
         "weight": 25
     },
     {
@@ -1080,7 +1081,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url='https://m.siluke.com/search.php,{\"body\":\"submit=搜索&keyword={{key}}&json=1\",\"method\":\"POST\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36\"}}';a=java.ajax(url);if (a.includes('Just a moment')) {java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.siluke.com/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -1170,7 +1171,8 @@
             "name": "//meta[@name='og:novel:book_name']/@content"
         },
         "ruleContent": {
-            "content": "id.contents.0@html"
+            "content": "id.contents.0@html",
+            "replaceRegex": "##（未完待续）$"
         },
         "ruleExplore": {
             "author": "",
@@ -1198,7 +1200,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url='https://m.ddxs.com/search.php,{\"body\":\"keyword={{key}}&json=1\",\"method\":\"POST\",\"headers\":{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36\"}}';a=java.ajax(url);if (a.includes('Just a moment')) {java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.ddxs.com/search.php,{'body':'keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
