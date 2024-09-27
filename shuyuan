@@ -431,8 +431,8 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "注意：该书源【详情页、目录页】启用了 \"人机验证\"，因此使用过程中（刷新书籍、更新目录）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n一些新书可能会跳转到一个叫做 69好书 的分站，因此你可能会额外再进行一次人机验证（特别是一些书名带逗号的那种，两个网站的书籍资源不重合），分站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
-        "bookSourceGroup": "梯子,人机验证-全站",
+        "bookSourceComment": "注意：该书源【搜索页、详情页、目录页】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、刷新书籍、更新目录）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
+        "bookSourceGroup": "梯子,人机验证-搜索-详情-目录",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shuba.cx",
@@ -452,13 +452,13 @@
             "author": "//meta[@property='og:novel:author']/@content",
             "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "downloadUrls": "",
+            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
             "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
             "name": "//meta[@property='og:novel:book_name']/@content",
             "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)",
-            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>"
+            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
         },
         "ruleContent": {
             "content": "class.txtnav@html",
@@ -491,7 +491,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}",
+        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\\\"charset\\\":\\\"gbk\\\",\\\"body\\\":\\\"searchkey={{key}}&searchtype=all\\\",\\\"method\\\":\\\"POST\\\"}';a=java.ajax(baseUrl);if (a.includes('Just a moment')) {java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -516,7 +516,7 @@
             "author": "//meta[@property='og:novel:author']/@content@js:java.t2s(result)",
             "coverUrl": "//meta[@property='og:image']/@content",
             "downloadUrls": "",
-            "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html@js:java.t2s(result)",
+            "intro": "//meta[@property='og:description']/@content@js:java.t2s(result)",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content@js:for (let index = 0; index < result.length; index++) {result[index]=java.t2s(result[index]);}result;",
             "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content@js:java.t2s(result)",
             "name": "//meta[@property='og:novel:book_name']/@content@js:java.t2s(result)",
@@ -526,7 +526,7 @@
         "ruleContent": {
             "content": "id.txtcontent.0@textNodes@js:java.t2s(result)",
             "nextContentUrl": "",
-            "replaceRegex": "##(^{{book.durChapterTitle}}.*\\n)|(\\n.*【请记住我们的域名.+)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+            "replaceRegex": "##(^{{book.durChapterTitle}}.*\\n)|记住本站域名.*|(\\n.*【请记住我们的域名.*)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "",
@@ -558,8 +558,8 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n这似乎是 69书吧 的分站？但两个网站的书籍资源不重合，这个网站的书有点少，似乎都是新书，主站的一些新书会跳转到该分站(特别是一些书名带逗号的那种，当然并不会跳转到该书源，但不影响正常阅读，只不过因为跳转的原因，可能会额外再进行一次人机验证)。",
-        "bookSourceGroup": "梯子,人机验证-全站",
+        "bookSourceComment": "这似乎是 69书吧 的分站？但两个网站的书籍资源大部分不重合，这个网站的书有点少，似乎都是新书",
+        "bookSourceGroup": "梯子",
         "bookSourceName": "69好书",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shu.ac",
@@ -568,33 +568,33 @@
         "enabled": true,
         "enabledCookieJar": true,
         "enabledExplore": true,
-        "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}",
+        "exploreUrl": "全部分类::/list/class/0.htm\n玄幻魔法::/list/class/1.htm\n修真武侠::/list/class/2.htm\n言情小说::/list/class/3.htm\n历史军事::/list/class/4.htm\n游戏竞技::/list/class/5.htm\n科幻空间::/list/class/6.htm\n悬疑惊悚::/list/class/7.htm\n同人小说::/list/class/8.htm\n都市小说::/list/class/9.htm\n官场职场::/list/class/10.htm\n穿越时空::/list/class/11.htm\n青春校园::/list/class/12.htm\n完本-全部分类::/list/full/0.htm\n完本-玄幻魔法::/list/full/1.htm\n完本-修真武侠::/list/full/2.htm\n完本-言情小说::/list/full/3.htm\n完本-历史军事::/list/full/4.htm\n完本-游戏竞技::/list/full/5.htm\n完本-科幻空间::/list/full/6.htm\n完本-悬疑惊悚::/list/full/7.htm\n完本-同人小说::/list/full/8.htm\n完本-都市小说::/list/full/9.htm\n完本-官场职场::/list/full/10.htm\n完本-穿越时空::/list/full/11.htm\n完本-青春校园::/list/full/12.htm",
+        "header": "",
         "jsLib": "",
         "lastUpdateTime": 1727061325592,
         "loginUi": "",
         "loginUrl": "",
         "respondTime": 3340,
         "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
+            "author": "class.booknav2.0@tag.p.0@text##作者：",
+            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/default.jpg') || result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "downloadUrls": "",
-            "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
-            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
+            "init": "",
+            "intro": "class.navtxt.0@tag.p.0@html",
+            "kind": "class.booknav2.0@tag.p.1@tag.a.0@text&&class.booknav2.0@tag.p.2@text&&class.booknav2.0@tag.p.3@text##((.+\\| )|(更新：))",
             "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
-            "name": "//meta[@property='og:novel:book_name']/@content",
+            "name": "class.booknav2.0@tag.h1.0@tag.a.0@text",
             "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)",
-            "init": "<js>if(result.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>"
+            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
         },
         "ruleContent": {
-            "content": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.txtnav@html",
+            "content": "class.content@html",
             "nextContentUrl": "",
-            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+            "replaceRegex": "##(^{{book.durChapterTitle}}.*\\n)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "tag.label.0@text",
-            "bookList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>class.newlistbox.0@tag.ul.0@tag.li",
+            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
             "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
             "intro": "class.ellipsis_2.0@text",
@@ -610,15 +610,15 @@
             "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text&&tag.label.2@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes##^\\d+\\.",
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.includes('Just a moment')){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a",
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=baseUrl+'/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}';a=java.ajax(baseUrl);if(a.includes('Just a moment')){java.startBrowserAwait(baseUrl,'人机验证');};result=url;",
+        "searchUrl": "/modules/article/search.php,{\"charset\":\"gbk\",\"body\":\"searchkey={{key}}&searchtype=all\",\"method\":\"POST\"}",
         "weight": 25
     },
     {
