@@ -431,18 +431,18 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "注意：该书源【搜索页、详情页、目录页】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、刷新书籍、更新目录）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用（或者自建镜像）",
-        "bookSourceGroup": "梯子,人机验证-搜索-详情-目录",
+        "bookSourceComment": "（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shuba.cx",
         "bookUrlPattern": "",
         "customOrder": 50,
         "enabled": true,
-        "enabledCookieJar": true,
+        "enabledCookieJar": false,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}",
+        "header": "",
         "jsLib": "",
         "lastUpdateTime": 1726545645079,
         "loginUi": "",
@@ -452,7 +452,7 @@
             "author": "//meta[@property='og:novel:author']/@content",
             "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "downloadUrls": "",
-            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(baseUrl,'人机验证');result=java.ajax(baseUrl);};result;</js>",
+            "init": "",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
             "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
@@ -487,11 +487,11 @@
             "name": "tag.h3.0@tag.a.1@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();}else{result=result;};result;</js>id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=baseUrl+\"/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}\";u=baseUrl+'/modules/article/search.php';a=java.ajax(u);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(u,'人机验证');};result=url;",
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
         "weight": 25
     },
     {
@@ -622,18 +622,18 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。",
-        "bookSourceGroup": "人机验证-全站",
+        "bookSourceComment": "注意：该书源【搜索页、发现页】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、发现）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n网站有搜索间隔时间限制，请勿频繁搜索。",
+        "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "阿酷小说",
         "bookSourceType": 0,
-        "bookSourceUrl": "https://www.owlook.top",
+        "bookSourceUrl": "https://www.owllook.top",
         "bookUrlPattern": "",
         "customOrder": 53,
         "enabled": true,
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/all/order/hits+desc.html?page={{page}}\n奇幻玄幻::/all/id/18/order/hits+desc.html?page={{page}}\n武侠仙侠::/all/id/19/order/hits+desc.html?page={{page}}\n历史军事::/all/id/20/order/hits+desc.html?page={{page}}\n都市娱乐::/all/id/21/order/hits+desc.html?page={{page}}\n科幻末日::/all/id/22/order/hits+desc.html?page={{page}}\n悬疑灵异::/all/id/23/order/hits+desc.html?page={{page}}\n言情小说::/all/id/26/order/hits+desc.html?page={{page}}\n游戏竞技::/all/id/34/order/hits+desc.html?page={{page}}\n同人衍生::/all/id/39/order/hits+desc.html?page={{page}}\n女频频道::/all/id/42/order/hits+desc.html?page={{page}}\n其他分类::/all/id/35/order/hits+desc.html?page={{page}}\n全部分类-完本::/all/order/hits+desc/serialize/1.html?page={{page}}\n奇幻玄幻-完本::/all/id/18/order/hits+desc/serialize/1.html?page={{page}}\n武侠仙侠-完本::/all/id/19/order/hits+desc/serialize/1.html?page={{page}}\n历史军事-完本::/all/id/20/order/hits+desc/serialize/1.html?page={{page}}\n都市娱乐-完本::/all/id/21/order/hits+desc/serialize/1.html?page={{page}}\n科幻末日-完本::/all/id/22/order/hits+desc/serialize/1.html?page={{page}}\n悬疑灵异-完本::/all/id/23/order/hits+desc/serialize/1.html?page={{page}}\n言情小说-完本::/all/id/26/order/hits+desc/serialize/1.html?page={{page}}\n游戏竞技-完本::/all/id/34/order/hits+desc/serialize/1.html?page={{page}}\n同人衍生-完本::/all/id/39/order/hits+desc/serialize/1.html?page={{page}}\n女频频道-完本::/all/id/42/order/hits+desc/serialize/1.html?page={{page}}\n其他分类-完本::/all/id/35/order/hits+desc/serialize/1.html?page={{page}}",
-        "header": "{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36'}",
+        "header": "{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.779.81 Safari/537.36','Referer':'https://www.owllook.top/'}",
         "jsLib": "",
         "lastUpdateTime": 1726545645079,
         "loginUi": "",
@@ -643,22 +643,22 @@
             "author": "class.author.0@text",
             "coverUrl": "class.pic.0@tag.img.0@src",
             "downloadUrls": "",
+            "init": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
             "intro": "class.summary1.0@text",
             "kind": "class.tags.0@tag.span.1@text&&class.tags.0@tag.span.0@text",
             "lastChapter": "class.chaptername.0@tag.a.0@text",
             "name": "class.name.0@text##\\(.+\\)",
             "tocUrl": "",
-            "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字",
-            "init": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>"
+            "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字"
         },
         "ruleContent": {
-            "content": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html",
+            "content": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html",
             "nextContentUrl": "",
             "replaceRegex": ""
         },
         "ruleExplore": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
+            "bookList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
             "bookUrl": "class.bigpic-book-name.0@href",
             "coverUrl": "tag.img.0@data-original",
             "intro": "class.big-book-info.0@text##\\n本站提示.+",
@@ -669,7 +669,7 @@
         },
         "ruleSearch": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.secd-rank-list",
+            "bookList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！静等人机验证完成，开始加载新页面时手动点击右上角 \"√\" 即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.secd-rank-list",
             "bookUrl": "class.bigpic-book-name.0@href",
             "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@data-original",
@@ -680,7 +680,7 @@
             "wordCount": "tag.em.0@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.includes('//challenge')){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
+            "chapterList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
             "chapterName": "tag.span.0@text",
             "chapterUrl": "href"
         },
@@ -921,7 +921,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
         "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "大文学无错小说网",
         "bookSourceType": 0,
@@ -934,7 +934,7 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1675926206765,
+        "lastUpdateTime": 1727540687023,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
@@ -969,7 +969,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=\"https://m.wcxsw.org/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.wcxsw.org/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://m.wcxsw.org/'}}\";if(java.ajax(url).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -983,7 +983,7 @@
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "网游小说::/book/index.php?type=网游小说&page={{page}}\n玄幻小说::/book/index.php?type=玄幻小说&page={{page}}\n穿越小说::/book/index.php?type=穿越小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n仙侠小说::/book/index.php?type=仙侠小说&page={{page}}\n都市小说::/book/index.php?type=都市小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n竞技小说::/book/index.php?type=竞技小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n悬疑小说::/book/index.php?type=悬疑小说&page={{page}}\n军事小说::/book/index.php?type=军事小说&page={{page}}\n灵异小说::/book/index.php?type=灵异小说&page={{page}}",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
         "lastUpdateTime": 1714554039573,
         "loginUrl": "",
         "respondTime": 199686,
@@ -991,7 +991,7 @@
             "author": "class.book_info.0@tag.a.0@text",
             "canReName": "",
             "coverUrl": "class.book_info@tag.img.0@src",
-            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
+            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
             "intro": "class.intro.0@html",
             "kind": "class.tag.0@tag.a.!0:1@text&&class.continue.0@tag.div.2@text<js>if(result[result.length-1].includes('类型：')){result[result.length-1]='连载'}else{result[result.length]='完结'};result;</js>",
             "lastChapter": "id.dir.0@tag.dd.-1@tag.a.0@text",
@@ -999,7 +999,7 @@
             "wordCount": "class.book_info.0@tag.div.3@text##字数："
         },
         "ruleContent": {
-            "content": "<js>\nif(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;\nloadDocType=\"{{@@body@data-doctype}}\";\nloadType=\"{{@@body@data-randomtype}}\";\nsid=baseUrl.match(/(\\d+).html/)[1];\nurl=baseUrl.replace(/\\d+.html/,'')\n\nvar section = {\n    loadDocType: loadDocType,\n    loadType: loadType,\n    sid:sid,\n    content: {\n        childNode: [],\n        init: function(c){\n            this.body=c\n            if (section.loadType == 'normal') {\n      this.load(String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))))\n            } else if (section.loadType == 'substep') {\n                var d = 'r' + section.sid;\n                var f = false;\n                if (section.loadDocType == 'xml') {\n                    d += '.xml'\n                } else if (section.loadDocType == 'json') {\n                    d += '.json';\n                    f = true\n                } else {\n                    return false\n                };        \n             cookie='PHPSESSID='+java.get(baseUrl,{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).cookie('PHPSESSID');\n            token= java.get(url+d,{'X-Requested-With': 'XMLHttpRequest','referer':baseUrl,'cookie':String(cookie),'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).header('token')              \n                \tthis.load(token)      \t\n            } else {\n                return false\n            };               \n        },\n        load: function(a) {         \n            a = String(java.base64Decode(a)).split(/[A-Z]+%/);      \n            var b = 0,\n            start = 0;\n            for (var i = 0; i < this.body.length; i++) {\n                if (String(this.body[i]).match(/h2/i)) {\n                    start = i + 1\n                };\n                if (String(this.body[i]).match(/div/i)&& this.body[i].attr(\"class\") != 'chapter') {\n                    break\n                }\n            };\n            for (var i = 0; i < a.length; i++) {\n                if (a[i] < 5) {\n                    this.childNode[a[i]] = this.body[i + start];\n                      b++\n                } else {\n                    this.childNode[a[i] - b] = this.body[i + start]                 \n                }\n            };\n  }\n}\n}\nsection.content.init(java.getElement(\"@@id.content@children!0\").toArray());\nsection.content.childNode.join(\"\")\n</js>tag.div@ownText",
+            "content": "<js>\nif(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;\nloadDocType=\"{{@@body@data-doctype}}\";\nloadType=\"{{@@body@data-randomtype}}\";\nsid=baseUrl.match(/(\\d+).html/)[1];\nurl=baseUrl.replace(/\\d+.html/,'')\n\nvar section = {\n    loadDocType: loadDocType,\n    loadType: loadType,\n    sid:sid,\n    content: {\n        childNode: [],\n        init: function(c){\n            this.body=c\n            if (section.loadType == 'normal') {\n      this.load(String(java.base64Decode(java.getString('//*[@name=\"client\"]/@content'))))\n            } else if (section.loadType == 'substep') {\n                var d = 'r' + section.sid;\n                var f = false;\n                if (section.loadDocType == 'xml') {\n                    d += '.xml'\n                } else if (section.loadDocType == 'json') {\n                    d += '.json';\n                    f = true\n                } else {\n                    return false\n                };        \n             cookie='PHPSESSID='+java.get(baseUrl,{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).cookie('PHPSESSID');\n            token= java.get(url+d,{'X-Requested-With': 'XMLHttpRequest','referer':baseUrl,'cookie':String(cookie),'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}).header('token')              \n                \tthis.load(token)      \t\n            } else {\n                return false\n            };               \n        },\n        load: function(a) {         \n            a = String(java.base64Decode(a)).split(/[A-Z]+%/);      \n            var b = 0,\n            start = 0;\n            for (var i = 0; i < this.body.length; i++) {\n                if (String(this.body[i]).match(/h2/i)) {\n                    start = i + 1\n                };\n                if (String(this.body[i]).match(/div/i)&& this.body[i].attr(\"class\") != 'chapter') {\n                    break\n                }\n            };\n            for (var i = 0; i < a.length; i++) {\n                if (a[i] < 5) {\n                    this.childNode[a[i]] = this.body[i + start];\n                      b++\n                } else {\n                    this.childNode[a[i] - b] = this.body[i + start]                 \n                }\n            };\n  }\n}\n}\nsection.content.init(java.getElement(\"@@id.content@children!0\").toArray());\nsection.content.childNode.join(\"\")\n</js>tag.div@ownText",
             "imageStyle": "FULL",
             "nextContentUrl": "",
             "replaceRegex": "",
@@ -1008,7 +1008,7 @@
         },
         "ruleExplore": {
             "author": "class.author.0@text",
-            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.book_list.0@tag.li",
+            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.book_list.0@tag.li",
             "bookUrl": "tag.a.0@href",
             "coverUrl": "tag.img.0@src",
             "kind": "class.author_box.0@tag.span.0@text",
@@ -1016,7 +1016,7 @@
         },
         "ruleSearch": {
             "author": "tag.h4.0@tag.span.0@text##\\/",
-            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.list.0@tag.dd",
+            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.list.0@tag.dd",
             "bookUrl": "tag.a.0@href",
             "checkKeyWord": "系统",
             "coverUrl": "tag.img.0@src",
@@ -1025,7 +1025,7 @@
             "name": "tag.h4.0@tag.a.0@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>id.dir.0@children",
+            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>id.dir.0@children",
             "chapterName": "text",
             "chapterUrl": "tag.a.0@href",
             "isVolume": "@js:result=String(result).match(/^<dt/)?true:false"
@@ -1034,7 +1034,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
         "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "思路客",
         "bookSourceType": 0,
@@ -1047,7 +1047,7 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1675925997381,
+        "lastUpdateTime": 1727540704148,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
@@ -1081,7 +1081,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=\"https://m.siluke.com/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.siluke.com/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://m.siluke.com/'}}\";if(java.ajax(url).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
@@ -1144,7 +1144,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
         "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "顶点小说 ddxs",
         "bookSourceType": 0,
@@ -1157,7 +1157,7 @@
         "enabledExplore": false,
         "exploreUrl": "",
         "header": "",
-        "lastUpdateTime": 1667112828906,
+        "lastUpdateTime": 1727540718259,
         "loginCheckJs": "",
         "loginUi": "",
         "loginUrl": "",
@@ -1200,7 +1200,7 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "@js:url=\"https://m.ddxs.com/search.php,{'body':'keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}}\";a=java.ajax(url);if(a.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.startBrowserAwait(url,'人机验证');};result=url;",
+        "searchUrl": "@js:url=\"https://m.ddxs.com/search.php,{'body':'keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://m.ddxs.com/'}}\";if(java.ajax(url).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(url,'人机验证');};result=url;",
         "weight": 25
     },
     {
