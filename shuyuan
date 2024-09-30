@@ -643,7 +643,7 @@
             "author": "class.author.0@text",
             "coverUrl": "class.pic.0@tag.img.0@src",
             "downloadUrls": "",
-            "init": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
+            "init": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[详情] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
             "intro": "class.summary1.0@text",
             "kind": "class.tags.0@tag.span.1@text&&class.tags.0@tag.span.0@text",
             "lastChapter": "class.chaptername.0@tag.a.0@text",
@@ -652,13 +652,13 @@
             "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字"
         },
         "ruleContent": {
-            "content": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html",
+            "content": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[正文] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html",
             "nextContentUrl": "",
             "replaceRegex": ""
         },
         "ruleExplore": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
+            "bookList": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[发现] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
             "bookUrl": "class.bigpic-book-name.0@href",
             "coverUrl": "tag.img.0@data-original",
             "intro": "class.big-book-info.0@text##\\n本站提示.+",
@@ -669,9 +669,9 @@
         },
         "ruleSearch": {
             "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！静等人机验证完成，开始加载新页面时手动点击右上角 \"√\" 即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.secd-rank-list",
+            "bookList": "class.secd-rank-list",
             "bookUrl": "class.bigpic-book-name.0@href",
-            "checkKeyWord": "系统",
+            "checkKeyWord": "我有一个",
             "coverUrl": "tag.img.0@data-original",
             "intro": "class.big-book-info.0@text##(\\n|\\t)",
             "kind": "tag.dd.0@tag.p.0@tag.a.1@text&&tag.dd.0@tag.p.0@textNodes##(\\n|\\t|\\|| )",
@@ -680,11 +680,11 @@
             "wordCount": "tag.em.0@text"
         },
         "ruleToc": {
-            "chapterList": "<js>if(result.includes('//challenge')){java.longToast('请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
+            "chapterList": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[目录] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
             "chapterName": "tag.span.0@text",
             "chapterUrl": "href"
         },
-        "searchUrl": "/search.html?keyword={{key}}",
+        "searchUrl": "<js>url=baseUrl+\"/lists/4.html\";if(java.ajax(url).match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[搜索] 请勿点击网页底部的跳转提示！静等人机验证完成，开始加载新页面时手动点击右上角 \"√\" 即可。');java.startBrowserAwait(url,'人机验证');};</js>/search.html?keyword={{key}}",
         "weight": 25
     },
     {
@@ -1016,12 +1016,12 @@
         },
         "ruleSearch": {
             "author": "tag.h4.0@tag.span.0@text##\\/",
-            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.list.0@tag.dd",
+            "bookList": "<js>java.log(result)</js>class.list.0@tag.dd",
             "bookUrl": "tag.a.0@href",
-            "checkKeyWord": "系统",
+            "checkKeyWord": "我有一个",
             "coverUrl": "tag.img.0@src",
             "intro": "class.intro.0@html",
-            "kind": "<js>result=String(result).match(/continue/)?'连载':'完结'</js>",
+            "kind": "@js:result=String(result).match(/continue/)?'连载':'完结'",
             "name": "tag.h4.0@tag.a.0@text"
         },
         "ruleToc": {
@@ -1030,7 +1030,7 @@
             "chapterUrl": "tag.a.0@href",
             "isVolume": "@js:result=String(result).match(/^<dt/)?true:false"
         },
-        "searchUrl": "/search/?keyword={{key}}",
+        "searchUrl": "<js>if(java.ajax(baseUrl).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(baseUrl,'人机验证');};</js>/search/?keyword={{key}}",
         "weight": 25
     },
     {
