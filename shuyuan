@@ -418,7 +418,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样（69好书是完全一样，规则都可以通用），估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行（毕竟能直连又没人机验证，当个平替也不错~\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
+        "bookSourceComment": "网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行（毕竟能直连又没人机验证，当个平替也不错~\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
         "bookSourceName": "69书吧2",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shux.co",
@@ -461,62 +461,6 @@
             "chapterUrl": "href"
         },
         "searchUrl": "/search/{{key}}/1.html",
-        "weight": 25
-    },
-    {
-        "bookSourceComment": "这似乎是 69书吧 的分站？但两个网站的书籍资源大部分不重合，这个网站的书有点少，似乎都是新书",
-        "bookSourceGroup": "梯子",
-        "bookSourceName": "69好书",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://69shu.ac",
-        "customOrder": 9,
-        "enabled": true,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "全部分类::/list/class/0.htm\n玄幻魔法::/list/class/1.htm\n修真武侠::/list/class/2.htm\n言情小说::/list/class/3.htm\n历史军事::/list/class/4.htm\n游戏竞技::/list/class/5.htm\n科幻空间::/list/class/6.htm\n悬疑惊悚::/list/class/7.htm\n同人小说::/list/class/8.htm\n都市小说::/list/class/9.htm\n官场职场::/list/class/10.htm\n穿越时空::/list/class/11.htm\n青春校园::/list/class/12.htm\n完本-全部分类::/list/full/0.htm\n完本-玄幻魔法::/list/full/1.htm\n完本-修真武侠::/list/full/2.htm\n完本-言情小说::/list/full/3.htm\n完本-历史军事::/list/full/4.htm\n完本-游戏竞技::/list/full/5.htm\n完本-科幻空间::/list/full/6.htm\n完本-悬疑惊悚::/list/full/7.htm\n完本-同人小说::/list/full/8.htm\n完本-都市小说::/list/full/9.htm\n完本-官场职场::/list/full/10.htm\n完本-穿越时空::/list/full/11.htm\n完本-青春校园::/list/full/12.htm",
-        "lastUpdateTime": 1727061325592,
-        "respondTime": 3340,
-        "ruleBookInfo": {
-            "author": "class.booknav2.0@tag.p.0@text##作者：",
-            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/default.jpg') || result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
-            "intro": "class.navtxt.0@tag.p.0@html",
-            "kind": "class.booknav2.0@tag.p.1@tag.a.0@text&&class.booknav2.0@tag.p.2@text&&class.booknav2.0@tag.p.3@text##((.+\\| )|(更新：))",
-            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
-            "name": "class.booknav2.0@tag.h1.0@tag.a.0@text",
-            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
-        },
-        "ruleContent": {
-            "content": "class.content@html",
-            "replaceRegex": "##(^{{book.durChapterTitle}}.*\\n)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
-        },
-        "ruleExplore": {
-            "author": "tag.label.0@text",
-            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.h3.0@tag.a.0@href",
-            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text",
-            "name": "tag.h3.0@tag.a.0@text",
-            "wordCount": "tag.label.2@text"
-        },
-        "ruleSearch": {
-            "author": "tag.label.0@text",
-            "bookList": "class.newbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.h3.0@tag.a.1@href",
-            "checkKeyWord": "合成",
-            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text&&tag.label.2@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes##^\\d+\\.",
-            "name": "tag.h3.0@tag.a.1@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.catalog.0@tag.ul.0@tag.a",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
         "weight": 25
     },
     {
