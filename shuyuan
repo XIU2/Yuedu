@@ -361,27 +361,27 @@
         "weight": 50
     },
     {
-        "bookSourceComment": "（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
-        "bookSourceGroup": "梯子",
+        "bookSourceComment": "搜索暂不可用，待修复（不保证）\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
-        "bookSourceUrl": "https://69shuba.cx",
+        "bookSourceUrl": "https://69shu.biz",
         "concurrentRate": "1000",
         "customOrder": 7,
-        "enabled": true,
-        "enabledCookieJar": false,
+        "enabled": false,
+        "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
-        "lastUpdateTime": 1727776112289,
+        "lastUpdateTime": 1731131595294,
         "respondTime": 3340,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
+            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg') || result.includes('/nocover.png')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/bimages/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
             "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
             "name": "//meta[@property='og:novel:book_name']/@content",
-            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
+            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.html','/')",
             "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
         },
         "ruleContent": {
@@ -392,7 +392,7 @@
             "author": "tag.label.0@text",
             "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.0@href",
-            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
+            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/bimages/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{''}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text",
             "name": "tag.h3.0@tag.a.0@text",
@@ -403,7 +403,7 @@
             "bookList": "class.newbox.0@tag.ul.0@tag.li",
             "bookUrl": "tag.h3.0@tag.a.1@href",
             "checkKeyWord": "我有一个",
-            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
+            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg') || result.includes('/nocover.png')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/bimages/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
             "intro": "class.ellipsis_2.0@text",
             "kind": "tag.label.1@text&&tag.label.2@text",
             "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
@@ -414,8 +414,9 @@
             "chapterName": "text",
             "chapterUrl": "href"
         },
-        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
-        "weight": 25
+        "searchUrl": "@js:url=baseUrl+\"/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}\";u=baseUrl+'/modules/article/search.php';a=java.ajax(u);if(a.includes('<span id=\"loading\">')){java.startBrowserAwait(u,'人机验证');};result=url;",
+        "weight": 25,
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36'}"
     },
     {
         "bookSourceComment": "网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行（毕竟能直连又没人机验证，当个平替也不错~\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
