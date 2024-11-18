@@ -1316,5 +1316,62 @@
         },
         "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=搜索&json=1,{'charset':'gbk'}",
         "weight": 0
+    },
+    {
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://69shuba.cx",
+        "concurrentRate": "1000",
+        "customOrder": 7,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
+        "lastUpdateTime": 1727776112289,
+        "respondTime": 3340,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
+            "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
+            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
+            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
+            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
+        },
+        "ruleContent": {
+            "content": "class.txtnav@html",
+            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+        },
+        "ruleExplore": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.h3.0@tag.a.0@href",
+            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text",
+            "name": "tag.h3.0@tag.a.0@text",
+            "wordCount": "tag.label.2@text"
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.h3.0@tag.a.1@href",
+            "checkKeyWord": "我有一个",
+            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "weight": 25
     }
 ]
