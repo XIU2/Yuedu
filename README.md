@@ -40,12 +40,11 @@
 - **网络导入地址：** 以下 CDN 分流地址，任选一个能用的  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan_  
-_https://raw.incept.pw/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_
 _[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
-_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://ghgo.xyz/.../XIU2/Yuedu/master/shuyuan](https://ghgo.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
@@ -63,12 +62,11 @@ _[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githu
 - **网络导入地址：** 以下 CDN 分流地址，任选一个能用的  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://raw.ixnic.net/XIU2/Yuedu/master/shuyuan_  
-_https://raw.incept.pw/XIU2/Yuedu/master/shuyuan_  
 _https://raw.kkgithub.com/XIU2/Yuedu/master/shuyuan_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/master/shuyuan_
 _[https://github.moeyy.xyz/.../XIU2/Yuedu/master/shuyuan](https://github.moeyy.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_
 _[https://ghproxy.cc/.../XIU2/Yuedu/master/shuyuan](https://ghproxy.cc/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
-_[https://ghp.ci/.../XIU2/Yuedu/master/shuyuan](https://ghp.ci/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
+_[https://ghgo.xyz/.../XIU2/Yuedu/master/shuyuan](https://ghgo.xyz/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan)_  
 
 ****
 
@@ -110,7 +108,7 @@ _（支持众多离线语音，经历了意外源码丢失，后来又重写恢�
 
 ****
 
-## 赞赏支持
+## 如果书源帮到你的话就 "打赏" 一下吧~🎉✨
 
 ![微信赞赏](https://bitbucket.org/xiu2/xiu2/raw/master/img/zs-01.png)![支付宝赞赏](https://bitbucket.org/xiu2/xiu2/raw/master/img/zs-02.png)
 
