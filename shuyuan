@@ -366,6 +366,65 @@
     {
         "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
         "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
+        "bookSourceName": "69书吧.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69shuba.com",
+        "concurrentRate": "1000",
+        "customOrder": 7,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/novels/class/0.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n言情小说::/novels/class/3.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n都市小说::/novels/class/9.htm\n官场职场::/novels/class/10.htm\n穿越时空::/novels/class/11.htm\n青春校园::/novels/class/12.htm\n完本-全部分类::/novels/full/0.htm\n完本-玄幻魔法::/novels/full/1.htm\n完本-修真武侠::/novels/full/2.htm\n完本-言情小说::/novels/full/3.htm\n完本-历史军事::/novels/full/4.htm\n完本-游戏竞技::/novels/full/5.htm\n完本-科幻空间::/novels/full/6.htm\n完本-悬疑惊悚::/novels/full/7.htm\n完本-同人小说::/novels/full/8.htm\n完本-都市小说::/novels/full/9.htm\n完本-官场职场::/novels/full/10.htm\n完本-穿越时空::/novels/full/11.htm\n完本-青春校园::/novels/full/12.htm",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
+        "lastUpdateTime": 1733946673730,
+        "respondTime": 3340,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@js:baseUrl.replace('.htm','/')",
+            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
+        },
+        "ruleContent": {
+            "content": "<js>cookie.removeCookie(source.getKey());result;java.log('++++++++++++++++++++++++++');java.log(result)</js>class.txtnav.0@textNodes",
+            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+        },
+        "ruleExplore": {
+            "author": "tag.label.0@text",
+            "bookList": "id.article_list_content.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我有一个",
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "weight": 25
+    },
+    {
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shuba.cx",
@@ -404,7 +463,7 @@
         "ruleSearch": {
             "author": "tag.label.0@text",
             "bookList": "class.newbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.h3.0@tag.a.1@href",
+            "bookUrl": "tag.a.1@href",
             "checkKeyWord": "我有一个",
             "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
             "intro": "class.ellipsis_2.0@text",
@@ -414,6 +473,65 @@
         },
         "ruleToc": {
             "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "weight": 25
+    },
+    {
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
+        "bookSourceName": "69阅读.net",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69yuedu.net",
+        "concurrentRate": "1000",
+        "customOrder": 7,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/articlelist/class/0.html\n玄幻魔法::/articlelist/class/1.html\n修真武侠::/articlelist/class/2.html\n言情小说::/articlelist/class/3.html\n历史军事::/articlelist/class/4.html\n游戏竞技::/articlelist/class/5.html\n科幻空间::/articlelist/class/6.html\n悬疑惊悚::/articlelist/class/7.html\n同人小说::/articlelist/class/8.html\n都市小说::/articlelist/class/9.html\n官场职场::/articlelist/class/10.html\n穿越时空::/articlelist/class/11.html\n青春校园::/articlelist/class/12.html\n完本-全部分类::/articlelist/full/0.html\n完本-玄幻魔法::/articlelist/full/1.html\n完本-修真武侠::/articlelist/full/2.html\n完本-言情小说::/articlelist/full/3.html\n完本-历史军事::/articlelist/full/4.html\n完本-游戏竞技::/articlelist/full/5.html\n完本-科幻空间::/articlelist/full/6.html\n完本-悬疑惊悚::/articlelist/full/7.html\n完本-同人小说::/articlelist/full/8.html\n完本-都市小说::/articlelist/full/9.html\n完本-官场职场::/articlelist/full/10.html\n完本-穿越时空::/articlelist/full/11.html\n完本-青春校园::/articlelist/full/12.html",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
+        "lastUpdateTime": 1733946673730,
+        "respondTime": 3340,
+        "ruleBookInfo": {
+            "author": "class.booknav2.0@tag.p.0@tag.a.0@text",
+            "coverUrl": "class.bookimg2.0@tag.img.0@src",
+            "intro": "class.navtxt.0@tag.p.0@text",
+            "kind": "tag.head.0@tag.script.0@html@js:let a=result[0].slice(result[0].indexOf('tags: \\'')+7);result=a.slice(0, a.indexOf('\\'')-1).split('|');",
+            "lastChapter": "class.qustime.0@tag.span.0@text",
+            "name": "class.booknav2.0@tag.a.0@text",
+            "tocUrl": "@js:baseUrl.replace('/article/','/chapters/')",
+            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
+        },
+        "ruleContent": {
+            "content": "class.content.0@tag.p@text",
+            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+        },
+        "ruleExplore": {
+            "author": "tag.label.0@text",
+            "bookList": "id.article_list_content.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "checkKeyWord": "我有一个",
+            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.chapters.0@tag.ul.0@tag.a",
             "chapterName": "text",
             "chapterUrl": "href"
         },
@@ -468,63 +586,6 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【搜索页、发现页】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、发现）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n网站有搜索间隔时间限制，请勿频繁搜索。",
-        "bookSourceGroup": "人机验证-搜索",
-        "bookSourceName": "阿酷小说",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.owllook.top",
-        "customOrder": 9,
-        "enabled": true,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "全部分类::/all/order/hits+desc.html?page={{page}}\n奇幻玄幻::/all/id/18/order/hits+desc.html?page={{page}}\n武侠仙侠::/all/id/19/order/hits+desc.html?page={{page}}\n历史军事::/all/id/20/order/hits+desc.html?page={{page}}\n都市娱乐::/all/id/21/order/hits+desc.html?page={{page}}\n科幻末日::/all/id/22/order/hits+desc.html?page={{page}}\n悬疑灵异::/all/id/23/order/hits+desc.html?page={{page}}\n言情小说::/all/id/26/order/hits+desc.html?page={{page}}\n游戏竞技::/all/id/34/order/hits+desc.html?page={{page}}\n同人衍生::/all/id/39/order/hits+desc.html?page={{page}}\n女频频道::/all/id/42/order/hits+desc.html?page={{page}}\n其他分类::/all/id/35/order/hits+desc.html?page={{page}}\n全部分类-完本::/all/order/hits+desc/serialize/1.html?page={{page}}\n奇幻玄幻-完本::/all/id/18/order/hits+desc/serialize/1.html?page={{page}}\n武侠仙侠-完本::/all/id/19/order/hits+desc/serialize/1.html?page={{page}}\n历史军事-完本::/all/id/20/order/hits+desc/serialize/1.html?page={{page}}\n都市娱乐-完本::/all/id/21/order/hits+desc/serialize/1.html?page={{page}}\n科幻末日-完本::/all/id/22/order/hits+desc/serialize/1.html?page={{page}}\n悬疑灵异-完本::/all/id/23/order/hits+desc/serialize/1.html?page={{page}}\n言情小说-完本::/all/id/26/order/hits+desc/serialize/1.html?page={{page}}\n游戏竞技-完本::/all/id/34/order/hits+desc/serialize/1.html?page={{page}}\n同人衍生-完本::/all/id/39/order/hits+desc/serialize/1.html?page={{page}}\n女频频道-完本::/all/id/42/order/hits+desc/serialize/1.html?page={{page}}\n其他分类-完本::/all/id/35/order/hits+desc/serialize/1.html?page={{page}}",
-        "header": "{'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.779.81 Safari/537.36','Referer':'https://www.owllook.top/'}",
-        "lastUpdateTime": 1726545645079,
-        "respondTime": 3340,
-        "ruleBookInfo": {
-            "author": "class.author.0@text",
-            "coverUrl": "class.pic.0@tag.img.0@src",
-            "init": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[详情] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
-            "intro": "class.summary1.0@text",
-            "kind": "class.tags.0@tag.span.1@text&&class.tags.0@tag.span.0@text",
-            "lastChapter": "class.chaptername.0@tag.a.0@text",
-            "name": "class.name.0@text##\\(.+\\)",
-            "wordCount": "class.hits.0@tag.span.0@text##万 字## 万字"
-        },
-        "ruleContent": {
-            "content": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[正文] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.read-content@html"
-        },
-        "ruleExplore": {
-            "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[发现] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.listboxw.0@tag.dl",
-            "bookUrl": "class.bigpic-book-name.0@href",
-            "coverUrl": "tag.img.0@data-original",
-            "intro": "class.big-book-info.0@text##\\n本站提示.+",
-            "kind": "tag.dd.0@tag.p.0@tag.a.1@text&&tag.dd.0@tag.p.0@textNodes##(\\n|\\t|\\|| )",
-            "name": "class.bigpic-book-name.0@text##\\(.+\\)",
-            "wordCount": "tag.dd.0@tag.p.2@tag.span.0@text##( \\|)"
-        },
-        "ruleSearch": {
-            "author": "tag.dd.0@tag.p.0@tag.a.0@text",
-            "bookList": "class.secd-rank-list",
-            "bookUrl": "class.bigpic-book-name.0@href",
-            "checkKeyWord": "我有一个",
-            "coverUrl": "tag.img.0@data-original",
-            "intro": "class.big-book-info.0@text##(\\n|\\t)",
-            "kind": "tag.dd.0@tag.p.0@tag.a.1@text&&tag.dd.0@tag.p.0@textNodes##(\\n|\\t|\\|| )",
-            "lastChapter": "tag.dd.0@tag.p.2@tag.a.0@text##最近更新 ",
-            "name": "class.bigpic-book-name.0@text##(\\n|\\t|(\\(.+\\)))",
-            "wordCount": "tag.em.0@text"
-        },
-        "ruleToc": {
-            "chapterList": "<js>if(result.match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[目录] 请勿点击网页底部的跳转提示！什么都不要做，静等人机验证完成即可。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.cate-list.0@tag.a",
-            "chapterName": "tag.span.0@text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "<js>url=baseUrl+\"/lists/4.html\";if(java.ajax(url).match(/^<head><meta charset=\"UTF-8\"><meta http-equiv/)){java.longToast('[搜索] 请勿点击网页底部的跳转提示！静等人机验证完成，开始加载新页面时手动点击右上角 \"√\" 即可。');java.startBrowserAwait(url,'人机验证');};</js>/search.html?keyword={{key}}",
-        "weight": 25
-    },
-    {
         "bookSourceComment": "",
         "bookSourceName": "得奇小说网",
         "bookSourceType": 0,
@@ -571,6 +632,63 @@
             "nextTocUrl": "id.pages.0@class.gr.0@href"
         },
         "searchUrl": "/tag/?key={{key}}",
+        "weight": 25
+    },
+    {
+        "bookSourceComment": "",
+        "bookSourceName": "快书网",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.kuaishu5.com",
+        "concurrentRate": "1000",
+        "customOrder": 10,
+        "enabled": false,
+        "enabledCookieJar": false,
+        "enabledExplore": true,
+        "exploreUrl": "玄幻::/xuanhuan/p{{page}}.html\n武侠::/wuxia/p{{page}}.html\n都市::/dushi/p{{page}}.html\n历史::/lishi/p{{page}}.html\n科幻::/kehuan/p{{page}}.html\n网游::/wangyou/p{{page}}.html\n女频::/nvpin/p{{page}}.html\n其他::/qita/p{{page}}.html",
+        "lastUpdateTime": 1727576680671,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "downloadUrls": "class.addbookcase.0@href",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category']/@content&&//meta[@property='og:novel:status']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "wordCount": "id.info.0@tag.p.4@text##连载 \\| "
+        },
+        "ruleContent": {
+            "content": "id.booktxt.0@tag.p@text",
+            "nextContentUrl": "",
+            "replaceRegex": ""
+        },
+        "ruleExplore": {
+            "author": "tag.span.3@text",
+            "bookList": "id.newscontent.0@class.l.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "kind": "tag.span.0@text",
+            "lastChapter": "tag.a.1@text",
+            "name": "tag.a.0@text"
+        },
+        "ruleSearch": {
+            "author": "tag.p.1@tag.a.0@text##作者：",
+            "bookList": "class.item",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "书生",
+            "coverUrl": "tag.img.0@src",
+            "intro": "",
+            "kind": "tag.p.0@tag.span[0:1]@text",
+            "lastChapter": "tag.li.0@tag.a.0@text",
+            "name": "tag.h3.0@tag.a.0@text",
+            "wordCount": ""
+        },
+        "ruleToc": {
+            "chapterList": "id.content_1.0@tag.a",
+            "chapterName": "text",
+            "chapterUrl": "href",
+            "nextTocUrl": "class.index-container-btn.1@href"
+        },
+        "searchUrl": "/search/?searchkey={{key}}",
         "weight": 25
     },
     {
@@ -948,7 +1066,7 @@
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.wcxsw.org",
         "customOrder": 19,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": true,
         "enabledExplore": false,
         "lastUpdateTime": 1727540687023,
@@ -993,7 +1111,7 @@
         "bookSourceType": 0,
         "bookSourceUrl": "https://hetushu.com",
         "customOrder": 20,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "网游小说::/book/index.php?type=网游小说&page={{page}}\n玄幻小说::/book/index.php?type=玄幻小说&page={{page}}\n穿越小说::/book/index.php?type=穿越小说&page={{page}}\n科幻小说::/book/index.php?type=科幻小说&page={{page}}\n仙侠小说::/book/index.php?type=仙侠小说&page={{page}}\n都市小说::/book/index.php?type=都市小说&page={{page}}\n武侠小说::/book/index.php?type=武侠小说&page={{page}}\n历史小说::/book/index.php?type=历史小说&page={{page}}\n竞技小说::/book/index.php?type=竞技小说&page={{page}}\n言情小说::/book/index.php?type=言情小说&page={{page}}\n悬疑小说::/book/index.php?type=悬疑小说&page={{page}}\n军事小说::/book/index.php?type=军事小说&page={{page}}\n灵异小说::/book/index.php?type=灵异小说&page={{page}}",
@@ -1048,7 +1166,7 @@
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.siluke.com",
         "customOrder": 21,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": true,
         "enabledExplore": false,
         "lastUpdateTime": 1727540704148,
@@ -1092,7 +1210,7 @@
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.ddxs.com",
         "customOrder": 22,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": true,
         "enabledExplore": false,
         "lastUpdateTime": 1727540718259,
