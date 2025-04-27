@@ -366,65 +366,6 @@
     {
         "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
         "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
-        "bookSourceName": "69书吧.com",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://www.69shuba.com",
-        "concurrentRate": "1000",
-        "customOrder": 7,
-        "enabled": false,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "全部分类::/novels/class/0.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n言情小说::/novels/class/3.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n都市小说::/novels/class/9.htm\n官场职场::/novels/class/10.htm\n穿越时空::/novels/class/11.htm\n青春校园::/novels/class/12.htm\n完本-全部分类::/novels/full/0.htm\n完本-玄幻魔法::/novels/full/1.htm\n完本-修真武侠::/novels/full/2.htm\n完本-言情小说::/novels/full/3.htm\n完本-历史军事::/novels/full/4.htm\n完本-游戏竞技::/novels/full/5.htm\n完本-科幻空间::/novels/full/6.htm\n完本-悬疑惊悚::/novels/full/7.htm\n完本-同人小说::/novels/full/8.htm\n完本-都市小说::/novels/full/9.htm\n完本-官场职场::/novels/full/10.htm\n完本-穿越时空::/novels/full/11.htm\n完本-青春校园::/novels/full/12.htm",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
-        "lastUpdateTime": 1733946673730,
-        "respondTime": 3340,
-        "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "//meta[@property='og:image']/@content",
-            "intro": "//meta[@property='og:description']/@content",
-            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
-            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "tocUrl": "@js:baseUrl.replace('.htm','/')",
-            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
-        },
-        "ruleContent": {
-            "content": "<js>cookie.removeCookie(source.getKey());result;java.log('++++++++++++++++++++++++++');java.log(result)</js>class.txtnav.0@textNodes",
-            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
-        },
-        "ruleExplore": {
-            "author": "tag.label.0@text",
-            "bookList": "id.article_list_content.0@tag.li",
-            "bookUrl": "tag.a.0@href",
-            "coverUrl": "tag.img.0@data-src",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text&&tag.label.2@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text",
-            "wordCount": ""
-        },
-        "ruleSearch": {
-            "author": "tag.label.0@text",
-            "bookList": "class.newbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.a.0@href",
-            "checkKeyWord": "我有一个",
-            "coverUrl": "tag.img.0@data-src",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text&&tag.label.2@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
-        "weight": 25
-    },
-    {
-        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
-        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
         "bookSourceName": "69书吧",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shuba.cx",
@@ -539,8 +480,67 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "最近禁止了国内 IP 访问。。因此需要挂代理使用了。\n网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
-        "bookSourceGroup": "梯子",
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
+        "bookSourceName": "69书吧.com",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://www.69shuba.com",
+        "concurrentRate": "1000",
+        "customOrder": 7,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/novels/class/0.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n言情小说::/novels/class/3.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n都市小说::/novels/class/9.htm\n官场职场::/novels/class/10.htm\n穿越时空::/novels/class/11.htm\n青春校园::/novels/class/12.htm\n完本-全部分类::/novels/full/0.htm\n完本-玄幻魔法::/novels/full/1.htm\n完本-修真武侠::/novels/full/2.htm\n完本-言情小说::/novels/full/3.htm\n完本-历史军事::/novels/full/4.htm\n完本-游戏竞技::/novels/full/5.htm\n完本-科幻空间::/novels/full/6.htm\n完本-悬疑惊悚::/novels/full/7.htm\n完本-同人小说::/novels/full/8.htm\n完本-都市小说::/novels/full/9.htm\n完本-官场职场::/novels/full/10.htm\n完本-穿越时空::/novels/full/11.htm\n完本-青春校园::/novels/full/12.htm",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
+        "lastUpdateTime": 1733946673730,
+        "respondTime": 3340,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "//meta[@property='og:image']/@content",
+            "intro": "//meta[@property='og:description']/@content",
+            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
+            "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@js:baseUrl.replace('.htm','/')",
+            "wordCount": "class.booknav2.0@tag.p.2@text##( \\|.+)"
+        },
+        "ruleContent": {
+            "content": "class.txtnav.0@textNodes",
+            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+        },
+        "ruleExplore": {
+            "author": "tag.label.0@text",
+            "bookList": "id.article_list_content.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text",
+            "wordCount": ""
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "checkKeyWord": "我有一个",
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "weight": 25
+    },
+    {
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则和【正文规则】中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n最近禁止了国内 IP 访问。。因此需要挂代理使用了。\n网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
+        "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69书吧2",
         "bookSourceType": 0,
         "bookSourceUrl": "https://69shux.co",
@@ -549,11 +549,13 @@
         "enabledCookieJar": false,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/novels/class/0_{{page}}.html\n玄幻奇幻::/novels/class/1_{{page}}.html\n武侠仙侠::/novels/class/2_{{page}}.html\n现代都市::/novels/class/3_{{page}}.html\n历史军事::/novels/class/4_{{page}}.html\n科幻小说::/novels/class/5_{{page}}.html\n游戏竞技::/novels/class/6_{{page}}.html\n恐怖灵异::/novels/class/7_{{page}}.html\n言情小说::/novels/class/8_{{page}}.html\n动漫同人::/novels/class/9_{{page}}.html\n其他类型::/novels/class/10_{{page}}.html\n完本-全部分类::/novels/full/0_{{page}}.html\n完本-玄幻奇幻::/novels/full/1_{{page}}.html\n完本-武侠仙侠::/novels/full/2_{{page}}.html\n完本-现代都市::/novels/full/3_{{page}}.html\n完本-历史军事::/novels/full/4_{{page}}.html\n完本-科幻小说::/novels/full/5_{{page}}.html\n完本-游戏竞技::/novels/full/6_{{page}}.html\n完本-恐怖灵异::/novels/full/7_{{page}}.html\n完本-言情小说::/novels/full/8_{{page}}.html\n完本-动漫同人::/novels/full/9_{{page}}.html\n完本-其他类型::/novels/full/10_{{page}}.html",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.1369.112 Mobile Safari/537.36','Referer':'https://69shux.co/'}",
         "lastUpdateTime": 1731499683842,
         "respondTime": 3340,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content@js:java.t2s(result)",
             "coverUrl": "//meta[@property='og:image']/@content",
+            "init": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>",
             "intro": "//meta[@property='og:description']/@content@js:java.t2s(result)",
             "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content@js:for (let index = 0; index < result.length; index++) {result[index]=java.t2s(result[index]);}result;",
             "lastChapter": "//meta[@property='og:novel:latest_chapter_name']/@content@js:java.t2s(result)",
@@ -562,10 +564,19 @@
             "wordCount": "@css:.booknav2>p:nth-child(4)@text@js:java.t2s(result)##( \\|.+)"
         },
         "ruleContent": {
-            "content": "id.txtcontent.0@textNodes@js:java.t2s(result)",
+            "content": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>id.txtcontent.0@textNodes@js:java.t2s(result)",
             "replaceRegex": "##(^{{book.durChapterTitle}}.*\\n)|记住本站域名.*|(\\n.*【请记住我们的域名.*)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
-        "ruleExplore": {},
+        "ruleExplore": {
+            "author": "tag.label.0@text@js:java.t2s(result)",
+            "bookList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>id.article_list_content.0@tag.li",
+            "bookUrl": "tag.a.0@href",
+            "coverUrl": "tag.img.0@data-src",
+            "intro": "class.ellipsis_2.0@text@js:java.t2s(result)",
+            "kind": "tag.label.1@text&&tag.label.2@text@js:for (let index = 0; index < result.length; index++) {result[index]=java.t2s(result[index]);}result;",
+            "lastChapter": "class.zxzj.0@tag.a.0@textNodes@js:java.t2s(result)",
+            "name": "tag.img.0@alt@js:java.t2s(result)"
+        },
         "ruleSearch": {
             "author": "tag.label.0@text@js:java.t2s(result)",
             "bookList": "id.article_list_content.0@tag.li",
@@ -578,11 +589,11 @@
             "name": "tag.img.0@alt@js:java.t2s(result)"
         },
         "ruleToc": {
-            "chapterList": "tag.a",
+            "chapterList": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>tag.a",
             "chapterName": "text@js:java.t2s(result)",
             "chapterUrl": "href"
         },
-        "searchUrl": "/search/{{key}}/1.html",
+        "searchUrl": "<js>if(java.ajax(baseUrl).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(baseUrl,'人机验证');};</js>/search/{{key}}/1.html",
         "weight": 25
     },
     {
@@ -1102,6 +1113,68 @@
             "chapterUrl": "href"
         },
         "searchUrl": "@js:url=\"https://m.wcxsw.org/search.php,{'body':'submit=搜索&keyword={{key}}&json=1','method':'POST','headers':{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://m.wcxsw.org/'}}\";if(java.ajax(url).match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');java.startBrowserAwait(url,'人机验证');};result=url;",
+        "weight": 20
+    },
+    {
+        "bookSourceComment": "/*\n注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现验证码界面，如果不喜欢可以禁用该书源。\n其他和该网站界面类似的，一般都可以直接改源URL地址(sourceURL)域名来切换网站。\n*/\ntry{\n\tc2=result.match(/c2=\"(.*?)\"/)[1]\n\tu2=result.match(/src=\"(.*?)\"/)[1]\n\torigin=baseUrl.match(/[^.]+[^/]+/)[0]\n\tstr=java.ajax(origin+u2).match(/function.*\\(\\)\\}/)[0]\n\teval(str);temp=ajax(c2)\n\tjava.ajax(origin+temp)\n if(baseUrl.match(/sscc/)){\n \tu=java.get(\"url\")}else{u=baseUrl}\n \t//java.log(u)\n\tresult=java.ajax(u)\n}catch(err){result}",
+        "bookSourceGroup": "人机验证-搜索",
+        "bookSourceName": "来看文学",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://m.laikan9.com",
+        "bookUrlPattern": "",
+        "customOrder": 19,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "@js:\n sort=[];\n push=(title,url,type)=>sort.push({\n\t\ttitle: title,\n\t\turl: url,\n\t\tstyle: {\n\t\t\t\tlayout_flexGrow: 1,\n\t\t\t\tlayout_flexBasisPercent: type\n\t\t\t}\n\t});\n\tu=source.getKey();\n\turl=u+\"/menu.html\";\n\tD=org.jsoup.Jsoup.parse(java.ajax(url));\n\tA=D.select('div[class=\"divmen\"] a');\n\tfor(i in A){\n\t\tif(i!=0&&i!=4&&i!=5){\n\t\t\tpush(A[i].text(),A[i].attr(\"href\"),\"0.25\")\n\t\t}\n\t}\n\tJSON.stringify(sort);",
+        "header": "",
+        "lastUpdateTime": 1723916041565,
+        "loginUrl": "",
+        "respondTime": 9107,
+        "ruleBookInfo": {
+            "author": "class.b0@tag.span.0@text##作者：",
+            "coverUrl": "class.b0@img@src",
+            "intro": "[property~=description]@content",
+            "kind": "[property~=category|status|time]@content##.\\d{2}:.*",
+            "lastChapter": "class.b0@dd.-1@a@text",
+            "name": "class.FCol.0@text",
+            "tocUrl": "class.nrbt@tag.a.0@href",
+            "wordCount": ""
+        },
+        "ruleContent": {
+            "content": "<js>\nif(result.match(/<title>\\d+</)){\ncookie.removeCookie(baseUrl)\nresult=java.ajax(baseUrl)\n}\neval(String(source.bookSourceComment))\ncc=String(cookie.getCookie(baseUrl)).replace(/\\%2C[^;]+/g,\"\")\ncookie.setCookie(baseUrl,cc)\njava.setContent(result)\nresult\n</js>\n#content@html||[class~=(?i)content]@html",
+            "nextContentUrl": "text.下—页@href",
+            "replaceRegex": "##\\s+\"\\n|\\s+本章(没|未)完，.*|(\\.\\n)?.*看完记得收藏.*|\\s+\\/\\d+\\/.*|\\s+。：.*|\\s+：。.*|\\s*温馨提示：.*|\\s*\\d{8}"
+        },
+        "ruleExplore": {
+            "author": "text.作者：@text##作者：",
+            "bookList": "dl[class=\"B\"]&&dl[class=\"S\"]",
+            "bookUrl": "a.0@href",
+            "coverUrl": "img@src",
+            "intro": ".d2@text##简介：",
+            "kind": "{{@@span:contains(类别：)@text##^类别：}}\n{{@@dd:contains(更新时间：)@text##.*更新时间：}}",
+            "lastChapter": "{{@@dd.-1@a@text}} • {{@@class.ml@text||dd.-2@text##更新时间：|\\s.*}}",
+            "name": "a.1@text||a.0@text"
+        },
+        "ruleSearch": {
+            "author": "text.作者：@text##作者：",
+            "bookList": "<js>\neval(String(source.bookSourceComment))\ntry{\n\tactyzm=result.match(/actyzm\" value=\"([^\"]+)\"/)[1];\n\tbutton=result.match(/button\" value=\"([^\"]+)\"/)[1];\t\n\turl=java.get(\"url\");\n\tcode=String(url).replace(/\\/sscc.*/,'')+\"/member/getcode.asp\";\n\tyzco=source.getVariable();\n\tfunction getOption(str,co){\n  \thed={\"Referer\":url,\"Cookie\":co}\n  \treturn JSON.stringify({\"method\":\"POST\",\n\"charset\":\"gb2312\",\"body\":\"actyzm=\"+actyzm+\"&yzm=\"+str+\"&button=\"+button,\"headers\":hed});\n  }\n  function succes(){\n\t\tyzm=java.getVerificationCode(code);\n\t\turl+=\",\"+getOption(yzm,\"\");\n\t\thm=java.ajax(url);\n\t\tco=java.getCookie(url,\"g3jy9sqo0ws\");\n   source.setVariable(yzm+',g3jy9sqo0ws='+co)\n   return hm;\n  }\n\tif(yzco&&yzco!=''){\n\t\tv=String(yzco).split(',');\n\t\tu=url+\",\"+getOption(v[0],v[1]);\n\t\tresult=java.ajax(u);\n\t\tif(/请输入验证码/.test(result)){\n\t\t\tjava.longToast(\"  ！验证码过期或有误，重新获取  ！\")\n\t\t\tresult=succes();\n\t\t}\n\t}else{result=succes(\"\");}\nresult\n}catch(err){java.log(err);result}\n</js>\n.B",
+            "bookUrl": "a.0@href",
+            "checkKeyWord": "系统",
+            "coverUrl": "img@src",
+            "intro": ".d2@text##简介：",
+            "kind": "class.js@text##类别：|\\/ 作者.*\\s.*",
+            "lastChapter": "{{@@dd.-1@a@text}} • {{@@class.ml@text##更新时间：}}",
+            "name": "a.1@text",
+            "wordCount": "@js:\ntry{\t\ncc=String(cookie.getCookie(baseUrl)).replace(java.get(\"key\"),\"\")\ncookie.setCookie(baseUrl,cc)\n}catch(e){\"\"}"
+        },
+        "ruleToc": {
+            "chapterList": "//*[@class=\"MLlist\"]/li/a||//dt[-1]/following-sibling::dd/a",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "@js:\ntry{\nbUrl=baseUrl.replace(/\\/?\\#\\#.*/,'');\ncookie.removeCookie(bUrl)\ns=String(java.ajax(bUrl))\nact=s.match(/\"act\".*?\"(.{16})\"/)[1]\nsub=s.match(/name=\"submit\".*?value=\"(.*?)\"/)[1]\nbody=String(\"act=\"+act+\"&q=\"+key+\"&submit=\"+sub)\nxx=body.match(/[^&=]+/g)\nfor(i in xx){\nre=java.encodeURI(xx[i],\"gbk\")\nbody=body.replace(xx[i],re)\n }\nvar url=String(bUrl+\"/sscc/,\"+JSON.stringify({\n\t\"method\":\"POST\",\"body\":body}))\njava.put(\"key\",body.match(/q=([^&]*)/)[1]);\njava.put(\"url\",bUrl+\"/sscc/\"+java.post(bUrl+\"/sscc/\",body,{}).header(\"Location\"));url\n}catch{java.longToast(\"获取失败\")}",
+        "variableComment": "",
         "weight": 20
     },
     {
