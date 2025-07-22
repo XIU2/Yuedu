@@ -1240,12 +1240,14 @@
         "weight": 0
     },
     {
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "八一中文",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.81zw2.com",
         "customOrder": 26,
-        "enabled": true,
-        "enabledCookieJar": false,
+        "enabled": false,
+        "enabledCookieJar": true,
         "enabledExplore": false,
         "header": "",
         "lastUpdateTime": 1675926141363,
