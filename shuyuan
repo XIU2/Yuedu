@@ -272,7 +272,7 @@
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/articlelist/class/0.html\n玄幻魔法::/articlelist/class/1.html\n修真武侠::/articlelist/class/2.html\n言情小说::/articlelist/class/3.html\n历史军事::/articlelist/class/4.html\n游戏竞技::/articlelist/class/5.html\n科幻空间::/articlelist/class/6.html\n悬疑惊悚::/articlelist/class/7.html\n同人小说::/articlelist/class/8.html\n都市小说::/articlelist/class/9.html\n官场职场::/articlelist/class/10.html\n穿越时空::/articlelist/class/11.html\n青春校园::/articlelist/class/12.html\n完本-全部分类::/articlelist/full/0.html\n完本-玄幻魔法::/articlelist/full/1.html\n完本-修真武侠::/articlelist/full/2.html\n完本-言情小说::/articlelist/full/3.html\n完本-历史军事::/articlelist/full/4.html\n完本-游戏竞技::/articlelist/full/5.html\n完本-科幻空间::/articlelist/full/6.html\n完本-悬疑惊悚::/articlelist/full/7.html\n完本-同人小说::/articlelist/full/8.html\n完本-都市小说::/articlelist/full/9.html\n完本-官场职场::/articlelist/full/10.html\n完本-穿越时空::/articlelist/full/11.html\n完本-青春校园::/articlelist/full/12.html",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://www.69yuedu.net'}",
         "lastUpdateTime": 1733946673730,
         "respondTime": 3340,
         "ruleBookInfo": {
@@ -377,7 +377,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n————\n注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
         "bookSourceGroup": "梯子,人机验证-全站,搜索暂不可用",
         "bookSourceName": "69书吧.com",
         "bookSourceType": 0,
@@ -388,7 +388,7 @@
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/novels/class/0.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n言情小说::/novels/class/3.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n都市小说::/novels/class/9.htm\n官场职场::/novels/class/10.htm\n穿越时空::/novels/class/11.htm\n青春校园::/novels/class/12.htm\n完本-全部分类::/novels/full/0.htm\n完本-玄幻魔法::/novels/full/1.htm\n完本-修真武侠::/novels/full/2.htm\n完本-言情小说::/novels/full/3.htm\n完本-历史军事::/novels/full/4.htm\n完本-游戏竞技::/novels/full/5.htm\n完本-科幻空间::/novels/full/6.htm\n完本-悬疑惊悚::/novels/full/7.htm\n完本-同人小说::/novels/full/8.htm\n完本-都市小说::/novels/full/9.htm\n完本-官场职场::/novels/full/10.htm\n完本-穿越时空::/novels/full/11.htm\n完本-青春校园::/novels/full/12.htm",
-        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://hetushu.com/'}",
+        "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://www.69shuba.com/'}",
         "lastUpdateTime": 1733946673730,
         "respondTime": 3340,
         "ruleBookInfo": {
@@ -437,7 +437,7 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则和【正文规则】中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n最近禁止了国内 IP 访问。。因此需要挂代理使用了。\n网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n————————\n最近禁止了国内 IP 访问。。因此需要挂代理使用了。\n网站外观看着和 69书吧 挺像，但实际网页结构元素什么的不一样，估计是个蹭名字的？不过我找了几本连载的书看了下正文内容倒是基本一样，可能是爬的 69书吧？所以也不必在乎是真是假了，能用就行\n另外，该网站默认是繁体的，网页加载完成后会执行 JS 根据浏览器语言转为简体，但书源是需要手动转的，不过我也看了，这网站默认的繁体其实也是直接机器简繁转换的（毕竟这些小说本身都是简体发布的），所以转换回来后就和小说本身内容一样了。",
         "bookSourceGroup": "梯子,人机验证-全站",
         "bookSourceName": "69书吧2",
         "bookSourceType": 0,
@@ -762,7 +762,7 @@
         "ruleExplore": {},
         "ruleSearch": {
             "author": "class.novel-author.0@text",
-            "bookList": "<js>java.log(result)</js>class.novel-item",
+            "bookList": "class.novel-item",
             "bookUrl": "tag.a.0@href",
             "coverUrl": "tag.img.0@src",
             "intro": "class.novel-intro.0@text",
@@ -894,7 +894,7 @@
         "weight": 20
     },
     {
-        "bookSourceComment": "正文页 502\n————\n注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "正文页 502\n————\n注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将书源【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。",
         "bookSourceGroup": "人机验证-搜索,暂不可用",
         "bookSourceName": "大文学无错小说网",
         "bookSourceType": 0,
@@ -939,7 +939,7 @@
         "weight": 20
     },
     {
-        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则和【正文规则】中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。\n————————\n有时候会莫名其妙抽风搜索不到内容（实际上是被重定向到首页了），暂不清楚原因",
+        "bookSourceComment": "注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则和【正文规则】中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n————————\n有时候会莫名其妙抽风搜索不到内容（实际上是被重定向到首页了），暂不清楚原因",
         "bookSourceGroup": "人机验证-全站",
         "bookSourceName": "和图书",
         "bookSourceType": 0,
@@ -994,7 +994,7 @@
         "weight": 20
     },
     {
-        "bookSourceComment": "目录页 502\n————\n注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "目录页 502\n————\n注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将书源【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。",
         "bookSourceGroup": "人机验证-搜索,暂不可用",
         "bookSourceName": "思路客",
         "bookSourceType": 0,
@@ -1038,7 +1038,7 @@
         "weight": 20
     },
     {
-        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将书源【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。",
         "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "顶点小说 ddxs",
         "bookSourceType": 0,
@@ -1240,7 +1240,7 @@
         "weight": 0
     },
     {
-        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 界面无限循环或提示报错的情况，那么说明你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n但请注意！如果你系统的 WebView 版本太低了，那无论如何都是无法通过人机验证的，因此需要适当升级一下版本。",
+        "bookSourceComment": "注意：该书源【搜索】启用了 \"人机验证\"，因此使用过程中（搜索、换书源）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将书源【搜索 - 搜索地址】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。",
         "bookSourceGroup": "人机验证-搜索",
         "bookSourceName": "八一中文",
         "bookSourceType": 0,
@@ -1309,7 +1309,7 @@
         "ruleExplore": {},
         "ruleSearch": {
             "author": "class.s3.0@tag.a.0@text",
-            "bookList": "<js>java.log(result)</js>class.txt-list.0@tag.li",
+            "bookList": "class.txt-list.0@tag.li",
             "bookUrl": "tag.a.0@href",
             "kind": "class.s1.0@text##\\[|\\]",
             "lastChapter": "class.s4.0@tag.a.0@text",
