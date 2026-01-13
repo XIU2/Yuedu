@@ -263,6 +263,63 @@
     {
         "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
         "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
+        "bookSourceName": "69书吧",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://69shuba.cx",
+        "concurrentRate": "2000",
+        "customOrder": 7,
+        "enabled": false,
+        "enabledCookieJar": true,
+        "enabledExplore": true,
+        "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
+        "lastUpdateTime": 1745749648163,
+        "respondTime": 3340,
+        "ruleBookInfo": {
+            "author": "//meta[@property='og:novel:author']/@content",
+            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
+            "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
+            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
+            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
+            "name": "//meta[@property='og:novel:book_name']/@content",
+            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
+            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
+        },
+        "ruleContent": {
+            "content": "class.txtnav@html",
+            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)|(\\n最.新.小.说.+)"
+        },
+        "ruleExplore": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.h3.0@tag.a.0@href",
+            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text",
+            "name": "tag.h3.0@tag.a.0@text",
+            "wordCount": "tag.label.2@text"
+        },
+        "ruleSearch": {
+            "author": "tag.label.0@text",
+            "bookList": "class.newbox.0@tag.ul.0@tag.li",
+            "bookUrl": "tag.a.1@href",
+            "checkKeyWord": "我有一个",
+            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
+            "intro": "class.ellipsis_2.0@text",
+            "kind": "tag.label.1@text&&tag.label.2@text",
+            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
+            "name": "tag.h3.0@tag.a.1@text"
+        },
+        "ruleToc": {
+            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
+            "chapterName": "text",
+            "chapterUrl": "href"
+        },
+        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
+        "weight": 25
+    },
+    {
+        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
+        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
         "bookSourceName": "69阅读.net",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.69yuedu.net",
@@ -320,76 +377,19 @@
         "weight": 25
     },
     {
-        "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
-        "bookSourceGroup": "梯子,人机验证-搜索,搜索暂不可用",
-        "bookSourceName": "69书吧",
-        "bookSourceType": 0,
-        "bookSourceUrl": "https://69shuba.cx",
-        "concurrentRate": "2000",
-        "customOrder": 7,
-        "enabled": false,
-        "enabledCookieJar": true,
-        "enabledExplore": true,
-        "exploreUrl": "全部分类::/blist/class/0/{{page}}.htm\n玄幻魔法::/blist/class/1/{{page}}.htm\n修真武侠::/blist/class/2/{{page}}.htm\n言情小说::/blist/class/3/{{page}}.htm\n历史军事::/blist/class/4/{{page}}.htm\n游戏竞技::/blist/class/5/{{page}}.htm\n科幻空间::/blist/class/6/{{page}}.htm\n悬疑惊悚::/blist/class/7/{{page}}.htm\n同人小说::/blist/class/8/{{page}}.htm\n都市小说::/blist/class/9/{{page}}.htm\n官场职场::/blist/class/10/{{page}}.htm\n穿越时空::/blist/class/11/{{page}}.htm\n青春校园::/blist/class/12/{{page}}.htm\n完本-全部分类::/blist/full/0/{{page}}.htm\n完本-玄幻魔法::/blist/full/1/{{page}}.htm\n完本-修真武侠::/blist/full/2/{{page}}.htm\n完本-言情小说::/blist/full/3/{{page}}.htm\n完本-历史军事::/blist/full/4/{{page}}.htm\n完本-游戏竞技::/blist/full/5/{{page}}.htm\n完本-科幻空间::/blist/full/6/{{page}}.htm\n完本-悬疑惊悚::/blist/full/7/{{page}}.htm\n完本-同人小说::/blist/full/8/{{page}}.htm\n完本-都市小说::/blist/full/9/{{page}}.htm\n完本-官场职场::/blist/full/10/{{page}}.htm\n完本-穿越时空::/blist/full/11/{{page}}.htm\n完本-青春校园::/blist/full/12/{{page}}.htm",
-        "lastUpdateTime": 1745749648163,
-        "respondTime": 3340,
-        "ruleBookInfo": {
-            "author": "//meta[@property='og:novel:author']/@content",
-            "coverUrl": "class.bookimg2.0@tag.img.0@src@js:if(result.includes('/nc.jpg')){d=baseUrl.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`;}else{result}",
-            "intro": "id.jianjie-popup.0@class.content.0@tag.p.0@html",
-            "kind": "//meta[@property='og:novel:category' or @property='og:novel:status' or @property='og:novel:update_time']/@content",
-            "lastChapter": "class.qustime.0@tag.li.0@tag.span.0@text##^\\d+\\.",
-            "name": "//meta[@property='og:novel:book_name']/@content",
-            "tocUrl": "@js:baseUrl.replace('/txt','').replace('.htm','/')",
-            "wordCount": "@css:.booknav2>p:nth-child(5)@text##( \\|.+)"
-        },
-        "ruleContent": {
-            "content": "class.txtnav@html",
-            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)|(\\n最.新.小.说.+)"
-        },
-        "ruleExplore": {
-            "author": "tag.label.0@text",
-            "bookList": "class.newlistbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.h3.0@tag.a.0@href",
-            "coverUrl": "tag.h3.0@tag.a.0@href@js:if(result){d=result.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{'/cdn/images/nc.jpg'}",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text",
-            "name": "tag.h3.0@tag.a.0@text",
-            "wordCount": "tag.label.2@text"
-        },
-        "ruleSearch": {
-            "author": "tag.label.0@text",
-            "bookList": "class.newbox.0@tag.ul.0@tag.li",
-            "bookUrl": "tag.a.1@href",
-            "checkKeyWord": "我有一个",
-            "coverUrl": "tag.img.0@src@js:if(result.includes('/nc.jpg')){a=java.getString('tag.h3.0@tag.a.1@href');if(a){d=a.match(/\\/(\\d+)\\.htm$/)[1];`${book.origin}/fengmian/${d.slice(0,-3)}/${d}/${d}s.jpg`}else{result;};}else{result}",
-            "intro": "class.ellipsis_2.0@text",
-            "kind": "tag.label.1@text&&tag.label.2@text",
-            "lastChapter": "class.zxzj.0@tag.p.0@textNodes",
-            "name": "tag.h3.0@tag.a.1@text"
-        },
-        "ruleToc": {
-            "chapterList": "id.catalog.0@tag.ul.0@tag.a[-1:0]",
-            "chapterName": "text",
-            "chapterUrl": "href"
-        },
-        "searchUrl": "/modules/article/search.php,{'charset':'gbk','body':'searchkey={{key}}&searchtype=all','method':'POST'}",
-        "weight": 25
-    },
-    {
         "bookSourceComment": "搜索暂不可用，待修复（不保证），可先通过【发现】或【浏览器中手动搜索后复制书籍详情页地址在 阅读 书架中 添加网址】。\n————\n注意：该书源【全站】启用了 \"人机验证\"，因此使用过程中（搜索、换书源、更新目录、加载新章节等）可能会出现人机验证界面，通过后一段时间内不会再验证，如果不喜欢可以禁用该书源。\n————\n提示：如果你遇到了 人机验证 无限循环 或提示报错的情况，则代表是 WebView 方面有问题，请按照下方步骤简单排查：\n - 如果该书源网站你在手机浏览器上也是无限循环人机验证，那么说明是你系统的 WebView 版本太低了，建议升级到最少 11x 版本。\n - 如果该书源网站你在手机浏览器能通过人机验证，那么说明是你手机系统 WebView 内核版本与当前书源所用的 UA 中的 WebView 版本信息相差过大，请将下方的【请求头】规则中 `Chrome/115.0.4664.104` 的 115 这个大版本号修改为你手机系统的 WebView 内核版本（比如你是 96.0.x.x 那就将 115 改成 96，后面的小版本号不影响）。\n————\n（这两年频繁换域名）原 www.69shu.com 的新域名，可能因为之前的域名都被封了？所以后续更换域名后都主动屏蔽了国内 IP，因此该书源目前只能挂代理使用。",
         "bookSourceGroup": "梯子,人机验证-全站,搜索暂不可用",
         "bookSourceName": "69书吧.com",
         "bookSourceType": 0,
         "bookSourceUrl": "https://www.69shuba.com",
-        "concurrentRate": "1000",
+        "concurrentRate": "3000",
         "customOrder": 7,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": true,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/novels/class/0.htm\n玄幻魔法::/novels/class/1.htm\n修真武侠::/novels/class/2.htm\n言情小说::/novels/class/3.htm\n历史军事::/novels/class/4.htm\n游戏竞技::/novels/class/5.htm\n科幻空间::/novels/class/6.htm\n悬疑惊悚::/novels/class/7.htm\n同人小说::/novels/class/8.htm\n都市小说::/novels/class/9.htm\n官场职场::/novels/class/10.htm\n穿越时空::/novels/class/11.htm\n青春校园::/novels/class/12.htm\n完本-全部分类::/novels/full/0.htm\n完本-玄幻魔法::/novels/full/1.htm\n完本-修真武侠::/novels/full/2.htm\n完本-言情小说::/novels/full/3.htm\n完本-历史军事::/novels/full/4.htm\n完本-游戏竞技::/novels/full/5.htm\n完本-科幻空间::/novels/full/6.htm\n完本-悬疑惊悚::/novels/full/7.htm\n完本-同人小说::/novels/full/8.htm\n完本-都市小说::/novels/full/9.htm\n完本-官场职场::/novels/full/10.htm\n完本-穿越时空::/novels/full/11.htm\n完本-青春校园::/novels/full/12.htm",
         "header": "{'User-Agent':'Mozilla/5.0 (Linux; Android 12; Nexus 5X Build/NRD90M); wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.4664.104 Mobile Safari/537.36','Referer':'https://www.69shuba.com/'}",
-        "lastUpdateTime": 1733946673730,
+        "lastUpdateTime": 1765535773221,
         "respondTime": 3340,
         "ruleBookInfo": {
             "author": "//meta[@property='og:novel:author']/@content",
@@ -404,7 +404,7 @@
         },
         "ruleContent": {
             "content": "<js>if(result.match(/^<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</)){java.longToast('请根据网页提示点击勾选「确认您是真人」来通过人机验证，如果无限循环请查看源注释说明。');result=java.startBrowserAwait(baseUrl,'人机验证').body();};result;</js>class.txtnav.0@textNodes",
-            "replaceRegex": "##(^(.+\\n){2}({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
+            "replaceRegex": "##(^({{book.durChapterTitle}}.*\\n)?)|(\\n.*)+|(\\n.*\\(本章完\\)$)"
         },
         "ruleExplore": {
             "author": "tag.label.0@text",
@@ -444,7 +444,7 @@
         "bookSourceUrl": "https://69shux.co",
         "concurrentRate": "1000",
         "customOrder": 8,
-        "enabled": true,
+        "enabled": false,
         "enabledCookieJar": false,
         "enabledExplore": true,
         "exploreUrl": "全部分类::/novels/class/0_{{page}}.html\n玄幻奇幻::/novels/class/1_{{page}}.html\n武侠仙侠::/novels/class/2_{{page}}.html\n现代都市::/novels/class/3_{{page}}.html\n历史军事::/novels/class/4_{{page}}.html\n科幻小说::/novels/class/5_{{page}}.html\n游戏竞技::/novels/class/6_{{page}}.html\n恐怖灵异::/novels/class/7_{{page}}.html\n言情小说::/novels/class/8_{{page}}.html\n动漫同人::/novels/class/9_{{page}}.html\n其他类型::/novels/class/10_{{page}}.html\n完本-全部分类::/novels/full/0_{{page}}.html\n完本-玄幻奇幻::/novels/full/1_{{page}}.html\n完本-武侠仙侠::/novels/full/2_{{page}}.html\n完本-现代都市::/novels/full/3_{{page}}.html\n完本-历史军事::/novels/full/4_{{page}}.html\n完本-科幻小说::/novels/full/5_{{page}}.html\n完本-游戏竞技::/novels/full/6_{{page}}.html\n完本-恐怖灵异::/novels/full/7_{{page}}.html\n完本-言情小说::/novels/full/8_{{page}}.html\n完本-动漫同人::/novels/full/9_{{page}}.html\n完本-其他类型::/novels/full/10_{{page}}.html",
