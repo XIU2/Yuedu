@@ -40,7 +40,7 @@
 - **网络导入地址：** 以下 CDN 分流地址，任选一个能用的  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan_  
-_https://raw.dgithub.xyz/XIU2/Yuedu/master/shuyuan_  
+_https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan_  
 _https://wget.la/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
 _https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
 _https://gh.catmak.name/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
@@ -62,7 +62,7 @@ _https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/sh
 - **网络导入地址：** 以下 CDN 分流地址，任选一个能用的  
 _https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan ( 网页打开乱码正常，不影响 APP 导入_  
 _https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan_  
-_https://raw.dgithub.xyz/XIU2/Yuedu/master/shuyuan_  
+_https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan_  
 _https://wget.la/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
 _https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
 _https://gh.catmak.name/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan_  
