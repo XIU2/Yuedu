@@ -4,146 +4,347 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>「阅读」APP 精品书源 — 每日更新</title>
+    <title>「阅读」APP 精品书源</title>
     <meta name="keywords" content="阅读,阅读APP,小说阅读,小说阅读APP,书源,小说书源,阅读书源,阅读APP书源,XIU2,X.I.U,西柚秀" />
-    <meta name="description" content="每日更新！「阅读」APP 精品书源！" />
+    <meta name="description" content="自用的一些「阅读」APP 精品书源！Github 项目：https://github.com/XIU2/Yuedu" />
     <meta name="author" contect="XIU2,X.I.U,西柚秀" />
     <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADrchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH//////+tyEf/sfSb/6m4K/+tyEf/rchH/63IR/+tyEf/xpmv///////318P/xomX/63IR/+tyEf/rchH/63IR///////rchH////////////rchH/63IR//CdXf///////////+tyEf/xomT//////+tyEf/rchH/63IR/+tyEf//////63IR/+tyEf///////////+tyEf//////87F9/++VTv//////63IR///////rchH/63IR/+tyEf/rchH//////+tyEf/rchH/63IR///////rchH//////+2GM//rchH/63IR/+tyEf//////63IR/+tyEf/rchH/63IR///////rchH/63IR/////////////////////////////////+tyEf/rchH//////+tyEf/rchH/63IR/+tyEf//////63IR/+tyEf//////63IR/+tyEf/rchH/63IR///////rchH/63IR///////rchH/63IR/+tyEf/rchH//////+tyEf/rchH//////+tyEf/rchH/63IR/+tyEf//////63IR/+tyEf//////63IR/+tyEf/rchH/63IR///////rchH/63IR/////////////////////////////////+tyEf/rchH//////+tyEf/rchH/63IR/+tyEf//////63IR/+tyEf/vmFT//////+6RSP/1v5T//////+6QRv/rchH/63IR///////rchH/63IR/+tyEf/rchH//////+tyEf/rchH/8aJk///////rchH/63IR///////rchH/63IR/+tyEf//////63IR/+tyEf/rchH/63IR/+tyEf/xomT//////+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/xomT//////+tyEf/rchH/63IR/+tyEf/rchH///////Oyfv/rchH/8qhv///////////////////////////////////////rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/63IR/+tyEf/rchH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://bitbucket.org/xiu2/yuedu/raw/master/dist/js/scrollreveal.min.js"></script>
-    <script>
-    var url = [
-        ["https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan","dist/img/QRCode-03.png"],
-        ["https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan","dist/img/QRCode-jsd-onmicrosoft-cn.png"],
-        ["https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan","dist/img/QRCode-cdn-jsdmirror-com.png"],
-        ["https://wget.la/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan","dist/img/QRCode-wget-la.png"],
-        ["https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan","dist/img/QRCode-ghfast-top.png"],
-        ["https://gh.catmak.name/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan","dist/img/QRCode-gh-catmak-name.png"],
-        ["https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan","dist/img/QRCode-cdn-gh-proxy-org.png"]
-    ]
-    url = url[Math.floor(Math.random()*url.length)];
-    </script>
+    <style>
+        *,*:before,*:after {
+            box-sizing: inherit;
+        }
+        html {
+            font-size: 1rem;
+            line-height: 27px;
+            box-sizing: border-box;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            color: #5b6f82;
+            font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+            background: #fff;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+        }
+        a {
+            color: #626cd5;
+            text-decoration: none;
+        }
+        img,
+        svg {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+            vertical-align: middle;
+        }
+        .page-shell {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            max-width: 1440px;
+            margin: 0 auto;
+            background: #fff;
+            overflow: hidden;
+            box-shadow: 0 16px 48px #e3e7eb;
+        }
+        .page-header {
+            position: relative;
+            padding: 17px 0;
+        }
+        .page-header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 16%;
+            width: 84%;
+            height: 500px;
+            background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ4MCIgaGVpZ2h0PSI2NTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+ICAgIDxwYXRoIGQ9Ik03MzEuMjA3IDY0OS44MDJDOTM1LjQ4NCA2NDIuMTQgMTQ4MCAzMzcuMzI1IDE0ODAgMTgwLjg4OGMwLTE1Ni40MzgtMzA5Ljc0NC0zNi4wNTUtNzIwLTM2LjA1NVMwLTE3NC40ODMgMCAxMzUuMTQ0YzAgMzA5LjYyNyA1MjYuOTMgNTIyLjMyIDczMS4yMDcgNTE0LjY1OHoiIGZpbGw9IiNGNkY4RkEiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==");
+            background-size: 1140px 500px;
+            background-repeat: no-repeat;
+        }
+        main {
+            flex: 1 0 auto;
+        }
+        .container-narrow {
+            width: 100%;
+            max-width: 848px;
+            margin: 0 auto;
+            padding: 0 16px;
+        }
+        .u-text-center {
+            text-align: center;
+        }
+        .hero-section {
+            position: relative;
+            padding: 40px 0;
+        }
+        h1 {
+            margin: 0 0 16px;
+            color: #202b36;
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 600;
+        }
+        .hero-text {
+            margin: 0 0 32px;
+        }
+        .source-form {
+            max-width: 475px;
+            margin: 0 auto;
+        }
+        .form-group > .form-item:not(:last-child) {
+            margin-bottom: 8px;
+        }
+        .source-input {
+            width: 100%;
+            height: 48px;
+            padding: 13px 16px;
+            border: 1px solid #e3e7eb;
+            border-radius: 2px;
+            font-size: 16px;
+            line-height: 20px;
+            color: #5b6f82;
+            background: #fff;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .source-input:focus {
+            outline: none;
+            border-color: #4992f0;
+        }
+        .primary-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 48px;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 2px;
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 16px;
+            text-transform: uppercase;
+            color: #fff;
+            background: linear-gradient(65deg, #1274ed 0, #4992f0 100%);
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(32, 43, 54, 0.12);
+        }
+        .hero-visual {
+            position: relative;
+            margin-top: 60px;
+        }
+        .hero-frame {
+            position: relative;
+        }
+        .hero-frame svg {
+            width: 100%;
+            overflow: visible;
+        }
+        .hero-title-link {
+            color: #000;
+            text-shadow: 2px 3px 4px #bbb;
+        }
+        .hero-intro {
+            margin-bottom: 0 !important;
+        }
+        .repo-badges {
+            opacity: 0.9;
+        }
+        .repo-badge-image {
+            display: inline;
+            width: auto;
+            height: 20px;
+        }
+        .qr-overlay {
+            position: absolute;
+            inset: 0;
+            display: grid;
+            place-items: center;
+        }
+        #qr-code {
+            width: min(45%, 320px);
+            aspect-ratio: 1 / 1;
+            opacity: 0.75;
+            margin-top: 20px;
+        }
+        #qr-code img,
+        #qr-code canvas {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+        .decor-bubble-1,
+        .decor-bubble-2,
+        .decor-bubble-3,
+        .decor-bubble-4 {
+            position: absolute;
+        }
+        .decor-bubble-1 {
+            top: -15px;
+            left: 70px;
+        }
+        .decor-bubble-1 svg {
+            width: 34px;
+        }
+        .decor-bubble-2 {
+            right: -30px;
+            bottom: 0;
+        }
+        .decor-bubble-2 svg {
+            width: 78px;
+        }
+        .decor-bubble-3 {
+            left: -40px;
+            bottom: -40px;
+        }
+        .decor-bubble-3 svg {
+            width: 143px;
+        }
+        .decor-bubble-4 {
+            top: -25px;
+            right: -54px;
+        }
+        .decor-bubble-4 svg {
+            width: 104px;
+        }
+        @media (min-width: 481px) {
+            .container-narrow {
+                padding: 0 24px;
+            }
+        }
+        @media (max-width: 690px) {
+            .hero-text {
+                font-size:17px;
+            }
+        }
+        @media (min-width: 641px) {
+            html {
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: -0.1px;
+            }
+            .page-header::before {
+                top: -50%;
+                left: 20%;
+                width: 80%;
+                height: 651px;
+                background-size: 1480px 651px;
+            }
+            .hero-section {
+                padding-top: 70px;
+                padding-bottom: 110px;
+            }
+            h1 {
+                font-size: 36px;
+                line-height: 46px;
+            }
+            .hero-title-mobile {
+                font-size: 42px;
+                line-height: 52px;
+                letter-spacing: -0.1px;
+            }
+            .hero-text {
+                margin-bottom: 40px;
+                padding: 0 72px;
+            }
+            .form-group {
+                display: flex;
+            }
+            .form-group > .form-item.is-expanded {
+                flex-grow: 1;
+            }
+            .form-group > .form-item:not(:last-child) {
+                margin-right: 8px;
+                margin-bottom: 0;
+            }
+            .decor-bubble-1 svg,
+            .decor-bubble-2 svg,
+            .decor-bubble-3 svg,
+            .decor-bubble-4 svg {
+                width: auto;
+            }
+            .decor-bubble-1 {
+                top: 85px;
+                left: -30px;
+            }
+            .decor-bubble-2 {
+                right: -75px;
+                bottom: -8px;
+            }
+            .decor-bubble-3 {
+                left: -140px;
+                bottom: -120px;
+            }
+            .decor-bubble-4 {
+                top: -35px;
+                right: -110px;
+            }
+        }
+        @media (max-width: 500px) {
+            .hero-text {
+                font-size: 14px;
+            }
+            .hero-text > a > img {
+                height: 18px !important;
+                width: auto;
+            }
+            .hero-title-mobile {
+                font-size: 25px;
+                line-height: 35px;
+            }
+        }
+        @media (max-width: 450px) {
+            .hero-text {
+                font-size: 11px;
+            }
+        }
+    </style>
 </head>
-<body class="is233-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header"></header>
+<body>
+    <div class="page-shell">
+        <header class="page-header"></header>
         <main>
-            <section class="h233 text-center">
-                <div class="container-sm">
-                    <div class="h233-inner">
-                        <h1 class="h233-title h2-mobile mt-0 is233-revealing"><a href="https://www.coolapk.com/apk/256030" title="点击打开「阅读」APP下载地址" target="_blank" style="color: #000000;">「阅读」</a>APP 精品书源</h1>
-                        <p class="h233-paragraph is233-revealing" style="margin-bottom: 0;">扫描二维码导入 / 复制<a id="url" href="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan">URL</a>网络导入 / <a href="shuyuan" download="shuyuan.json">下载文件</a>本地导入</p>
-                       <p class="h233-paragraph" style="opacity: 0.9;">
-                        <a href="https://github.com/XIU2/yuedu/"><img src="https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github" alt="GitHub license" style="display: inline;width: auto;height: 20px;"></a>
-                        <a href="https://github.com/XIU2/yuedu/"><img src="https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github" alt="GitHub Star" style="display: inline;width: auto;height: 20px;"></a>
-                        <a href="https://github.com/XIU2/yuedu/"><img src="https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb&logo=github" alt="GitHub Fork" style="display: inline;width: auto;height: 20px;"></a>
-                    </p>
-                        <div class="h233-form new233-form field233 field233-grouped is233-revealing">
-                            <div class="cont233 cont233-expanded">
-                                <input class="input" id="input" readOnly="true" onclick="copyText()" title="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan" value="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan">
+            <section class="hero-section u-text-center">
+                <div class="container-narrow">
+                    <div class="hero-content">
+                        <h1 class="hero-title-mobile"><a class="hero-title-link" href="https://github.com/gedoor/legado" title="点击打开「阅读」官方项目地址（及官方下载地址）" target="_blank">「阅读」</a>APP 精品书源</h1>
+                        <p class="hero-text hero-intro">扫描二维码导入 / <a id="source-url-link" href="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan">复制地址</a>网络导入 / <a href="shuyuan" download="shuyuan.json">下载文件</a>本地导入</p>
+                        <p class="hero-text repo-badges">
+                            <a href="https://github.com/XIU2/yuedu/"><img class="repo-badge-image" src="https://img.shields.io/badge/license-GPL--3.0-orange?style=flat-square&color=0f6adb&logo=github" alt="GitHub license"></a>
+                            <a href="https://github.com/XIU2/yuedu/"><img class="repo-badge-image" src="https://img.shields.io/github/stars/XIU2/yuedu.svg?style=flat-square&label=Star&color=0f6adb&logo=github" alt="GitHub Star"></a>
+                            <a href="https://github.com/XIU2/yuedu/"><img class="repo-badge-image" src="https://img.shields.io/github/forks/XIU2/yuedu.svg?style=flat-square&label=Fork&color=0f6adb&logo=github" alt="GitHub Fork"></a>
+                        </p>
+                        <div class="source-import-form source-form form-group">
+                            <div class="form-item is-expanded">
+                                <input class="source-input" id="source-url-input" readonly title="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan" value="https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan">
                             </div>
 
-                            <div class="cont233">
-                                <button class="button button-primary button-block button-shadow" id="button" onclick="copyText()">复制</button>
+                            <div class="form-item">
+                                <button class="primary-button" id="copy-button" type="button">复制</button>
                             </div>
                         </div>
-                        <div class="h233-browser">
-                            <div class="bub233-3 is233-revealing">
-                                <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs>
-                                        <path d="M213.5 286C331.413 286 427 190.413 427 72.5S304.221 16.45 186.309 16.45C68.396 16.45 0-45.414 0 72.5S95.587 286 213.5 286z" id="bub233-3-a"/>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="bub233-3-b" fill="#fff">
-                                            <use xlink:href="#bub233-3-a"/>
-                                        </mask>
-                                        <use fill="#4E8FF8" xlink:href="#bub233-3-a"/>
-                                        <path d="M64.5 129.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C-80.604-139.782-149-201.644-149-83.73c0 117.913 95.587 213.5 213.5 213.5z" fill="#1274ED" mask="url(#bub233-3-b)"/>
-                                        <path d="M381.5 501.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C236.396 232.218 168 170.356 168 288.27c0 117.913 95.587 213.5 213.5 213.5z" fill="#75ABF3" mask="url(#bub233-3-b)"/>
-                                    </g>
-                                </svg>
+                        <div class="hero-visual">
+                            <div class="decor-bubble-3">
+                                <svg width="427" height="286" viewBox="0 0 427 286" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M213.5 286C331.413 286 427 190.413 427 72.5S304.221 16.45 186.309 16.45C68.396 16.45 0-45.414 0 72.5S95.587 286 213.5 286z" id="bubble-3-shape"/></defs><g fill="none" fill-rule="evenodd"><mask id="bubble-3-mask" fill="#fff"><use xlink:href="#bubble-3-shape"/></mask><use fill="#4E8FF8" xlink:href="#bubble-3-shape"/><path d="M64.5 129.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C-80.604-139.782-149-201.644-149-83.73c0 117.913 95.587 213.5 213.5 213.5z" fill="#1274ED" mask="url(#bubble-3-mask)"/><path d="M381.5 501.77c117.913 0 213.5-95.588 213.5-213.5 0-117.914-122.779-56.052-240.691-56.052C236.396 232.218 168 170.356 168 288.27c0 117.913 95.587 213.5 213.5 213.5z" fill="#75ABF3" mask="url(#bubble-3-mask)"/></g></svg>
                             </div>
-                            <div class="bub233-4 is233-revealing">
-                                <svg width="230" height="235" viewBox="0 0 230 235" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs>
-                                        <path d="M196.605 234.11C256.252 234.11 216 167.646 216 108 216 48.353 167.647 0 108 0S0 48.353 0 108s136.959 126.11 196.605 126.11z" id="bub233-4-a"/>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="bub233-4-b" fill="#fff">
-                                            <use xlink:href="#bub233-4-a"/>
-                                        </mask>
-                                        <use fill="#7CE8DD" xlink:href="#bub233-4-a"/>
-                                        <circle fill="#3BDDCC" mask="url(#bub233-4-b)" cx="30" cy="108" r="108"/>
-                                        <circle fill="#B1F1EA" opacity=".7" mask="url(#bub233-4-b)" cx="265" cy="88" r="108"/>
-                                    </g>
-                                </svg>
+                            <div class="decor-bubble-4">
+                                <svg width="230" height="235" viewBox="0 0 230 235" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M196.605 234.11C256.252 234.11 216 167.646 216 108 216 48.353 167.647 0 108 0S0 48.353 0 108s136.959 126.11 196.605 126.11z" id="bubble-4-shape"/></defs><g fill="none" fill-rule="evenodd"><mask id="bubble-4-mask" fill="#fff"><use xlink:href="#bubble-4-shape"/></mask><use fill="#7CE8DD" xlink:href="#bubble-4-shape"/><circle fill="#3BDDCC" mask="url(#bubble-4-mask)" cx="30" cy="108" r="108"/><circle fill="#B1F1EA" opacity=".7" mask="url(#bubble-4-mask)" cx="265" cy="88" r="108"/></g></svg>
                             </div>
-                            <div class="h233-browser-inner is233-revealing">
-							   <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs>
-                                        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a">
-                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
-                                            <stop stop-color="#F6F8FA" offset="100%"/>
-                                        </linearGradient>
-                                        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="browser-b">
-                                            <stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/>
-                                            <stop stop-color="#F6F8FA" offset="100%"/>
-                                        </linearGradient>
-                                        <linearGradient x1="100%" y1="-12.816%" x2="0%" y2="-12.816%" id="browser-c">
-                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="0%"/>
-                                            <stop stop-color="#E3E7EB" offset="50.045%"/>
-                                            <stop stop-color="#F6F8FA" stop-opacity="0" offset="100%"/>
-                                        </linearGradient>
-                                        <filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1">
-                                            <feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/>
-                                            <feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/>
-                                            <feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/>
-                                        </filter>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <rect width="800" height="450" rx="4" fill="#FFF" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/>
-                                        <rect width="800" height="450" rx="4" fill="#FFF"/>
-                                        <g transform="translate(0 12)">
-                                            <circle fill="#FF6D8B" cx="36" cy="4" r="4"/>
-                                            <circle fill="#FFCB4F" cx="52" cy="4" r="4"/>
-                                            <circle fill="#7CE8DD" cx="68" cy="4" r="4"/>
-                                            <path fill="url(#browser-c)" d="M0 20h800v2H0z"/>
-                                            <path fill="#E3E7EB" d="M742 2h24v4h-24z"/>
-                                        </g>
-                                    </g>
-                                </svg>
-				<a href="javascript:void(0)" onclick="javascript:(function(){window.open('https://yuedu.xiu2.xyz/readme.html'); location.href='https://github.com/XIU2/Yuedu';})()" title="点击即可查看书源「使用方法」及「Github 项目地址」" target="_blank" ><img id="qr" src="data:image/png;base64,R0lGODlhAQABAAAAACwAAAAAAQABAAA=" style="position: absolute;top: 12.5%;left: 27.5%;width: 45%;opacity: 0.75;" /></a>
+                            <div class="hero-frame">
+                                <svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="browser-a"><stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/><stop stop-color="#F6F8FA" offset="100%"/></linearGradient><linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="browser-b"><stop stop-color="#F6F8FA" stop-opacity=".48" offset="0%"/><stop stop-color="#F6F8FA" offset="100%"/></linearGradient><linearGradient x1="100%" y1="-12.816%" x2="0%" y2="-12.816%" id="browser-c"><stop stop-color="#F6F8FA" stop-opacity="0" offset="0%"/><stop stop-color="#E3E7EB" offset="50.045%"/><stop stop-color="#F6F8FA" stop-opacity="0" offset="100%"/></linearGradient><filter x="-500%" y="-500%" width="1000%" height="1000%" filterUnits="objectBoundingBox" id="dropshadow-1"><feOffset dy="16" in="SourceAlpha" result="shadowOffsetOuter"/><feGaussianBlur stdDeviation="24" in="shadowOffsetOuter" result="shadowBlurOuter"/><feColorMatrix values="0 0 0 0 0.12 0 0 0 0 0.17 0 0 0 0 0.21 0 0 0 0.2 0" in="shadowBlurOuter"/></filter></defs><g fill="none" fill-rule="evenodd"><rect width="800" height="450" rx="4" fill="#FFF" style="mix-blend-mode:multiply;filter:url(#dropshadow-1)"/><rect width="800" height="450" rx="4" fill="#FFF"/><g transform="translate(0 12)"><circle fill="#FF6D8B" cx="36" cy="4" r="4"/><circle fill="#FFCB4F" cx="52" cy="4" r="4"/><circle fill="#7CE8DD" cx="68" cy="4" r="4"/><path fill="url(#browser-c)" d="M0 20h800v2H0z"/><path fill="#E3E7EB" d="M742 2h24v4h-24z"/></g></g></svg>
+                                <a class="qr-overlay" id="qr-overlay-link" href="https://github.com/XIU2/Yuedu" title="点击即可查看书源使用方法及 Github 项目地址" target="_blank"><div id="qr-code" aria-label="书源二维码"></div></a>
                             </div>
-                            <div class="bub233-1 is233-revealing">
-                                <svg width="61" height="52" viewBox="0 0 61 52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs>
-                                        <path d="M32 43.992c17.673 0 28.05 17.673 28.05 0S49.674 0 32 0C14.327 0 0 14.327 0 32c0 17.673 14.327 11.992 32 11.992z" id="bub233-1-a"/>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="bub233-1-b" fill="#fff">
-                                            <use xlink:href="#bub233-1-a"/>
-                                        </mask>
-                                        <use fill="#FF6D8B" xlink:href="#bub233-1-a"/>
-                                        <path d="M2 43.992c17.673 0 28.05 17.673 28.05 0S19.674 0 2 0c-17.673 0-32 14.327-32 32 0 17.673 14.327 11.992 32 11.992z" fill="#FF4F73" mask="url(#bub233-1-b)"/>
-                                        <path d="M74 30.992c17.673 0 28.05 17.673 28.05 0S91.674-13 74-13C56.327-13 42 1.327 42 19c0 17.673 14.327 11.992 32 11.992z" fill-opacity=".8" fill="#FFA3B5" mask="url(#bub233-1-b)"/>
-                                    </g>
-                                </svg>
+                            <div class="decor-bubble-1">
+                                <svg width="61" height="52" viewBox="0 0 61 52" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M32 43.992c17.673 0 28.05 17.673 28.05 0S49.674 0 32 0C14.327 0 0 14.327 0 32c0 17.673 14.327 11.992 32 11.992z" id="bubble-1-shape"/></defs><g fill="none" fill-rule="evenodd"><mask id="bubble-1-mask" fill="#fff"><use xlink:href="#bubble-1-shape"/></mask><use fill="#FF6D8B" xlink:href="#bubble-1-shape"/><path d="M2 43.992c17.673 0 28.05 17.673 28.05 0S19.674 0 2 0c-17.673 0-32 14.327-32 32 0 17.673 14.327 11.992 32 11.992z" fill="#FF4F73" mask="url(#bubble-1-mask)"/><path d="M74 30.992c17.673 0 28.05 17.673 28.05 0S91.674-13 74-13C56.327-13 42 1.327 42 19c0 17.673 14.327 11.992 32 11.992z" fill-opacity=".8" fill="#FFA3B5" mask="url(#bubble-1-mask)"/></g></svg>
                             </div>
-                            <div class="bub233-2 is233-revealing">
-                                <svg width="179" height="126" viewBox="0 0 179 126" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <defs>
-                                        <path d="M104.697 125.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S0-28.44 0 12.593c0 41.034 63.663 113.068 104.697 113.068z" id="bub233-2-a"/>
-                                    </defs>
-                                    <g fill="none" fill-rule="evenodd">
-                                        <mask id="bub233-2-b" fill="#fff">
-                                            <use xlink:href="#bub233-2-a"/>
-                                        </mask>
-                                        <use fill="#838DEA" xlink:href="#bub233-2-a"/>
-                                        <path d="M202.697 211.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S98 57.56 98 98.593c0 41.034 63.663 113.068 104.697 113.068z" fill="#626CD5" mask="url(#bub233-2-b)"/>
-                                        <path d="M43.697 56.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S-61-97.44-61-56.407C-61-15.373 2.663 56.661 43.697 56.661z" fill="#B1B6F1" opacity=".64" mask="url(#bub233-2-b)"/>
-                                    </g>
-                                </svg>
+                            <div class="decor-bubble-2">
+                                <svg width="179" height="126" viewBox="0 0 179 126" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path d="M104.697 125.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S0-28.44 0 12.593c0 41.034 63.663 113.068 104.697 113.068z" id="bubble-2-shape"/></defs><g fill="none" fill-rule="evenodd"><mask id="bubble-2-mask" fill="#fff"><use xlink:href="#bubble-2-shape"/></mask><use fill="#838DEA" xlink:href="#bubble-2-shape"/><path d="M202.697 211.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S98 57.56 98 98.593c0 41.034 63.663 113.068 104.697 113.068z" fill="#626CD5" mask="url(#bubble-2-mask)"/><path d="M43.697 56.661c41.034 0 74.298-33.264 74.298-74.298s-43.231-7.425-84.265-7.425S-61-97.44-61-56.407C-61-15.373 2.663 56.661 43.697 56.661z" fill="#B1B6F1" opacity=".64" mask="url(#bubble-2-mask)"/></g></svg>
                             </div>
                         </div>
                     </div>
@@ -151,15 +352,64 @@
             </section>
         </main>
     </div>
-    <script src="https://bitbucket.org/xiu2/yuedu/raw/master/dist/js/main.min.js"></script>
-	<script type="text/javascript">
-    document.getElementById("url").href = document.getElementById("input").title = document.getElementById("input").value = url[0];
-    document.getElementById("qr").src = "https://bitbucket.org/xiu2/yuedu/raw/master/" + url[1];
-    function copyText() {
-      document.getElementById("input").select();
-      document.execCommand("copy");
-      document.getElementById('button').innerHTML = "已复制";
-    }
-	</script>
+    <script src="https://cdnjs.snrat.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script>
+        const sources = [
+            "https://bitbucket.org/xiu2/yuedu/raw/master/shuyuan",
+            "https://jsd.onmicrosoft.cn/gh/XIU2/Yuedu/shuyuan",
+            "https://cdn.jsdmirror.com/gh/XIU2/Yuedu/shuyuan",
+            "https://wget.la/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+            "https://ghfast.top/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+            "https://gh.catmak.name/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan",
+            "https://cdn.gh-proxy.org/https://raw.githubusercontent.com/XIU2/Yuedu/master/shuyuan"
+        ];
+
+        const selectedUrl = sources[Math.floor(Math.random() * sources.length)];
+        const elements = {
+            sourceUrlLink: document.getElementById("source-url-link"),
+            sourceUrlInput: document.getElementById("source-url-input"),
+            qrCode: document.getElementById("qr-code"),
+            qrOverlayLink: document.getElementById("qr-overlay-link"),
+            copyButton: document.getElementById("copy-button")
+        };
+
+        elements.sourceUrlLink.href = selectedUrl;
+        elements.sourceUrlInput.title = selectedUrl;
+        elements.sourceUrlInput.value = selectedUrl;
+
+        new QRCode(elements.qrCode, {
+            text: selectedUrl,
+            width: 320,
+            height: 320,
+            colorDark: "#000000",
+            colorLight: "#ffffff",
+            correctLevel: QRCode.CorrectLevel.L
+        });
+
+        async function copyText() {
+            const text = elements.sourceUrlInput.value;
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    await navigator.clipboard.writeText(text);
+                } else {
+                    elements.sourceUrlInput.select();
+                    document.execCommand("copy");
+                }
+                elements.copyButton.textContent = "已复制";
+                elements.copyButton.style.background = "linear-gradient(65deg, #49dff0 0, #12aced 100%)";
+            } catch (error) {
+                elements.copyButton.textContent = "复制失败";
+                elements.copyButton.style.background = "linear-gradient(65deg, #ff9b93 0, #ff2c2c 100%)";
+            }
+        }
+
+        elements.copyButton.addEventListener("click", copyText);
+        elements.sourceUrlInput.addEventListener("click", copyText);
+        elements.qrOverlayLink.addEventListener("click", function (event) {
+            setTimeout(function () {
+                window.location.href = "/readme.html";
+            }, 100);
+        });
+    </script>
 </body>
 </html>
